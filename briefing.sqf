@@ -48,6 +48,74 @@ if (serverCommandAvailable "#kick") then {
 
 // ====================================================================================
 
+// BRIEFING: Axis
+// The following block of code executes only if the player is in a Nazi Germany slot; it
+// automatically includes a file which contains the appropriate briefing data.
+
+if (_unitfaction in ["lib_wehrmacht", "lib_panzerwaffe", "lib_luftwaffe", "sg_sturm", "sg_sturmpanzer"]) exitwith {
+
+#include "f\briefing\f_briefing_axis.sqf"
+
+// DEBUG
+	if (f_param_debugMode == 1) then
+	{
+	player sideChat format ["DEBUG (briefing.sqf): Briefing for %1 slot selected.",_unitfaction];
+	};
+};
+
+// ====================================================================================
+
+// BRIEFING: USSR
+// The following block of code executes only if the player is in a USSR slot; it
+// automatically includes a file which contains the appropriate briefing data.
+
+if (_unitfaction in ["lib_rkka", "lib_ussr_airforce", "lib_ussr_tank_troops"]) exitwith {
+
+#include "f\briefing\f_briefing_ussr.sqf"
+
+// DEBUG
+	if (f_param_debugMode == 1) then
+	{
+	player sideChat format ["DEBUG (briefing.sqf): Briefing for %1 slot selected.",_unitfaction];
+	};
+};
+
+// ====================================================================================
+
+// BRIEFING: WW2 US Army
+// The following block of code executes only if the player is in a WW2 US Army slot; it
+// automatically includes a file which contains the appropriate briefing data.
+
+if (_unitfaction in ["lib_us_army", "lib_us_tank_troops", "lib_us_airforce"]) exitwith {
+
+#include "f\briefing\f_briefing_us_army.sqf"
+
+// DEBUG
+	if (f_param_debugMode == 1) then
+	{
+	player sideChat format ["DEBUG (briefing.sqf): Briefing for %1 slot selected.",_unitfaction];
+	};
+};
+
+// ====================================================================================
+
+// BRIEFING: Home Army
+// The following block of code executes only if the player is in a Home Army slot; it
+// automatically includes a file which contains the appropriate briefing data.
+
+if (_unitfaction == "lib_guer") exitwith {
+
+#include "f\briefing\f_briefing_home_army.sqf"
+
+// DEBUG
+	if (f_param_debugMode == 1) then
+	{
+	player sideChat format ["DEBUG (briefing.sqf): Briefing for %1 slot selected.",_unitfaction];
+	};
+};
+
+// ====================================================================================
+
 // BRIEFING: BLUFOR > NATO
 // The following block of code executes only if the player is in a NATO or NATO (Pacific) slot; it
 // automatically includes a file which contains the appropriate briefing data.

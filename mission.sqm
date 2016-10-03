@@ -12,10 +12,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={821.02167,20.650616,2980.6621};
-		dir[]={0.15086566,-0.29179841,-0.94464391};
-		up[]={0.04602718,0.95639658,-0.28822899};
-		aside[]={-0.98746884,-4.3910113e-006,-0.1577021};
+		pos[]={826.24933,30,2861.0928};
+		dir[]={0.31514782,-0.437255,0.84236676};
+		up[]={0.15322034,0.89932293,0.40955183};
+		aside[]={0.9366399,6.9267116e-008,-0.35041493};
 	};
 };
 binarizationWanted=0;
@@ -748,7 +748,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1018.916,5.0014391,2343.0984};
+						position[]={1018.916,5.0014391,2343.0981};
 					};
 					side="Civilian";
 					flags=6;
@@ -757,6 +757,7 @@ class Mission
 						skill=0.60000002;
 						init="this addAction [""Start Camera"",""[] call bis_fnc_camera;"",[],2,false,true,"""",""driver _target == _this""]; this allowDamage false;";
 						description="BBC Reporter";
+						isPlayer=1;
 						isPlayable=1;
 					};
 					id=790;
@@ -1108,7 +1109,6 @@ class Mission
 					flags=6;
 					class Attributes
 					{
-						isPlayer=1;
 					};
 					id=1111;
 					type="LIB_GER_gun_crew";
@@ -2350,7 +2350,7 @@ class Mission
 					{
 						skill=0.60000002;
 						rank="CORPORAL";
-						init="GrpGER_CO = group this; [""radio"",this] call f_fnc_assignGear; nul = this execVM ""f\chargeUAV\f_chargeUAVaction.sqf"";";
+						init="GrpGER_CO = group this; [""radio"",this] call f_fnc_assignGear;";
 						name="UnitGER_CO_R";
 						description="Wehrmacht Radioman";
 						isPlayable=1;
@@ -2515,7 +2515,7 @@ class Mission
 					{
 						skill=0.60000002;
 						rank="CORPORAL";
-						init="GrpGER_DC = group this; [""radio"",this] call f_fnc_assignGear; nul = this execVM ""f\chargeUAV\f_chargeUAVaction.sqf"";";
+						init="GrpGER_DC = group this; [""radio"",this] call f_fnc_assignGear;";
 						name="UnitGER_DC_R";
 						description="Wehrmacht Radioman";
 						isPlayable=1;
@@ -3537,7 +3537,7 @@ class Mission
 					{
 						skill=0.60000002;
 						rank="CORPORAL";
-						init="GrpUSSR_CO = group this; [""radio"",this] call f_fnc_assignGear; nul = this execVM ""f\chargeUAV\f_chargeUAVaction.sqf"";";
+						init="GrpUSSR_CO = group this; [""radio"",this] call f_fnc_assignGear;";
 						name="UnitUSSR_CO_R";
 						description="Red Army Radio Operator";
 						isPlayable=1;
@@ -3658,7 +3658,7 @@ class Mission
 					{
 						skill=0.60000002;
 						rank="CORPORAL";
-						init="GrpUSSR_DC = group this; [""radio"",this] call f_fnc_assignGear; nul = this execVM ""f\chargeUAV\f_chargeUAVaction.sqf"";";
+						init="GrpUSSR_DC = group this; [""radio"",this] call f_fnc_assignGear;";
 						name="UnitUSSR_DC_R";
 						description="Red Army Radio Operator";
 						isPlayable=1;
@@ -5417,7 +5417,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.60000002;
-						init="GrpUSA_CO = group this; [""radio"",this] call f_fnc_assignGear; nul = this execVM ""f\chargeUAV\f_chargeUAVaction.sqf"";";
+						init="GrpUSA_CO = group this; [""radio"",this] call f_fnc_assignGear;";
 						name="UnitUSA_CO_R";
 						description="US Army Radio Operator";
 						isPlayable=1;
@@ -5511,7 +5511,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.60000002;
-						init="GrpUSA_DC = group this; [""radio"",this] call f_fnc_assignGear; nul = this execVM ""f\chargeUAV\f_chargeUAVaction.sqf"";";
+						init="GrpUSA_DC = group this; [""radio"",this] call f_fnc_assignGear;";
 						name="UnitUSA_DC_R";
 						description="US Army Radio Operator";
 						isPlayable=1;
@@ -12760,7 +12760,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.60000002;
-						init="GrpAK_CO = group this; [""radio"",this] call f_fnc_assignGear; nul = this execVM ""f\chargeUAV\f_chargeUAVaction.sqf"";";
+						init="GrpAK_CO = group this; [""radio"",this] call f_fnc_assignGear;";
 						name="UnitAK_CO_R";
 						description="Home Army Radio Operator";
 						isPlayable=1;
@@ -12946,7 +12946,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.60000002;
-						init="GrpAK_DC = group this; [""radio"",this] call f_fnc_assignGear; nul = this execVM ""f\chargeUAV\f_chargeUAVaction.sqf"";";
+						init="GrpAK_DC = group this; [""radio"",this] call f_fnc_assignGear;";
 						name="UnitAK_DC_R";
 						description="Home Army Radio Operator";
 						isPlayable=1;
