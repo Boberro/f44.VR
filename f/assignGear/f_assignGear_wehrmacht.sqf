@@ -153,6 +153,7 @@ _bagLarge = "B_LIB_GER_Backpack";				// Larger bag for some special purpose clas
 // Special Backpacks
 _bagradio = "B_LIB_GER_Radio";				// used by Radio Operator and JTAC
 _bagmedical = "B_LIB_GER_MedicBackpack_Empty";	// used by Medic
+_bagengineer = "B_Kitbag_rgr";					// used by Engineer (Because it's broken in IFA3)
 _bagmat = "B_LIB_GER_Panzer_Empty";				// used by Medium AT
 _baghmgg = "LIB_MG42_Bag";					// used by Heavy MG gunner
 _baghmgag = "LIB_MG42_Tripod_Disasm";		// used by Heavy MG assistant gunner
@@ -169,12 +170,12 @@ _ARmag = "lib_50Rnd_792x57";
 _ARmag_tr = "lib_50Rnd_792x57_sS";
 
 _MMG = "LIB_MG42";
-_MMGmag = "lib_50Rnd_792x57";
+_MMGmag = "lib_50Rnd_792x57_SMK";
 _MMGmag_tr = "lib_50Rnd_792x57_sS";
 
 // Marksman rifle
 _DMrifle = "LIB_K98ZF39";
-_DMriflemag = "lib_5Rnd_792x57";
+_DMriflemag = "LIB_5Rnd_792x57_SMK";
 
 // Rifleman AT
 _RAT = "LIB_PzFaust_30m";
@@ -186,16 +187,16 @@ _MATmag = "LIB_1Rnd_RPzB";
 
 // Sniper
 _SNrifle = "LIB_K98ZF39";
-_SNrifleMag = "lib_5Rnd_792x57";
+_SNrifleMag = "LIB_5Rnd_792x57_SMK";
 
 // Engineer items
 _sapper_tools = "LIB_W";
 _sapper_flag = "LIB_MARKER_MINE_mag";
 _ATmine = "LIB_TMI_42_MINE_mag";
 _APmine = "LIB_SMI_35_MINE_mag";
-_satchel = "LIB_shumine_42_MINE_mag";
+_satchel = "LIB_Ladung_Small_MINE_mag";
 _satchel_wire = "LIB_PM_Provod_50";
-_satchel_detonator = "LIB_Ladung_PM_MINE_mag";
+_satchel_detonator = "LIB_US_BM10_PM_mag";
 _democharge = "LIB_TROTIL_MINE_mag";
 
 // ====================================================================================
@@ -212,8 +213,8 @@ _roleCO = ["co", "dc"];
 _pilot = ["pp","pcc","pc"];
 _crew = ["vc","vg","vd"];
 _ghillie = ["sn","sp"];
-_engineer = ["eng", "engm"];
-_artilleryman = ["spgg", "spgag"];
+_engineer = ["eng","engm"];
+_artilleryman = ["spgg","spgag"];
 
 // Basic clothing
 // The outfit-piece is randomly selected from the array for each unit

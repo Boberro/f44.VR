@@ -8,14 +8,14 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=1946;
+		nextID=1950;
 	};
 	class Camera
 	{
-		pos[]={825.96381,12.688999,2954.8164};
-		dir[]={-0.25350788,-0.4399735,-0.86162913};
-		up[]={-0.12419763,0.89793897,-0.42212737};
-		aside[]={-0.95942229,1.4578109e-007,0.28228134};
+		pos[]={911.12122,12.629573,2927.2068};
+		dir[]={-0.17510967,-0.56321865,-0.80769539};
+		up[]={-0.11933977,0.82623786,-0.55044752};
+		aside[]={-0.97737551,4.5042543e-007,0.21189961};
 	};
 };
 binarizationWanted=0;
@@ -51,13 +51,14 @@ addons[]=
 	"WW2_Core_c_Core_c_Eventhandlers",
 	"WW2_Assets_c_Vehicles_Tanks_c_M4A3_75",
 	"WW2_Assets_c_Vehicles_Wheeled_c_Scout_M3",
-	"WW2_Assets_c_Characters_Germans_c_GER_Sturmtroopers"
+	"WW2_Assets_c_Characters_Germans_c_GER_Sturmtroopers",
+	"WW2_Core_c_System_Artillery_c"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=31;
+		items=32;
 		class Item0
 		{
 			className="A3_Modules_F_Curator";
@@ -225,6 +226,11 @@ class AddonsMetaData
 			className="WW2_Assets_c_Characters_Germans_c_GER_Sturmtroopers";
 			name="WW2_Assets_c_Characters_Germans_c_GER_Sturmtroopers";
 		};
+		class Item31
+		{
+			className="WW2_Core_c_System_Artillery_c";
+			name="WW2_Core_c_System_Artillery_c";
+		};
 	};
 };
 randomSeed=1116085;
@@ -291,7 +297,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=186;
+		items=188;
 		class Item0
 		{
 			dataType="Logic";
@@ -11465,7 +11471,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={912.48639,5.0014391,2917.6309};
+						position[]={912.48602,5.0014391,2917.6311};
 					};
 					side="West";
 					flags=4;
@@ -11499,7 +11505,26 @@ class Mission
 								};
 							};
 						};
-						nAttributes=1;
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.94999999;
+								};
+							};
+						};
+						nAttributes=2;
 					};
 				};
 				class Item2
@@ -17534,6 +17559,155 @@ class Mission
 			{
 			};
 			id=1917;
+		};
+		class Item186
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=2;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={912.802,5.0014391,2946.2131};
+						angles[]={0,5.9327579,0};
+					};
+					side="West";
+					flags=6;
+					class Attributes
+					{
+						rank="CORPORAL";
+						init="GrpGER_HMG1 = group this; [""hmgag"",this] call f_fnc_assignGear;";
+						name="UnitGER_HMG1_AG";
+						description="Wehrmacht Heavy MG Team 1 Spotter (Leader)";
+						isPlayable=1;
+					};
+					id=1947;
+					type="LIB_GER_smgunner";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.97000003;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={914.71997,5.0014391,2946.7241};
+						angles[]={0,5.9327579,0};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						init="GrpGER_MMG1 = group this; [""hmgg"",this] call f_fnc_assignGear;";
+						name="UnitGER_HMG1_G";
+						description="Wehrmacht Heavy MG Team 1 Gunner";
+						isPlayable=1;
+					};
+					id=1948;
+					type="LIB_GER_mgunner";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=1946;
+		};
+		class Item187
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={914.34778,4.9999981,2891.7705};
+			};
+			id=1949;
+			type="LIB_ArtyFunc";
+			atlOffset=-1.9073486e-006;
 		};
 	};
 	class Connections
