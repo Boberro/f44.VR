@@ -8,14 +8,14 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=1933;
+		nextID=1946;
 	};
 	class Camera
 	{
-		pos[]={826.24933,30,2861.0928};
-		dir[]={0.31514782,-0.437255,0.84236676};
-		up[]={0.15322034,0.89932293,0.40955183};
-		aside[]={0.9366399,6.9267116e-008,-0.35041493};
+		pos[]={825.96381,12.688999,2954.8164};
+		dir[]={-0.25350788,-0.4399735,-0.86162913};
+		up[]={-0.12419763,0.89793897,-0.42212737};
+		aside[]={-0.95942229,1.4578109e-007,0.28228134};
 	};
 };
 binarizationWanted=0;
@@ -231,9 +231,9 @@ randomSeed=1116085;
 class ScenarioData
 {
 	author="*** Insert mission author name here. ***";
-	overViewPicture="overviewLogo.jpg";
-	onLoadMission="Made with the F3 Mission Development Framework.";
-	loadScreen="loadLogo.jpg";
+	overViewPicture="overviewLogo44.jpg";
+	onLoadMission="Made with the F3 Mission Development Framework";
+	loadScreen="loadLogo44.jpg";
 };
 class CustomAttributes
 {
