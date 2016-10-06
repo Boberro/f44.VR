@@ -74,8 +74,12 @@ if (f_param_debugMode == 1) then
 // ====================================================================================
 
 // GEAR: Axis > Wehrmacht
-if (_faction in ["lib_wehrmacht", "lib_panzerwaffe", "lib_luftwaffe"]) then {  // "sg_sturm", "sg_sturmpanzer"
+if (_faction in ["lib_wehrmacht", "lib_panzerwaffe", "lib_luftwaffe"]) then {
 	#include "f_assignGear_wehrmacht.sqf"
+};
+// GEAR: Axis > Sturmtroopers
+if (_faction in ["sg_sturm", "sg_sturmpanzer"]) then {
+	#include "f_assignGear_sturmtroopers.sqf"
 };
 
 // ====================================================================================
