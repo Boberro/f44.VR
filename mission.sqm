@@ -8,14 +8,18 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=1950;
+		nextID=2043;
+	};
+	class MarkerIDProvider
+	{
+		nextID=15;
 	};
 	class Camera
 	{
-		pos[]={890.62738,156.08205,2791.4326};
-		dir[]={-0.017833466,-0.4694404,0.88279116};
-		up[]={-0.0094812792,0.88296306,0.4693462};
-		aside[]={0.99980152,2.2795757e-007,0.020195585};
+		pos[]={2891.3823,145.51321,1301.1013};
+		dir[]={-0.52301085,-0.46812969,0.71239686};
+		up[]={-0.27707475,0.8836199,0.37740606};
+		aside[]={0.80616671,-2.6758062e-007,0.59185684};
 	};
 };
 binarizationWanted=0;
@@ -24,25 +28,24 @@ addons[]=
 	"A3_Modules_F_Curator_Curator",
 	"A3_Characters_F",
 	"A3_Data_F_Curator_Virtual",
-	"A3_Modules_F_Supports",
 	"WW2_Assets_c_Characters_Germans_c_GER_Wehrmacht",
 	"WW2_Core_c_EditorPreviews_c",
-	"A3_Static_F_Mortar_01",
-	"WW2_Assets_c_Vehicles_Wheeled_c_OpelBlitz",
-	"WW2_Assets_c_Weapons_Ammoboxes_c",
-	"WW2_Assets_c_Vehicles_Wheeled_c_Kfz1",
-	"WW2_Assets_c_Vehicles_TurretsConfig_c",
-	"WW2_Assets_c_Vehicles_WheeledAPC_c_SdKfz251",
-	"WW2_Assets_c_Vehicles_WheeledAPC_c_SdKfz7",
-	"WW2_Assets_c_Vehicles_StaticWeapons_c_Pak40",
-	"WW2_Assets_c_Vehicles_Tanks_c_PzKpfwV",
-	"WW2_Assets_c_Characters_Germans_c_GER_Sturmtroopers"
+	"A3_Ui_F",
+	"WW2_Core_c_Gui_c",
+	"WW2_Assets_c_Vehicles_Wheeled_c_Zis5v",
+	"WW2_Assets_c_Vehicles_Wrecks_c",
+	"WW2_Assets_c_Characters_Americans_c_US_Army",
+	"WW2_Assets_c_Vehicles_Wheeled_c_Scout_M3",
+	"WW2_Assets_c_Vehicles_ModelConfig",
+	"WW2_Assets_c_Vehicles_Wheeled_c_US6",
+	"WW2_Assets_c_Vehicles_Extended_HUD_c",
+	"WW2_Assets_c_Vehicles_WheeledAPC_c_M3_Halftrack"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=16;
+		items=15;
 		class Item0
 		{
 			className="A3_Modules_F_Curator";
@@ -66,72 +69,65 @@ class AddonsMetaData
 		};
 		class Item3
 		{
-			className="A3_Modules_F";
-			name="Arma 3 Alpha - Scripted Modules";
-			author="Bohemia Interactive";
-			url="http://www.arma3.com";
-		};
-		class Item4
-		{
 			className="WW2_Assets_c_Characters_Germans_c_GER_Wehrmacht";
 			name="WW2_Assets_c_Characters_Germans_c_GER_Wehrmacht";
 		};
-		class Item5
+		class Item4
 		{
 			className="WW2_Core_c_EditorPreviews_c";
 			name="WW2_Core_c_EditorPreviews_c";
 		};
-		class Item6
+		class Item5
 		{
-			className="A3_Static_F";
-			name="Arma 3 Alpha - Turrets";
+			className="A3_Ui_F";
+			name="Arma 3 - User Interface";
 			author="Bohemia Interactive";
 			url="http://www.arma3.com";
 		};
+		class Item6
+		{
+			className="WW2_Core_c_Gui_c";
+			name="WW2_Core_c_Gui_c";
+		};
 		class Item7
 		{
-			className="WW2_Assets_c_Vehicles_Wheeled_c_OpelBlitz";
-			name="WW2_Assets_c_Vehicles_Wheeled_c_OpelBlitz";
+			className="WW2_Assets_c_Vehicles_Wheeled_c_Zis5v";
+			name="WW2_Assets_c_Vehicles_Wheeled_c_Zis5v";
 		};
 		class Item8
 		{
-			className="WW2_Assets_c_Weapons_Ammoboxes_c";
-			name="WW2_Assets_c_Weapons_Ammoboxes_c";
+			className="WW2_Assets_c_Vehicles_Wrecks_c";
+			name="WW2_Assets_c_Vehicles_Wrecks_c";
 		};
 		class Item9
 		{
-			className="WW2_Assets_c_Vehicles_Wheeled_c_Kfz1";
-			name="WW2_Assets_c_Vehicles_Wheeled_c_Kfz1";
+			className="WW2_Assets_c_Characters_Americans_c_US_Army";
+			name="WW2_Assets_c_Characters_Americans_c_US_Army";
 		};
 		class Item10
 		{
-			className="WW2_Assets_c_Vehicles_TurretsConfig_c";
-			name="WW2_Assets_c_Vehicles_TurretsConfig_c";
+			className="WW2_Assets_c_Vehicles_Wheeled_c_Scout_M3";
+			name="WW2_Assets_c_Vehicles_Wheeled_c_Scout_M3";
 		};
 		class Item11
 		{
-			className="WW2_Assets_c_Vehicles_WheeledAPC_c_SdKfz251";
-			name="WW2_Assets_c_Vehicles_WheeledAPC_c_SdKfz251";
+			className="WW2_Assets_c_Vehicles_ModelConfig";
+			name="WW2_Assets_c_Vehicles_ModelConfig";
 		};
 		class Item12
 		{
-			className="WW2_Assets_c_Vehicles_WheeledAPC_c_SdKfz7";
-			name="WW2_Assets_c_Vehicles_WheeledAPC_c_SdKfz7";
+			className="WW2_Assets_c_Vehicles_Wheeled_c_US6";
+			name="WW2_Assets_c_Vehicles_Wheeled_c_US6";
 		};
 		class Item13
 		{
-			className="WW2_Assets_c_Vehicles_StaticWeapons_c_Pak40";
-			name="WW2_Assets_c_Vehicles_StaticWeapons_c_Pak40";
+			className="WW2_Assets_c_Vehicles_Extended_HUD_c";
+			name="WW2_Assets_c_Vehicles_Extended_HUD_c";
 		};
 		class Item14
 		{
-			className="WW2_Assets_c_Vehicles_Tanks_c_PzKpfwV";
-			name="WW2_Assets_c_Vehicles_Tanks_c_PzKpfwV";
-		};
-		class Item15
-		{
-			className="WW2_Assets_c_Characters_Germans_c_GER_Sturmtroopers";
-			name="WW2_Assets_c_Characters_Germans_c_GER_Sturmtroopers";
+			className="WW2_Assets_c_Vehicles_WheeledAPC_c_M3_Halftrack";
+			name="WW2_Assets_c_Vehicles_WheeledAPC_c_M3_Halftrack";
 		};
 	};
 };
@@ -199,19 +195,19 @@ class Mission
 	};
 	class Entities
 	{
-		items=64;
+		items=50;
 		class Item0
 		{
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={1044.8628,89.558487,2483.8848};
-				angles[]={0.027993103,0,0.019996032};
+				position[]={961.5744,86.738358,2710.1262};
+				angles[]={6.2791886,0,0};
 			};
 			init="this addEventHandler ['CuratorObjectPlaced',{{[_x] call f_fnc_setAISKill} forEach crew(_this select 1)}];this addCuratorEditableObjects [playableUnits,true];";
 			id=106;
 			type="ModuleCurator_F";
-			atlOffset=7.6293945e-006;
+			atlOffset=0.34785461;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -314,339 +310,6 @@ class Mission
 		};
 		class Item1
 		{
-			dataType="Logic";
-			class PositionInfo
-			{
-				position[]={1045.4468,89.901588,2472.8105};
-				angles[]={0.033985451,0,0.015998369};
-			};
-			init="this addEventHandler ['CuratorObjectPlaced',{{[_x] call f_fnc_setAISKill} forEach crew(_this select 1)}];this addCuratorEditableObjects [playableUnits,true];";
-			id=107;
-			type="ModuleCurator_F";
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="ModuleCurator_F_Owner";
-					expression="_this setVariable ['Owner',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="F3_Zeus_1";
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="ModuleCurator_F_Forced";
-					expression="_this setVariable ['Forced',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"SCALAR"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute2
-				{
-					property="ModuleCurator_F_Name";
-					expression="_this setVariable ['Name',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="";
-						};
-					};
-				};
-				class Attribute3
-				{
-					property="ModuleInfo";
-					expression="false";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute4
-				{
-					property="ModuleCurator_F_Addons";
-					expression="_this setVariable ['Addons',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"SCALAR"
-								};
-							};
-							value=2;
-						};
-					};
-				};
-				nAttributes=5;
-			};
-		};
-		class Item2
-		{
-			dataType="Logic";
-			class PositionInfo
-			{
-				position[]={1045.5581,90.297989,2462.165};
-				angles[]={0.041975394,0,0.015998369};
-			};
-			init="this addEventHandler ['CuratorObjectPlaced',{{[_x] call f_fnc_setAISKill} forEach crew(_this select 1)}];this addCuratorEditableObjects [playableUnits,true];";
-			id=108;
-			type="ModuleCurator_F";
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="ModuleCurator_F_Owner";
-					expression="_this setVariable ['Owner',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="F3_Zeus_2";
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="ModuleCurator_F_Forced";
-					expression="_this setVariable ['Forced',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"SCALAR"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute2
-				{
-					property="ModuleCurator_F_Name";
-					expression="_this setVariable ['Name',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="";
-						};
-					};
-				};
-				class Attribute3
-				{
-					property="ModuleInfo";
-					expression="false";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute4
-				{
-					property="ModuleCurator_F_Addons";
-					expression="_this setVariable ['Addons',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"SCALAR"
-								};
-							};
-							value=2;
-						};
-					};
-				};
-				nAttributes=5;
-			};
-		};
-		class Item3
-		{
-			dataType="Logic";
-			class PositionInfo
-			{
-				position[]={1047.3853,90.767258,2451.5527};
-				angles[]={0.041975394,0,0.0219975};
-			};
-			init="this addEventHandler ['CuratorObjectPlaced',{{[_x] call f_fnc_setAISKill} forEach crew(_this select 1)}];this addCuratorEditableObjects [playableUnits,true];";
-			id=109;
-			type="ModuleCurator_F";
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="ModuleCurator_F_Owner";
-					expression="_this setVariable ['Owner',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="F3_Zeus_3";
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="ModuleCurator_F_Forced";
-					expression="_this setVariable ['Forced',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"SCALAR"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute2
-				{
-					property="ModuleCurator_F_Name";
-					expression="_this setVariable ['Name',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="";
-						};
-					};
-				};
-				class Attribute3
-				{
-					property="ModuleInfo";
-					expression="false";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute4
-				{
-					property="ModuleCurator_F_Addons";
-					expression="_this setVariable ['Addons',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"SCALAR"
-								};
-							};
-							value=2;
-						};
-					};
-				};
-				nAttributes=5;
-			};
-		};
-		class Item4
-		{
 			dataType="Group";
 			side="Civilian";
 			class Entities
@@ -657,8 +320,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1018.916,92.460617,2343.0981};
-						angles[]={0.019999012,0,0.045968667};
+						position[]={951.83173,86.238815,2690.4822};
+						angles[]={6.2791886,2.140923,0.013999403};
 					};
 					side="Civilian";
 					flags=6;
@@ -702,7 +365,7 @@ class Mission
 			};
 			id=789;
 		};
-		class Item5
+		class Item2
 		{
 			dataType="Group";
 			side="Civilian";
@@ -714,8 +377,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1081.3311,94.70784,2345.1121};
-						angles[]={0.013999403,0,0.027993103};
+						position[]={955.50922,86.273468,2688.0571};
+						angles[]={6.2791886,5.259841,0};
 					};
 					side="Civilian";
 					flags=6;
@@ -758,462 +421,36 @@ class Mission
 			};
 			id=791;
 		};
-		class Item6
+		class Item3
 		{
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={1027.5542,89.128067,2483.7051};
-				angles[]={0.031988446,0,0.02999169};
+				position[]={956.82764,86.389542,2713.0576};
+				angles[]={6.2791886,0,0.0039967569};
 			};
 			name="F3_Zeus";
 			isPlayable=1;
 			id=793;
 			type="VirtualCurator_F";
 		};
-		class Item7
-		{
-			dataType="Logic";
-			class PositionInfo
-			{
-				position[]={1028.1382,86.500107,2472.6309};
-				angles[]={0.035984326,0,0.027993103};
-			};
-			name="F3_Zeus_1";
-			isPlayable=1;
-			id=794;
-			type="VirtualCurator_F";
-			atlOffset=-3.0130539;
-		};
-		class Item8
-		{
-			dataType="Logic";
-			class PositionInfo
-			{
-				position[]={1029.6196,89.926392,2461.9199};
-				angles[]={0.03798322,0,0.027993103};
-			};
-			name="F3_Zeus_2";
-			isPlayable=1;
-			id=795;
-			type="VirtualCurator_F";
-		};
-		class Item9
-		{
-			dataType="Logic";
-			class PositionInfo
-			{
-				position[]={1030.0767,90.298668,2451.373};
-				angles[]={0.031988446,0,0.033988956};
-			};
-			name="F3_Zeus_3";
-			isPlayable=1;
-			id=796;
-			type="VirtualCurator_F";
-		};
-		class Item10
-		{
-			dataType="Logic";
-			class PositionInfo
-			{
-				position[]={819.73212,82.476357,2947.8901};
-			};
-			id=1108;
-			type="SupportRequester";
-			atlOffset=1.4617157;
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="SupportRequester_BIS_SUPP_limit_UAV";
-					expression="_this setVariable ['BIS_SUPP_limit_UAV',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="-1";
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="SupportRequester_BIS_SUPP_custom_HQ";
-					expression="_this setVariable ['BIS_SUPP_custom_HQ',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="";
-						};
-					};
-				};
-				class Attribute2
-				{
-					property="SupportRequester_BIS_SUPP_limit_Transport";
-					expression="_this setVariable ['BIS_SUPP_limit_Transport',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="-1";
-						};
-					};
-				};
-				class Attribute3
-				{
-					property="SupportRequester_BIS_SUPP_limit_Drop";
-					expression="_this setVariable ['BIS_SUPP_limit_Drop',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="-1";
-						};
-					};
-				};
-				class Attribute4
-				{
-					property="SupportRequester_BIS_SUPP_limit_CAS_Heli";
-					expression="_this setVariable ['BIS_SUPP_limit_CAS_Heli',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="-1";
-						};
-					};
-				};
-				class Attribute5
-				{
-					property="SupportRequester_BIS_SUPP_limit_Artillery";
-					expression="_this setVariable ['BIS_SUPP_limit_Artillery',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="-1";
-						};
-					};
-				};
-				class Attribute6
-				{
-					property="SupportRequester_BIS_SUPP_limit_CAS_Bombing";
-					expression="_this setVariable ['BIS_SUPP_limit_CAS_Bombing',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="-1";
-						};
-					};
-				};
-				nAttributes=7;
-			};
-		};
-		class Item11
-		{
-			dataType="Logic";
-			class PositionInfo
-			{
-				position[]={817.63739,82.476357,2945.5659};
-			};
-			id=1109;
-			type="SupportProvider_Artillery";
-			atlOffset=1.5036087;
-		};
-		class Item12
+		class Item4
 		{
 			dataType="Group";
 			side="West";
 			class Entities
 			{
-				items=1;
+				items=3;
 				class Item0
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={816.99066,82.497841,2942.7637};
+						position[]={2917.2966,102.08765,2281.9885};
+						angles[]={0.017997233,4.5605826,6.2531958};
 					};
 					side="West";
-					flags=2;
-					class Attributes
-					{
-					};
-					id=1111;
-					type="LIB_GER_gun_crew";
-					atlOffset=1.5365906;
-				};
-			};
-			class Attributes
-			{
-			};
-			class CrewLinks
-			{
-				class LinkIDProvider
-				{
-					nextID=1;
-				};
-				class Links
-				{
-					items=1;
-					class Item0
-					{
-						linkID=0;
-						item0=1111;
-						item1=1112;
-						class CustomData
-						{
-							role=2;
-							turretPath[]={0};
-						};
-					};
-				};
-			};
-			id=1110;
-			atlOffset=1.5365906;
-		};
-		class Item13
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={816.97626,83.21788,2942.7134};
-			};
-			side="West";
-			flags=2;
-			class Attributes
-			{
-				skill=0.60000002;
-			};
-			id=1112;
-			type="I_Mortar_01_F";
-			atlOffset=1.5365906;
-		};
-		class Item14
-		{
-			dataType="Logic";
-			class PositionInfo
-			{
-				position[]={818.24786,82.476357,2937.4131};
-			};
-			id=1132;
-			type="SupportRequester";
-			atlOffset=1.4965744;
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="SupportRequester_BIS_SUPP_limit_UAV";
-					expression="_this setVariable ['BIS_SUPP_limit_UAV',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="-1";
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="SupportRequester_BIS_SUPP_custom_HQ";
-					expression="_this setVariable ['BIS_SUPP_custom_HQ',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="";
-						};
-					};
-				};
-				class Attribute2
-				{
-					property="SupportRequester_BIS_SUPP_limit_Transport";
-					expression="_this setVariable ['BIS_SUPP_limit_Transport',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="-1";
-						};
-					};
-				};
-				class Attribute3
-				{
-					property="SupportRequester_BIS_SUPP_limit_Drop";
-					expression="_this setVariable ['BIS_SUPP_limit_Drop',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="-1";
-						};
-					};
-				};
-				class Attribute4
-				{
-					property="SupportRequester_BIS_SUPP_limit_CAS_Heli";
-					expression="_this setVariable ['BIS_SUPP_limit_CAS_Heli',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="-1";
-						};
-					};
-				};
-				class Attribute5
-				{
-					property="SupportRequester_BIS_SUPP_limit_Artillery";
-					expression="_this setVariable ['BIS_SUPP_limit_Artillery',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="-1";
-						};
-					};
-				};
-				class Attribute6
-				{
-					property="SupportRequester_BIS_SUPP_limit_CAS_Bombing";
-					expression="_this setVariable ['BIS_SUPP_limit_CAS_Bombing',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="-1";
-						};
-					};
-				};
-				nAttributes=7;
-			};
-		};
-		class Item15
-		{
-			dataType="Logic";
-			class PositionInfo
-			{
-				position[]={816.15314,82.476357,2935.0889};
-			};
-			id=1133;
-			type="SupportProvider_Artillery";
-			atlOffset=1.5431137;
-		};
-		class Item16
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=4;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={825.42896,82.477798,2941.7117};
-					};
-					side="West";
-					flags=2;
+					flags=6;
 					class Attributes
 					{
 						skill=0.60000002;
@@ -1225,7 +462,6 @@ class Mission
 					};
 					id=1135;
 					type="LIB_GER_ober_lieutenant";
-					atlOffset=1.3586349;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -1255,9 +491,11 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={828.60028,82.477798,2938.7771};
+						position[]={2919.7178,101.93656,2285.5671};
+						angles[]={0.027993103,4.5605826,6.2491984};
 					};
 					side="West";
+					flags=4;
 					class Attributes
 					{
 						skill=0.60000002;
@@ -1268,7 +506,6 @@ class Mission
 					};
 					id=1136;
 					type="LIB_GER_medic";
-					atlOffset=1.3015518;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -1298,53 +535,11 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={827.19427,82.477798,2940.2029};
+						position[]={2918.9468,102.05904,2280.8271};
+						angles[]={0.017997233,4.5605826,6.2531958};
 					};
 					side="West";
-					class Attributes
-					{
-						skill=0.60000002;
-						rank="SERGEANT";
-						init="GrpGER_CO = group this; [""jtac"",this] call f_fnc_assignGear;";
-						name="UnitGER_CO_JTAC";
-						description="Wehrmacht Forward Observer";
-						isPlayable=1;
-					};
-					id=1137;
-					type="LIB_GER_radioman";
-					atlOffset=1.3268585;
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="speaker";
-							expression="_this setspeaker _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="";
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-				class Item3
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={824.03162,82.477798,2940.2561};
-					};
-					side="West";
+					flags=4;
 					class Attributes
 					{
 						skill=0.60000002;
@@ -1356,7 +551,6 @@ class Mission
 					};
 					id=1138;
 					type="LIB_GER_radioman";
-					atlOffset=1.3837891;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -1386,24 +580,24 @@ class Mission
 			{
 			};
 			id=1134;
-			atlOffset=1.3586349;
 		};
-		class Item17
+		class Item5
 		{
 			dataType="Group";
 			side="West";
 			class Entities
 			{
-				items=4;
+				items=3;
 				class Item0
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={825.47528,82.477798,2938.5938};
+						position[]={2920.3716,101.97969,2282.5059};
+						angles[]={0.019996032,4.5605826,6.2491984};
 					};
 					side="West";
-					flags=2;
+					flags=6;
 					class Attributes
 					{
 						skill=0.60000002;
@@ -1415,16 +609,17 @@ class Mission
 					};
 					id=1140;
 					type="LIB_GER_lieutenant";
-					atlOffset=1.3597641;
 				};
 				class Item1
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={829.07404,82.477798,2934.6326};
+						position[]={2923.7432,101.76833,2286.6621};
+						angles[]={0.029989703,4.5605826,6.247201};
 					};
 					side="West";
+					flags=4;
 					class Attributes
 					{
 						skill=0.60000002;
@@ -1435,7 +630,7 @@ class Mission
 					};
 					id=1141;
 					type="LIB_GER_medic";
-					atlOffset=1.2957077;
+					atlOffset=7.6293945e-006;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -1465,53 +660,11 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={827.39801,82.477798,2936.7441};
+						position[]={2922.5229,101.93549,2281.0586};
+						angles[]={0.019996032,4.5605826,6.2491984};
 					};
 					side="West";
-					class Attributes
-					{
-						skill=0.60000002;
-						rank="CORPORAL";
-						init="GrpGER_DC = group this; [""jtac"",this] call f_fnc_assignGear;";
-						name="UnitGER_DC_JTAC";
-						description="Wehrmacht Forward Observer";
-						isPlayable=1;
-					};
-					id=1142;
-					type="LIB_GER_radioman";
-					atlOffset=1.3250122;
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="speaker";
-							expression="_this setspeaker _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="";
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-				class Item3
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={823.71942,82.477798,2936.686};
-					};
-					side="West";
+					flags=4;
 					class Attributes
 					{
 						skill=0.60000002;
@@ -1523,7 +676,6 @@ class Mission
 					};
 					id=1143;
 					type="LIB_GER_radioman";
-					atlOffset=1.3961334;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -1553,143 +705,8 @@ class Mission
 			{
 			};
 			id=1139;
-			atlOffset=1.3597641;
 		};
-		class Item18
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=2;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={829.29633,82.480537,2919.8918};
-					};
-					side="West";
-					flags=2;
-					class Attributes
-					{
-						skill=0.60000002;
-						rank="CORPORAL";
-						init="GrpGER_COV = group this; [""vg"",this] call f_fnc_assignGear;";
-						name="UnitGER_COV_G";
-						description="Wehrmacht Command Vehicle Gunner";
-						isPlayable=1;
-					};
-					id=1145;
-					type="LIB_GER_rifleman";
-					atlOffset=1.342392;
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=1.01;
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-				class Item1
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={829.29633,82.480537,2919.8918};
-					};
-					side="West";
-					class Attributes
-					{
-						skill=0.60000002;
-						init="GrpGER_COV = group this; [""vd"",this] call f_fnc_assignGear;";
-						name="UnitGER_COV_D";
-						description="Wehrmacht Command Vehicle Driver";
-						isPlayable=1;
-					};
-					id=1146;
-					type="LIB_GER_rifleman";
-					atlOffset=1.342392;
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=1.03;
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-			};
-			class Attributes
-			{
-			};
-			class CrewLinks
-			{
-				class LinkIDProvider
-				{
-					nextID=2;
-				};
-				class Links
-				{
-					items=2;
-					class Item0
-					{
-						linkID=0;
-						item0=1145;
-						item1=1314;
-						class CustomData
-						{
-							role=2;
-							turretPath[]={0};
-						};
-					};
-					class Item1
-					{
-						linkID=1;
-						item0=1146;
-						item1=1314;
-						class CustomData
-						{
-							role=1;
-						};
-					};
-				};
-			};
-			id=1144;
-			atlOffset=1.342392;
-		};
-		class Item19
+		class Item6
 		{
 			dataType="Group";
 			side="West";
@@ -1701,10 +718,11 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={849.16846,82.477798,2941.1702};
+						position[]={2914.9331,101.78975,2294.8877};
+						angles[]={0.037981652,4.5605826,6.2511969};
 					};
 					side="West";
-					flags=2;
+					flags=6;
 					class Attributes
 					{
 						skill=0.60000002;
@@ -1716,7 +734,6 @@ class Mission
 					};
 					id=1148;
 					type="LIB_GER_unterofficer";
-					atlOffset=0.85908508;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -1746,9 +763,11 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={851.29865,82.477798,2939.9553};
+						position[]={2915.8118,101.65175,2297.177};
+						angles[]={0.047963165,4.5605826,6.2491999};
 					};
 					side="West";
+					flags=4;
 					class Attributes
 					{
 						skill=0.60000002;
@@ -1759,7 +778,6 @@ class Mission
 					};
 					id=1149;
 					type="LIB_GER_medic";
-					atlOffset=0.82094574;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -1789,9 +807,11 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={846.76935,82.477798,2939.9929};
+						position[]={2916.4597,101.83606,2292.6941};
+						angles[]={0.037981652,4.5605826,6.2491984};
 					};
 					side="West";
+					flags=4;
 					class Attributes
 					{
 						init="GrpGER_ASL = group this; [""radio"",this] call f_fnc_assignGear;";
@@ -1801,7 +821,7 @@ class Mission
 					};
 					id=1150;
 					type="LIB_GER_radioman";
-					atlOffset=0.91131592;
+					atlOffset=0.014717102;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -1831,9 +851,8 @@ class Mission
 			{
 			};
 			id=1147;
-			atlOffset=0.85908508;
 		};
-		class Item20
+		class Item7
 		{
 			dataType="Group";
 			side="West";
@@ -1845,10 +864,11 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={849.34338,82.477798,2938.7644};
+						position[]={2917.2847,101.68578,2295.4246};
+						angles[]={0.047963165,4.5605826,6.2491999};
 					};
 					side="West";
-					flags=2;
+					flags=6;
 					class Attributes
 					{
 						skill=0.60000002;
@@ -1860,7 +880,6 @@ class Mission
 					};
 					id=1152;
 					type="LIB_GER_smgunner";
-					atlOffset=0.86720276;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -1890,9 +909,11 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={851.50665,82.477798,2937.3555};
+						position[]={2918.3503,101.53452,2297.7759};
+						angles[]={0.049959254,4.5605826,6.247201};
 					};
 					side="West";
+					flags=4;
 					class Attributes
 					{
 						skill=0.60000002;
@@ -1903,7 +924,7 @@ class Mission
 					};
 					id=1153;
 					type="LIB_GER_mgunner";
-					atlOffset=0.83238983;
+					atlOffset=-7.6293945e-006;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -1933,9 +954,11 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={846.79755,82.477798,2937.7722};
+						position[]={2918.6504,101.7605,2293.0581};
+						angles[]={0.037981652,4.5605826,6.2491984};
 					};
 					side="West";
+					flags=4;
 					class Attributes
 					{
 						skill=0.60000002;
@@ -1946,7 +969,7 @@ class Mission
 					};
 					id=1154;
 					type="LIB_GER_mgunner";
-					atlOffset=0.92407227;
+					atlOffset=0.027481079;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -1976,9 +999,11 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={844.79749,82.477798,2937.3425};
+						position[]={2919.3777,101.85142,2291.146};
+						angles[]={0.037981652,4.5605826,6.2491984};
 					};
 					side="West";
+					flags=4;
 					class Attributes
 					{
 						skill=0.60000002;
@@ -1989,7 +1014,7 @@ class Mission
 					};
 					id=1155;
 					type="LIB_GER_rifleman";
-					atlOffset=0.96705627;
+					atlOffset=0.070465088;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -2019,9 +1044,11 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={853.46783,82.477798,2936.2517};
+						position[]={2919.1448,101.40065,2299.8813};
+						angles[]={0.049959254,4.5605826,6.247201};
 					};
 					side="West";
+					flags=4;
 					class Attributes
 					{
 						skill=0.60000002;
@@ -2032,7 +1059,7 @@ class Mission
 					};
 					id=1156;
 					type="LIB_GER_rifleman";
-					atlOffset=0.79978943;
+					atlOffset=-7.6293945e-006;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -2062,9 +1089,8 @@ class Mission
 			{
 			};
 			id=1151;
-			atlOffset=0.86720276;
 		};
-		class Item21
+		class Item8
 		{
 			dataType="Group";
 			side="West";
@@ -2076,10 +1102,11 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={849.41589,82.477798,2935.7813};
+						position[]={2920.2227,101.55812,2295.947};
+						angles[]={0.049958061,4.5605826,6.245204};
 					};
 					side="West";
-					flags=2;
+					flags=6;
 					class Attributes
 					{
 						skill=0.60000002;
@@ -2091,7 +1118,6 @@ class Mission
 					};
 					id=1158;
 					type="LIB_GER_smgunner";
-					atlOffset=0.88365173;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -2121,9 +1147,11 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={851.57916,82.477798,2934.3704};
+						position[]={2921.29,101.39999,2298.2988};
+						angles[]={0.049958061,4.5605826,6.245204};
 					};
 					side="West";
+					flags=4;
 					class Attributes
 					{
 						skill=0.60000002;
@@ -2134,7 +1162,6 @@ class Mission
 					};
 					id=1159;
 					type="LIB_GER_ober_rifleman";
-					atlOffset=0.84884644;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -2164,9 +1191,11 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={846.87006,82.477798,2934.7871};
+						position[]={2921.5903,101.65425,2293.5811};
+						angles[]={0.039980642,4.5605826,6.2452021};
 					};
 					side="West";
+					flags=4;
 					class Attributes
 					{
 						skill=0.60000002;
@@ -2177,7 +1206,7 @@ class Mission
 					};
 					id=1160;
 					type="LIB_GER_ober_rifleman";
-					atlOffset=0.94106293;
+					atlOffset=0.04447937;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -2207,9 +1236,11 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={853.54034,82.477798,2933.2686};
+						position[]={2922.0828,101.25616,2300.4043};
+						angles[]={0.061920606,4.5605826,6.2432079};
 					};
 					side="West";
+					flags=4;
 					class Attributes
 					{
 						skill=0.60000002;
@@ -2220,16 +1251,17 @@ class Mission
 					};
 					id=1161;
 					type="LIB_GER_rifleman";
-					atlOffset=0.8162384;
 				};
 				class Item4
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={844.87,82.477798,2934.3594};
+						position[]={2922.3157,101.74197,2291.6685};
+						angles[]={0.037981652,4.5605826,6.247201};
 					};
 					side="West";
+					flags=4;
 					class Attributes
 					{
 						skill=0.60000002;
@@ -2240,7 +1272,7 @@ class Mission
 					};
 					id=1162;
 					type="LIB_GER_AT_soldier";
-					atlOffset=0.98197937;
+					atlOffset=0.085395813;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -2270,323 +1302,8 @@ class Mission
 			{
 			};
 			id=1157;
-			atlOffset=0.88365173;
 		};
-		class Item22
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=2;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={848.56769,82.481155,2919.01};
-					};
-					side="West";
-					class Attributes
-					{
-						skill=0.60000002;
-						rank="CORPORAL";
-						init="GrpGER_AV = group this; [""vg"",this] call f_fnc_assignGear;";
-						name="UnitGER_AV_G";
-						description="Wehrmacht Alpha Vehicle Gunner";
-						isPlayable=1;
-					};
-					id=1164;
-					type="LIB_GER_rifleman";
-					atlOffset=0.99252319;
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="speaker";
-							expression="_this setspeaker _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="";
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=0.97000003;
-								};
-							};
-						};
-						nAttributes=2;
-					};
-				};
-				class Item1
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={848.56769,82.481155,2919.01};
-					};
-					side="West";
-					flags=2;
-					class Attributes
-					{
-						skill=0.60000002;
-						init="GrpGER_AV = group this; [""vd"",this] call f_fnc_assignGear;";
-						name="UnitGER_AV_D";
-						description="Wehrmacht Alpha Vehicle Driver";
-						isPlayable=1;
-					};
-					id=1165;
-					type="LIB_GER_rifleman";
-					atlOffset=0.99252319;
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="speaker";
-							expression="_this setspeaker _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="";
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=1.03;
-								};
-							};
-						};
-						nAttributes=2;
-					};
-				};
-			};
-			class Attributes
-			{
-			};
-			class CrewLinks
-			{
-				class LinkIDProvider
-				{
-					nextID=2;
-				};
-				class Links
-				{
-					items=2;
-					class Item0
-					{
-						linkID=0;
-						item0=1164;
-						item1=1537;
-						class CustomData
-						{
-							role=2;
-							turretPath[]={0};
-						};
-					};
-					class Item1
-					{
-						linkID=1;
-						item0=1165;
-						item1=1537;
-						class CustomData
-						{
-							role=1;
-						};
-					};
-				};
-			};
-			id=1163;
-			atlOffset=0.99252319;
-		};
-		class Item23
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={849.44916,84.475098,2955.075};
-			};
-			side="Empty";
-			class Attributes
-			{
-				skill=0.60000002;
-				init="[""v_tr"",this] call f_fnc_assignGear";
-				name="VehGER_TR_A";
-			};
-			id=1309;
-			type="LIB_opelblitz_open_y_camo";
-			atlOffset=0.81799316;
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="ammoBox";
-					expression="[_this,_value] call bis_fnc_initAmmoBox;";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="[[[[],[]],[[],[]],[[],[]],[[],[]]],true]";
-						};
-					};
-				};
-				nAttributes=1;
-			};
-		};
-		class Item24
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={849.15125,82.4776,2947.186};
-			};
-			side="Empty";
-			class Attributes
-			{
-				skill=0.60000002;
-				init="[""crate_med"",this,""blu_f""] call f_fnc_assignGear";
-				name="CrateGER_A";
-			};
-			id=1310;
-			type="LIB_WeaponsBox_Big_GER";
-			atlOffset=0.84191132;
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="ammoBox";
-					expression="[_this,_value] call bis_fnc_initAmmoBox;";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="[[[[""launch_NLAW_F"",""arifle_MX_F"",""arifle_MX_SW_F""],[1,2,1]],[[""30Rnd_65x39_caseless_mag"",""16Rnd_9x21_Mag"",""30Rnd_45ACP_Mag_SMG_01"",""20Rnd_762x51_Mag"",""100Rnd_65x39_caseless_mag"",""1Rnd_HE_Grenade_shell"",""3Rnd_HE_Grenade_shell"",""1Rnd_Smoke_Grenade_shell"",""1Rnd_SmokeGreen_Grenade_shell"",""Chemlight_green"",""NLAW_F"",""Laserbatteries"",""HandGrenade"",""MiniGrenade"",""SmokeShell"",""SmokeShellGreen"",""UGL_FlareWhite_F"",""UGL_FlareGreen_F""],[24,6,6,6,6,3,1,2,2,6,3,2,6,6,2,2,2,2]],[[""Laserdesignator"",""FirstAidKit"",""acc_flashlight"",""bipod_01_F_blk""],[1,10,2,1]],[[""B_Kitbag_mcamo""],[2]]],false]";
-						};
-					};
-				};
-				nAttributes=1;
-			};
-		};
-		class Item25
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={820.97577,83.703842,2942.0933};
-			};
-			side="Empty";
-			class Attributes
-			{
-				skill=0.60000002;
-				init="[""v_car"",this] call f_fnc_assignGear";
-				name="VehGER_CAR1";
-			};
-			id=1312;
-			type="LIB_Kfz1";
-			atlOffset=1.4385986;
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="ammoBox";
-					expression="[_this,_value] call bis_fnc_initAmmoBox;";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="[[[[],[]],[[],[]],[[],[]],[[],[]]],true]";
-						};
-					};
-				};
-				nAttributes=1;
-			};
-		};
-		class Item26
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={829.17828,82.467285,2919.6887};
-			};
-			side="West";
-			flags=2;
-			class Attributes
-			{
-				skill=0.60000002;
-				init="[""v_ifv"",this] call f_fnc_assignGear; this disableTIEquipment true;";
-				name="VehGER_COV";
-			};
-			id=1314;
-			type="LIB_SdKfz251";
-			atlOffset=1.342392;
-		};
-		class Item27
+		class Item9
 		{
 			dataType="Group";
 			side="West";
@@ -2598,10 +1315,11 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={866.27966,82.477798,2940.5706};
+						position[]={2912.9382,100.78719,2311.8928};
+						angles[]={0.085789539,4.5605826,6.247201};
 					};
 					side="West";
-					flags=2;
+					flags=6;
 					class Attributes
 					{
 						skill=0.60000002;
@@ -2613,7 +1331,6 @@ class Mission
 					};
 					id=1316;
 					type="LIB_GER_unterofficer";
-					atlOffset=0.54019928;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -2643,9 +1360,11 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={868.35638,82.477798,2939.2859};
+						position[]={2913.894,100.55954,2314.1399};
+						angles[]={0.085789539,4.5605826,6.247201};
 					};
 					side="West";
+					flags=4;
 					class Attributes
 					{
 						skill=0.60000002;
@@ -2656,7 +1375,6 @@ class Mission
 					};
 					id=1317;
 					type="LIB_GER_medic";
-					atlOffset=0.51052856;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -2686,9 +1404,11 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={864.40277,82.477798,2939.5732};
+						position[]={2914.2078,100.89057,2310.1885};
+						angles[]={0.085789539,4.5605826,6.247201};
 					};
 					side="West";
+					flags=4;
 					class Attributes
 					{
 						init="GrpGER_BSL = group this; [""radio"",this] call f_fnc_assignGear;";
@@ -2698,7 +1418,7 @@ class Mission
 					};
 					id=1318;
 					type="LIB_GER_radioman";
-					atlOffset=0.58020782;
+					atlOffset=0.0025100708;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -2728,9 +1448,8 @@ class Mission
 			{
 			};
 			id=1315;
-			atlOffset=0.54019928;
 		};
-		class Item28
+		class Item10
 		{
 			dataType="Group";
 			side="West";
@@ -2742,10 +1461,11 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={866.63715,82.477798,2937.1509};
+						position[]={2916.2644,100.59004,2312.7634};
+						angles[]={0.085788846,4.5605826,6.245204};
 					};
 					side="West";
-					flags=2;
+					flags=6;
 					class Attributes
 					{
 						skill=0.60000002;
@@ -2757,7 +1477,6 @@ class Mission
 					};
 					id=1320;
 					type="LIB_GER_smgunner";
-					atlOffset=0.55175018;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -2787,9 +1506,11 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={868.71387,82.477798,2935.8643};
+						position[]={2917.2222,100.356,2315.0107};
+						angles[]={0.087774232,4.5605826,6.2432051};
 					};
 					side="West";
+					flags=4;
 					class Attributes
 					{
 						skill=0.60000002;
@@ -2800,7 +1521,7 @@ class Mission
 					};
 					id=1321;
 					type="LIB_GER_mgunner";
-					atlOffset=0.52367401;
+					atlOffset=-7.6293945e-006;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -2830,9 +1551,11 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={864.25305,82.477798,2936.3677};
+						position[]={2917.3992,100.75774,2310.5251};
+						angles[]={0.085788846,4.5605826,6.245204};
 					};
 					side="West";
+					flags=4;
 					class Attributes
 					{
 						skill=0.60000002;
@@ -2843,7 +1566,7 @@ class Mission
 					};
 					id=1322;
 					type="LIB_GER_mgunner";
-					atlOffset=0.59602356;
+					atlOffset=0.018325806;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -2873,9 +1596,11 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={862.55951,82.477798,2935.8904};
+						position[]={2918.1272,100.8869,2308.9233};
+						angles[]={0.073866002,4.5605826,6.245204};
 					};
 					side="West";
+					flags=4;
 					class Attributes
 					{
 						skill=0.60000002;
@@ -2886,7 +1611,7 @@ class Mission
 					};
 					id=1323;
 					type="LIB_GER_rifleman";
-					atlOffset=0.6286087;
+					atlOffset=0.050918579;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -2916,9 +1641,11 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={870.3407,82.477798,2934.6433};
+						position[]={2918.1831,100.13526,2316.8035};
+						angles[]={0.1016485,4.5605826,6.2432065};
 					};
 					side="West";
+					flags=4;
 					class Attributes
 					{
 						skill=0.60000002;
@@ -2929,7 +1656,6 @@ class Mission
 					};
 					id=1324;
 					type="LIB_GER_rifleman";
-					atlOffset=0.50321198;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -2959,9 +1685,8 @@ class Mission
 			{
 			};
 			id=1319;
-			atlOffset=0.55175018;
 		};
-		class Item29
+		class Item11
 		{
 			dataType="Group";
 			side="West";
@@ -2973,10 +1698,11 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={866.54761,82.477798,2934.7517};
+						position[]={2918.6497,100.47255,2313.0376};
+						angles[]={0.087774232,4.5605826,6.2432051};
 					};
 					side="West";
-					flags=2;
+					flags=6;
 					class Attributes
 					{
 						skill=0.60000002;
@@ -2988,7 +1714,7 @@ class Mission
 					};
 					id=1326;
 					type="LIB_GER_smgunner";
-					atlOffset=0.56278229;
+					atlOffset=-7.6293945e-006;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -3018,9 +1744,11 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={868.62433,82.477798,2933.4641};
+						position[]={2919.6084,100.23312,2315.2852};
+						angles[]={0.1016485,4.5605826,6.2432065};
 					};
 					side="West";
+					flags=4;
 					class Attributes
 					{
 						skill=0.60000002;
@@ -3031,7 +1759,6 @@ class Mission
 					};
 					id=1327;
 					type="LIB_GER_ober_rifleman";
-					atlOffset=0.53471375;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -3061,9 +1788,11 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={864.16351,82.477798,2933.9675};
+						position[]={2919.7852,100.65427,2310.7996};
+						angles[]={0.087774232,4.5605826,6.2432051};
 					};
 					side="West";
+					flags=4;
 					class Attributes
 					{
 						skill=0.60000002;
@@ -3074,7 +1803,7 @@ class Mission
 					};
 					id=1328;
 					type="LIB_GER_ober_rifleman";
-					atlOffset=0.60790253;
+					atlOffset=0.030197144;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -3104,9 +1833,11 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={870.25116,82.477798,2932.2441};
+						position[]={2920.5684,100.01072,2317.0779};
+						angles[]={0.10164732,4.5605826,6.24121};
 					};
 					side="West";
+					flags=4;
 					class Attributes
 					{
 						skill=0.60000002;
@@ -3117,7 +1848,6 @@ class Mission
 					};
 					id=1329;
 					type="LIB_GER_rifleman";
-					atlOffset=0.51406097;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -3147,9 +1877,11 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={862.46997,82.477798,2933.4912};
+						position[]={2920.5122,100.78759,2309.1975};
+						angles[]={0.073866002,4.5605826,6.2432065};
 					};
 					side="West";
+					flags=4;
 					class Attributes
 					{
 						skill=0.60000002;
@@ -3160,7 +1892,7 @@ class Mission
 					};
 					id=1330;
 					type="LIB_GER_AT_soldier";
-					atlOffset=0.64125061;
+					atlOffset=0.063552856;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -3190,263 +1922,9 @@ class Mission
 			{
 			};
 			id=1325;
-			atlOffset=0.56278229;
+			atlOffset=-7.6293945e-006;
 		};
-		class Item30
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=2;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={866.30328,82.481186,2919.0217};
-					};
-					side="West";
-					class Attributes
-					{
-						skill=0.60000002;
-						rank="CORPORAL";
-						init="GrpGER_BV = group this; [""vg"",this] call f_fnc_assignGear;";
-						name="UnitGER_BV_G";
-						description="Wehrmacht Bravo Vehicle Gunner";
-						isPlayable=1;
-					};
-					id=1332;
-					type="LIB_GER_rifleman";
-					atlOffset=0.68190002;
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="speaker";
-							expression="_this setspeaker _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="";
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=1.03;
-								};
-							};
-						};
-						nAttributes=2;
-					};
-				};
-				class Item1
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={866.30328,82.481186,2919.0217};
-					};
-					side="West";
-					flags=2;
-					class Attributes
-					{
-						skill=0.60000002;
-						init="GrpGER_BV = group this; [""vd"",this] call f_fnc_assignGear;";
-						name="UnitGER_BV_D";
-						description="Wehrmacht Bravo Vehicle Driver";
-						isPlayable=1;
-					};
-					id=1333;
-					type="LIB_GER_rifleman";
-					atlOffset=0.68190002;
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="speaker";
-							expression="_this setspeaker _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="";
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=1.02;
-								};
-							};
-						};
-						nAttributes=2;
-					};
-				};
-			};
-			class Attributes
-			{
-			};
-			class CrewLinks
-			{
-				class LinkIDProvider
-				{
-					nextID=2;
-				};
-				class Links
-				{
-					items=2;
-					class Item0
-					{
-						linkID=0;
-						item0=1332;
-						item1=1538;
-						class CustomData
-						{
-							role=2;
-							turretPath[]={0};
-						};
-					};
-					class Item1
-					{
-						linkID=1;
-						item0=1333;
-						item1=1538;
-						class CustomData
-						{
-							role=1;
-						};
-					};
-				};
-			};
-			id=1331;
-			atlOffset=0.68190002;
-		};
-		class Item31
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={865.61932,84.475098,2952.7532};
-			};
-			side="Empty";
-			class Attributes
-			{
-				skill=0.60000002;
-				init="[""v_tr"",this] call f_fnc_assignGear";
-				name="VehGER_TR_B";
-			};
-			id=1334;
-			type="LIB_opelblitz_open_y_camo";
-			atlOffset=0.51618958;
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="ammoBox";
-					expression="[_this,_value] call bis_fnc_initAmmoBox;";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="[[[[],[]],[[],[]],[[],[]],[[],[]]],true]";
-						};
-					};
-				};
-				nAttributes=1;
-			};
-		};
-		class Item32
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={866.11676,82.4776,2945.2505};
-			};
-			side="Empty";
-			class Attributes
-			{
-				skill=0.60000002;
-				init="[""crate_med"",this,""blu_f""] call f_fnc_assignGear";
-				name="CrateGER_B";
-			};
-			id=1335;
-			type="LIB_WeaponsBox_Big_GER";
-			atlOffset=0.51828003;
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="ammoBox";
-					expression="[_this,_value] call bis_fnc_initAmmoBox;";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="[[[[""launch_NLAW_F"",""arifle_MX_F"",""arifle_MX_SW_F""],[1,2,1]],[[""30Rnd_65x39_caseless_mag"",""16Rnd_9x21_Mag"",""30Rnd_45ACP_Mag_SMG_01"",""20Rnd_762x51_Mag"",""100Rnd_65x39_caseless_mag"",""1Rnd_HE_Grenade_shell"",""3Rnd_HE_Grenade_shell"",""1Rnd_Smoke_Grenade_shell"",""1Rnd_SmokeGreen_Grenade_shell"",""Chemlight_green"",""NLAW_F"",""Laserbatteries"",""HandGrenade"",""MiniGrenade"",""SmokeShell"",""SmokeShellGreen"",""UGL_FlareWhite_F"",""UGL_FlareGreen_F""],[24,6,6,6,6,3,1,2,2,6,3,2,6,6,2,2,2,2]],[[""Laserdesignator"",""FirstAidKit"",""acc_flashlight"",""bipod_01_F_blk""],[1,10,2,1]],[[""B_Kitbag_mcamo""],[2]]],false]";
-						};
-					};
-				};
-				nAttributes=1;
-			};
-		};
-		class Item33
+		class Item12
 		{
 			dataType="Group";
 			side="West";
@@ -3458,10 +1936,11 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={882.5036,82.477798,2940.2268};
+						position[]={2910.8245,99.144798,2327.9822};
+						angles[]={0.12730736,4.5605826,6.2452021};
 					};
 					side="West";
-					flags=2;
+					flags=6;
 					class Attributes
 					{
 						skill=0.60000002;
@@ -3473,7 +1952,6 @@ class Mission
 					};
 					id=1338;
 					type="LIB_GER_unterofficer";
-					atlOffset=0.29523468;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -3503,9 +1981,11 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={884.2251,82.477798,2939.2244};
+						position[]={2911.5552,98.879807,2329.8354};
+						angles[]={0.12730736,4.5605826,6.2452021};
 					};
 					side="West";
+					flags=4;
 					class Attributes
 					{
 						skill=0.60000002;
@@ -3516,7 +1996,6 @@ class Mission
 					};
 					id=1339;
 					type="LIB_GER_medic";
-					atlOffset=0.27205658;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -3546,9 +2025,11 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={880.85229,82.477798,2939.1001};
+						position[]={2912.188,99.280106,2326.5203};
+						angles[]={0.12730736,4.5605826,6.2452021};
 					};
 					side="West";
+					flags=4;
 					class Attributes
 					{
 						init="GrpGER_CSL = group this; [""radio"",this] call f_fnc_assignGear;";
@@ -3558,7 +2039,6 @@ class Mission
 					};
 					id=1340;
 					type="LIB_GER_radioman";
-					atlOffset=0.32632446;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -3588,9 +2068,8 @@ class Mission
 			{
 			};
 			id=1337;
-			atlOffset=0.29523468;
 		};
-		class Item34
+		class Item13
 		{
 			dataType="Group";
 			side="West";
@@ -3602,10 +2081,11 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={882.54565,82.477798,2937.7026};
+						position[]={2913.3132,98.996025,2328.4055};
+						angles[]={0.12730736,4.5605826,6.2452021};
 					};
 					side="West";
-					flags=2;
+					flags=6;
 					class Attributes
 					{
 						skill=0.60000002;
@@ -3617,7 +2097,6 @@ class Mission
 					};
 					id=1342;
 					type="LIB_GER_smgunner";
-					atlOffset=0.30501556;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -3647,9 +2126,11 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={884.54321,82.477798,2936.0269};
+						position[]={2914.6677,98.651871,2330.6335};
+						angles[]={0.14105691,4.5605826,6.2432065};
 					};
 					side="West";
+					flags=4;
 					class Attributes
 					{
 						skill=0.60000002;
@@ -3660,7 +2141,7 @@ class Mission
 					};
 					id=1343;
 					type="LIB_GER_mgunner";
-					atlOffset=0.27976227;
+					atlOffset=-7.6293945e-006;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -3690,9 +2171,11 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={879.98279,82.477798,2936.6311};
+						position[]={2914.76,99.255348,2326.0339};
+						angles[]={0.12730736,4.5605826,6.2452021};
 					};
 					side="West";
+					flags=4;
 					class Attributes
 					{
 						skill=0.60000002;
@@ -3703,7 +2186,7 @@ class Mission
 					};
 					id=1344;
 					type="LIB_GER_mgunner";
-					atlOffset=0.34346771;
+					atlOffset=0.010726929;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -3733,9 +2216,11 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={878.09381,82.477798,2935.8938};
+						position[]={2915.7747,99.45871,2324.2783};
+						angles[]={0.11548408,4.5605826,6.24121};
 					};
 					side="West";
+					flags=4;
 					class Attributes
 					{
 						skill=0.60000002;
@@ -3746,7 +2231,7 @@ class Mission
 					};
 					id=1345;
 					type="LIB_GER_rifleman";
-					atlOffset=0.37304688;
+					atlOffset=0.040306091;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -3776,9 +2261,11 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={885.81744,82.477798,2935.0498};
+						position[]={2915.4409,98.41935,2332.0408};
+						angles[]={0.14105648,4.5605826,6.2392135};
 					};
 					side="West";
+					flags=4;
 					class Attributes
 					{
 						skill=0.60000002;
@@ -3789,7 +2276,6 @@ class Mission
 					};
 					id=1346;
 					type="LIB_GER_rifleman";
-					atlOffset=0.26818085;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -3819,9 +2305,8 @@ class Mission
 			{
 			};
 			id=1341;
-			atlOffset=0.30501556;
 		};
-		class Item35
+		class Item14
 		{
 			dataType="Group";
 			side="West";
@@ -3833,10 +2318,11 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={882.46283,82.477798,2934.4031};
+						position[]={2916.5874,98.811165,2328.8225};
+						angles[]={0.12927523,4.5605826,6.2392135};
 					};
 					side="West";
-					flags=2;
+					flags=6;
 					class Attributes
 					{
 						skill=0.60000002;
@@ -3848,7 +2334,7 @@ class Mission
 					};
 					id=1348;
 					type="LIB_GER_smgunner";
-					atlOffset=0.31576538;
+					atlOffset=-7.6293945e-006;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -3878,9 +2364,11 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={884.46039,82.477798,2932.7253};
+						position[]={2917.9438,98.449768,2331.051};
+						angles[]={0.14105648,4.5605826,6.2392135};
 					};
 					side="West";
+					flags=4;
 					class Attributes
 					{
 						skill=0.60000002;
@@ -3891,7 +2379,6 @@ class Mission
 					};
 					id=1349;
 					type="LIB_GER_ober_rifleman";
-					atlOffset=0.29785919;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -3921,9 +2408,11 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={879.89996,82.477798,2933.3296};
+						position[]={2918.0361,99.079895,2326.4514};
+						angles[]={0.12730782,4.5605826,6.24121};
 					};
 					side="West";
+					flags=4;
 					class Attributes
 					{
 						skill=0.60000002;
@@ -3934,7 +2423,7 @@ class Mission
 					};
 					id=1350;
 					type="LIB_GER_ober_rifleman";
-					atlOffset=0.35808563;
+					atlOffset=0.025344849;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -3964,9 +2453,11 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={885.81958,82.477798,2931.3799};
+						position[]={2919.0684,98.183876,2332.5979};
+						angles[]={0.13909568,4.5605826,6.24121};
 					};
 					side="West";
+					flags=4;
 					class Attributes
 					{
 						skill=0.60000002;
@@ -3977,7 +2468,7 @@ class Mission
 					};
 					id=1351;
 					type="LIB_GER_rifleman";
-					atlOffset=0.2885437;
+					atlOffset=7.6293945e-006;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -4007,9 +2498,11 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={877.86517,82.477798,2932.5112};
+						position[]={2919.1528,99.302124,2324.564};
+						angles[]={0.11548408,4.5605826,6.24121};
 					};
 					side="West";
+					flags=4;
 					class Attributes
 					{
 						skill=0.60000002;
@@ -4020,7 +2513,7 @@ class Mission
 					};
 					id=1352;
 					type="LIB_GER_AT_soldier";
-					atlOffset=0.39147186;
+					atlOffset=0.05872345;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -4050,12 +2543,209 @@ class Mission
 			{
 			};
 			id=1347;
-			atlOffset=0.31576538;
+			atlOffset=-7.6293945e-006;
 		};
-		class Item36
+		class Item15
+		{
+			dataType="Marker";
+			position[]={2800.8279,6.5909741e+030,2231.6709};
+			name="marker_7";
+			markerType="RECTANGLE";
+			type="rectangle";
+			fillName="Border";
+			a=500;
+			b=500;
+			drawBorder=1;
+			id=1957;
+			atlOffset=6.5909741e+030;
+		};
+		class Item16
+		{
+			dataType="Marker";
+			position[]={3850.7581,2.2608447e+029,4245.6431};
+			name="marker_8";
+			markerType="ELLIPSE";
+			type="ellipse";
+			alpha=0.31848186;
+			fillName="DiagGrid";
+			a=3978.144;
+			b=1456.082;
+			angle=14.651999;
+			id=1958;
+			atlOffset=2.2608447e+029;
+		};
+		class Item17
+		{
+			dataType="Marker";
+			position[]={2718.6289,20480.836,4130.229};
+			name="marker_9";
+			text=" Pretend there's nothing here";
+			type="mil_warning";
+			colorName="ColorRed";
+			id=1959;
+			atlOffset=20781.701;
+		};
+		class Item18
+		{
+			dataType="Marker";
+			position[]={4406.4185,2.9117643e+030,973.34894};
+			name="marker_10";
+			text=" Datsche";
+			type="hd_flag";
+			id=1960;
+			atlOffset=2.9117643e+030;
+		};
+		class Item19
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3232.1543,92.486069,2258.2361};
+				angles[]={0.079830915,1.8039073,0.0219975};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=1962;
+			type="LIB_zis5v";
+			atlOffset=-0.0019607544;
+		};
+		class Item20
+		{
+			dataType="Marker";
+			position[]={3232.2729,2.9228864e+030,2258.8921};
+			name="marker_11";
+			text=" Civilian Truck";
+			type="mil_end";
+			id=1964;
+			atlOffset=2.9228864e+030;
+		};
+		class Item21
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2970.7588,110.24123,1986.6003};
+				angles[]={0.13320594,1.3263201,0.107583};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=1969;
+			type="LIB_kfz1_Wreck";
+			atlOffset=-0.0044555664;
+		};
+		class Item22
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2961.6411,111.03412,1982.1108};
+				angles[]={0.25624001,1.9064468,0.1016485};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=1970;
+			type="LIB_SdKfz251_Wreck";
+		};
+		class Item23
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2930.1538,109.89161,1981.6312};
+				angles[]={6.2791886,3.6149077,0.02199479};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=1971;
+			type="LIB_OpelBlitz_Wreck";
+		};
+		class Item24
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2946.4971,109.8999,1981.3691};
+				angles[]={0.11942852,1.2398636,0.049958061};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=1973;
+			type="LIB_OpelBlitz_2_Wreck";
+		};
+		class Item25
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2920.6831,110.24754,1975.2323};
+				angles[]={0.095706008,1.9581065,0.02999169};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=1974;
+			type="LIB_OpelBlitz_2_Wreck";
+		};
+		class Item26
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2903.7336,110.35731,1975.422};
+				angles[]={6.2372179,0.63927752,6.2452021};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=1975;
+			type="LIB_SdKfz251_Wreck";
+		};
+		class Item27
+		{
+			dataType="Marker";
+			position[]={2937.2019,6.2829505e+036,1979.59};
+			name="marker_12";
+			markerType="ELLIPSE";
+			type="ellipse";
+			fillName="Cross";
+			a=50;
+			b=50;
+			id=1976;
+			atlOffset=6.2829505e+036;
+		};
+		class Item28
+		{
+			dataType="Marker";
+			position[]={2899.9609,8.9090507e+016,1993.056};
+			name="marker_13";
+			text=" Destroyed German convoy";
+			type="hd_warning";
+			id=1977;
+			atlOffset=8.9090507e+016;
+		};
+		class Item29
 		{
 			dataType="Group";
-			side="West";
+			side="Independent";
 			class Entities
 			{
 				items=2;
@@ -4064,126 +2754,36 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={882.29053,82.481529,2919.9714};
+						position[]={2859.4319,132.76451,1333.2151};
+						angles[]={6.2771816,5.3788953,0.02799508};
 					};
-					side="West";
+					side="Independent";
+					flags=4;
 					class Attributes
 					{
-						skill=0.60000002;
-						rank="CORPORAL";
-						init="GrpGER_CV = group this; [""vg"",this] call f_fnc_assignGear;";
-						name="UnitGER_CV_G";
-						description="Wehrmacht Charlie Vehicle Gunner";
-						isPlayable=1;
+						name="cvD";
 					};
-					id=1354;
-					type="LIB_GER_rifleman";
-					atlOffset=0.41422272;
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="speaker";
-							expression="_this setspeaker _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="";
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=1.01;
-								};
-							};
-						};
-						nAttributes=2;
-					};
+					id=1980;
+					type="LIB_US_driver";
+					atlOffset=-1.5258789e-005;
 				};
 				class Item1
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={882.29053,82.481529,2919.9714};
+						position[]={2859.4319,132.76451,1333.2151};
+						angles[]={6.2771816,5.3788953,0.02799508};
 					};
-					side="West";
-					flags=2;
+					side="Independent";
+					flags=6;
 					class Attributes
 					{
-						skill=0.60000002;
-						init="GrpGER_CV = group this; [""vd"",this] call f_fnc_assignGear;";
-						name="UnitGER_CV_D";
-						description="Wehrmacht Charlie Vehicle Driver";
-						isPlayable=1;
+						name="cvC";
 					};
-					id=1355;
-					type="LIB_GER_rifleman";
-					atlOffset=0.41422272;
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="speaker";
-							expression="_this setspeaker _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="";
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=0.95999998;
-								};
-							};
-						};
-						nAttributes=2;
-					};
+					id=1981;
+					type="LIB_US_driver";
+					atlOffset=-1.5258789e-005;
 				};
 			};
 			class Attributes
@@ -4201,1182 +2801,52 @@ class Mission
 					class Item0
 					{
 						linkID=0;
-						item0=1354;
-						item1=1539;
+						item0=1980;
+						item1=1979;
+						class CustomData
+						{
+							role=1;
+						};
+					};
+					class Item1
+					{
+						linkID=1;
+						item0=1981;
+						item1=1979;
 						class CustomData
 						{
 							role=2;
 							turretPath[]={0};
 						};
 					};
-					class Item1
-					{
-						linkID=1;
-						item0=1355;
-						item1=1539;
-						class CustomData
-						{
-							role=1;
-						};
-					};
 				};
 			};
-			id=1353;
-			atlOffset=0.41422272;
+			id=1978;
+			atlOffset=-1.5258789e-005;
 		};
-		class Item37
+		class Item30
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={882.73584,84.475098,2953.8501};
+				position[]={2859.3755,133.82181,1333.1587};
+				angles[]={6.2771816,5.3788953,0.02799508};
 			};
-			side="Empty";
+			side="Independent";
+			flags=6;
 			class Attributes
 			{
-				skill=0.60000002;
-				init="[""v_tr"",this] call f_fnc_assignGear";
-				name="VehGER_TR_C";
+				init="nul = [cv,""cvwp""] spawn ws_fnc_taskConvoy;";
+				name="cv";
 			};
-			id=1356;
-			type="LIB_opelblitz_open_y_camo";
-			atlOffset=0.26232147;
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="ammoBox";
-					expression="[_this,_value] call bis_fnc_initAmmoBox;";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="[[[[],[]],[[],[]],[[],[]],[[],[]]],true]";
-						};
-					};
-				};
-				nAttributes=1;
-			};
+			id=1979;
+			type="LIB_US_Scout_M3";
+			atlOffset=-1.5258789e-005;
 		};
-		class Item38
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={882.57379,82.4776,2945.968};
-			};
-			side="Empty";
-			class Attributes
-			{
-				skill=0.60000002;
-				init="[""crate_med"",this,""blu_f""] call f_fnc_assignGear";
-				name="CrateGER_C";
-			};
-			id=1357;
-			type="LIB_WeaponsBox_Big_GER";
-			atlOffset=0.27032471;
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="ammoBox";
-					expression="[_this,_value] call bis_fnc_initAmmoBox;";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="[[[[""launch_NLAW_F"",""arifle_MX_F"",""arifle_MX_SW_F""],[1,2,1]],[[""30Rnd_65x39_caseless_mag"",""16Rnd_9x21_Mag"",""30Rnd_45ACP_Mag_SMG_01"",""20Rnd_762x51_Mag"",""100Rnd_65x39_caseless_mag"",""1Rnd_HE_Grenade_shell"",""3Rnd_HE_Grenade_shell"",""1Rnd_Smoke_Grenade_shell"",""1Rnd_SmokeGreen_Grenade_shell"",""Chemlight_green"",""NLAW_F"",""Laserbatteries"",""HandGrenade"",""MiniGrenade"",""SmokeShell"",""SmokeShellGreen"",""UGL_FlareWhite_F"",""UGL_FlareGreen_F""],[24,6,6,6,6,3,1,2,2,6,3,2,6,6,2,2,2,2]],[[""Laserdesignator"",""FirstAidKit"",""acc_flashlight"",""bipod_01_F_blk""],[1,10,2,1]],[[""B_Kitbag_mcamo""],[2]]],false]";
-						};
-					};
-				};
-				nAttributes=1;
-			};
-		};
-		class Item39
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={906.79913,83.703842,2948.1885};
-				angles[]={0,0,0.0060001095};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-				skill=0.60000002;
-				init="[""v_car"",this] call f_fnc_assignGear";
-				name="VehGER_CAR3";
-			};
-			id=1359;
-			type="LIB_Kfz1";
-			atlOffset=0.075538635;
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="ammoBox";
-					expression="[_this,_value] call bis_fnc_initAmmoBox;";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="[[[[],[]],[[],[]],[[],[]],[[],[]]],true]";
-						};
-					};
-				};
-				nAttributes=1;
-			};
-		};
-		class Item40
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={916.41602,84.453468,2915.6099};
-				angles[]={6.2751918,0,0.0019834081};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-				init="[""v_eng"",this] call f_fnc_assignGear;";
-				name="VehGER_ENG";
-			};
-			id=1361;
-			type="LIB_opelblitz_parm";
-			atlOffset=0.1685791;
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="ammoBox";
-					expression="[_this,_value] call bis_fnc_initAmmoBox;";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="[[[[],[]],[[],[]],[[],[]],[[],[]]],true]";
-						};
-					};
-				};
-				nAttributes=1;
-			};
-		};
-		class Item41
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={916.40796,82.500275,2899.355};
-			};
-			side="Empty";
-			class Attributes
-			{
-				init="[""v_car"",this] call f_fnc_assignGear;";
-				name="VehGER_SPG1_TR";
-			};
-			id=1413;
-			type="LIB_SdKfz_7";
-			atlOffset=0.28023529;
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="ammoBox";
-					expression="[_this,_value] call bis_fnc_initAmmoBox;";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="[[[[],[]],[[],[]],[[],[]],[[],[]]],true]";
-						};
-					};
-				};
-				nAttributes=1;
-			};
-		};
-		class Item42
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={916.41077,82.520821,2892.2734};
-				angles[]={0,3.1789079,0};
-			};
-			side="Empty";
-			class Attributes
-			{
-				name="VehGER_SPG1";
-			};
-			id=1414;
-			type="LIB_Pak40";
-			atlOffset=0.30898285;
-		};
-		class Item43
+		class Item31
 		{
 			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=2;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={912.15015,82.477798,2950.3745};
-						angles[]={0.0060001095,5.9327579,0};
-					};
-					side="West";
-					flags=6;
-					class Attributes
-					{
-						rank="CORPORAL";
-						init="GrpGER_MMG1 = group this; [""mmgag"",this] call f_fnc_assignGear;";
-						name="UnitGER_MMG1_AG";
-						description="Wehrmacht Medium MG Team 1 Spotter (Leader)";
-						isPlayable=1;
-					};
-					id=1498;
-					type="LIB_GER_smgunner";
-					atlOffset=0.058303833;
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="speaker";
-							expression="_this setspeaker _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="";
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-				class Item1
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={914.06812,82.477798,2950.8853};
-						angles[]={0.0060001095,5.9327579,0};
-					};
-					side="West";
-					flags=4;
-					class Attributes
-					{
-						init="GrpGER_MMG1 = group this; [""mmgg"",this] call f_fnc_assignGear;";
-						name="UnitGER_MMG1_G";
-						description="Wehrmacht Medium MG Team 1 Gunner";
-						isPlayable=1;
-					};
-					id=1499;
-					type="LIB_GER_mgunner";
-					atlOffset=0.06137085;
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="speaker";
-							expression="_this setspeaker _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="";
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-			};
-			class Attributes
-			{
-			};
-			id=1497;
-			atlOffset=0.058303833;
-		};
-		class Item44
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=2;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={912.698,82.477798,2948.7993};
-						angles[]={0,5.9327579,0};
-					};
-					side="West";
-					flags=6;
-					class Attributes
-					{
-						rank="CORPORAL";
-						init="GrpGER_MMG2 = group this; [""mmgag"",this] call f_fnc_assignGear;";
-						name="UnitGER_MMG2_AG";
-						description="Wehrmacht Medium MG Team 2 Spotter (Leader)";
-						isPlayable=1;
-					};
-					id=1501;
-					type="LIB_GER_smgunner";
-					atlOffset=0.056358337;
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="speaker";
-							expression="_this setspeaker _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="";
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-				class Item1
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={914.61597,82.477798,2949.3101};
-						angles[]={0,5.9327579,0};
-					};
-					side="West";
-					flags=4;
-					class Attributes
-					{
-						init="GrpGER_MMG2 = group this; [""mmgg"",this] call f_fnc_assignGear;";
-						name="UnitGER_MMG2_G";
-						description="Wehrmacht Medium MG Team 2 Gunner";
-						isPlayable=1;
-					};
-					id=1502;
-					type="LIB_GER_mgunner";
-					atlOffset=0.056358337;
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="speaker";
-							expression="_this setspeaker _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="";
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-			};
-			class Attributes
-			{
-			};
-			id=1500;
-			atlOffset=0.056358337;
-		};
-		class Item45
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=2;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={912.15472,82.477798,2942.3811};
-					};
-					side="West";
-					flags=7;
-					class Attributes
-					{
-						rank="CORPORAL";
-						init="GrpGER_MAT1 = group this; [""matag"",this] call f_fnc_assignGear;";
-						name="UnitGER_MAT1_AG";
-						description="Wehrmacht AT Team 1 Spotter (Leader)";
-						isPlayable=1;
-					};
-					id=1504;
-					type="LIB_GER_AT_grenadier";
-					atlOffset=0.056358337;
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="speaker";
-							expression="_this setspeaker _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="";
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-				class Item1
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={913.71527,82.477798,2943.218};
-					};
-					side="West";
-					flags=4;
-					class Attributes
-					{
-						init="GrpGER_MAT1 = group this; [""matg"",this] call f_fnc_assignGear;";
-						name="UnitGER_MAT1_G";
-						description="Wehrmacht AT Team 1 Gunner";
-						isPlayable=1;
-					};
-					id=1505;
-					type="LIB_GER_AT_soldier";
-					atlOffset=0.056358337;
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="speaker";
-							expression="_this setspeaker _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="";
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-			};
-			class Attributes
-			{
-			};
-			id=1503;
-			atlOffset=0.056358337;
-		};
-		class Item46
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=2;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={912.87347,82.477798,2940.9397};
-					};
-					side="West";
-					flags=7;
-					class Attributes
-					{
-						rank="CORPORAL";
-						init="GrpGER_MAT2 = group this; [""matag"",this] call f_fnc_assignGear;";
-						name="UnitGER_MAT2_AG";
-						description="Wehrmacht AT Team 2 Spotter (Leader)";
-						isPlayable=1;
-					};
-					id=1507;
-					type="LIB_GER_AT_grenadier";
-					atlOffset=0.056358337;
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="speaker";
-							expression="_this setspeaker _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="";
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-				class Item1
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={914.62054,82.477798,2941.8333};
-					};
-					side="West";
-					flags=4;
-					class Attributes
-					{
-						init="GrpGER_MAT2 = group this; [""matg"",this] call f_fnc_assignGear;";
-						name="UnitGER_MAT2_G";
-						description="Wehrmacht AT Team 2 Gunner";
-						isPlayable=1;
-					};
-					id=1508;
-					type="LIB_GER_AT_soldier";
-					atlOffset=0.056358337;
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="speaker";
-							expression="_this setspeaker _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="";
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-			};
-			class Attributes
-			{
-			};
-			id=1506;
-			atlOffset=0.056358337;
-		};
-		class Item47
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=2;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={912.03168,82.477798,2932.7502};
-						angles[]={6.2791886,0,0};
-					};
-					side="West";
-					flags=6;
-					class Attributes
-					{
-						init="GrpGER_MTR1 = group this; [""mtrag"",this] call f_fnc_assignGear; ";
-						name="UnitGER_MTR1_AG";
-						description="Wehrmacht Mortar Team 1 Spotter (Leader)";
-						isPlayable=1;
-					};
-					id=1510;
-					type="LIB_GER_ober_rifleman";
-					atlOffset=0.075553894;
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="speaker";
-							expression="_this setspeaker _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="";
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-				class Item1
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={912.9389,82.477798,2932.8606};
-						angles[]={6.2771854,0,0.0019834081};
-					};
-					side="West";
-					flags=4;
-					class Attributes
-					{
-						init="GrpGER_MTR1 = group this; [""mtrg"",this] call f_fnc_assignGear; ";
-						name="UnitGER_MTR1_G";
-						description="Wehrmacht Mortar Team 1 Gunner";
-						isPlayable=1;
-					};
-					id=1511;
-					type="LIB_GER_rifleman";
-					atlOffset=0.073616028;
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="speaker";
-							expression="_this setspeaker _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="";
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-			};
-			class Attributes
-			{
-			};
-			id=1509;
-			atlOffset=0.075553894;
-		};
-		class Item48
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=2;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={911.89526,82.477798,2924.3938};
-						angles[]={6.2791886,0,0};
-					};
-					side="West";
-					flags=4;
-					class Attributes
-					{
-						rank="CORPORAL";
-						init="GrpGER_ST1 = group this; [""sp"",this] call f_fnc_assignGear; ";
-						name="UnitGER_ST1_SP";
-						description="Wehrmacht Sniper Team 1 Spotter (Leader)";
-						isPlayable=1;
-					};
-					id=1513;
-					type="LIB_GER_scout_ober_rifleman";
-					atlOffset=0.11898041;
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="speaker";
-							expression="_this setspeaker _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="";
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-				class Item1
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={912.75952,82.477798,2924.3596};
-						angles[]={6.2791886,0,0};
-					};
-					side="West";
-					flags=6;
-					class Attributes
-					{
-						init="GrpGER_ST1 = group this; [""sn"",this] call f_fnc_assignGear; ";
-						name="UnitGER_ST1_SN";
-						description="Wehrmacht Sniper Team 1 Gunner";
-						isPlayable=1;
-					};
-					id=1514;
-					type="LIB_GER_scout_sniper";
-					atlOffset=0.11911774;
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="speaker";
-							expression="_this setspeaker _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="";
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-			};
-			class Attributes
-			{
-			};
-			id=1512;
-			atlOffset=0.11911774;
-		};
-		class Item49
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=4;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={913.28033,82.477798,2918.1484};
-						angles[]={6.2751918,0,0.0060001095};
-					};
-					side="West";
-					flags=6;
-					class Attributes
-					{
-						rank="CORPORAL";
-						init="GrpGER_ENG1 = group this; [""eng"",this] call f_fnc_assignGear; ";
-						name="UnitGER_ENG1_FTL";
-						description="Wehrmacht Engineer Team 1 Leader";
-						isPlayable=1;
-					};
-					id=1516;
-					type="LIB_GER_sapper_gefr";
-					atlOffset=0.16188812;
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="speaker";
-							expression="_this setspeaker _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="";
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-				class Item1
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={912.48602,82.477798,2917.6311};
-						angles[]={6.2751918,0,0.0060001095};
-					};
-					side="West";
-					flags=4;
-					class Attributes
-					{
-						init="GrpGER_ENG1 = group this; [""eng"",this] call f_fnc_assignGear; ";
-						name="UnitGER_ENG1_A1";
-						description="Wehrmacht Engineer Team 1 Assistant";
-						isPlayable=1;
-					};
-					id=1517;
-					type="LIB_GER_sapper";
-					atlOffset=0.17079163;
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="speaker";
-							expression="_this setspeaker _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="";
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=0.94999999;
-								};
-							};
-						};
-						nAttributes=2;
-					};
-				};
-				class Item2
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={911.67389,82.477798,2917.1475};
-						angles[]={6.2771854,0,0.0039967569};
-					};
-					side="West";
-					flags=4;
-					class Attributes
-					{
-						init="GrpGER_ENG1 = group this; [""engm"",this] call f_fnc_assignGear; ";
-						name="UnitGER_ENG1_A2";
-						description="Wehrmacht Engineer Team 1 Assistant (mines)";
-						isPlayable=1;
-					};
-					id=1518;
-					type="LIB_GER_sapper";
-					atlOffset=0.17707825;
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="speaker";
-							expression="_this setspeaker _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="";
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-				class Item3
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={910.8233,82.477798,2916.5752};
-						angles[]={6.2771854,0,0.0039967569};
-					};
-					side="West";
-					flags=4;
-					class Attributes
-					{
-						init="GrpGER_ENG1 = group this; [""engm"",this] call f_fnc_assignGear; ";
-						name="UnitGER_ENG1_A3";
-						description="Wehrmacht Engineer Team 1 Assistant (mines)";
-						isPlayable=1;
-					};
-					id=1519;
-					type="LIB_GER_sapper";
-					atlOffset=0.18391418;
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="speaker";
-							expression="_this setspeaker _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="";
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-			};
-			class Attributes
-			{
-			};
-			id=1515;
-			atlOffset=0.16188812;
-		};
-		class Item50
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=2;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={912.29358,82.477798,2896.915};
-					};
-					side="West";
-					flags=2;
-					class Attributes
-					{
-						skill=0.60000002;
-						rank="CORPORAL";
-						init="GrpGER_SPG1 = group this; [""spgag"",this] call f_fnc_assignGear;";
-						name="UnitGER_SPG1_AG";
-						description="Wehrmacht SPG 1 Spotter (Leader)";
-						isPlayable=1;
-					};
-					id=1521;
-					type="LIB_GER_gun_unterofficer";
-					atlOffset=0.31140137;
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="speaker";
-							expression="_this setspeaker _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="";
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-				class Item1
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={913.76331,82.477798,2896.7539};
-					};
-					side="West";
-					class Attributes
-					{
-						skill=0.60000002;
-						init="GrpGER_SPG1 = group this; [""spgg"",this] call f_fnc_assignGear;";
-						name="UnitGER_SPG1_G";
-						description="Wehrmacht SPG 1 Gunner";
-						isPlayable=1;
-					};
-					id=1522;
-					type="LIB_GER_gun_crew";
-					atlOffset=0.30355835;
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="speaker";
-							expression="_this setspeaker _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="";
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-			};
-			class Attributes
-			{
-			};
-			id=1520;
-			atlOffset=0.31140137;
-		};
-		class Item51
-		{
-			dataType="Group";
-			side="West";
+			side="Independent";
 			class Entities
 			{
 				items=1;
@@ -5385,16 +2855,18 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={816.23108,82.47789,2932.2456};
+						position[]={2868.01,132.88298,1327.749};
+						angles[]={6.2471962,5.3294153,0.037978366};
 					};
-					side="West";
-					flags=2;
+					side="Independent";
+					flags=6;
 					class Attributes
 					{
+						name="cv_1D";
 					};
-					id=1524;
-					type="LIB_GER_gun_crew";
-					atlOffset=1.5467453;
+					id=1990;
+					type="LIB_US_driver";
+					atlOffset=1.5258789e-005;
 				};
 			};
 			class Attributes
@@ -5412,247 +2884,112 @@ class Mission
 					class Item0
 					{
 						linkID=0;
-						item0=1524;
-						item1=1525;
+						item0=1990;
+						item1=1989;
 						class CustomData
 						{
-							role=2;
-							turretPath[]={0};
+							role=1;
 						};
 					};
 				};
 			};
-			id=1523;
-			atlOffset=1.5467453;
+			id=1988;
+			atlOffset=1.5258789e-005;
 		};
-		class Item52
+		class Item32
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={816.21954,83.197983,2932.1953};
+				position[]={2867.9102,133.87941,1327.5007};
+				angles[]={6.2471962,5.3294153,0.037978366};
 			};
-			side="West";
-			flags=2;
+			side="Independent";
+			flags=6;
 			class Attributes
 			{
-				skill=0.60000002;
+				init="nul = [cv,""cvwp""] spawn ws_fnc_taskConvoy;";
+				name="cv_1";
 			};
-			id=1525;
-			type="I_Mortar_01_F";
-			atlOffset=1.5467453;
+			id=1989;
+			type="LIB_US_GMC_Tent";
+			atlOffset=1.5258789e-005;
 		};
-		class Item53
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={848.43036,82.467285,2918.8069};
-			};
-			side="West";
-			class Attributes
-			{
-				skill=0.60000002;
-				init="[""v_ifv"",this] call f_fnc_assignGear; this disableTIEquipment true;";
-				name="VehGER_AV";
-			};
-			id=1537;
-			type="LIB_SdKfz251_FFV";
-			atlOffset=0.99252319;
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="ammoBox";
-					expression="[_this,_value] call bis_fnc_initAmmoBox;";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="[[[[],[]],[[],[]],[[],[]],[[],[]]],true]";
-						};
-					};
-				};
-				nAttributes=1;
-			};
-		};
-		class Item54
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={866.16595,82.467285,2918.8186};
-			};
-			side="West";
-			class Attributes
-			{
-				skill=0.60000002;
-				init="[""v_ifv"",this] call f_fnc_assignGear; this disableTIEquipment true;";
-				name="VehGER_BV";
-			};
-			id=1538;
-			type="LIB_SdKfz251_FFV";
-			atlOffset=0.68190002;
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="ammoBox";
-					expression="[_this,_value] call bis_fnc_initAmmoBox;";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="[[[[],[]],[[],[]],[[],[]],[[],[]]],true]";
-						};
-					};
-				};
-				nAttributes=1;
-			};
-		};
-		class Item55
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={882.15314,82.467285,2919.7683};
-			};
-			side="West";
-			class Attributes
-			{
-				skill=0.60000002;
-				init="[""v_ifv"",this] call f_fnc_assignGear; this disableTIEquipment true;";
-				name="VehGER_AV_2";
-			};
-			id=1539;
-			type="LIB_SdKfz251_FFV";
-			atlOffset=0.41422272;
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="ammoBox";
-					expression="[_this,_value] call bis_fnc_initAmmoBox;";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="[[[[],[]],[[],[]],[[],[]],[[],[]]],true]";
-						};
-					};
-				};
-				nAttributes=1;
-			};
-		};
-		class Item56
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={820.98926,84.143181,2937.3784};
-			};
-			side="Empty";
-			class Attributes
-			{
-				skill=0.60000002;
-				init="[""v_car"",this] call f_fnc_assignGear";
-				name="VehGER_CAR2";
-			};
-			id=1540;
-			type="LIB_Kfz1_MG42";
-			atlOffset=1.4435196;
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="ammoBox";
-					expression="[_this,_value] call bis_fnc_initAmmoBox;";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="[[[[],[]],[[],[]],[[],[]],[[],[]]],true]";
-						};
-					};
-				};
-				nAttributes=1;
-			};
-		};
-		class Item57
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={906.97607,84.143181,2942.5527};
-				angles[]={0,0,0.0060001095};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-				skill=0.60000002;
-				init="[""v_car"",this] call f_fnc_assignGear";
-				name="VehGER_CAR4";
-			};
-			id=1541;
-			type="LIB_Kfz1_MG42";
-			atlOffset=0.07447052;
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="ammoBox";
-					expression="[_this,_value] call bis_fnc_initAmmoBox;";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="[[[[],[]],[[],[]],[[],[]],[[],[]]],true]";
-						};
-					};
-				};
-				nAttributes=1;
-			};
-		};
-		class Item58
+		class Item33
 		{
 			dataType="Group";
-			side="West";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2885.467,133.1077,1315.364};
+						angles[]={6.2471962,5.3374786,0.031991884};
+					};
+					side="Independent";
+					flags=6;
+					class Attributes
+					{
+						name="cv_3D";
+					};
+					id=1998;
+					type="LIB_US_driver";
+				};
+			};
+			class Attributes
+			{
+			};
+			class CrewLinks
+			{
+				class LinkIDProvider
+				{
+					nextID=1;
+				};
+				class Links
+				{
+					items=1;
+					class Item0
+					{
+						linkID=0;
+						item0=1998;
+						item1=1997;
+						class CustomData
+						{
+							role=1;
+						};
+					};
+				};
+			};
+			id=1996;
+			atlOffset=0.0052642822;
+		};
+		class Item34
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2885.3953,134.11166,1315.1438};
+				angles[]={6.2471962,5.3374786,0.031991884};
+			};
+			side="Independent";
+			flags=6;
+			class Attributes
+			{
+				init="nul = [cv,""cvwp""] spawn ws_fnc_taskConvoy;";
+				name="cv_3";
+			};
+			id=1997;
+			type="LIB_US_GMC_Ammo";
+			atlOffset=0.0052642822;
+		};
+		class Item35
+		{
+			dataType="Group";
+			side="Independent";
 			class Entities
 			{
 				items=3;
@@ -5661,150 +2998,57 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={816.51477,82.478111,2919.4294};
+						position[]={2893.395,133.13135,1308.202};
+						angles[]={6.2751913,5.3626986,0.021991149};
 					};
-					side="West";
+					side="Independent";
+					flags=4;
 					class Attributes
 					{
-						init="[""vd"",this] call f_fnc_assignGear;";
-						name="UnitGER_TNK1_D";
-						isPlayable=1;
+						name="cv_4D";
 					};
-					id=1550;
-					type="LIB_GER_tank_crew";
-					atlOffset=1.5636749;
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=1;
-								};
-							};
-						};
-						nAttributes=1;
-					};
+					id=2001;
+					type="LIB_US_driver";
+					atlOffset=1.5258789e-005;
 				};
 				class Item1
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={816.51477,82.478111,2919.4294};
+						position[]={2893.395,133.13135,1308.202};
+						angles[]={6.2751913,5.3626986,0.021991149};
 					};
-					side="West";
+					side="Independent";
+					flags=6;
 					class Attributes
 					{
-						rank="CORPORAL";
-						init="[""vg"",this] call f_fnc_assignGear;";
-						name="UnitGER_TNK1_G";
-						isPlayable=1;
+						name="cv_4C";
 					};
-					id=1552;
-					type="LIB_GER_tank_crew";
-					atlOffset=1.5636749;
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="speaker";
-							expression="_this setspeaker _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="";
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=0.97000003;
-								};
-							};
-						};
-						nAttributes=2;
-					};
+					id=2002;
+					type="LIB_US_driver";
+					atlOffset=1.5258789e-005;
 				};
 				class Item2
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={816.51477,82.478111,2919.4294};
+						position[]={2893.395,133.13135,1308.202};
+						angles[]={6.2751913,5.3626986,0.021991149};
 					};
-					side="West";
-					flags=2;
+					side="Independent";
+					flags=5;
 					class Attributes
 					{
-						rank="SERGEANT";
-						init="[""vc"",this] call f_fnc_assignGear;";
-						name="UnitGER_TNK1_C";
-						isPlayable=1;
 					};
-					id=1555;
-					type="LIB_GER_tank_unterofficer";
-					atlOffset=1.5636749;
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=1.04;
-								};
-							};
-						};
-						nAttributes=1;
-					};
+					id=2034;
+					type="LIB_US_sniper";
+					atlOffset=1.5258789e-005;
 				};
 			};
 			class Attributes
 			{
-				name="GrpNATO_TNK1_1";
 			};
 			class CrewLinks
 			{
@@ -5818,8 +3062,8 @@ class Mission
 					class Item0
 					{
 						linkID=0;
-						item0=1550;
-						item1=1549;
+						item0=2001;
+						item1=2000;
 						class CustomData
 						{
 							role=1;
@@ -5828,8 +3072,8 @@ class Mission
 					class Item1
 					{
 						linkID=1;
-						item0=1552;
-						item1=1549;
+						item0=2002;
+						item1=2000;
 						class CustomData
 						{
 							role=2;
@@ -5839,955 +3083,972 @@ class Mission
 					class Item2
 					{
 						linkID=2;
-						item0=1555;
-						item1=1549;
+						item0=2034;
+						item1=2000;
 						class CustomData
 						{
-							role=2;
-							turretPath[]={0,2};
+							role=3;
+							cargoIndex=3;
 						};
 					};
 				};
 			};
-			id=1544;
-			atlOffset=1.5636749;
+			id=1999;
+			atlOffset=-0.012115479;
 		};
-		class Item59
+		class Item36
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={816.47559,84.927383,2919.3745};
+				position[]={2893.4741,133.97672,1309.1215};
+				angles[]={6.2751913,5.3626986,0.021991149};
 			};
-			side="West";
+			side="Independent";
+			flags=6;
 			class Attributes
 			{
-				skill=0.60000002;
-				init="[""v_tank"",this] call f_fnc_assignGear; this disableTIEquipment true;";
-				name="VehGER_TNK1";
+				init="nul = [cv,""cvwp""] spawn ws_fnc_taskConvoy;";
+				name="cv_4";
 			};
-			id=1549;
-			type="LIB_PzKpfwV";
-			atlOffset=1.5636749;
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="ammoBox";
-					expression="[_this,_value] call bis_fnc_initAmmoBox;";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="[[[[],[]],[[],[]],[[],[]],[[],[]]],true]";
-						};
-					};
-				};
-				nAttributes=1;
-			};
+			id=2000;
+			type="LIB_US_M3_Halftrack";
+			atlOffset=-0.012115479;
 		};
-		class Item60
+		class Item37
 		{
 			dataType="Group";
-			side="West";
+			side="Independent";
 			class Entities
 			{
-				items=2;
+				items=10;
 				class Item0
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={896.12036,82.477798,2939.8201};
-						angles[]={0,0,0.0099949092};
+						position[]={2868.01,132.88298,1327.749};
+						angles[]={6.2471962,5.3294153,0.037978366};
 					};
-					side="West";
-					flags=6;
+					side="Independent";
+					flags=7;
 					class Attributes
 					{
-						skill=0.60000002;
 						rank="SERGEANT";
-						init="GrpGER_DSL = group this; [""sl"",this] call f_fnc_assignGear;";
-						name="UnitGER_DSL";
-						description="Wehrmacht Delta Squad Leader";
-						isPlayable=1;
 					};
-					id=1923;
-					type="SG_sturmtrooper_unterofficer";
-					atlOffset=0.15515137;
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="speaker";
-							expression="_this setspeaker _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="";
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=1.03;
-								};
-							};
-						};
-						nAttributes=2;
-					};
+					id=2004;
+					type="LIB_US_smgunner";
+					atlOffset=1.5258789e-005;
 				};
 				class Item1
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={894.45935,82.477798,2938.99};
-						angles[]={0,0,0.0060001095};
+						position[]={2868.01,132.88298,1327.749};
+						angles[]={6.2471962,5.3294153,0.037978366};
 					};
-					side="West";
-					flags=4;
+					side="Independent";
+					flags=5;
 					class Attributes
 					{
-						init="GrpGER_DSL = group this; [""radio"",this] call f_fnc_assignGear;";
-						name="UnitGER_DSL_Radio";
-						description="Wehrmacht Charlie Radioman";
-						isPlayable=1;
-					};
-					id=1924;
-					type="SG_sturmtrooper_radioman";
-					atlOffset=0.16960144;
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="speaker";
-							expression="_this setspeaker _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="";
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=0.95999998;
-								};
-							};
-						};
-						nAttributes=2;
-					};
-				};
-			};
-			class Attributes
-			{
-			};
-			id=1907;
-			atlOffset=0.15515137;
-		};
-		class Item61
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=4;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={896.18835,82.477798,2937.4111};
-						angles[]={0,0,0.0099949092};
-					};
-					side="West";
-					flags=6;
-					class Attributes
-					{
-						skill=0.60000002;
+						skill=0.44999999;
 						rank="CORPORAL";
-						init="GrpGER_D1 = group this; [""ftl"",this] call f_fnc_assignGear;";
-						name="UnitGER_D1_FTL";
-						description="Wehrmacht Delta 1 Fire Team Leader";
-						isPlayable=1;
 					};
-					id=1925;
-					type="SG_sturmtrooper_smgunner";
-					atlOffset=0.15447235;
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="speaker";
-							expression="_this setspeaker _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="";
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=0.99000001;
-								};
-							};
-						};
-						nAttributes=2;
-					};
-				};
-				class Item1
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={898.34033,82.477798,2935.9419};
-						angles[]={0,0,0.0099949092};
-					};
-					side="West";
-					flags=4;
-					class Attributes
-					{
-						skill=0.60000002;
-						init="GrpGER_D1 = group this; [""smg"",this] call f_fnc_assignGear;";
-						name="UnitGER_D1_AR1";
-						description="Wehrmacht Delta 1 Submachinegunner";
-						isPlayable=1;
-					};
-					id=1927;
-					type="SG_sturmtrooper_rifleman";
-					atlOffset=0.13294983;
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="speaker";
-							expression="_this setspeaker _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="";
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=1.02;
-								};
-							};
-						};
-						nAttributes=2;
-					};
+					id=2005;
+					type="LIB_US_mgunner";
+					atlOffset=1.5258789e-005;
 				};
 				class Item2
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={893.89532,82.477798,2935.687};
-						angles[]={6.2771854,0,0.011995304};
+						position[]={2868.01,132.88298,1327.749};
+						angles[]={6.2471962,5.3294153,0.037978366};
 					};
-					side="West";
-					flags=4;
+					side="Independent";
+					flags=5;
 					class Attributes
 					{
-						skill=0.60000002;
-						init="GrpGER_D1 = group this; [""smg"",this] call f_fnc_assignGear;";
-						name="UnitGER_D1_AR2";
-						description="Wehrmacht Delta 1 Submachinegunner";
-						isPlayable=1;
+						skill=0.44999999;
+						rank="CORPORAL";
 					};
-					id=1928;
-					type="SG_sturmtrooper_rifleman";
-					atlOffset=0.17578888;
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="speaker";
-							expression="_this setspeaker _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="";
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=0.97000003;
-								};
-							};
-						};
-						nAttributes=2;
-					};
+					id=2006;
+					type="LIB_US_medic";
+					atlOffset=1.5258789e-005;
 				};
 				class Item3
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={900.27136,82.477798,2934.6289};
-						angles[]={6.2731848,0,0.010000871};
+						position[]={2868.01,132.88298,1327.749};
+						angles[]={6.2471962,5.3294153,0.037978366};
 					};
-					side="West";
-					flags=4;
+					side="Independent";
+					flags=5;
 					class Attributes
 					{
-						skill=0.60000002;
-						init="GrpGER_D1 = group this; [""smg"",this] call f_fnc_assignGear;";
-						name="UnitGER_D1_R1";
-						description="Wehrmacht Delta 1 Submachinegunner";
-						isPlayable=1;
+						skill=0.44999999;
+						rank="CORPORAL";
 					};
-					id=1929;
-					type="SG_sturmtrooper_rifleman";
-					atlOffset=0.11785126;
-					class CustomAttributes
+					id=2007;
+					type="LIB_US_corporal";
+					atlOffset=1.5258789e-005;
+				};
+				class Item4
+				{
+					dataType="Object";
+					class PositionInfo
 					{
-						class Attribute0
-						{
-							property="speaker";
-							expression="_this setspeaker _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="";
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=0.99000001;
-								};
-							};
-						};
-						nAttributes=2;
+						position[]={2868.01,132.88298,1327.749};
+						angles[]={6.2471962,5.3294153,0.037978366};
 					};
+					side="Independent";
+					flags=5;
+					class Attributes
+					{
+						skill=0.44999999;
+						rank="CORPORAL";
+					};
+					id=2008;
+					type="LIB_US_mgunner";
+					atlOffset=1.5258789e-005;
+				};
+				class Item5
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2868.01,132.88298,1327.749};
+						angles[]={6.2471962,5.3294153,0.037978366};
+					};
+					side="Independent";
+					flags=5;
+					class Attributes
+					{
+						skill=0.40000001;
+					};
+					id=2009;
+					type="LIB_US_FC_rifleman";
+					atlOffset=1.5258789e-005;
+				};
+				class Item6
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2868.01,132.88298,1327.749};
+						angles[]={6.2471962,5.3294153,0.037978366};
+					};
+					side="Independent";
+					flags=5;
+					class Attributes
+					{
+						skill=0.40000001;
+					};
+					id=2010;
+					type="LIB_US_FC_rifleman";
+					atlOffset=1.5258789e-005;
+				};
+				class Item7
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2868.01,132.88298,1327.749};
+						angles[]={6.2471962,5.3294153,0.037978366};
+					};
+					side="Independent";
+					flags=5;
+					class Attributes
+					{
+						skill=0.40000001;
+					};
+					id=2011;
+					type="LIB_US_rifleman";
+					atlOffset=1.5258789e-005;
+				};
+				class Item8
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2868.01,132.88298,1327.749};
+						angles[]={6.2471962,5.3294153,0.037978366};
+					};
+					side="Independent";
+					flags=5;
+					class Attributes
+					{
+						skill=0.40000001;
+					};
+					id=2012;
+					type="LIB_US_rifleman";
+					atlOffset=1.5258789e-005;
+				};
+				class Item9
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2868.01,132.88298,1327.749};
+						angles[]={6.2471962,5.3294153,0.037978366};
+					};
+					side="Independent";
+					flags=5;
+					class Attributes
+					{
+						skill=0.40000001;
+					};
+					id=2013;
+					type="LIB_US_rifleman";
+					atlOffset=1.5258789e-005;
 				};
 			};
 			class Attributes
 			{
 			};
-			id=1911;
-			atlOffset=0.15447235;
+			class CrewLinks
+			{
+				class LinkIDProvider
+				{
+					nextID=10;
+				};
+				class Links
+				{
+					items=10;
+					class Item0
+					{
+						linkID=0;
+						item0=2004;
+						item1=1989;
+						class CustomData
+						{
+							role=3;
+							cargoIndex=0;
+						};
+					};
+					class Item1
+					{
+						linkID=1;
+						item0=2005;
+						item1=1989;
+						class CustomData
+						{
+							role=3;
+							cargoIndex=1;
+						};
+					};
+					class Item2
+					{
+						linkID=2;
+						item0=2006;
+						item1=1989;
+						class CustomData
+						{
+							role=3;
+							cargoIndex=2;
+						};
+					};
+					class Item3
+					{
+						linkID=3;
+						item0=2007;
+						item1=1989;
+						class CustomData
+						{
+							role=3;
+							cargoIndex=3;
+						};
+					};
+					class Item4
+					{
+						linkID=4;
+						item0=2008;
+						item1=1989;
+						class CustomData
+						{
+							role=3;
+							cargoIndex=4;
+						};
+					};
+					class Item5
+					{
+						linkID=5;
+						item0=2009;
+						item1=1989;
+						class CustomData
+						{
+							role=3;
+							cargoIndex=5;
+						};
+					};
+					class Item6
+					{
+						linkID=6;
+						item0=2010;
+						item1=1989;
+						class CustomData
+						{
+							role=3;
+							cargoIndex=6;
+						};
+					};
+					class Item7
+					{
+						linkID=7;
+						item0=2011;
+						item1=1989;
+						class CustomData
+						{
+							role=3;
+							cargoIndex=7;
+						};
+					};
+					class Item8
+					{
+						linkID=8;
+						item0=2012;
+						item1=1989;
+						class CustomData
+						{
+							role=3;
+							cargoIndex=8;
+						};
+					};
+					class Item9
+					{
+						linkID=9;
+						item0=2013;
+						item1=1989;
+						class CustomData
+						{
+							role=3;
+							cargoIndex=9;
+						};
+					};
+				};
+			};
+			id=2003;
+			atlOffset=1.5258789e-005;
 		};
-		class Item62
+		class Item38
 		{
 			dataType="Group";
-			side="West";
+			side="Independent";
 			class Entities
 			{
-				items=4;
+				items=1;
 				class Item0
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={896.06134,82.477798,2934.613};
-						angles[]={6.2731848,0,0.010000871};
+						position[]={2876.3831,132.99055,1321.675};
+						angles[]={6.2771816,5.3294153,0.01399754};
 					};
-					side="West";
+					side="Independent";
 					flags=6;
 					class Attributes
 					{
-						skill=0.60000002;
-						rank="CORPORAL";
-						init="GrpGER_D2 = group this; [""ftl"",this] call f_fnc_assignGear;";
-						name="UnitGER_D2_FTL";
-						description="Wehrmacht Delta 2 Fire Team Leader";
-						isPlayable=1;
+						name="cv_2D";
 					};
-					id=1926;
-					type="SG_sturmtrooper_smgunner";
-					atlOffset=0.1601181;
-					class CustomAttributes
+					id=2015;
+					type="LIB_US_driver";
+				};
+			};
+			class Attributes
+			{
+			};
+			class CrewLinks
+			{
+				class LinkIDProvider
+				{
+					nextID=1;
+				};
+				class Links
+				{
+					items=1;
+					class Item0
 					{
-						class Attribute0
+						linkID=0;
+						item0=2015;
+						item1=2027;
+						class CustomData
 						{
-							property="speaker";
-							expression="_this setspeaker _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="";
-								};
-							};
+							role=1;
 						};
-						class Attribute1
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=0.98000002;
-								};
-							};
-						};
-						nAttributes=2;
 					};
+				};
+			};
+			id=2014;
+			atlOffset=0.013748169;
+		};
+		class Item39
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=10;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2876.3831,132.99055,1321.675};
+						angles[]={6.2771816,5.3294153,0.01399754};
+					};
+					side="Independent";
+					flags=7;
+					class Attributes
+					{
+						rank="SERGEANT";
+					};
+					id=2017;
+					type="LIB_US_smgunner";
 				};
 				class Item1
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={898.14032,82.477798,2933.313};
-						angles[]={6.2731848,0,0.010000871};
+						position[]={2876.3831,132.99055,1321.675};
+						angles[]={6.2771816,5.3294153,0.01399754};
 					};
-					side="West";
-					flags=4;
+					side="Independent";
+					flags=5;
 					class Attributes
 					{
-						skill=0.60000002;
-						init="GrpGER_D2 = group this; [""smg"",this] call f_fnc_assignGear;";
-						name="UnitGER_D2_AR1";
-						description="Wehrmacht Delta 2 Submachinegunner";
-						isPlayable=1;
+						skill=0.44999999;
+						rank="CORPORAL";
 					};
-					id=1930;
-					type="SG_sturmtrooper_rifleman";
-					atlOffset=0.15232849;
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="speaker";
-							expression="_this setspeaker _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="";
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=0.99000001;
-								};
-							};
-						};
-						nAttributes=2;
-					};
+					id=2018;
+					type="LIB_US_mgunner";
 				};
 				class Item2
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={893.37537,82.477798,2932.675};
-						angles[]={6.2771854,0,0.011995304};
+						position[]={2876.3831,132.99055,1321.675};
+						angles[]={6.2771816,5.3294153,0.01399754};
 					};
-					side="West";
-					flags=4;
+					side="Independent";
+					flags=5;
 					class Attributes
 					{
-						skill=0.60000002;
-						init="GrpGER_D2 = group this; [""smg"",this] call f_fnc_assignGear;";
-						name="UnitGER_D2_R1";
-						description="Wehrmacht Delta 2 Submachinegunner";
-						isPlayable=1;
+						skill=0.44999999;
+						rank="CORPORAL";
 					};
-					id=1931;
-					type="SG_sturmtrooper_rifleman";
-					atlOffset=0.20010376;
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="speaker";
-							expression="_this setspeaker _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="";
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=1.04;
-								};
-							};
-						};
-						nAttributes=2;
-					};
+					id=2019;
+					type="LIB_US_medic";
 				};
 				class Item3
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={900.05133,82.477798,2932.1001};
-						angles[]={6.2731848,0,0.010000871};
+						position[]={2876.3831,132.99055,1321.675};
+						angles[]={6.2771816,5.3294153,0.01399754};
 					};
-					side="West";
-					flags=4;
+					side="Independent";
+					flags=5;
 					class Attributes
 					{
-						skill=0.60000002;
-						init="GrpGER_D2 = group this; [""smg"",this] call f_fnc_assignGear;";
-						name="UnitGER_D2_R2";
-						description="Wehrmacht Delta 2 Submachinegunner";
-						isPlayable=1;
+						skill=0.44999999;
+						rank="CORPORAL";
 					};
-					id=1932;
-					type="SG_sturmtrooper_rifleman";
-					atlOffset=0.1453476;
-					class CustomAttributes
+					id=2020;
+					type="LIB_US_corporal";
+				};
+				class Item4
+				{
+					dataType="Object";
+					class PositionInfo
 					{
-						class Attribute0
-						{
-							property="speaker";
-							expression="_this setspeaker _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="";
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=1.02;
-								};
-							};
-						};
-						nAttributes=2;
+						position[]={2876.3831,132.99055,1321.675};
+						angles[]={6.2771816,5.3294153,0.01399754};
 					};
+					side="Independent";
+					flags=5;
+					class Attributes
+					{
+						skill=0.44999999;
+						rank="CORPORAL";
+					};
+					id=2021;
+					type="LIB_US_mgunner";
+				};
+				class Item5
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2876.3831,132.99055,1321.675};
+						angles[]={6.2771816,5.3294153,0.01399754};
+					};
+					side="Independent";
+					flags=5;
+					class Attributes
+					{
+						skill=0.40000001;
+					};
+					id=2022;
+					type="LIB_US_FC_rifleman";
+				};
+				class Item6
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2876.3831,132.99055,1321.675};
+						angles[]={6.2771816,5.3294153,0.01399754};
+					};
+					side="Independent";
+					flags=5;
+					class Attributes
+					{
+						skill=0.40000001;
+					};
+					id=2023;
+					type="LIB_US_FC_rifleman";
+				};
+				class Item7
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2876.3831,132.99055,1321.675};
+						angles[]={6.2771816,5.3294153,0.01399754};
+					};
+					side="Independent";
+					flags=5;
+					class Attributes
+					{
+						skill=0.40000001;
+					};
+					id=2024;
+					type="LIB_US_rifleman";
+				};
+				class Item8
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2876.3831,132.99055,1321.675};
+						angles[]={6.2771816,5.3294153,0.01399754};
+					};
+					side="Independent";
+					flags=5;
+					class Attributes
+					{
+						skill=0.40000001;
+					};
+					id=2025;
+					type="LIB_US_rifleman";
+				};
+				class Item9
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2876.3831,132.99055,1321.675};
+						angles[]={6.2771816,5.3294153,0.01399754};
+					};
+					side="Independent";
+					flags=5;
+					class Attributes
+					{
+						skill=0.40000001;
+					};
+					id=2026;
+					type="LIB_US_rifleman";
 				};
 			};
 			class Attributes
 			{
 			};
-			id=1917;
-			atlOffset=0.1601181;
+			class CrewLinks
+			{
+				class LinkIDProvider
+				{
+					nextID=10;
+				};
+				class Links
+				{
+					items=10;
+					class Item0
+					{
+						linkID=0;
+						item0=2017;
+						item1=2027;
+						class CustomData
+						{
+							role=3;
+							cargoIndex=0;
+						};
+					};
+					class Item1
+					{
+						linkID=1;
+						item0=2018;
+						item1=2027;
+						class CustomData
+						{
+							role=3;
+							cargoIndex=1;
+						};
+					};
+					class Item2
+					{
+						linkID=2;
+						item0=2019;
+						item1=2027;
+						class CustomData
+						{
+							role=3;
+							cargoIndex=2;
+						};
+					};
+					class Item3
+					{
+						linkID=3;
+						item0=2020;
+						item1=2027;
+						class CustomData
+						{
+							role=3;
+							cargoIndex=3;
+						};
+					};
+					class Item4
+					{
+						linkID=4;
+						item0=2021;
+						item1=2027;
+						class CustomData
+						{
+							role=3;
+							cargoIndex=4;
+						};
+					};
+					class Item5
+					{
+						linkID=5;
+						item0=2022;
+						item1=2027;
+						class CustomData
+						{
+							role=3;
+							cargoIndex=5;
+						};
+					};
+					class Item6
+					{
+						linkID=6;
+						item0=2023;
+						item1=2027;
+						class CustomData
+						{
+							role=3;
+							cargoIndex=6;
+						};
+					};
+					class Item7
+					{
+						linkID=7;
+						item0=2024;
+						item1=2027;
+						class CustomData
+						{
+							role=3;
+							cargoIndex=7;
+						};
+					};
+					class Item8
+					{
+						linkID=8;
+						item0=2025;
+						item1=2027;
+						class CustomData
+						{
+							role=3;
+							cargoIndex=8;
+						};
+					};
+					class Item9
+					{
+						linkID=9;
+						item0=2026;
+						item1=2027;
+						class CustomData
+						{
+							role=3;
+							cargoIndex=9;
+						};
+					};
+				};
+			};
+			id=2016;
+			atlOffset=0.013748169;
 		};
-		class Item63
+		class Item40
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2876.3823,134.01007,1321.5739};
+				angles[]={6.2771816,5.3294153,0.01399754};
+			};
+			side="Independent";
+			flags=6;
+			class Attributes
+			{
+				init="nul = [cv,""cvwp""] spawn ws_fnc_taskConvoy;";
+				name="cv_2";
+			};
+			id=2027;
+			type="LIB_US_GMC_Tent";
+			atlOffset=0.013748169;
+		};
+		class Item41
 		{
 			dataType="Group";
-			side="West";
+			side="Independent";
 			class Entities
 			{
-				items=2;
+				items=5;
 				class Item0
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={912.802,82.477798,2946.2131};
-						angles[]={0,5.9327579,0};
+						position[]={2893.395,133.13135,1308.202};
+						angles[]={6.2751913,5.3626986,0.021991149};
 					};
-					side="West";
-					flags=6;
+					side="Independent";
+					flags=7;
 					class Attributes
 					{
-						rank="CORPORAL";
-						init="GrpGER_HMG1 = group this; [""hmgag"",this] call f_fnc_assignGear;";
-						name="UnitGER_HMG1_AG";
-						description="Wehrmacht Heavy MG Team 1 Spotter (Leader)";
-						isPlayable=1;
 					};
-					id=1947;
-					type="LIB_GER_smgunner";
-					atlOffset=0.056358337;
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="speaker";
-							expression="_this setspeaker _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="";
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=0.97000003;
-								};
-							};
-						};
-						nAttributes=2;
-					};
+					id=2029;
+					type="LIB_US_smgunner";
+					atlOffset=1.5258789e-005;
 				};
 				class Item1
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={914.71997,82.477798,2946.7241};
-						angles[]={0,5.9327579,0};
+						position[]={2893.395,133.13135,1308.202};
+						angles[]={6.2751913,5.3626986,0.021991149};
 					};
-					side="West";
-					flags=4;
+					side="Independent";
+					flags=5;
 					class Attributes
 					{
-						init="GrpGER_MMG1 = group this; [""hmgg"",this] call f_fnc_assignGear;";
-						name="UnitGER_HMG1_G";
-						description="Wehrmacht Heavy MG Team 1 Gunner";
-						isPlayable=1;
 					};
-					id=1948;
-					type="LIB_GER_mgunner";
-					atlOffset=0.056358337;
-					class CustomAttributes
+					id=2030;
+					type="LIB_US_smgunner";
+					atlOffset=1.5258789e-005;
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
 					{
-						class Attribute0
-						{
-							property="speaker";
-							expression="_this setspeaker _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="";
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=1;
-								};
-							};
-						};
-						nAttributes=2;
+						position[]={2893.395,133.13135,1308.202};
+						angles[]={6.2751913,5.3626986,0.021991149};
 					};
+					side="Independent";
+					flags=5;
+					class Attributes
+					{
+					};
+					id=2031;
+					type="LIB_US_smgunner";
+					atlOffset=1.5258789e-005;
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2893.395,133.13135,1308.202};
+						angles[]={6.2751913,5.3626986,0.021991149};
+					};
+					side="Independent";
+					flags=5;
+					class Attributes
+					{
+					};
+					id=2032;
+					type="LIB_US_smgunner";
+					atlOffset=1.5258789e-005;
+				};
+				class Item4
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2893.395,133.13135,1308.202};
+						angles[]={6.2751913,5.3626986,0.021991149};
+					};
+					side="Independent";
+					flags=5;
+					class Attributes
+					{
+					};
+					id=2033;
+					type="LIB_US_smgunner";
+					atlOffset=1.5258789e-005;
 				};
 			};
 			class Attributes
 			{
 			};
-			id=1946;
-			atlOffset=0.056358337;
+			class CrewLinks
+			{
+				class LinkIDProvider
+				{
+					nextID=5;
+				};
+				class Links
+				{
+					items=5;
+					class Item0
+					{
+						linkID=0;
+						item0=2029;
+						item1=2000;
+						class CustomData
+						{
+							role=2;
+							turretPath[]={0,0};
+						};
+					};
+					class Item1
+					{
+						linkID=1;
+						item0=2030;
+						item1=2000;
+						class CustomData
+						{
+							role=2;
+							turretPath[]={0,1};
+						};
+					};
+					class Item2
+					{
+						linkID=2;
+						item0=2031;
+						item1=2000;
+						class CustomData
+						{
+							role=3;
+							cargoIndex=0;
+						};
+					};
+					class Item3
+					{
+						linkID=3;
+						item0=2032;
+						item1=2000;
+						class CustomData
+						{
+							role=3;
+							cargoIndex=1;
+						};
+					};
+					class Item4
+					{
+						linkID=4;
+						item0=2033;
+						item1=2000;
+						class CustomData
+						{
+							role=3;
+							cargoIndex=2;
+						};
+					};
+				};
+			};
+			id=2028;
+			atlOffset=-0.012115479;
 		};
-	};
-	class Connections
-	{
-		class LinkIDProvider
+		class Item42
 		{
-			nextID=6;
+			dataType="Marker";
+			position[]={2782.9851,100.12827,1383.884};
+			name="cvwp";
+			type="Empty";
+			id=2035;
+			atlOffset=-29.971985;
 		};
-		class Links
+		class Item43
 		{
-			items=6;
-			class Item0
-			{
-				linkID=0;
-				item0=1109;
-				item1=1108;
-				class CustomData
-				{
-					type="Sync";
-				};
-			};
-			class Item1
-			{
-				linkID=1;
-				item0=1137;
-				item1=1108;
-				class CustomData
-				{
-					type="Sync";
-				};
-			};
-			class Item2
-			{
-				linkID=2;
-				item0=1133;
-				item1=1132;
-				class CustomData
-				{
-					type="Sync";
-				};
-			};
-			class Item3
-			{
-				linkID=3;
-				item0=1142;
-				item1=1132;
-				class CustomData
-				{
-					type="Sync";
-				};
-			};
-			class Item4
-			{
-				linkID=4;
-				item0=1109;
-				item1=1111;
-				class CustomData
-				{
-					type="Sync";
-				};
-			};
-			class Item5
-			{
-				linkID=5;
-				item0=1133;
-				item1=1525;
-				class CustomData
-				{
-					type="Sync";
-				};
-			};
+			dataType="Marker";
+			position[]={2793.4265,116.20275,1926.4457};
+			name="cvwp_1";
+			type="Empty";
+			id=2036;
+		};
+		class Item44
+		{
+			dataType="Marker";
+			position[]={2736.7908,46.144165,2680.051};
+			name="cvwp_2";
+			type="Empty";
+			id=2037;
+			atlOffset=-32.595047;
+		};
+		class Item45
+		{
+			dataType="Marker";
+			position[]={3302.3818,52.290283,2244.5508};
+			name="cvwp_3";
+			type="Empty";
+			id=2038;
+			atlOffset=-32.209793;
+		};
+		class Item46
+		{
+			dataType="Marker";
+			position[]={3325.8381,64.415283,1965.8091};
+			name="cvwp_4";
+			type="Empty";
+			id=2039;
+			atlOffset=-31.730392;
+		};
+		class Item47
+		{
+			dataType="Marker";
+			position[]={3495.7109,53.502701,1923.0996};
+			name="cvwp_5";
+			type="Empty";
+			id=2040;
+			atlOffset=-29.95298;
+		};
+		class Item48
+		{
+			dataType="Marker";
+			position[]={4029.8171,3.7388725,2350.897};
+			name="cvwp_6";
+			type="Empty";
+			id=2041;
+			atlOffset=-29.953693;
+		};
+		class Item49
+		{
+			dataType="Marker";
+			position[]={5120,32.641987,2154.9304};
+			name="cvwp_7";
+			type="Empty";
+			id=2042;
+			atlOffset=-29.996658;
 		};
 	};
 };
