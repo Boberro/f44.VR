@@ -45,8 +45,7 @@ switch (_typeofUnit) do
 		_unit addmagazines [_RATmag, 1];
 		_unit addweapon _RAT;
 		_unit addItem _firstaid;
-		_unit addmagazines [_carbinemag, 4];
-		_unit addmagazines [_carbinemag_tr, 3];
+		_unit addmagazines [_riflemag, 7];
 		_unit addmagazines [_smokegrenade, 1];
 		_unit addmagazines [_grenade, 3];
 	};
@@ -56,10 +55,9 @@ switch (_typeofUnit) do
 		_unit addmagazines [_smgmag, 1];
 		_unit addweapon _smg;
 		_unit addItem _firstaid;
-		_unit addmagazines [_smgmag, 2];
-		_unit addmagazines [_smgmag_tr, 2];
-		_unit addmagazines [_smokegrenade, 1];
-		_unit addmagazines [_grenade, 2];
+		_unit addmagazines [_smgmag, 4];
+		_unit addmagazines [_smgmag_tr, 3];
+		_unit addmagazines [_smokegrenade, 2];
 		_unit addWeapon _binocular;
 	};
 	// Fire Team Leader (no smg) Loadout:
@@ -68,8 +66,8 @@ switch (_typeofUnit) do
 		_unit addmagazines [_carbinemag, 1];
 		_unit addweapon _carbine;
 		_unit addItem _firstaid;
-		_unit addmagazines [_carbinemag, 2];
-		_unit addmagazines [_carbinemag_tr, 1];
+		_unit addmagazines [_carbinemag, 3];
+		_unit addmagazines [_carbinemag_tr, 2];
 		_unit addmagazines [_smokegrenade, 2];
 		_unit addWeapon _binocular;
 	};
@@ -364,46 +362,51 @@ switch (_typeofUnit) do
 	// Rifleman Loadout:
 	case "r":
 	{
+		_unit addBackpack _bag;
+		clearAllItemsFromBackpack _unit;
 		_unit addmagazines [_riflemag, 1];
 		_unit addweapon _rifle;
-		_unit addItem _firstaid ;
-		_unit addmagazines [_smokegrenade, 4];
-		_unit addmagazines [_riflemag, 2];
-		_unit addmagazines [_riflemag_tr, 2];
-		_unit addmagazines [_grenade, 2];
+		_unit addItem _firstaid;
+		_unit addmagazines [_smokegrenade, 1];
+		_unit addmagazines [_riflemag, 7];
+		_unit addmagazines [_grenade, 3];
 	};
 	// Carbineer Loadout:
 	case "car":
 	{
+		_unit addBackpack _bag;
+		clearAllItemsFromBackpack _unit;
 		_unit addmagazines [_carbinemag, 1];
 		_unit addweapon _carbine;
-		_unit addItem _firstaid ;
-		_unit addmagazines [_smokegrenade, 4];
-		_unit addmagazines [_carbinemag, 2];
-		_unit addmagazines [_carbinemag_tr, 2];
-		_unit addmagazines [_grenade, 2];
+		_unit addItem _firstaid;
+		_unit addmagazines [_smokegrenade, 1];
+		_unit addmagazines [_carbinemag, 4];
+		_unit addmagazines [_grenade, 3];
 	};
 	// Submachinegunner Loadout:
 	case "smg":
 	{
+		_unit addBackpack _bag;
+		clearAllItemsFromBackpack _unit;
 		_unit addmagazines [_smgmag, 1];
 		_unit addweapon _smg;
-		_unit addItem _firstaid ;
-		_unit addmagazines [_smokegrenade, 4];
-		_unit addmagazines [_smgmag, 4];
-		_unit addmagazines [_grenade, 2];
+		_unit addItem _firstaid;
+		_unit addmagazines [_smokegrenade, 1];
+		_unit addmagazines [_smgmag, 5];
+		_unit addmagazines [_grenade, 3];
 	};
 	// Grenadier Loadout:
 	case "gren":
 	{
-		_unit addmagazines [_glriflemag, 1];
-		_unit addmagazines [_glmag, 1];
-		_unit addweapon _glrifle;
-		_unit addItem _firstaid ;
-		_unit addmagazines [_smokegrenade, 4];
-		_unit addmagazines [_glriflemag, 2];
-		_unit addmagazines [_glriflemag_tr, 2];
-		_unit addmagazines [_glmag, 5];
+		_unit addBackpack _bag;
+		clearAllItemsFromBackpack _unit;
+		_unit addmagazines [_riflemag, 1];
+		_unit addweapon _rifle;
+		_unit addItem _firstaid;
+		_unit addmagazines [_smokegrenade, 1];
+		_unit addmagazines [_riflemag, 4];
+		_unit addmagazines [_grenade, 2];
+		_unit addmagazines [_grenadeAT, 2];
 	};
 
 	// Include the loadouts for vehicles and crates:

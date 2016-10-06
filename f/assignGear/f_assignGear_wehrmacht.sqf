@@ -128,6 +128,7 @@ _glflaregreen = "LIB_1Rnd_flare_green";
 // Grenades
 _grenade = "LIB_shg24";
 _Mgrenade = "LIB_m39";
+_grenadeAT = "LIB_shg24x7";
 _smokegrenade = "LIB_nb39";
 _smokegrenadered = "LIB_US_M18_Red";
 _smokegrenadegreen = "LIB_US_M18_Green";

@@ -12,10 +12,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={911.12122,12.629573,2927.2068};
-		dir[]={-0.17510967,-0.56321865,-0.80769539};
-		up[]={-0.11933977,0.82623786,-0.55044752};
-		aside[]={-0.97737551,4.5042543e-007,0.21189961};
+		pos[]={819.38745,34.196636,2974.5007};
+		dir[]={0.10635983,-0.57684356,-0.81005341};
+		up[]={0.075094558,0.81678247,-0.57194829};
+		aside[]={-0.9915688,6.1407627e-007,-0.13018993};
 	};
 };
 binarizationWanted=0;
@@ -51,14 +51,13 @@ addons[]=
 	"WW2_Core_c_Core_c_Eventhandlers",
 	"WW2_Assets_c_Vehicles_Tanks_c_M4A3_75",
 	"WW2_Assets_c_Vehicles_Wheeled_c_Scout_M3",
-	"WW2_Assets_c_Characters_Germans_c_GER_Sturmtroopers",
-	"WW2_Core_c_System_Artillery_c"
+	"WW2_Assets_c_Characters_Germans_c_GER_Sturmtroopers"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=32;
+		items=31;
 		class Item0
 		{
 			className="A3_Modules_F_Curator";
@@ -226,11 +225,6 @@ class AddonsMetaData
 			className="WW2_Assets_c_Characters_Germans_c_GER_Sturmtroopers";
 			name="WW2_Assets_c_Characters_Germans_c_GER_Sturmtroopers";
 		};
-		class Item31
-		{
-			className="WW2_Core_c_System_Artillery_c";
-			name="WW2_Core_c_System_Artillery_c";
-		};
 	};
 };
 randomSeed=1116085;
@@ -297,7 +291,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=188;
+		items=187;
 		class Item0
 		{
 			dataType="Logic";
@@ -10165,13 +10159,13 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={916.40784,5.0239143,2899.3555};
+				position[]={916.40796,5.0239143,2899.355};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
-				init="[""v_htr"",this] call f_fnc_assignGear;";
+				init="[""v_car"",this] call f_fnc_assignGear;";
 				name="VehGER_SPG1_TR";
 			};
 			id=1413;
@@ -15721,13 +15715,13 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={1280.856,7.0225792,2916.4985};
+				position[]={1280.856,7.0225792,2916.499};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
-				init="[""v_spg_tr"",this] call f_fnc_assignGear";
+				init="[""v_car"",this] call f_fnc_assignGear";
 				name="VehUSSR_SPG1_TR";
 			};
 			id=1409;
@@ -17697,17 +17691,6 @@ class Mission
 			{
 			};
 			id=1946;
-		};
-		class Item187
-		{
-			dataType="Logic";
-			class PositionInfo
-			{
-				position[]={914.34778,4.9999981,2891.7705};
-			};
-			id=1949;
-			type="LIB_ArtyFunc";
-			atlOffset=-1.9073486e-006;
 		};
 	};
 	class Connections
