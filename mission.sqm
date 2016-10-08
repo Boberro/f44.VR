@@ -12,10 +12,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={891.24353,9.9099226,2942.9104};
-		dir[]={0.44211113,-0.43418887,-0.78502429};
-		up[]={0.21308398,0.90073705,-0.37836415};
-		aside[]={-0.87139344,1.4904072e-007,-0.49074775};
+		pos[]={921.92499,31.908457,2915.2739};
+		dir[]={-0.50188917,-0.82614535,-0.25658929};
+		up[]={-0.73552787,0.56345326,-0.37603372};
+		aside[]={-0.45524353,1.1124648e-006,0.89045954};
 	};
 };
 binarizationWanted=0;
@@ -9559,7 +9559,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1278.7397,5.0014391,2950.4077};
+						position[]={1278.74,5.0014391,2950.408};
 					};
 					side="East";
 					flags=6;
@@ -9568,7 +9568,7 @@ class Mission
 						rank="CORPORAL";
 						init="GrpUSSR_MAT1 = group this; [""matag"",this] call f_fnc_assignGear;";
 						name="UnitUSSR_MAT1_AG";
-						description="Red Army AT Team 1 Spotter (Leader)";
+						description="Red Army AT Team 1 Leader";
 						isPlayable=1;
 					};
 					id=1394;
@@ -9594,7 +9594,26 @@ class Mission
 								};
 							};
 						};
-						nAttributes=1;
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.02;
+								};
+							};
+						};
+						nAttributes=2;
 					};
 				};
 				class Item1
@@ -9602,7 +9621,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1279.7798,5.0014391,2949.7847};
+						position[]={1279.78,5.0014391,2949.7852};
 					};
 					side="East";
 					flags=4;
@@ -9610,7 +9629,7 @@ class Mission
 					{
 						init="GrpUSSR_MAT1 = group this; [""matg"",this] call f_fnc_assignGear;";
 						name="UnitUSSR_MAT1_G";
-						description="Red Army AT Team 1 Gunner";
+						description="Red Army AT Team 1 Grenadier";
 						isPlayable=1;
 					};
 					id=1395;
@@ -9636,7 +9655,26 @@ class Mission
 								};
 							};
 						};
-						nAttributes=1;
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.95999998;
+								};
+							};
+						};
+						nAttributes=2;
 					};
 				};
 			};
@@ -9657,7 +9695,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1278.8042,5.0014391,2948.478};
+						position[]={1278.804,5.0014391,2948.478};
 					};
 					side="East";
 					flags=6;
@@ -9666,7 +9704,7 @@ class Mission
 						rank="CORPORAL";
 						init="GrpUSSR_MAT2 = group this; [""matag"",this] call f_fnc_assignGear;";
 						name="UnitUSSR_MAT2_AG";
-						description="Red Army AT Team 2 Spotter (Leader)";
+						description="Red Army AT Team 2 Leader";
 						isPlayable=1;
 					};
 					id=1397;
@@ -9692,7 +9730,26 @@ class Mission
 								};
 							};
 						};
-						nAttributes=1;
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.94999999;
+								};
+							};
+						};
+						nAttributes=2;
 					};
 				};
 				class Item1
@@ -9700,7 +9757,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1279.8442,5.0014391,2947.855};
+						position[]={1279.844,5.0014391,2947.855};
 					};
 					side="East";
 					flags=4;
@@ -9708,7 +9765,7 @@ class Mission
 					{
 						init="GrpUSSR_MAT2 = group this; [""matg"",this] call f_fnc_assignGear;";
 						name="UnitUSSR_MAT2_G";
-						description="Red Army AT Team 2 Gunner";
+						description="Red Army AT Team 2 Grenadier";
 						isPlayable=1;
 					};
 					id=1398;
@@ -9734,7 +9791,26 @@ class Mission
 								};
 							};
 						};
-						nAttributes=1;
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.03;
+								};
+							};
+						};
+						nAttributes=2;
 					};
 				};
 			};

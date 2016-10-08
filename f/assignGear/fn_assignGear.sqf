@@ -82,6 +82,11 @@ if (_faction in ["sg_sturm", "sg_sturmpanzer"]) then {
 	#include "f_assignGear_sturmtroopers.sqf"
 };
 
+// GEAR: Soviets
+if (_faction in ["lib_rkka", "lib_ussr_tank_troops", "lib_ussr_airforce"]) then {
+	#include "f_assignGear_ra.sqf"
+};
+
 // ====================================================================================
 
 // GEAR: BLUFOR > NATO
