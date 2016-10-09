@@ -87,6 +87,11 @@ if (_faction in ["lib_rkka", "lib_ussr_tank_troops", "lib_ussr_airforce"]) then 
 	#include "f_assignGear_ra.sqf"
 };
 
+// GEAR: Home Army
+if (_faction in ["lib_guer"]) then {
+	#include "f_assignGear_ak.sqf"
+};
+
 // ====================================================================================
 
 // GEAR: BLUFOR > NATO

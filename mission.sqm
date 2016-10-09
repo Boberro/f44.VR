@@ -8,14 +8,14 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=1950;
+		nextID=1954;
 	};
 	class Camera
 	{
-		pos[]={921.92499,31.908457,2915.2739};
-		dir[]={-0.50188917,-0.82614535,-0.25658929};
-		up[]={-0.73552787,0.56345326,-0.37603372};
-		aside[]={-0.45524353,1.1124648e-006,0.89045954};
+		pos[]={911.12732,12.351258,2930.3262};
+		dir[]={-0.10954563,-0.34316844,-0.93300033};
+		up[]={-0.040031452,0.93917221,-0.34090874};
+		aside[]={-0.99326414,-1.165492e-006,0.11662625};
 	};
 };
 binarizationWanted=0;
@@ -12070,7 +12070,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={816.47559,5.0014391,2919.4246};
+						position[]={816.47601,5.0014391,2919.425};
 					};
 					side="West";
 					flags=4;
@@ -12078,6 +12078,7 @@ class Mission
 					{
 						init="[""vd"",this] call f_fnc_assignGear;";
 						name="UnitGER_TNK1_D";
+						description="Wehrmacht Tank 1 Driver";
 						isPlayable=1;
 					};
 					id=1550;
@@ -12111,7 +12112,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={816.47559,5.0014391,2919.4246};
+						position[]={816.47601,5.0014391,2919.425};
 					};
 					side="West";
 					flags=4;
@@ -12120,6 +12121,7 @@ class Mission
 						rank="CORPORAL";
 						init="[""vg"",this] call f_fnc_assignGear;";
 						name="UnitGER_TNK1_G";
+						description="Wehrmacht Tank 1 Gunner";
 						isPlayable=1;
 					};
 					id=1552;
@@ -12172,7 +12174,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={816.47559,5.0014391,2919.4246};
+						position[]={816.47601,5.0014391,2919.425};
 					};
 					side="West";
 					flags=6;
@@ -12181,6 +12183,7 @@ class Mission
 						rank="SERGEANT";
 						init="[""vc"",this] call f_fnc_assignGear;";
 						name="UnitGER_TNK1_C";
+						description="Wehrmacht Tank 1 Commander";
 						isPlayable=1;
 					};
 					id=1555;
@@ -13448,7 +13451,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1711.0088,5.0014391,2953.8149};
+						position[]={1711.009,5.0014391,2953.8149};
 					};
 					side="Independent";
 					flags=6;
@@ -13457,7 +13460,7 @@ class Mission
 						rank="CORPORAL";
 						init="GrpAK_MAT1 = group this; [""matag"",this] call f_fnc_assignGear;";
 						name="UnitAK_MAT1_AG";
-						description="Home Army AT Team 1 Spotter (Leader)";
+						description="Home Army AT Team 1 Leader";
 						isPlayable=1;
 					};
 					id=1778;
@@ -13510,7 +13513,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1712.9857,5.0014391,2953.637};
+						position[]={1712.986,5.0014391,2953.637};
 					};
 					side="Independent";
 					flags=4;
@@ -13518,7 +13521,7 @@ class Mission
 					{
 						init="GrpAK_MAT1 = group this; [""matg"",this] call f_fnc_assignGear;";
 						name="UnitAK_MAT1_G";
-						description="Home Army AT Team 1 Gunner";
+						description="Home Army AT Team 1 Grenadier";
 						isPlayable=1;
 					};
 					id=1779;
@@ -13584,7 +13587,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1710.9647,5.0014391,2950.7319};
+						position[]={1710.965,5.0014391,2950.7319};
 					};
 					side="Independent";
 					flags=6;
@@ -13593,7 +13596,7 @@ class Mission
 						rank="CORPORAL";
 						init="GrpAK_MAT2 = group this; [""matag"",this] call f_fnc_assignGear;";
 						name="UnitAK_MAT2_AG";
-						description="Home Army AT Team 2 Spotter (Leader)";
+						description="Home Army AT Team 2 Leader";
 						isPlayable=1;
 					};
 					id=1781;
@@ -13646,7 +13649,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1712.9418,5.0014391,2950.554};
+						position[]={1712.942,5.0014391,2950.554};
 					};
 					side="Independent";
 					flags=4;
@@ -13654,7 +13657,7 @@ class Mission
 					{
 						init="GrpAK_MAT2 = group this; [""matg"",this] call f_fnc_assignGear;";
 						name="UnitAK_MAT2_G";
-						description="Home Army AT Team 2 Gunner";
+						description="Home Army AT Team 2 Grenadier";
 						isPlayable=1;
 					};
 					id=1782;
@@ -13833,7 +13836,7 @@ class Mission
 			side="Independent";
 			class Entities
 			{
-				items=2;
+				items=4;
 				class Item0
 				{
 					dataType="Object";
@@ -13895,6 +13898,92 @@ class Mission
 						isPlayable=1;
 					};
 					id=1786;
+					type="LIB_WP_Saper";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.95999998;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1714.2531,5.0014391,2943.9561};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="GrpAK_ENG1 = group this; [""engm"",this] call f_fnc_assignGear; ";
+						name="UnitAK_ENG1_A2";
+						description="Home Army Engineer Team 1 Assistant (Mines)";
+						isPlayable=1;
+					};
+					id=1951;
+					type="LIB_WP_Saper";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.95999998;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1715.757,5.0014391,2942.165};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="GrpAK_ENG1 = group this; [""engm"",this] call f_fnc_assignGear; ";
+						name="UnitAK_ENG1_A3";
+						description="Home Army Engineer Team 1 Assistant (Mines)";
+						isPlayable=1;
+					};
+					id=1953;
 					type="LIB_WP_Saper";
 					class CustomAttributes
 					{
@@ -15887,6 +15976,7 @@ class Mission
 						rank="SERGEANT";
 						init="[""vc"",this] call f_fnc_assignGear;";
 						name="UnitUSSR_TNK1_C";
+						description="Red Army Tank 1 Commander";
 						isPlayable=1;
 					};
 					id=1812;
@@ -15929,6 +16019,7 @@ class Mission
 						rank="CORPORAL";
 						init="[""vg"",this] call f_fnc_assignGear;";
 						name="UnitUSSR_TNK1_G";
+						description="Red Army Tank 1 Gunner";
 						isPlayable=1;
 					};
 					id=1813;
@@ -15970,6 +16061,7 @@ class Mission
 					{
 						init="[""vd"",this] call f_fnc_assignGear;";
 						name="UnitUSSR_TNK1_D";
+						description="Red Army Tank 1 Driver";
 						isPlayable=1;
 					};
 					id=1814;
@@ -16108,6 +16200,7 @@ class Mission
 						rank="SERGEANT";
 						init="[""vc"",this] call f_fnc_assignGear;";
 						name="UnitUSA_TNK1_C";
+						description="US Army Tank 1 Commander";
 						isPlayable=1;
 					};
 					id=1818;
@@ -16141,7 +16234,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1448.5234,4.998476,2917.4744};
+						position[]={1448.5229,4.9984393,2917.4741};
 					};
 					side="Independent";
 					flags=5;
@@ -16150,11 +16243,12 @@ class Mission
 						rank="CORPORAL";
 						init="[""vg"",this] call f_fnc_assignGear;";
 						name="UnitUSA_TNK1_G";
+						description="US Army Tank 1 Gunner";
 						isPlayable=1;
 					};
 					id=1819;
 					type="LIB_US_tank_crew";
-					atlOffset=-0.0029630661;
+					atlOffset=-0.0029997826;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -16192,6 +16286,7 @@ class Mission
 					{
 						init="[""vd"",this] call f_fnc_assignGear;";
 						name="UnitUSA_TNK1_D";
+						description="US Army Tank 1 Driver";
 						isPlayable=1;
 					};
 					id=1820;
