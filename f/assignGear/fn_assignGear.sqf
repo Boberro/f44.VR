@@ -54,7 +54,7 @@ _unit setVariable ["f_var_assignGear",_typeofUnit,true];
 // DECLARE VARIABLES AND FUNCTIONS 2
 // Used by the faction-specific scripts
 
-private ["_binocular","_attach1","_attach2","_silencer1","_silencer2","_scope1","_scope2","_scope3","_bipod1","_bipod2","_attachments","_silencer","_hg_silencer1","_hg_scope1","_hg_attachments","_rifle","_riflemag","_riflemag_tr","_carbine","_carbinemag","_carbinemag_tr","_smg","_smgmag","_smgmag_tr","_diverWep","_diverMag1","_diverMag2","_glrifle","_glriflemag","_glriflemag_tr","_glmag","_glsmokewhite","_glsmokegreen","_glsmokered","_glflarewhite","_glflarered","_glflareyellow","_glflaregreen","_pistol","_pistolmag","_pistolFlare","_grenade","_Mgrenade","_smokegrenade","_smokegrenadegreen","_firstaid","_medkit","_nvg","_uavterminal","_chemgreen","_chemred","_chemyellow","_chemblue","_bag","_bagengineer","_bagmedical","_bagsmall","_bagmedium","_baglarge","_bagmediumdiver","_baguav","_baghmgg","_baghmgag","_baghatg","_baghatag","_bagmtrg","_bagmtrag","_baghsamg","_baghsamag","_AR","_ARmag","_ARmag_tr","_MMG","_MMGmag","_MMGmag_tr","_Tracer","_DMrifle","_DMriflemag","_RAT","_RATmag","_MAT","_MATmag1","_MATmag2","_SAM","_SAMmag","_HAT","_HATmag1","_HATmag2","_SNrifle","_SNrifleMag","_ATmine","_satchel","_APmine1","_APmine2","_light","_heavy","_diver","_pilot","_crew","_ghillie","_roleFTL","_roleSL","_roleCO","_engineer","_artilleryman","_specOp","_baseUniform","_baseHelmet","_baseGlasses","_ftlUniform","_ftlHelmet","_ftlGlasses","_slUniform","_slHelmet","_slGlasses","_coUniform","_coHelmet","_coGlasses","_lightRig","_mediumRig","_heavyRig","_officerRig","_diverUniform","_diverHelmet","_diverRig","_diverGlasses","_pilotUniform","_pilotHelmet","_pilotRig","_pilotGlasses","_crewUniform","_crewHelmet","_crewRig","_crewGlasses","_ghillieUniform","_ghillieHelmet","_ghillieRig","_ghillieGlasses","_sfuniform","_sfhelmet","_sfRig","_sfGlasses","_baseRig", "_ftlRig", "_slRig", "_coRig","_engUniform","_engHelmet","_engRig","_engGlasses","_artyUniform","_artyHelmet","_artyRig","_artyGlasses","_typeofUnit","_unit","_isMan","_backpack","_typeofBackPack","_loadout","_COrifle","_mgrenade","_DC","_SLrifle","_JTACrifle","_ftlrifle","_grenrifle","_typeofunit"];
+private ["_binocular","_attach1","_attach2","_silencer1","_silencer2","_scope1","_scope2","_scope3","_bipod1","_bipod2","_attachments","_silencer","_hg_silencer1","_hg_scope1","_hg_attachments","_rifle","_riflemag","_riflemag_tr","_carbine","_carbinemag","_carbinemag_tr","_smg","_smgmag","_smgmag_tr","_diverWep","_diverMag1","_diverMag2","_glrifle","_glriflemag","_glriflemag_tr","_glmag","_glsmokewhite","_glsmokegreen","_glsmokered","_glflarewhite","_glflarered","_glflareyellow","_glflaregreen","_pistol","_pistolmag","_pistolFlare","_grenade","_Mgrenade","_smokegrenade","_smokegrenadegreen","_firstaid","_medkit","_nvg","_uavterminal","_chemgreen","_chemred","_chemyellow","_chemblue","_bag","_bagengineer","_bagmedical","_bagsmall","_bagmedium","_baglarge","_bagmediumdiver","_baguav","_baghmgg","_baghmgag","_baghatg","_baghatag","_bagmtrg","_bagmtrag","_baghsamg","_baghsamag","_AR","_ARmag","_ARmag_tr","_MMG","_MMGmag","_MMGmag_tr","_Tracer","_DMrifle","_DMriflemag","_RAT","_RATmag","_MAT","_MATmag1","_MATmag2","_SAM","_SAMmag","_HAT","_HATmag1","_HATmag2","_SNrifle","_SNrifleMag","_ATmine","_satchel","_APmine1","_APmine2","_light","_heavy","_diver","_pilot","_crew","_ghillie","_roleFTL","_roleSL","_roleCO","_medic","_engineer","_artilleryman","_specOp","_baseUniform","_baseHelmet","_baseGlasses","_ftlUniform","_ftlHelmet","_ftlGlasses","_slUniform","_slHelmet","_slGlasses","_coUniform","_coHelmet","_coGlasses","_lightRig","_mediumRig","_heavyRig","_officerRig","_diverUniform","_diverHelmet","_diverRig","_diverGlasses","_pilotUniform","_pilotHelmet","_pilotRig","_pilotGlasses","_crewUniform","_crewHelmet","_crewRig","_crewGlasses","_ghillieUniform","_ghillieHelmet","_ghillieRig","_ghillieGlasses","_sfuniform","_sfhelmet","_sfRig","_sfGlasses","_baseRig", "_ftlRig", "_slRig", "_coRig","_engUniform","_engHelmet","_engRig","_engGlasses","_artyUniform","_artyHelmet","_artyRig","_artyGlasses","_medicUniform","_medicHelmet","_medicRig","_medicGlasses","_typeofUnit","_unit","_isMan","_backpack","_typeofBackPack","_loadout","_COrifle","_mgrenade","_DC","_SLrifle","_JTACrifle","_ftlrifle","_grenrifle","_typeofunit"];
 
 // ====================================================================================
 
@@ -80,6 +80,21 @@ if (_faction in ["lib_wehrmacht", "lib_panzerwaffe", "lib_luftwaffe"]) then {
 // GEAR: Axis > Sturmtroopers
 if (_faction in ["sg_sturm", "sg_sturmpanzer"]) then {
 	#include "f_assignGear_sturmtroopers.sqf"
+};
+
+// GEAR: Soviets
+if (_faction in ["lib_rkka", "lib_ussr_tank_troops", "lib_ussr_airforce"]) then {
+	#include "f_assignGear_ra.sqf"
+};
+
+// GEAR: Home Army
+if (_faction in ["lib_guer"]) then {
+	#include "f_assignGear_ak.sqf"
+};
+
+// GEAR: US Army
+if (_faction in ["lib_us_army", "lib_us_tank_troops", "lib_us_airforce"]) then {
+	#include "f_assignGear_us.sqf"
 };
 
 // ====================================================================================

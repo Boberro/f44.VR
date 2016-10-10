@@ -1,4 +1,4 @@
-// F3 - Folk ARPS Assign Gear Script - AAF
+// F3 - Folk ARPS Assign Gear Script - Red Army
 // Credits: Please see the F3 online manual (http://www.ferstaberinde.com/f3/en/)
 // ====================================================================================
 
@@ -97,26 +97,26 @@ _hg_attachments= []; // The default attachment set for handguns, overwritten in 
 // ====================================================================================
 
 // WEAPON SELECTION
-_binocular = "LIB_Binocular_GER";
+_binocular = "LIB_Binocular_SU";
 
 // Standard Riflemen ( MMG Assistant Gunner, Assistant Automatic Rifleman, MAT Assistant Gunner, MTR Assistant Gunner, Rifleman)
-_rifle = "LIB_K98";
-_riflemag = "lib_5Rnd_792x57";
-_riflemag_tr = "LIB_5Rnd_792x57_t";
+_rifle = "LIB_M9130";
+_riflemag = "lib_5Rnd_762x54";
+_riflemag_tr = "lib_5Rnd_762x54_t30";
 
 // Standard Carabineer (Medic, Rifleman (AT), MAT Gunner, MTR Gunner, Carabineer)
-_carbine = "LIB_G43";
-_carbinemag = "lib_10Rnd_792x57";
-_carbinemag_tr = "lib_10Rnd_792x57_T";
+_carbine = "LIB_M38";
+_carbinemag = "lib_5Rnd_762x54";
+_carbinemag_tr = "lib_5Rnd_762x54_t30";
 
 // Standard Submachine Gun/Personal Defence Weapon (Aircraft Pilot, Submachinegunner)
-_smg = "LIB_MP40";
-_smgmag = "LIB_32Rnd_9x19";
-_smgmag_tr = "LIB_32Rnd_9x19";
+_smg = "LIB_PPSh41_d";
+_smgmag = "lib_71Rnd_762x25";
+_smgmag_tr = "lib_71Rnd_762x25_t";
 
 // Pistols
-_pistol = "LIB_P38";
-_pistolmag = "lib_8Rnd_9x19";
+_pistol = "LIB_TT33";
+_pistolmag = "lib_8Rnd_762x25";
 
 // Flare Pistols
 _pistolFlare = "LIB_FLARE_PISTOL";
@@ -126,10 +126,10 @@ _glflareyellow = "LIB_1Rnd_flare_yellow";
 _glflaregreen = "LIB_1Rnd_flare_green";
 
 // Grenades
-_grenade = "LIB_shg24";
-_Mgrenade = "LIB_m39";
-_grenadeAT = "LIB_shg24x7";
-_smokegrenade = "LIB_nb39";
+_grenade = "LIB_f1";
+_Mgrenade = "LIB_rg42";
+_grenadeAT = "LIB_rpg6";
+_smokegrenade = "LIB_RDG";
 _smokegrenadered = "LIB_US_M18_Red";
 _smokegrenadegreen = "LIB_US_M18_Green";
 _smokegrenadeyellow = "LIB_US_M18_Yellow";
@@ -148,47 +148,47 @@ _chemyellow =  "Chemlight_yellow";
 _chemblue = "Chemlight_blue";
 
 // Standard Backpacks
-_bag = "B_LIB_GER_A_frame";			// The standard bag for most classes
-_bagLarge = "B_LIB_GER_Backpack";				// Larger bag for some special purpose classes
+_bag = "B_LIB_SOV_RA_GasBag";			// The standard bag for most classes
+_bagLarge = "B_LIB_SOV_RA_Rucksack";				// Larger bag for some special purpose classes
 
 // Special Backpacks
-_bagradio = "B_LIB_GER_Radio";				// used by Radio Operator and JTAC
-_bagmedical = "B_LIB_GER_MedicBackpack_Empty";	// used by Medic
+_bagradio = "B_LIB_SOV_RA_Radio";				// used by Radio Operator and JTAC
+_bagmedical = "B_LIB_SOV_RA_MedicalBag_Empty";	// used by Medic
 _bagengineer = "B_Kitbag_rgr";					// used by Engineer (Because it's broken in IFA3)
-_bagmat = "B_LIB_GER_Panzer_Empty";				// used by Medium AT
-_baghmgg = "LIB_MG42_Bag";					// used by Heavy MG gunner
-_baghmgag = "LIB_MG42_Tripod_Disasm";		// used by Heavy MG assistant gunner
-_bagmtrg = "LIB_GrWr34_Bag";				// used by Mortar gunner
-_bagmtrag = "LIB_GrWr34_Bar";				// used by Mortar assistant gunner
+_bagmat = "B_LIB_SOV_RA_Rucksack";				// used by Medium AT
+_baghmgg = "LIB_Maxim_Bag";					// used by Heavy MG gunner
+_baghmgag = "LIB_Maxim_Bar";		// used by Heavy MG assistant gunner
+_bagmtrg = "LIB_BM37_Bag";				// used by Mortar gunner
+_bagmtrag = "LIB_BM37_Bar";				// used by Mortar assistant gunner
 
 // ====================================================================================
 
 // UNIQUE, ROLE-SPECIFIC EQUIPMENT
 
 // Automatic Rifleman
-_AR = "LIB_MG42";
-_ARmag = "lib_50Rnd_792x57";
-_ARmag_tr = "lib_50Rnd_792x57_sS";
+_AR = "LIB_DP28";
+_ARmag = "lib_47Rnd_762x54";
+_ARmag_tr = "lib_47Rnd_762x54d";
 
-_MMG = "LIB_MG42";
-_MMGmag = "lib_50Rnd_792x57_SMK";
-_MMGmag_tr = "lib_50Rnd_792x57_sS";
+_MMG = "LIB_DT_OPTIC";
+_MMGmag = "LIB_63rnd_DT";
+_MMGmag_tr = "LIB_63rnd_DT";
 
 // Marksman rifle
-_DMrifle = "LIB_K98ZF39";
-_DMriflemag = "LIB_5Rnd_792x57_SMK";
+_DMrifle = "LIB_M9130PU";
+_DMriflemag = "lib_47Rnd_762x54";
 
 // Rifleman AT
-_RAT = "LIB_PzFaust_30m";
-_RATmag = "LIB_1Rnd_PzFaust_30m";
+_RAT = "LIB_PzFaust_30m";  // ignored for RA
+_RATmag = "LIB_1Rnd_PzFaust_30m";  // ignored for RA
 
 // Medium AT
-_MAT = "LIB_RPzB";
-_MATmag = "LIB_1Rnd_RPzB";
+_MAT = "LIB_RPzB";  // ignored for RA
+_MATmag = "LIB_1Rnd_RPzB";  // ignored for RA
 
 // Sniper
-_SNrifle = "LIB_K98ZF39";
-_SNrifleMag = "LIB_5Rnd_792x57_SMK";
+_SNrifle = "LIB_M9130PU";
+_SNrifleMag = "lib_5Rnd_762x54";
 
 // Engineer items
 _sapper_tools = "LIB_W";
@@ -221,60 +221,60 @@ _medic = ["m"];
 // Basic clothing
 // The outfit-piece is randomly selected from the array for each unit
 
-_baseUniform = ["U_LIB_GER_Schutze"];
-_baseHelmet = ["H_LIB_GER_Helmet"];
-_baseRig = ["V_LIB_GER_VestKar98"];
+_baseUniform = ["U_LIB_SOV_Strelok"];
+_baseHelmet = ["H_LIB_SOV_RA_PrivateCap"];
+_baseRig = ["V_LIB_SOV_RA_MosinBelt"];
 _baseGlasses = [];
 
-_ftlUniform = ["U_LIB_GER_Gefreiter", "U_LIB_GER_MG_schutze"];
-_ftlHelmet = ["H_LIB_GER_Cap"];
-_ftlRig = ["V_LIB_GER_VestMP40"];
+_ftlUniform = ["U_LIB_SOV_Efreitor"];
+_ftlHelmet = ["H_LIB_SOV_RA_Helmet"];
+_ftlRig = ["V_LIB_SOV_RA_PPShBelt"];
 _ftlGlasses = [];
 
-_slUniform = ["U_LIB_GER_Unterofficer"];
-_slHelmet = ["H_LIB_GER_OfficerCap"];
-_slRig = ["V_LIB_GER_VestUnterofficer"];
+_slUniform = ["U_LIB_SOV_Sergeant", "U_LIB_SOV_Sergeant_inset_pocket"];
+_slHelmet = ["H_LIB_SOV_RA_OfficerCap"];
+_slRig = ["V_LIB_SOV_RA_OfficerVest"];
 _slGlasses = [];
 
-_coUniform = ["U_LIB_GER_Leutnant"];
-_coHelmet = ["H_LIB_GER_OfficerCap"];
-_coRig = ["V_LIB_GER_FieldOfficer"];
+_coUniform = ["U_LIB_SOV_Leutenant"];
+_coHelmet = ["H_LIB_SOV_RA_OfficerCap"];
+_coRig = ["V_LIB_SOV_RA_TankOfficerSet"];
 _coGlasses = [];
 
 // Medic (for those who have unique medic)
 _medicUniform = _baseHelmet;
-_medicHelmet = ["U_LIB_GER_Medic"];
+_medicHelmet = _baseUniform;
 _medicRig = _baseRig;
 _medicGlasses = _baseGlasses;
 
 // Pilot
-_pilotUniform = ["U_LIB_GER_LW_pilot"];
-_pilotHelmet = ["H_LIB_GER_LW_PilotHelmet"];
-_pilotRig = ["V_LIB_GER_OfficerBelt"];
+_pilotUniform = ["U_LIB_SOV_Pilot"];
+_pilotHelmet = ["H_LIB_SOV_PilotHelmet"];
+_pilotRig = ["V_LIB_SOV_RA_Belt"];
 _pilotGlasses = [];
 
 // Crewman
-_crewUniform = ["U_LIB_GER_Tank_crew_private"];
-_crewHelmet = ["H_LIB_GER_TankPrivateCap"];
-_crewRig = ["V_LIB_GER_TankPrivateBelt"];
+_crewUniform = ["U_LIB_SOV_Tank_ryadovoi"];
+_crewHelmet = ["H_LIB_SOV_TankHelmet"];
+_crewRig = ["V_LIB_SOV_RA_MosinBelt"];
 _crewGlasses = [];
 
 // Ghillie
-_ghillieUniform = ["U_LIB_GER_Scharfschutze"];
-_ghillieHelmet = ["H_LIB_GER_HelmetCamo"];
-_ghillieRig = ["V_LIB_GER_SniperBelt"];
+_ghillieUniform = ["U_LIB_SOV_Razvedchik_am", "U_LIB_SOV_Razvedchik_lis", "U_LIB_SOV_Razvedchik_mix"];
+_ghillieHelmet = ["H_LIB_SOV_RA_PrivateCap"];
+_ghillieRig = ["V_LIB_SOV_RAZV_SVTBelt"];
 _ghillieGlasses = [];
 
 // Engineer
-_engUniform = ["U_LIB_GER_Pionier"];
-_engHelmet = ["H_LIB_GER_HelmetCamo"];
-_engRig = ["V_LIB_GER_VestMP40"];
+_engUniform = ["U_LIB_SOV_Razvedchik_mix"];
+_engHelmet = ["H_LIB_SOV_RA_Helmet"];
+_engRig = ["V_LIB_SOV_IShBrVestPPShMag"];
 _engGlasses = [];
 
 // Artillery
-_artyUniform = ["U_LIB_GER_Art_schutze"];
-_artyHelmet = ["H_LIB_GER_Helmet"];
-_artyRig = ["V_LIB_GER_VestKar98"];
+_artyUniform = ["U_LIB_SOV_Strelokart"];
+_artyHelmet = ["H_LIB_SOV_RA_Helmet"];
+_artyRig = ["V_LIB_SOV_RA_MosinBelt"];
 _artyGlasses = [];
 
 // ====================================================================================
@@ -330,12 +330,12 @@ _loadout = f_param_loadouts;
 
 // Light Loadout
 if (_loadout == 0) then {
-	#include "f_assignGear_wehrmacht_light.sqf"
+	#include "f_assignGear_ra_light.sqf"
 };
 
 // Standard Loadout
 if (_loadout == 1) then {
-	#include "f_assignGear_wehrmacht_standard.sqf"
+	#include "f_assignGear_ra_standard.sqf"
 };
 
 // ====================================================================================

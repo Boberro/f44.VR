@@ -1,4 +1,4 @@
-// F3 - Folk ARPS Assign Gear Script - AAF
+// F3 - Folk ARPS Assign Gear Script - Home Army
 // Credits: Please see the F3 online manual (http://www.ferstaberinde.com/f3/en/)
 // ====================================================================================
 
@@ -105,9 +105,9 @@ _riflemag = "lib_5Rnd_792x57";
 _riflemag_tr = "LIB_5Rnd_792x57_t";
 
 // Standard Carabineer (Medic, Rifleman (AT), MAT Gunner, MTR Gunner, Carabineer)
-_carbine = "LIB_G43";
-_carbinemag = "lib_10Rnd_792x57";
-_carbinemag_tr = "lib_10Rnd_792x57_T";
+_carbine = "LIB_K98";
+_carbinemag = "lib_5Rnd_792x57";
+_carbinemag_tr = "LIB_5Rnd_792x57_t";
 
 // Standard Submachine Gun/Personal Defence Weapon (Aircraft Pilot, Submachinegunner)
 _smg = "LIB_MP40";
@@ -148,7 +148,7 @@ _chemyellow =  "Chemlight_yellow";
 _chemblue = "Chemlight_blue";
 
 // Standard Backpacks
-_bag = "B_LIB_GER_A_frame";			// The standard bag for most classes
+_bag = "B_LIB_US_Bandoleer";			// The standard bag for most classes
 _bagLarge = "B_LIB_GER_Backpack";				// Larger bag for some special purpose classes
 
 // Special Backpacks
@@ -166,9 +166,9 @@ _bagmtrag = "LIB_GrWr34_Bar";				// used by Mortar assistant gunner
 // UNIQUE, ROLE-SPECIFIC EQUIPMENT
 
 // Automatic Rifleman
-_AR = "LIB_MG42";
-_ARmag = "lib_50Rnd_792x57";
-_ARmag_tr = "lib_50Rnd_792x57_sS";
+_AR = _smg;  // that's how fucked they are
+_ARmag = _smgmag;
+_ARmag_tr = _smgmag_tr;
 
 _MMG = "LIB_MG42";
 _MMGmag = "lib_50Rnd_792x57_SMK";
@@ -221,60 +221,60 @@ _medic = ["m"];
 // Basic clothing
 // The outfit-piece is randomly selected from the array for each unit
 
-_baseUniform = ["U_LIB_GER_Schutze"];
-_baseHelmet = ["H_LIB_GER_Helmet"];
-_baseRig = ["V_LIB_GER_VestKar98"];
+_baseUniform = ["U_LIB_WP_Soldier_camo_1", "U_LIB_WP_Soldier_camo_2", "U_LIB_WP_Soldier_camo_3"];
+_baseHelmet = ["H_LIB_WP_Helmet", "H_LIB_WP_Cap"];
+_baseRig = ["V_LIB_WP_Kar98Vest"];
 _baseGlasses = [];
 
-_ftlUniform = ["U_LIB_GER_Gefreiter", "U_LIB_GER_MG_schutze"];
-_ftlHelmet = ["H_LIB_GER_Cap"];
-_ftlRig = ["V_LIB_GER_VestMP40"];
+_ftlUniform = _baseUniform;
+_ftlHelmet = _baseHelmet;
+_ftlRig = ["V_LIB_WP_MP40Vest"];
 _ftlGlasses = [];
 
-_slUniform = ["U_LIB_GER_Unterofficer"];
-_slHelmet = ["H_LIB_GER_OfficerCap"];
-_slRig = ["V_LIB_GER_VestUnterofficer"];
+_slUniform = _baseUniform;
+_slHelmet = _baseHelmet;
+_slRig = ["V_LIB_WP_OfficerVest"];
 _slGlasses = [];
 
-_coUniform = ["U_LIB_GER_Leutnant"];
-_coHelmet = ["H_LIB_GER_OfficerCap"];
-_coRig = ["V_LIB_GER_FieldOfficer"];
+_coUniform = _baseUniform;
+_coHelmet = ["H_LIB_WP_Cap"];
+_coRig = ["V_LIB_WP_OfficerVest"];
 _coGlasses = [];
 
 // Medic (for those who have unique medic)
 _medicUniform = _baseHelmet;
-_medicHelmet = ["U_LIB_GER_Medic"];
+_medicHelmet = _baseUniform;
 _medicRig = _baseRig;
 _medicGlasses = _baseGlasses;
 
 // Pilot
-_pilotUniform = ["U_LIB_GER_LW_pilot"];
-_pilotHelmet = ["H_LIB_GER_LW_PilotHelmet"];
-_pilotRig = ["V_LIB_GER_OfficerBelt"];
+_pilotUniform = _baseUniform;
+_pilotHelmet = _baseHelmet;
+_pilotRig = _baseRig;
 _pilotGlasses = [];
 
 // Crewman
-_crewUniform = ["U_LIB_GER_Tank_crew_private"];
-_crewHelmet = ["H_LIB_GER_TankPrivateCap"];
-_crewRig = ["V_LIB_GER_TankPrivateBelt"];
+_crewUniform = _baseUniform;
+_crewHelmet = _baseHelmet;
+_crewRig = _baseRig;
 _crewGlasses = [];
 
 // Ghillie
-_ghillieUniform = ["U_LIB_GER_Scharfschutze"];
-_ghillieHelmet = ["H_LIB_GER_HelmetCamo"];
-_ghillieRig = ["V_LIB_GER_SniperBelt"];
+_ghillieUniform = _baseUniform;
+_ghillieHelmet = _baseHelmet;
+_ghillieRig = _baseRig;
 _ghillieGlasses = [];
 
 // Engineer
-_engUniform = ["U_LIB_GER_Pionier"];
-_engHelmet = ["H_LIB_GER_HelmetCamo"];
-_engRig = ["V_LIB_GER_VestMP40"];
+_engUniform = _baseUniform;
+_engHelmet = ["H_LIB_WP_Helmet"];
+_engRig = ["V_LIB_WP_MGVest"];
 _engGlasses = [];
 
 // Artillery
-_artyUniform = ["U_LIB_GER_Art_schutze"];
-_artyHelmet = ["H_LIB_GER_Helmet"];
-_artyRig = ["V_LIB_GER_VestKar98"];
+_artyUniform = _baseUniform;
+_artyHelmet = ["H_LIB_WP_Helmet"];
+_artyRig = _baseRig;
 _artyGlasses = [];
 
 // ====================================================================================
@@ -330,12 +330,12 @@ _loadout = f_param_loadouts;
 
 // Light Loadout
 if (_loadout == 0) then {
-	#include "f_assignGear_wehrmacht_light.sqf"
+	#include "f_assignGear_ak_light.sqf"
 };
 
 // Standard Loadout
 if (_loadout == 1) then {
-	#include "f_assignGear_wehrmacht_standard.sqf"
+	#include "f_assignGear_ak_standard.sqf"
 };
 
 // ====================================================================================

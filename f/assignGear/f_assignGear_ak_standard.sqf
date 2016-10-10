@@ -1,4 +1,4 @@
-// F3 - Folk ARPS Assign Gear Script - AAF - Light Loadout
+// F3 - Folk ARPS Assign Gear Script - Home Army - Standard Loadout
 // Credits: Please see the F3 online manual (http://www.ferstaberinde.com/f3/en/)
 // ====================================================================================
 
@@ -17,9 +17,10 @@ switch (_typeofUnit) do
 		clearAllItemsFromBackpack _unit;
 		_unit addmagazines [_ARmag, 1];
 		_unit addweapon _AR;
-		_unit addItem _firstaid ;
-		_unit addmagazines [_ARmag, 1];
-		_unit addmagazines [_smokegrenade, 3];
+		_unit addItem _firstaid;
+		_unit addmagazines [_ARmag, 2];
+		_unit addmagazines [_ARmag_tr, 1];
+		_unit addmagazines [_smokegrenade, 1];
 		_unit addmagazines [_grenade, 1];
 	};
 	// Assistant Autorifleman Loadout:
@@ -52,32 +53,38 @@ switch (_typeofUnit) do
 	// Fire Team Leader Loadout:
 	case "ftl":
 	{
+		_unit addBackpack _bag;
+		clearAllItemsFromBackpack _unit;
 		_unit addmagazines [_smgmag, 1];
 		_unit addweapon _smg;
 		_unit addItem _firstaid;
-		_unit addmagazines [_smgmag, 4];
-		_unit addmagazines [_smgmag_tr, 3];
+		_unit addmagazines [_smgmag, 3];
+		_unit addmagazines [_smgmag_tr, 2];
 		_unit addmagazines [_smokegrenade, 2];
 		_unit addWeapon _binocular;
 	};
 	// Fire Team Leader (no smg) Loadout:
 	case "ftl_rifle":
 	{
+		_unit addBackpack _bag;
+		clearAllItemsFromBackpack _unit;
 		_unit addmagazines [_carbinemag, 1];
 		_unit addweapon _carbine;
 		_unit addItem _firstaid;
-		_unit addmagazines [_carbinemag, 3];
-		_unit addmagazines [_carbinemag_tr, 2];
+		_unit addmagazines [_carbinemag, 4];
+		_unit addmagazines [_carbinemag_tr, 3];
 		_unit addmagazines [_smokegrenade, 2];
 		_unit addWeapon _binocular;
 	};
 	// Squad Leader Loadout:
 	case "sl":
 	{
+		_unit addBackpack _bag;
+		clearAllItemsFromBackpack _unit;
 		_unit addmagazines [_smgmag, 1];
 		_unit addweapon _smg;
 		_unit addItem _firstaid;
-		_unit addmagazines [_smgmag, 2];
+		_unit addmagazines [_smgmag, 3];
 		_unit addmagazines [_smgmag_tr, 2];
 		_unit addmagazines [_smokegrenade, 1];
 		_unit addmagazines [_smokegrenadered, 1];
@@ -88,6 +95,8 @@ switch (_typeofUnit) do
 	// Platoon CO Loadout:
 	case "co":
 	{
+		_unit addBackpack _bag;
+		clearAllItemsFromBackpack _unit;
 		_unit addmagazines [_smgmag, 1];
 		_unit addweapon _smg;
 		_unit addmagazines [_pistolmag, 1];
@@ -104,6 +113,8 @@ switch (_typeofUnit) do
 	// Platoon DC Loadout:
 	case "dc":
 	{
+		_unit addBackpack _bag;
+		clearAllItemsFromBackpack _unit;
 		_unit addmagazines [_smgmag, 1];
 		_unit addweapon _smg;
 		_unit addmagazines [_pistolmag, 1];
@@ -228,26 +239,27 @@ switch (_typeofUnit) do
 	// Medium AT Gunner Loadout:
 	case "matg":
 	{
-		_unit addBackpack _bagmat;
+		_unit addBackpack _bagLarge;
 		clearAllItemsFromBackpack _unit;
 		_unit addmagazines [_riflemag, 1];
 		_unit addweapon _rifle;
-        _unit addmagazines [_MATmag, 1];
-		_unit addweapon _MAT;
 		_unit addItem _firstaid;
 		_unit addmagazines [_riflemag, 4];
-		_unit addmagazines [_MATmag, 5];
+		_unit addmagazines [_grenade, 2];
+		_unit addmagazines [_grenadeAT, 3];
 	};
 	// Medium AT Team Leader Loadout:
 	case "matag":
 	{
+		_unit addBackpack _bagLarge;
+		clearAllItemsFromBackpack _unit;
 		_unit addmagazines [_riflemag, 1];
 		_unit addweapon _rifle;
 		_unit addItem _firstaid;
-		_unit addmagazines [_riflemag, 2];
-		_unit addmagazines [_riflemag_tr, 2];
-		_unit addmagazines [_smokegrenade, 2];
-		_unit addWeapon _binocular;
+		_unit addmagazines [_riflemag, 4];
+		_unit addmagazines [_smokegrenade, 1];
+		_unit addmagazines [_grenade, 2];
+		_unit addmagazines [_grenadeAT, 3];
 	};
 	// Mortar Gunner Loadout:
 	case "mtrg":
@@ -284,11 +296,11 @@ switch (_typeofUnit) do
 	// Spotter Loadout:
 	case "sp":
 	{
-		_unit addmagazines [_carbinemag, 1];
-		_unit addweapon _carbine;
+		_unit addmagazines [_riflemag, 1];
+		_unit addweapon _rifle;
 		_unit addItem _firstaid;
-		_unit addmagazines [_carbinemag, 1];
-		_unit addmagazines [_carbinemag_tr, 1];
+		_unit addmagazines [_riflemag, 3];
+		_unit addmagazines [_riflemag_tr, 3];
 		_unit addmagazines [_smokegrenade, 2];
 		_unit addWeapon _binocular;
 	};
@@ -405,7 +417,7 @@ switch (_typeofUnit) do
 		_unit addweapon _carbine;
 		_unit addItem _firstaid;
 		_unit addmagazines [_smokegrenade, 1];
-		_unit addmagazines [_carbinemag, 4];
+		_unit addmagazines [_carbinemag, 7];
 		_unit addmagazines [_grenade, 3];
 	};
 	// Submachinegunner Loadout:
@@ -435,7 +447,7 @@ switch (_typeofUnit) do
 	};
 
 	// Include the loadouts for vehicles and crates:
-#include "f_assignGear_sturmtroopers_v.sqf";
+#include "f_assignGear_ak_v.sqf";
 
 	// ====================================================================================
 

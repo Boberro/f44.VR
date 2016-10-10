@@ -253,10 +253,10 @@ switch (_typeofUnit) do
 	case "mtrg":
 	{
 		_unit addBackpack _bagmtrg;
-		_unit addmagazines [riflemag, 1];
-		_unit addweapon rifle;
+		_unit addmagazines [_riflemag, 1];
+		_unit addweapon _rifle;
 		_unit addItem _firstaid;
-		_unit addmagazines [riflemag, 4];
+		_unit addmagazines [_riflemag, 4];
 	};
 	// Mortar Team Leader Loadout:
 	case "mtrag":
@@ -358,6 +358,31 @@ switch (_typeofUnit) do
 		_unit addItem _sapper_tools;
 		_unit addmagazines [_APmine, 2];
 		_unit addmagazines [_ATmine, 1];
+	};
+	// SPG Gunner Loadout:
+	case "spgg":
+	{
+		_unit addBackpack _bag;
+		clearAllItemsFromBackpack _unit;
+		_unit addmagazines [_riflemag, 1];
+		_unit addweapon _rifle;
+		_unit addItem _firstaid;
+		_unit addmagazines [_smokegrenade, 1];
+		_unit addmagazines [_riflemag, 4];
+		_unit addmagazines [_grenade, 1];
+	};
+	// SPG Spotter Loadout:
+	case "spgag":
+	{
+		_unit addBackpack _bag;
+		clearAllItemsFromBackpack _unit;
+		_unit addmagazines [_riflemag, 1];
+		_unit addweapon _rifle;
+		_unit addItem _firstaid;
+		_unit addmagazines [_smokegrenade, 1];
+		_unit addmagazines [_riflemag, 4];
+		_unit addmagazines [_grenade, 1];
+		_unit addWeapon _binocular;
 	};
 	// Rifleman Loadout:
 	case "r":

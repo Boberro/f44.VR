@@ -87,6 +87,14 @@ if (_typeOfUnit in _artilleryman) then {
 	_glasses = _artyGlasses;
 };
 
+// Medic
+if (_typeOfUnit in _medic) then {
+	_helmet = _medicHelmet;
+	_uniform = _medicUniform;
+	_rig = _medicRig;
+	_glasses = _medicGlasses;
+};
+
 // Add clothing items to unit
 if(count _uniform > 0) then
 {

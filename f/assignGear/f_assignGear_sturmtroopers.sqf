@@ -216,6 +216,7 @@ _crew = ["vc","vg","vd"];
 _ghillie = ["sn","sp"];
 _engineer = ["eng","engm"];
 _artilleryman = ["spgg","spgag"];
+_medic = ["m"];
 
 // Basic clothing
 // The outfit-piece is randomly selected from the array for each unit
@@ -239,6 +240,12 @@ _coUniform = ["U_LIB_GER_Leutnant"];
 _coHelmet = ["H_LIB_GER_OfficerCap"];
 _coRig = ["V_LIB_GER_FieldOfficer"];
 _coGlasses = [];
+
+// Medic (for those who have unique medic)
+_medicUniform = _baseHelmet;
+_medicHelmet = _baseUniform;
+_medicRig = _baseRig;
+_medicGlasses = _baseGlasses;
 
 // Pilot
 _pilotUniform = ["U_LIB_GER_LW_pilot"];

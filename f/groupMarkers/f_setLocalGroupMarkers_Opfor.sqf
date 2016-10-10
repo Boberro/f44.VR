@@ -131,3 +131,62 @@ if (_unitfaction in ["opf_g_f"]) then {
 };
 
 // ====================================================================================
+
+if (_unitfaction in ["lib_rkka", "lib_ussr_airforce", "lib_ussr_tank_troops"]) then {
+	["GrpUSSR_CO",_hq, "CO", "ColorYellow"] spawn f_fnc_localGroupMarker;
+	["GrpUSSR_DC",_hq, "DC", "ColorYellow"] spawn f_fnc_localGroupMarker;
+	["GrpUSSR_COV",_ifv, "COV", "ColorYellow"] spawn f_fnc_localGroupMarker;
+
+	["GrpUSSR_ASL",_hq, "ASL", "ColorRed"] spawn f_fnc_localGroupMarker;
+	["GrpUSSR_A1",_ft, "A1", "ColorRed"] spawn f_fnc_localGroupMarker;
+	["GrpUSSR_A2",_ft, "A2", "ColorRed"] spawn f_fnc_localGroupMarker;
+	["GrpUSSR_AV",_ifv, "AV", "ColorRed"] spawn f_fnc_localGroupMarker;
+
+	["GrpUSSR_BSL",_hq, "BSL", "ColorBlue"] spawn f_fnc_localGroupMarker;
+	["GrpUSSR_B1",_ft, "B1", "ColorBlue"] spawn f_fnc_localGroupMarker;
+	["GrpUSSR_B2",_ft, "B2", "ColorBlue"] spawn f_fnc_localGroupMarker;
+	["GrpUSSR_BV",_ifv, "BV", "ColorBlue"] spawn f_fnc_localGroupMarker;
+
+	["GrpUSSR_CSL",_hq, "CSL", "ColorGreen"] spawn f_fnc_localGroupMarker;
+	["GrpUSSR_C1",_ft, "C1", "ColorGreen"] spawn f_fnc_localGroupMarker;
+	["GrpUSSR_C2",_ft, "C2", "ColorGreen"] spawn f_fnc_localGroupMarker;
+	["GrpUSSR_CV",_ifv, "CV", "ColorGreen"] spawn f_fnc_localGroupMarker;
+
+	["GrpUSSR_DSL",_hq, "DSL", "ColorPink"] spawn f_fnc_localGroupMarker;
+	["GrpUSSR_D1",_ft, "D1", "ColorPink"] spawn f_fnc_localGroupMarker;
+	["GrpUSSR_D2",_ft, "D2", "ColorPink"] spawn f_fnc_localGroupMarker;
+	["GrpUSSR_DV",_ifv, "DV", "ColorPink"] spawn f_fnc_localGroupMarker;
+
+	["GrpUSSR_JSL",_hq, "JSL", "ColorPink"] spawn f_fnc_localGroupMarker;
+	["GrpUSSR_J1",_ft, "J1", "ColorPink"] spawn f_fnc_localGroupMarker;
+	["GrpUSSR_J2",_ft, "J2", "ColorPink"] spawn f_fnc_localGroupMarker;
+	["GrpUSSR_JV",_ifv, "JV", "ColorPink"] spawn f_fnc_localGroupMarker;
+
+	["GrpUSSR_MMG1",_sup, "MMG1", "ColorOrange"] spawn f_fnc_localGroupMarker;
+	["GrpUSSR_MMG2",_sup, "MMG2", "ColorOrange"] spawn f_fnc_localGroupMarker;
+	["GrpUSSR_HMG1",_sup, "HMG1", "ColorOrange"] spawn f_fnc_localGroupMarker;
+	["GrpUSSR_HMG2",_sup, "HMG1", "ColorOrange"] spawn f_fnc_localGroupMarker;
+	["GrpUSSR_MAT1",_lau, "MAT1", "ColorOrange"] spawn f_fnc_localGroupMarker;
+	["GrpUSSR_MAT2",_lau, "MAT2", "ColorOrange"] spawn f_fnc_localGroupMarker;
+	["GrpUSSR_SPG1",_lau, "SPG1", "ColorOrange"] spawn f_fnc_localGroupMarker;
+	["GrpUSSR_SPG2",_lau, "SPG2", "ColorOrange"] spawn f_fnc_localGroupMarker;
+	["GrpUSSR_MTR1",_mor, "MTR1", "ColorOrange"] spawn f_fnc_localGroupMarker;
+	["GrpUSSR_MTR2",_mor, "MTR2", "ColorOrange"] spawn f_fnc_localGroupMarker;
+	["GrpUSSR_ST1",_rec, "ST1", "ColorOrange"] spawn f_fnc_localGroupMarker;
+	["GrpUSSR_ST2",_rec, "ST2", "ColorOrange"] spawn f_fnc_localGroupMarker;
+	["GrpUSSR_ENG1",_eng, "ENG1", "ColorOrange"] spawn f_fnc_localGroupMarker;
+	["GrpUSSR_ENG2",_eng, "ENG2", "ColorOrange"] spawn f_fnc_localGroupMarker;
+
+	["GrpUSSR_IFV1",_ifv, "IFV1", "ColorOrange"] spawn f_fnc_localGroupMarker;
+	["GrpUSSR_IFV2",_ifv, "IFV2", "ColorOrange"] spawn f_fnc_localGroupMarker;
+	["GrpUSSR_IFV3",_ifv, "IFV3", "ColorOrange"] spawn f_fnc_localGroupMarker;
+	["GrpUSSR_TNK1",_tnk, "TNK1", "ColorRed"] spawn f_fnc_localGroupMarker;
+	["GrpUSSR_TNK2",_tnk, "TNK2", "ColorRed"] spawn f_fnc_localGroupMarker;
+
+	["UnitUSSR_CO_M",_med, "COM", "ColorBlack"] spawn f_fnc_localSpecialistMarker;
+	["UnitUSSR_DC_M",_med, "DCM", "ColorBlack"] spawn f_fnc_localSpecialistMarker;
+	["UnitUSSR_ASL_M",_med, "AM", "ColorBlack"] spawn f_fnc_localSpecialistMarker;
+	["UnitUSSR_BSL_M",_med, "BM", "ColorBlack"] spawn f_fnc_localSpecialistMarker;
+	["UnitUSSR_CSL_M",_med, "CM", "ColorBlack"] spawn f_fnc_localSpecialistMarker;
+	["UnitUSSR_DSL_M",_med, "DM", "ColorBlack"] spawn f_fnc_localSpecialistMarker;
+};
