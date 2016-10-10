@@ -11,7 +11,7 @@
 
 _cre = player createDiaryRecord ["diary", ["Credits","
 <br/>
-*** Insert mission credits here. ***
+by bob
 <br/><br/>
 Made with F3 (http://www.ferstaberinde.com/f3/en/)
 "]];
@@ -23,7 +23,8 @@ Made with F3 (http://www.ferstaberinde.com/f3/en/)
 
 _adm = player createDiaryRecord ["diary", ["Administration","
 <br/>
-*** Insert information on administration and logistics here. ***
+Convoy will be there in 3-5 minutes.<br/>
+We're all on foot. There's no explosives at hand, but we still have a panzerfaust and grenades.
 "]];
 
 // ====================================================================================
@@ -35,19 +36,19 @@ _exe = player createDiaryRecord ["diary", ["Execution","
 <br/>
 <font size='18'>COMMANDER'S INTENT</font>
 <br/>
-*** Insert very short summary of plan here. ***
+Destroy enemy convoy while it moves on the marked part of the road, then retreat into the safehouse.
 <br/><br/>
 <font size='18'>MOVEMENT PLAN</font>
 <br/>
-*** Insert movement instructions here. ***
+We start in the AO. After successful ambush retreat into the <a href='marker:marker_15'>safehouse</a>.
 <br/><br/>
 <font size='18'>FIRE SUPPORT PLAN</font>
 <br/>
-*** Insert fire support instructions here. ***
+None available
 <br/><br/>
 <font size='18'>SPECIAL TASKS</font>
 <br/>
-*** Insert instructions for specific units here. ***
+Enemy vehicles are to block the road.
 "]];
 
 // ====================================================================================
@@ -57,7 +58,7 @@ _exe = player createDiaryRecord ["diary", ["Execution","
 
 _mis = player createDiaryRecord ["diary", ["Mission","
 <br/>
-*** Insert the mission here. ***
+Ambush the incoming American convoy on marked part of the road. Destroy all the vehicles then retreat towards the <a href='marker:marker_15'>safehouse</a>.
 "]];
 
 // ====================================================================================
@@ -67,15 +68,16 @@ _mis = player createDiaryRecord ["diary", ["Mission","
 
 _sit = player createDiaryRecord ["diary", ["Situation","
 <br/>
-*** Insert general information about the situation here.***
+Few days ago, during the retreat of our forces, one of the convoys got destroyed by American planes, effectively blocking the road. Now everything has to take a detour through the forest, including American convoys.<br/>
+Blocking the detour is the same manner would hurt enemy's suppy lines greatly.
 <br/><br/>
 <font size='18'>ENEMY FORCES</font>
 <br/>
-*** Insert information about enemy forces here.***
+This area belongs to the enemy, which is why after the ambush we have to get out of there quickly. Convoy itself might have a squad of infantry, and as soon as the firefight start armor can come with support.
 <br/><br/>
 <font size='18'>FRIENDLY FORCES</font>
 <br/>
-*** Insert information about friendly forces here.***
+Behind the enemy lines we're on our own.
 "]];
 
 // ====================================================================================
