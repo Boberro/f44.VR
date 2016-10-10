@@ -1,4 +1,4 @@
-// F3 - Folk ARPS Assign Gear Script - Red Army
+// F3 - Folk ARPS Assign Gear Script - US Army
 // Credits: Please see the F3 online manual (http://www.ferstaberinde.com/f3/en/)
 // ====================================================================================
 
@@ -97,26 +97,26 @@ _hg_attachments= []; // The default attachment set for handguns, overwritten in 
 // ====================================================================================
 
 // WEAPON SELECTION
-_binocular = "LIB_Binocular_SU";
+_binocular = "LIB_Binocular_US";
 
 // Standard Riflemen ( MMG Assistant Gunner, Assistant Automatic Rifleman, MAT Assistant Gunner, MTR Assistant Gunner, Rifleman)
-_rifle = "LIB_M9130";
-_riflemag = "lib_5Rnd_762x54";
-_riflemag_tr = "lib_5Rnd_762x54_t30";
+_rifle = "LIB_M1_Garand";
+_riflemag = "LIB_8Rnd_762x63";
+_riflemag_tr = "LIB_8Rnd_762x63";
 
 // Standard Carabineer (Medic, Rifleman (AT), MAT Gunner, MTR Gunner, Carabineer)
-_carbine = "LIB_M38";
-_carbinemag = "lib_5Rnd_762x54";
-_carbinemag_tr = "lib_5Rnd_762x54_t30";
+_carbine = "LIB_M1_Carbine";
+_carbinemag = "LIB_15Rnd_762x33";
+_carbinemag_tr = "LIB_15Rnd_762x33";
 
 // Standard Submachine Gun/Personal Defence Weapon (Aircraft Pilot, Submachinegunner)
-_smg = "LIB_PPSh41_d";
-_smgmag = "lib_71Rnd_762x25";
-_smgmag_tr = "lib_71Rnd_762x25_t";
+_smg = "LIB_M1A1_Thompson";
+_smgmag = "LIB_30Rnd_45ACP";
+_smgmag_tr = "LIB_30Rnd_45ACP";
 
 // Pistols
-_pistol = "LIB_TT33";
-_pistolmag = "lib_8Rnd_762x25";
+_pistol = "LIB_Colt_M1911";
+_pistolmag = "LIB_7Rnd_45ACP";
 
 // Flare Pistols
 _pistolFlare = "LIB_FLARE_PISTOL";
@@ -126,10 +126,10 @@ _glflareyellow = "LIB_1Rnd_flare_yellow";
 _glflaregreen = "LIB_1Rnd_flare_green";
 
 // Grenades
-_grenade = "LIB_f1";
-_Mgrenade = "LIB_rg42";
-_grenadeAT = "LIB_rpg6";
-_smokegrenade = "LIB_RDG";
+_grenade = "LIB_US_Mk_2";
+_Mgrenade = "LIB_US_Mk_2";
+_grenadeAT = "LIB_shg24x7";
+_smokegrenade = "LIB_US_M18";
 _smokegrenadered = "LIB_US_M18_Red";
 _smokegrenadegreen = "LIB_US_M18_Green";
 _smokegrenadeyellow = "LIB_US_M18_Yellow";
@@ -148,47 +148,47 @@ _chemyellow =  "Chemlight_yellow";
 _chemblue = "Chemlight_blue";
 
 // Standard Backpacks
-_bag = "B_LIB_SOV_RA_GasBag";			// The standard bag for most classes
-_bagLarge = "B_LIB_SOV_RA_Rucksack";				// Larger bag for some special purpose classes
+_bag = "B_LIB_US_Backpack";			// The standard bag for most classes
+_bagLarge = "B_LIB_US_Backpack";				// Larger bag for some special purpose classes
 
 // Special Backpacks
-_bagradio = "B_LIB_SOV_RA_Radio";				// used by Radio Operator and JTAC
-_bagmedical = "B_LIB_SOV_RA_MedicalBag_Empty";	// used by Medic
+_bagradio = "B_LIB_US_Radio";				// used by Radio Operator and JTAC
+_bagmedical = "B_LIB_US_MedicBackpack";	// used by Medic
 _bagengineer = "B_Kitbag_rgr";					// used by Engineer (Because it's broken in IFA3)
-_bagmat = "B_LIB_SOV_RA_Rucksack";				// used by Medium AT
-_baghmgg = "LIB_Maxim_Bag";					// used by Heavy MG gunner
-_baghmgag = "LIB_Maxim_Bar";		// used by Heavy MG assistant gunner
-_bagmtrg = "LIB_BM37_Bag";				// used by Mortar gunner
-_bagmtrag = "LIB_BM37_Bar";				// used by Mortar assistant gunner
+_bagmat = "B_LIB_US_RocketBag";				// used by Medium AT
+_baghmgg = "LIB_MG42_Bag";					// used by Heavy MG gunner - US Army doesn't have one, for some reason
+_baghmgag = "LIB_MG42_Tripod_Disasm";		// used by Heavy MG assistant gunner - US Army doesn't have one, for some reason
+_bagmtrg = "LIB_GrWr34_Bag";				// used by Mortar gunner - US Army doesn't have one, for some reason
+_bagmtrag = "LIB_GrWr34_Bar";				// used by Mortar assistant gunner - US Army doesn't have one, for some reason
 
 // ====================================================================================
 
 // UNIQUE, ROLE-SPECIFIC EQUIPMENT
 
 // Automatic Rifleman
-_AR = "LIB_DP28";
-_ARmag = "lib_47Rnd_762x54";
-_ARmag_tr = "lib_47Rnd_762x54d";
+_AR = "LIB_M1918A2_BAR";
+_ARmag = "LIB_20Rnd_762x63";
+_ARmag_tr = "LIB_20Rnd_762x63";
 
-_MMG = "LIB_DT_OPTIC";
-_MMGmag = "LIB_63rnd_DT";
-_MMGmag_tr = "LIB_63rnd_DT";
+_MMG = "LIB_M1918A2_BAR";
+_MMGmag = "LIB_20Rnd_762x63";
+_MMGmag_tr = "LIB_20Rnd_762x63";
 
 // Marksman rifle
-_DMrifle = "LIB_M9130PU";
-_DMriflemag = "lib_47Rnd_762x54";
+_DMrifle = "LIB_M1903A4_Springfield";
+_DMriflemag = "LIB_5Rnd_762x63";
 
 // Rifleman AT
-_RAT = "LIB_PzFaust_30m";  // ignored for RA
-_RATmag = "LIB_1Rnd_PzFaust_30m";  // ignored for RA
+_RAT = "LIB_M1A1_Bazooka";
+_RATmag = "LIB_1Rnd_60mm_M6";
 
 // Medium AT
-_MAT = "LIB_RPzB";  // ignored for RA
-_MATmag = "LIB_1Rnd_RPzB";  // ignored for RA
+_MAT = "LIB_M1A1_Bazooka";
+_MATmag = "LIB_1Rnd_60mm_M6";
 
 // Sniper
-_SNrifle = "LIB_M9130PU";
-_SNrifleMag = "lib_5Rnd_762x54";
+_SNrifle = "LIB_M1903A4_Springfield";
+_SNrifleMag = "LIB_5Rnd_762x63";
 
 // Engineer items
 _sapper_tools = "LIB_W";
@@ -221,60 +221,60 @@ _medic = ["m"];
 // Basic clothing
 // The outfit-piece is randomly selected from the array for each unit
 
-_baseUniform = ["U_LIB_SOV_Strelok"];
-_baseHelmet = ["H_LIB_SOV_RA_PrivateCap"];
-_baseRig = ["V_LIB_SOV_RA_MosinBelt"];
+_baseUniform = ["U_LIB_US_Private"];
+_baseHelmet = ["H_LIB_US_Helmet", "H_LIB_US_Helmet_Net"];
+_baseRig = ["V_LIB_US_Vest_Garand"];
 _baseGlasses = [];
 
-_ftlUniform = ["U_LIB_SOV_Efreitor"];
-_ftlHelmet = ["H_LIB_SOV_RA_Helmet"];
-_ftlRig = ["V_LIB_SOV_RA_PPShBelt"];
+_ftlUniform = ["U_LIB_US_Corp"];
+_ftlHelmet = ["H_LIB_US_Helmet", "H_LIB_US_Helmet_Net"];
+_ftlRig = ["V_LIB_US_Vest_Thompson"];
 _ftlGlasses = [];
 
-_slUniform = ["U_LIB_SOV_Sergeant", "U_LIB_SOV_Sergeant_inset_pocket"];
-_slHelmet = ["H_LIB_SOV_RA_OfficerCap"];
-_slRig = ["V_LIB_SOV_RA_OfficerVest"];
+_slUniform = ["U_LIB_US_Sergant"];
+_slHelmet = ["H_LIB_US_Helmet", "H_LIB_US_Helmet_Net"];
+_slRig = ["V_LIB_US_Vest_Thompson"];
 _slGlasses = [];
 
-_coUniform = ["U_LIB_SOV_Leutenant"];
-_coHelmet = ["H_LIB_SOV_RA_OfficerCap"];
-_coRig = ["V_LIB_SOV_RA_TankOfficerSet"];
+_coUniform = ["U_LIB_US_Off"];
+_coHelmet = ["H_LIB_US_Helmet_First_lieutenant"];
+_coRig = ["V_LIB_US_Vest_45"];
 _coGlasses = [];
 
 // Medic (for those who have unique medic)
-_medicUniform = _baseHelmet;
-_medicHelmet = _baseUniform;
-_medicRig = _baseRig;
-_medicGlasses = _baseGlasses;
+_medicUniform = ["U_LIB_US_Med"];
+_medicHelmet = ["H_LIB_US_Helmet_Med"];
+_medicRig = ["V_LIB_US_Vest_Medic", "V_LIB_US_Vest_Medic2"];
+_medicGlasses = [];
 
 // Pilot
-_pilotUniform = ["U_LIB_SOV_Pilot"];
-_pilotHelmet = ["H_LIB_SOV_PilotHelmet"];
-_pilotRig = ["V_LIB_SOV_RA_Belt"];
-_pilotGlasses = [];
+_pilotUniform = _baseUniform;  // thanks, Obama
+_pilotHelmet = _baseHelmet;  // thanks, Obama
+_pilotRig = _baseRig;  // thanks, Obama
+_pilotGlasses = _baseGlasses;  // thanks, Obama
 
 // Crewman
-_crewUniform = ["U_LIB_SOV_Tank_ryadovoi"];
-_crewHelmet = ["H_LIB_SOV_TankHelmet"];
-_crewRig = ["V_LIB_SOV_RA_MosinBelt"];
-_crewGlasses = [];
+_crewUniform = _baseUniform;  // thanks, Obama
+_crewHelmet = _baseHelmet;  // thanks, Obama
+_crewRig = _baseRig;  // thanks, Obama
+_crewGlasses = _baseGlasses;  // thanks, Obama
 
 // Ghillie
-_ghillieUniform = ["U_LIB_SOV_Razvedchik_am", "U_LIB_SOV_Razvedchik_lis", "U_LIB_SOV_Razvedchik_mix"];
-_ghillieHelmet = ["H_LIB_SOV_RA_PrivateCap"];
-_ghillieRig = ["V_LIB_SOV_RAZV_SVTBelt"];
+_ghillieUniform = ["U_LIB_US_Snipe"];
+_ghillieHelmet = ["H_LIB_US_Helmet_Net"];
+_ghillieRig = ["V_LIB_US_Vest_Garand"];
 _ghillieGlasses = [];
 
 // Engineer
-_engUniform = ["U_LIB_SOV_Razvedchik_mix"];
-_engHelmet = ["H_LIB_SOV_RA_Helmet"];
-_engRig = ["V_LIB_SOV_IShBrVestPPShMag"];
+_engUniform = ["U_LIB_US_Private"];
+_engHelmet = ["H_LIB_US_Helmet", "H_LIB_US_Helmet_Net"];
+_engRig = ["V_LIB_US_Vest_Carbine_eng"];
 _engGlasses = [];
 
 // Artillery
-_artyUniform = ["U_LIB_SOV_Strelokart"];
-_artyHelmet = ["H_LIB_SOV_RA_Helmet"];
-_artyRig = ["V_LIB_SOV_RA_MosinBelt"];
+_artyUniform = ["U_LIB_US_Private"];
+_artyHelmet = ["H_LIB_US_Helmet", "H_LIB_US_Helmet_Net"];
+_artyRig = ["V_LIB_US_Vest_Carbine_eng"];
 _artyGlasses = [];
 
 // ====================================================================================
@@ -330,12 +330,12 @@ _loadout = f_param_loadouts;
 
 // Light Loadout
 if (_loadout == 0) then {
-	#include "f_assignGear_ra_light.sqf"
+	#include "f_assignGear_us_light.sqf"
 };
 
 // Standard Loadout
 if (_loadout == 1) then {
-	#include "f_assignGear_ra_standard.sqf"
+	#include "f_assignGear_us_standard.sqf"
 };
 
 // ====================================================================================

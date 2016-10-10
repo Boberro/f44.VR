@@ -12,10 +12,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={911.12732,12.351258,2930.3262};
-		dir[]={-0.10954563,-0.34316844,-0.93300033};
-		up[]={-0.040031452,0.93917221,-0.34090874};
-		aside[]={-0.99326414,-1.165492e-006,0.11662625};
+		pos[]={1518.131,8.0379839,2941.9705};
+		dir[]={0.8866446,-0.37315232,0.27363411};
+		up[]={0.35663196,0.92767036,0.11005761};
+		aside[]={0.29491231,-1.1263764e-006,-0.95561337};
 	};
 };
 binarizationWanted=0;
@@ -5827,20 +5827,43 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1477.8247,5.0014391,2948.5144};
+						position[]={1477.825,5.0014391,2948.5142};
 					};
 					side="Independent";
 					flags=4;
 					class Attributes
 					{
 						skill=0.60000002;
-						init="GrpUSA_A1 = group this; [""rat"",this] call f_fnc_assignGear;";
+						init="GrpUSA_A1 = group this; [""r"",this] call f_fnc_assignGear;";
 						name="UnitUSA_A1_R1";
 						description="US Army Alpha 1 Rifleman";
 						isPlayable=1;
 					};
 					id=1260;
 					type="LIB_US_rifleman";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.02;
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item4
 				{
@@ -5941,20 +5964,43 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1480.3647,5.0014391,2939.1843};
+						position[]={1480.365,5.0014391,2939.1841};
 					};
 					side="Independent";
 					flags=4;
 					class Attributes
 					{
 						skill=0.60000002;
-						init="GrpUSA_A2 = group this; [""rat"",this] call f_fnc_assignGear;";
+						init="GrpUSA_A2 = group this; [""r"",this] call f_fnc_assignGear;";
 						name="UnitUSA_A2_R1";
 						description="US Army Alpha 2 Rifleman";
 						isPlayable=1;
 					};
 					id=1266;
 					type="LIB_US_rifleman";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.03;
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item4
 				{
@@ -6284,20 +6330,43 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1503.4019,5.0014391,2945.739};
+						position[]={1503.402,5.0014391,2945.739};
 					};
 					side="Independent";
 					flags=4;
 					class Attributes
 					{
 						skill=0.60000002;
-						init="GrpUSA_B1 = group this; [""rat"",this] call f_fnc_assignGear;";
+						init="GrpUSA_B1 = group this; [""r"",this] call f_fnc_assignGear;";
 						name="UnitUSA_B1_R1";
 						description="US Army Bravo 1 Rifleman";
 						isPlayable=1;
 					};
 					id=1279;
 					type="LIB_US_rifleman";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.97000003;
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item4
 				{
@@ -6398,20 +6467,43 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1502.3892,5.0014391,2937.3367};
+						position[]={1502.389,5.0014391,2937.3372};
 					};
 					side="Independent";
 					flags=4;
 					class Attributes
 					{
 						skill=0.60000002;
-						init="GrpUSA_B2 = group this; [""rat"",this] call f_fnc_assignGear;";
+						init="GrpUSA_B2 = group this; [""r"",this] call f_fnc_assignGear;";
 						name="UnitUSA_B2_R1";
 						description="US Army Bravo 2 Rifleman";
 						isPlayable=1;
 					};
 					id=1285;
 					type="LIB_US_rifleman";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.95999998;
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item4
 				{
@@ -6741,20 +6833,43 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1527.1274,5.0014391,2944.9734};
+						position[]={1527.127,5.0014391,2944.9731};
 					};
 					side="Independent";
 					flags=4;
 					class Attributes
 					{
 						skill=0.60000002;
-						init="GrpUSA_C1 = group this; [""rat"",this] call f_fnc_assignGear;";
+						init="GrpUSA_C1 = group this; [""r"",this] call f_fnc_assignGear;";
 						name="UnitUSA_C1_R1";
 						description="US Army Charlie 1 Rifleman";
 						isPlayable=1;
 					};
 					id=1298;
 					type="LIB_US_rifleman";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.95999998;
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item4
 				{
@@ -6855,20 +6970,43 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1528.3813,5.0014391,2935.5251};
+						position[]={1528.381,5.0014391,2935.5251};
 					};
 					side="Independent";
 					flags=4;
 					class Attributes
 					{
 						skill=0.60000002;
-						init="GrpUSA_C2 = group this; [""rat"",this] call f_fnc_assignGear;";
+						init="GrpUSA_C2 = group this; [""r"",this] call f_fnc_assignGear;";
 						name="UnitUSA_C2_R1";
 						description="US Army Charlie 2 Rifleman";
 						isPlayable=1;
 					};
 					id=1304;
 					type="LIB_US_rifleman";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.98000002;
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item4
 				{
