@@ -243,7 +243,7 @@ _coGlasses = [];
 
 // Medic (for those who have unique medic)
 _medicUniform = _baseHelmet;
-_medicHelmet = _baseUniform;
+_medicHelmet = ["U_LIB_GER_Medic"];
 _medicRig = _baseRig;
 _medicGlasses = _baseGlasses;
 
