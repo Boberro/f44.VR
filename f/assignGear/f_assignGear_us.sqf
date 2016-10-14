@@ -152,7 +152,7 @@ _bag = "B_LIB_US_Backpack";			// The standard bag for most classes
 _bagLarge = "B_LIB_US_Backpack";				// Larger bag for some special purpose classes
 
 // Special Backpacks
-_bagradio = "B_LIB_US_Radio";				// used by Radio Operator and JTAC
+_bagradio = "B_LIB_US_Radio_ACRE2";				// used by Radio Operator and JTAC
 _bagmedical = "B_LIB_US_MedicBackpack";	// used by Medic
 _bagengineer = "B_Kitbag_rgr";					// used by Engineer (Because it's broken in IFA3)
 _bagmat = "B_LIB_US_RocketBag";				// used by Medium AT

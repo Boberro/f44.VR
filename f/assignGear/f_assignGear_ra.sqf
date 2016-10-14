@@ -152,7 +152,7 @@ _bag = "B_LIB_SOV_RA_GasBag";			// The standard bag for most classes
 _bagLarge = "B_LIB_SOV_RA_Rucksack";				// Larger bag for some special purpose classes
 
 // Special Backpacks
-_bagradio = "B_LIB_SOV_RA_Radio";				// used by Radio Operator and JTAC
+_bagradio = "B_LIB_SOV_RA_Radio_ACRE2";				// used by Radio Operator and JTAC
 _bagmedical = "B_LIB_SOV_RA_MedicalBag_Empty";	// used by Medic
 _bagengineer = "B_Kitbag_rgr";					// used by Engineer (Because it's broken in IFA3)
 _bagmat = "B_LIB_SOV_RA_Rucksack";				// used by Medium AT
@@ -242,8 +242,8 @@ _coRig = ["V_LIB_SOV_RA_TankOfficerSet"];
 _coGlasses = [];
 
 // Medic (for those who have unique medic)
-_medicUniform = _baseHelmet;
-_medicHelmet = _baseUniform;
+_medicUniform = _baseUniform;
+_medicHelmet = _baseHelmet;
 _medicRig = _baseRig;
 _medicGlasses = _baseGlasses;
 

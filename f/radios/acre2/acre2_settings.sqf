@@ -15,34 +15,34 @@ f_radios_settings_acre2_disableFrequencySplit = FALSE;
 // Set a list of units that get a short wave
 // if its nil, that means all units get a radio
 // empty array means that noone gets
-f_radios_settings_acre2_shortRange = nil;
+f_radios_settings_acre2_shortRange = [];
 
 // Set the list of units that get a long range
-f_radios_settings_acre2_longRange = ["co", "dc", "m", "mmgag","hmgag","matag","hatag", "mtrag","msamag","sp","vc", "pp", "eng", "engm", "uav", "div"];
+f_radios_settings_acre2_longRange = [];
 
 // Unit types you want to give an extra long-range radio
 // E.G: ["co", "m"] would give the CO and all medics an extra long-range radios
-f_radios_settings_acre2_extraRadios = [];
+f_radios_settings_acre2_extraRadios = ["radio", "jtac"];
 
 // Standard Short
 f_radios_settings_acre2_standardSHRadio = "ACRE_PRC343";
 // Standard LongRange
 f_radios_settings_acre2_standardLRRadio = "ACRE_PRC152";
 // Extra radio
-f_radios_settings_acre2_extraRadio = "ACRE_PRC117F";
+f_radios_settings_acre2_extraRadio = "ACRE_PRC77_ID_1";
 
 // ====================================================================================
 // BABEL API
 
 // Defines the languages that exist in the mission.
 // string id, displayname
-f_radios_settings_acre2_languages = [["english","English"],["farsi","Farsi"],["greek","Greek"]];
+f_radios_settings_acre2_languages = [["german","German"],["russian","Russian"],["english","English"]];
 
 // defines the language that a player can speak.
 // can define multiple
-f_radios_settings_acre2_language_blufor = ["english"];
-f_radios_settings_acre2_language_opfor = ["farsi"];
-f_radios_settings_acre2_language_indfor = ["greek"];
+f_radios_settings_acre2_language_blufor = ["german"];
+f_radios_settings_acre2_language_opfor = ["russian"];
+f_radios_settings_acre2_language_indfor = ["english"];
 
 // Channel names and group defaults
 // first item in the array will correspond to the first channel
