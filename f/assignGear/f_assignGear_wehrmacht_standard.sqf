@@ -307,6 +307,7 @@ switch (_typeofUnit) do
 	// Vehicle Commander Loadout:
 	case "vc":
 	{
+		_unit addBackpack _bagradio;
 		_unit addmagazines [_smgmag, 1];
 		_unit addweapon _smg;
 		_unit addMagazines [_glflarewhite, 1];

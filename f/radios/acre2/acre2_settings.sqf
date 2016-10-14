@@ -22,7 +22,7 @@ f_radios_settings_acre2_longRange = [];
 
 // Unit types you want to give an extra long-range radio
 // E.G: ["co", "m"] would give the CO and all medics an extra long-range radios
-f_radios_settings_acre2_extraRadios = ["radio", "jtac"];
+f_radios_settings_acre2_extraRadios = ["radio", "jtac", "vc"];
 
 // Standard Short
 f_radios_settings_acre2_standardSHRadio = "ACRE_PRC343";
