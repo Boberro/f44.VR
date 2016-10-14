@@ -12,10 +12,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={1518.131,8.0379839,2941.9705};
-		dir[]={0.8866446,-0.37315232,0.27363411};
-		up[]={0.35663196,0.92767036,0.11005761};
-		aside[]={0.29491231,-1.1263764e-006,-0.95561337};
+		pos[]={1731.4646,43.02697,3020.1919};
+		dir[]={-0.35976365,-0.46914113,-0.80668271};
+		up[]={-0.19111106,0.88301486,-0.42850807};
+		aside[]={-0.91335529,-1.0452932e-006,0.40734285};
 	};
 };
 binarizationWanted=0;
@@ -46,12 +46,12 @@ addons[]=
 	"WW2_Assets_c_Vehicles_WheeledAPC_c_SdKfz7",
 	"WW2_Assets_c_Vehicles_StaticWeapons_c_Pak40",
 	"WW2_Assets_c_Vehicles_Tanks_c_PzKpfwV",
-	"WW2_Assets_c_Characters_Polish_c_GUER_PolishTroops",
 	"WW2_Assets_c_Vehicles_Tanks_c_T34_85",
-	"WW2_Core_c_Core_c_Eventhandlers",
 	"WW2_Assets_c_Vehicles_Tanks_c_M4A3_75",
 	"WW2_Assets_c_Vehicles_Wheeled_c_Scout_M3",
-	"WW2_Assets_c_Characters_Germans_c_GER_Sturmtroopers"
+	"WW2_Assets_c_Vehicles_StaticWeapons_c_Towing",
+	"WW2_Assets_c_Characters_Germans_c_GER_Sturmtroopers",
+	"WW2_Assets_c_Characters_Polish_c_GUER_PolishTroops"
 };
 class AddonsMetaData
 {
@@ -197,33 +197,33 @@ class AddonsMetaData
 		};
 		class Item25
 		{
-			className="WW2_Assets_c_Characters_Polish_c_GUER_PolishTroops";
-			name="WW2_Assets_c_Characters_Polish_c_GUER_PolishTroops";
-		};
-		class Item26
-		{
 			className="WW2_Assets_c_Vehicles_Tanks_c_T34_85";
 			name="WW2_Assets_c_Vehicles_Tanks_c_T34_85";
 		};
-		class Item27
-		{
-			className="WW2_Core_c_Core_c_Eventhandlers";
-			name="WW2_Core_c_Core_c_Eventhandlers";
-		};
-		class Item28
+		class Item26
 		{
 			className="WW2_Assets_c_Vehicles_Tanks_c_M4A3_75";
 			name="WW2_Assets_c_Vehicles_Tanks_c_M4A3_75";
 		};
-		class Item29
+		class Item27
 		{
 			className="WW2_Assets_c_Vehicles_Wheeled_c_Scout_M3";
 			name="WW2_Assets_c_Vehicles_Wheeled_c_Scout_M3";
 		};
-		class Item30
+		class Item28
+		{
+			className="WW2_Assets_c_Vehicles_StaticWeapons_c_Towing";
+			name="WW2_Assets_c_Vehicles_StaticWeapons_c_Towing";
+		};
+		class Item29
 		{
 			className="WW2_Assets_c_Characters_Germans_c_GER_Sturmtroopers";
 			name="WW2_Assets_c_Characters_Germans_c_GER_Sturmtroopers";
+		};
+		class Item30
+		{
+			className="WW2_Assets_c_Characters_Polish_c_GUER_PolishTroops";
+			name="WW2_Assets_c_Characters_Polish_c_GUER_PolishTroops";
 		};
 	};
 };
@@ -7268,6 +7268,7 @@ class Mission
 			};
 			id=1312;
 			type="LIB_Kfz1";
+			atlOffset=0.074999809;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -9031,6 +9032,7 @@ class Mission
 			};
 			id=1359;
 			type="LIB_Kfz1";
+			atlOffset=0.074999809;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -9112,6 +9114,7 @@ class Mission
 			};
 			id=1362;
 			type="LIB_Willys_MB";
+			atlOffset=0.075000286;
 		};
 		class Item90
 		{
@@ -9130,6 +9133,7 @@ class Mission
 			};
 			id=1363;
 			type="LIB_Willys_MB";
+			atlOffset=0.075000286;
 		};
 		class Item91
 		{
@@ -9349,6 +9353,7 @@ class Mission
 			};
 			id=1370;
 			type="LIB_Willys_MB";
+			atlOffset=0.075000286;
 		};
 		class Item98
 		{
@@ -9367,6 +9372,7 @@ class Mission
 			};
 			id=1371;
 			type="LIB_Willys_MB";
+			atlOffset=0.075000286;
 		};
 		class Item99
 		{
@@ -12131,6 +12137,7 @@ class Mission
 			};
 			id=1540;
 			type="LIB_Kfz1_MG42";
+			atlOffset=0.075000286;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -12172,6 +12179,7 @@ class Mission
 			};
 			id=1541;
 			type="LIB_Kfz1_MG42";
+			atlOffset=0.075000286;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -12399,6 +12407,7 @@ class Mission
 				};
 			};
 			id=1544;
+			atlOffset=0.11238813;
 		};
 		class Item138
 		{
@@ -12417,6 +12426,7 @@ class Mission
 			};
 			id=1549;
 			type="LIB_PzKpfwV";
+			atlOffset=0.11238813;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -12442,3578 +12452,6 @@ class Mission
 			};
 		};
 		class Item139
-		{
-			dataType="Logic";
-			class PositionInfo
-			{
-				position[]={1646.1801,5,2965.252};
-			};
-			id=1575;
-			type="SupportRequester";
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="SupportRequester_BIS_SUPP_limit_UAV";
-					expression="_this setVariable ['BIS_SUPP_limit_UAV',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="-1";
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="SupportRequester_BIS_SUPP_custom_HQ";
-					expression="_this setVariable ['BIS_SUPP_custom_HQ',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="";
-						};
-					};
-				};
-				class Attribute2
-				{
-					property="SupportRequester_BIS_SUPP_limit_Transport";
-					expression="_this setVariable ['BIS_SUPP_limit_Transport',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="-1";
-						};
-					};
-				};
-				class Attribute3
-				{
-					property="SupportRequester_BIS_SUPP_limit_Drop";
-					expression="_this setVariable ['BIS_SUPP_limit_Drop',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="-1";
-						};
-					};
-				};
-				class Attribute4
-				{
-					property="SupportRequester_BIS_SUPP_limit_CAS_Heli";
-					expression="_this setVariable ['BIS_SUPP_limit_CAS_Heli',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="-1";
-						};
-					};
-				};
-				class Attribute5
-				{
-					property="SupportRequester_BIS_SUPP_limit_Artillery";
-					expression="_this setVariable ['BIS_SUPP_limit_Artillery',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="-1";
-						};
-					};
-				};
-				class Attribute6
-				{
-					property="SupportRequester_BIS_SUPP_limit_CAS_Bombing";
-					expression="_this setVariable ['BIS_SUPP_limit_CAS_Bombing',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="-1";
-						};
-					};
-				};
-				nAttributes=7;
-			};
-		};
-		class Item140
-		{
-			dataType="Logic";
-			class PositionInfo
-			{
-				position[]={1644.0853,5,2962.9277};
-			};
-			id=1576;
-			type="SupportProvider_Artillery";
-		};
-		class Item141
-		{
-			dataType="Group";
-			side="Independent";
-			class Entities
-			{
-				items=1;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={1644.0687,5.0014391,2959.1831};
-					};
-					side="Independent";
-					flags=6;
-					class Attributes
-					{
-					};
-					id=1686;
-					type="LIB_WP_Strzelec";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=0.95999998;
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-			};
-			class Attributes
-			{
-			};
-			class CrewLinks
-			{
-				class LinkIDProvider
-				{
-					nextID=1;
-				};
-				class Links
-				{
-					items=1;
-					class Item0
-					{
-						linkID=0;
-						item0=1686;
-						item1=1579;
-						class CustomData
-						{
-							role=2;
-							turretPath[]={0};
-						};
-					};
-				};
-			};
-			id=1577;
-		};
-		class Item142
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={1644.0687,5.7216258,2959.1328};
-			};
-			side="Independent";
-			flags=6;
-			class Attributes
-			{
-				skill=0.60000002;
-			};
-			id=1579;
-			type="I_Mortar_01_F";
-		};
-		class Item143
-		{
-			dataType="Logic";
-			class PositionInfo
-			{
-				position[]={1646.181,5,2949.3066};
-			};
-			id=1580;
-			type="SupportRequester";
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="SupportRequester_BIS_SUPP_limit_UAV";
-					expression="_this setVariable ['BIS_SUPP_limit_UAV',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="-1";
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="SupportRequester_BIS_SUPP_custom_HQ";
-					expression="_this setVariable ['BIS_SUPP_custom_HQ',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="";
-						};
-					};
-				};
-				class Attribute2
-				{
-					property="SupportRequester_BIS_SUPP_limit_Transport";
-					expression="_this setVariable ['BIS_SUPP_limit_Transport',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="-1";
-						};
-					};
-				};
-				class Attribute3
-				{
-					property="SupportRequester_BIS_SUPP_limit_Drop";
-					expression="_this setVariable ['BIS_SUPP_limit_Drop',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="-1";
-						};
-					};
-				};
-				class Attribute4
-				{
-					property="SupportRequester_BIS_SUPP_limit_CAS_Heli";
-					expression="_this setVariable ['BIS_SUPP_limit_CAS_Heli',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="-1";
-						};
-					};
-				};
-				class Attribute5
-				{
-					property="SupportRequester_BIS_SUPP_limit_Artillery";
-					expression="_this setVariable ['BIS_SUPP_limit_Artillery',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="-1";
-						};
-					};
-				};
-				class Attribute6
-				{
-					property="SupportRequester_BIS_SUPP_limit_CAS_Bombing";
-					expression="_this setVariable ['BIS_SUPP_limit_CAS_Bombing',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="-1";
-						};
-					};
-				};
-				nAttributes=7;
-			};
-		};
-		class Item144
-		{
-			dataType="Logic";
-			class PositionInfo
-			{
-				position[]={1644.0863,5,2946.9824};
-			};
-			id=1581;
-			type="SupportProvider_Artillery";
-		};
-		class Item145
-		{
-			dataType="Group";
-			side="Independent";
-			class Entities
-			{
-				items=1;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={1644.1078,5.0014391,2943.2632};
-					};
-					side="Independent";
-					flags=6;
-					class Attributes
-					{
-					};
-					id=1687;
-					type="LIB_WP_Strzelec";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=1;
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-			};
-			class Attributes
-			{
-			};
-			class CrewLinks
-			{
-				class LinkIDProvider
-				{
-					nextID=1;
-				};
-				class Links
-				{
-					items=1;
-					class Item0
-					{
-						linkID=0;
-						item0=1687;
-						item1=1584;
-						class CustomData
-						{
-							role=2;
-							turretPath[]={0};
-						};
-					};
-				};
-			};
-			id=1582;
-		};
-		class Item146
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={1644.1078,5.7216258,2943.2129};
-			};
-			side="Independent";
-			flags=6;
-			class Attributes
-			{
-				skill=0.60000002;
-			};
-			id=1584;
-			type="I_Mortar_01_F";
-		};
-		class Item147
-		{
-			dataType="Group";
-			side="Independent";
-			class Entities
-			{
-				items=4;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={1657.371,5.0014391,2967.7432};
-					};
-					side="Independent";
-					flags=6;
-					class Attributes
-					{
-						skill=0.60000002;
-						rank="LIEUTENANT";
-						init="GrpAK_CO = group this; [""co"",this] call f_fnc_assignGear;";
-						name="UnitAK_CO";
-						description="Home Army Commander";
-						isPlayable=1;
-					};
-					id=1688;
-					type="LIB_WP_Porucznic";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=1.05;
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-				class Item1
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={1656.118,5.0014391,2966.6951};
-					};
-					side="Independent";
-					flags=4;
-					class Attributes
-					{
-						skill=0.60000002;
-						init="GrpAK_CO = group this; [""radio"",this] call f_fnc_assignGear;";
-						name="UnitAK_CO_R";
-						description="Home Army Radio Operator";
-						isPlayable=1;
-					};
-					id=1689;
-					type="LIB_WP_Radioman";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=1.01;
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-				class Item2
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={1659.1429,5.0014391,2966.365};
-					};
-					side="Independent";
-					flags=4;
-					class Attributes
-					{
-						skill=0.60000002;
-						init="GrpAK_CO = group this; [""jtac"",this] call f_fnc_assignGear;";
-						name="UnitAK_CO_JTAC";
-						description="Home Army Forward Observer";
-						isPlayable=1;
-					};
-					id=1690;
-					type="LIB_WP_Radioman";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=1;
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-				class Item3
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={1661.09,5.0014391,2964.9021};
-					};
-					side="Independent";
-					flags=4;
-					class Attributes
-					{
-						skill=0.60000002;
-						init="GrpAK_CO = group this; [""m"",this] call f_fnc_assignGear;";
-						name="UnitAK_CO_M";
-						description="Home Army Medic";
-						isPlayable=1;
-					};
-					id=1691;
-					type="LIB_WP_Medic";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=1.05;
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-			};
-			class Attributes
-			{
-			};
-			id=1585;
-		};
-		class Item148
-		{
-			dataType="Group";
-			side="Independent";
-			class Entities
-			{
-				items=4;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={1657.235,5.0014391,2952.144};
-					};
-					side="Independent";
-					flags=6;
-					class Attributes
-					{
-						skill=0.60000002;
-						rank="SERGEANT";
-						init="GrpAK_DC = group this; [""dc"",this] call f_fnc_assignGear;";
-						name="UnitAK_DC";
-						description="US Army Deputy Commander";
-						isPlayable=1;
-					};
-					id=1692;
-					type="LIB_WP_Porucznic";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=0.95999998;
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-				class Item1
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={1655.11,5.0014391,2950.981};
-					};
-					side="Independent";
-					flags=4;
-					class Attributes
-					{
-						skill=0.60000002;
-						init="GrpAK_DC = group this; [""radio"",this] call f_fnc_assignGear;";
-						name="UnitAK_DC_R";
-						description="Home Army Radio Operator";
-						isPlayable=1;
-					};
-					id=1693;
-					type="LIB_WP_Radioman";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=1.01;
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-				class Item2
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={1659.316,5.0014391,2951.198};
-					};
-					side="Independent";
-					flags=4;
-					class Attributes
-					{
-						skill=0.60000002;
-						init="GrpAK_DC = group this; [""jtac"",this] call f_fnc_assignGear;";
-						name="UnitAK_DC_JTAC";
-						description="Home Army Forward Observer";
-						isPlayable=1;
-					};
-					id=1694;
-					type="LIB_WP_Radioman";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=1;
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-				class Item3
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={1660.351,5.0014391,2948.7551};
-					};
-					side="Independent";
-					flags=4;
-					class Attributes
-					{
-						skill=0.60000002;
-						init="GrpAK_DC = group this; [""m"",this] call f_fnc_assignGear;";
-						name="UnitAK_DC_M";
-						description="Home Army Medic";
-						isPlayable=1;
-					};
-					id=1695;
-					type="LIB_WP_Medic";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=1.05;
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-			};
-			class Attributes
-			{
-			};
-			id=1590;
-		};
-		class Item149
-		{
-			dataType="Group";
-			side="Independent";
-			class Entities
-			{
-				items=2;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={1711.0677,5.0014391,2959.9709};
-					};
-					side="Independent";
-					flags=6;
-					class Attributes
-					{
-						rank="CORPORAL";
-						init="GrpAK_MMG1 = group this; [""mmgag"",this] call f_fnc_assignGear;";
-						name="UnitAK_MMG1_AG";
-						description="Home Army Medium MG Team 1 Spotter (Leader)";
-						isPlayable=1;
-					};
-					id=1774;
-					type="LIB_WP_Strzelec";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="speaker";
-							expression="_this setspeaker _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="";
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=0.95999998;
-								};
-							};
-						};
-						nAttributes=2;
-					};
-				};
-				class Item1
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={1713.0437,5.0014391,2959.792};
-					};
-					side="Independent";
-					flags=4;
-					class Attributes
-					{
-						init="GrpAK_MMG1 = group this; [""mmgg"",this] call f_fnc_assignGear;";
-						name="UnitAK_MMG1_G";
-						description="Home Army Medium MG Team 1 Gunner";
-						isPlayable=1;
-					};
-					id=1775;
-					type="LIB_WP_Mgunner";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="speaker";
-							expression="_this setspeaker _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="";
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=0.98000002;
-								};
-							};
-						};
-						nAttributes=2;
-					};
-				};
-			};
-			class Attributes
-			{
-			};
-			id=1668;
-		};
-		class Item150
-		{
-			dataType="Group";
-			side="Independent";
-			class Entities
-			{
-				items=2;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={1711.0408,5.0014391,2957.634};
-					};
-					side="Independent";
-					flags=6;
-					class Attributes
-					{
-						rank="CORPORAL";
-						init="GrpAK_MMG2 = group this; [""mmgag"",this] call f_fnc_assignGear;";
-						name="UnitAK_MMG2_AG";
-						description="Home Army Medium MG Team 2 Spotter (Leader)";
-						isPlayable=1;
-					};
-					id=1776;
-					type="LIB_WP_Strzelec";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="speaker";
-							expression="_this setspeaker _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="";
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=0.97000003;
-								};
-							};
-						};
-						nAttributes=2;
-					};
-				};
-				class Item1
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={1713.0167,5.0014391,2957.4551};
-					};
-					side="Independent";
-					flags=4;
-					class Attributes
-					{
-						init="GrpAK_MMG2 = group this; [""mmgg"",this] call f_fnc_assignGear;";
-						name="UnitAK_MMG2_G";
-						description="Home Army Medium MG Team 2 Gunner";
-						isPlayable=1;
-					};
-					id=1777;
-					type="LIB_WP_Mgunner";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="speaker";
-							expression="_this setspeaker _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="";
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=1.01;
-								};
-							};
-						};
-						nAttributes=2;
-					};
-				};
-			};
-			class Attributes
-			{
-			};
-			id=1671;
-		};
-		class Item151
-		{
-			dataType="Group";
-			side="Independent";
-			class Entities
-			{
-				items=2;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={1711.009,5.0014391,2953.8149};
-					};
-					side="Independent";
-					flags=6;
-					class Attributes
-					{
-						rank="CORPORAL";
-						init="GrpAK_MAT1 = group this; [""matag"",this] call f_fnc_assignGear;";
-						name="UnitAK_MAT1_AG";
-						description="Home Army AT Team 1 Leader";
-						isPlayable=1;
-					};
-					id=1778;
-					type="LIB_WP_Strzelec";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="speaker";
-							expression="_this setspeaker _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="";
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=0.95999998;
-								};
-							};
-						};
-						nAttributes=2;
-					};
-				};
-				class Item1
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={1712.986,5.0014391,2953.637};
-					};
-					side="Independent";
-					flags=4;
-					class Attributes
-					{
-						init="GrpAK_MAT1 = group this; [""matg"",this] call f_fnc_assignGear;";
-						name="UnitAK_MAT1_G";
-						description="Home Army AT Team 1 Grenadier";
-						isPlayable=1;
-					};
-					id=1779;
-					type="LIB_WP_AT_grenadier";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="speaker";
-							expression="_this setspeaker _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="";
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=1;
-								};
-							};
-						};
-						nAttributes=2;
-					};
-				};
-			};
-			class Attributes
-			{
-			};
-			id=1674;
-		};
-		class Item152
-		{
-			dataType="Group";
-			side="Independent";
-			class Entities
-			{
-				items=2;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={1710.965,5.0014391,2950.7319};
-					};
-					side="Independent";
-					flags=6;
-					class Attributes
-					{
-						rank="CORPORAL";
-						init="GrpAK_MAT2 = group this; [""matag"",this] call f_fnc_assignGear;";
-						name="UnitAK_MAT2_AG";
-						description="Home Army AT Team 2 Leader";
-						isPlayable=1;
-					};
-					id=1781;
-					type="LIB_WP_Strzelec";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="speaker";
-							expression="_this setspeaker _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="";
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=0.99000001;
-								};
-							};
-						};
-						nAttributes=2;
-					};
-				};
-				class Item1
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={1712.942,5.0014391,2950.554};
-					};
-					side="Independent";
-					flags=4;
-					class Attributes
-					{
-						init="GrpAK_MAT2 = group this; [""matg"",this] call f_fnc_assignGear;";
-						name="UnitAK_MAT2_G";
-						description="Home Army AT Team 2 Grenadier";
-						isPlayable=1;
-					};
-					id=1782;
-					type="LIB_WP_AT_grenadier";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="speaker";
-							expression="_this setspeaker _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="";
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=1.04;
-								};
-							};
-						};
-						nAttributes=2;
-					};
-				};
-			};
-			class Attributes
-			{
-			};
-			id=1677;
-		};
-		class Item153
-		{
-			dataType="Group";
-			side="Independent";
-			class Entities
-			{
-				items=2;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={1711.4674,5.0014391,2948.8623};
-					};
-					side="Independent";
-					flags=6;
-					class Attributes
-					{
-						skill=0.60000002;
-						rank="CORPORAL";
-						init="GrpAK_ST1 = group this; [""sp"",this] call f_fnc_assignGear; ";
-						name="UnitAK_ST1_SP";
-						description="Home Army Sniper Team 1 Spotter (Leader)";
-						isPlayable=1;
-					};
-					id=1783;
-					type="LIB_WP_Sniper";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=1.01;
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-				class Item1
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={1712.5934,5.0014391,2947.8884};
-					};
-					side="Independent";
-					flags=4;
-					class Attributes
-					{
-						skill=0.60000002;
-						init="GrpAK_ST1 = group this; [""sn"",this] call f_fnc_assignGear; ";
-						name="UnitAK_ST1_SN";
-						description="Home Army Sniper Team 1 Sniper";
-						isPlayable=1;
-					};
-					id=1784;
-					type="LIB_WP_Sniper";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="speaker";
-							expression="_this setspeaker _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="";
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=1.03;
-								};
-							};
-						};
-						nAttributes=2;
-					};
-				};
-			};
-			class Attributes
-			{
-			};
-			id=1680;
-		};
-		class Item154
-		{
-			dataType="Group";
-			side="Independent";
-			class Entities
-			{
-				items=4;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={1711.287,5.0014391,2946.6487};
-					};
-					side="Independent";
-					flags=6;
-					class Attributes
-					{
-						skill=0.60000002;
-						init="GrpAK_ENG1 = group this; [""eng"",this] call f_fnc_assignGear; ";
-						name="UnitAK_ENG1_FTL";
-						description="Home Army Engineer Team 1 Leader (Demo)";
-						isPlayable=1;
-					};
-					id=1785;
-					type="LIB_WP_Starszy_saper";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=1.01;
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-				class Item1
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={1712.739,5.0014391,2945.3726};
-					};
-					side="Independent";
-					flags=4;
-					class Attributes
-					{
-						skill=0.60000002;
-						init="GrpAK_ENG1 = group this; [""eng"",this] call f_fnc_assignGear; ";
-						name="UnitAK_ENG1_A1";
-						description="Home Army Engineer Team 1 Assistant (Demo)";
-						isPlayable=1;
-					};
-					id=1786;
-					type="LIB_WP_Saper";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=0.95999998;
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-				class Item2
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={1714.2531,5.0014391,2943.9561};
-					};
-					side="Independent";
-					flags=4;
-					class Attributes
-					{
-						skill=0.60000002;
-						init="GrpAK_ENG1 = group this; [""engm"",this] call f_fnc_assignGear; ";
-						name="UnitAK_ENG1_A2";
-						description="Home Army Engineer Team 1 Assistant (Mines)";
-						isPlayable=1;
-					};
-					id=1951;
-					type="LIB_WP_Saper";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=0.95999998;
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-				class Item3
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={1715.757,5.0014391,2942.165};
-					};
-					side="Independent";
-					flags=4;
-					class Attributes
-					{
-						skill=0.60000002;
-						init="GrpAK_ENG1 = group this; [""engm"",this] call f_fnc_assignGear; ";
-						name="UnitAK_ENG1_A3";
-						description="Home Army Engineer Team 1 Assistant (Mines)";
-						isPlayable=1;
-					};
-					id=1953;
-					type="LIB_WP_Saper";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=0.95999998;
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-			};
-			class Attributes
-			{
-			};
-			id=1683;
-		};
-		class Item155
-		{
-			dataType="Group";
-			side="Independent";
-			class Entities
-			{
-				items=5;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={1673.6454,5.0014391,2957.3552};
-					};
-					side="Independent";
-					flags=6;
-					class Attributes
-					{
-						skill=0.60000002;
-						rank="CORPORAL";
-						init="GrpAK_A1 = group this; [""ftl"",this] call f_fnc_assignGear;";
-						name="UnitAK_A1_FTL";
-						description="Home Army Alpha 1 Fire Team Leader";
-						isPlayable=1;
-					};
-					id=1699;
-					type="LIB_WP_Starszy_strzelec";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=0.99000001;
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-				class Item1
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={1676.0984,5.0014391,2955.2971};
-					};
-					side="Independent";
-					flags=4;
-					class Attributes
-					{
-						skill=0.60000002;
-						init="GrpAK_A1 = group this; [""r"",this] call f_fnc_assignGear;";
-						name="UnitAK_A1_AR1";
-						description="Home Army Alpha 1 Rifleman";
-						isPlayable=1;
-					};
-					id=1700;
-					type="LIB_WP_Strzelec";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=1.01;
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-				class Item2
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={1671.8204,5.0014391,2955.7283};
-					};
-					side="Independent";
-					flags=4;
-					class Attributes
-					{
-						skill=0.60000002;
-						init="GrpAK_A1 = group this; [""r"",this] call f_fnc_assignGear;";
-						name="UnitAK_A1_AR2";
-						description="Home Army Alpha 1 Rifleman";
-						isPlayable=1;
-					};
-					id=1701;
-					type="LIB_WP_Strzelec";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=0.99000001;
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-				class Item3
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={1678.0464,5.0014391,2953.6882};
-					};
-					side="Independent";
-					flags=4;
-					class Attributes
-					{
-						skill=0.60000002;
-						init="GrpAK_A1 = group this; [""r"",this] call f_fnc_assignGear;";
-						name="UnitAK_A1_R1";
-						description="Home Army Alpha 1 Rifleman";
-						isPlayable=1;
-					};
-					id=1702;
-					type="LIB_WP_Strzelec";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=0.95999998;
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-				class Item4
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={1670.0814,5.0014391,2954.1001};
-					};
-					side="Independent";
-					flags=4;
-					class Attributes
-					{
-						skill=0.60000002;
-						init="GrpAK_A1 = group this; [""r"",this] call f_fnc_assignGear;";
-						name="UnitAK_A1_R2";
-						description="Home Army Alpha 1 Rifleman";
-						isPlayable=1;
-					};
-					id=1703;
-					type="LIB_WP_Strzelec";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=0.99000001;
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-			};
-			class Attributes
-			{
-			};
-			id=1602;
-		};
-		class Item156
-		{
-			dataType="Group";
-			side="Independent";
-			class Entities
-			{
-				items=5;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={1673.5314,5.0014391,2952.0581};
-					};
-					side="Independent";
-					flags=6;
-					class Attributes
-					{
-						skill=0.60000002;
-						rank="CORPORAL";
-						init="GrpAK_A2 = group this; [""ftl"",this] call f_fnc_assignGear;";
-						name="UnitAK_A2_FTL";
-						description="Home Army Alpha 2 Fire Team Leader";
-						isPlayable=1;
-					};
-					id=1705;
-					type="LIB_WP_Starszy_strzelec";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=0.99000001;
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-				class Item1
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={1675.9844,5.0014391,2950.0002};
-					};
-					side="Independent";
-					flags=4;
-					class Attributes
-					{
-						skill=0.60000002;
-						init="GrpAK_A2 = group this; [""r"",this] call f_fnc_assignGear;";
-						name="UnitAK_A2_AR1";
-						description="Home Army Alpha 2 Rifleman";
-						isPlayable=1;
-					};
-					id=1706;
-					type="LIB_WP_Strzelec";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=1.01;
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-				class Item2
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={1671.7064,5.0014391,2950.4312};
-					};
-					side="Independent";
-					flags=4;
-					class Attributes
-					{
-						skill=0.60000002;
-						init="GrpAK_A2 = group this; [""r"",this] call f_fnc_assignGear;";
-						name="UnitAK_A2_AR2";
-						description="Home Army Alpha 2 Rifleman";
-						isPlayable=1;
-					};
-					id=1707;
-					type="LIB_WP_Strzelec";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=0.99000001;
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-				class Item3
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={1677.9324,5.0014391,2948.3911};
-					};
-					side="Independent";
-					flags=4;
-					class Attributes
-					{
-						skill=0.60000002;
-						init="GrpAK_A2 = group this; [""r"",this] call f_fnc_assignGear;";
-						name="UnitAK_A2_R1";
-						description="Home Army Alpha 2 Rifleman";
-						isPlayable=1;
-					};
-					id=1708;
-					type="LIB_WP_Strzelec";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=0.95999998;
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-				class Item4
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={1669.9674,5.0014391,2948.8032};
-					};
-					side="Independent";
-					flags=4;
-					class Attributes
-					{
-						skill=0.60000002;
-						init="GrpAK_A2 = group this; [""r"",this] call f_fnc_assignGear;";
-						name="UnitAK_A2_R2";
-						description="Home Army Alpha 2 Rifleman";
-						isPlayable=1;
-					};
-					id=1709;
-					type="LIB_WP_Strzelec";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=0.99000001;
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-			};
-			class Attributes
-			{
-			};
-			id=1704;
-		};
-		class Item157
-		{
-			dataType="Group";
-			side="Independent";
-			class Entities
-			{
-				items=3;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={1673.6144,5.0014391,2961.6501};
-					};
-					side="Independent";
-					flags=6;
-					class Attributes
-					{
-						skill=0.60000002;
-						rank="SERGEANT";
-						init="GrpAK_ASL = group this; [""sl"",this] call f_fnc_assignGear;";
-						name="UnitAK_ASL_SL";
-						description="Home Army Alpha Squad Leader";
-						isPlayable=1;
-					};
-					id=1696;
-					type="LIB_WP_Sierzant";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=0.94999999;
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-				class Item1
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={1674.7014,5.0014391,2961.0732};
-					};
-					side="Independent";
-					flags=4;
-					class Attributes
-					{
-						skill=0.60000002;
-						init="GrpAK_ASL = group this; [""m"",this] call f_fnc_assignGear;";
-						name="UnitAK_ASL_M";
-						description="Home Army Alpha Medic";
-						isPlayable=1;
-					};
-					id=1697;
-					type="LIB_WP_Medic";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=1.04;
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-				class Item2
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={1672.5614,5.0014391,2961.1211};
-					};
-					side="Independent";
-					flags=4;
-					class Attributes
-					{
-						skill=0.60000002;
-						init="GrpAK_ASL = group this; [""radio"",this] call f_fnc_assignGear;";
-						name="UnitAK_ASL_R";
-						description="Home Army Alpha Radio Operator";
-						isPlayable=1;
-					};
-					id=1698;
-					type="LIB_WP_Radioman";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="speaker";
-							expression="_this setspeaker _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="";
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=1.02;
-								};
-							};
-						};
-						nAttributes=2;
-					};
-				};
-			};
-			class Attributes
-			{
-			};
-			id=1598;
-		};
-		class Item158
-		{
-			dataType="Group";
-			side="Independent";
-			class Entities
-			{
-				items=5;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={1688.418,5.0014391,2957.405};
-					};
-					side="Independent";
-					flags=6;
-					class Attributes
-					{
-						skill=0.60000002;
-						rank="CORPORAL";
-						init="GrpAK_B1 = group this; [""ftl"",this] call f_fnc_assignGear;";
-						name="UnitAK_B1_FTL";
-						description="Home Army Bravo 1 Fire Team Leader";
-						isPlayable=1;
-					};
-					id=1727;
-					type="LIB_WP_Starszy_strzelec";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=0.99000001;
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-				class Item1
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={1690.871,5.0014391,2955.3472};
-					};
-					side="Independent";
-					flags=4;
-					class Attributes
-					{
-						skill=0.60000002;
-						init="GrpAK_B1 = group this; [""r"",this] call f_fnc_assignGear;";
-						name="UnitAK_B1_AR1";
-						description="Home Army Bravo 1 Rifleman";
-						isPlayable=1;
-					};
-					id=1728;
-					type="LIB_WP_Strzelec";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=1.01;
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-				class Item2
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={1686.593,5.0014391,2955.7781};
-					};
-					side="Independent";
-					flags=4;
-					class Attributes
-					{
-						skill=0.60000002;
-						init="GrpAK_B1 = group this; [""r"",this] call f_fnc_assignGear;";
-						name="UnitAK_B1_AR2";
-						description="Home Army Bravo 1 Rifleman";
-						isPlayable=1;
-					};
-					id=1729;
-					type="LIB_WP_Strzelec";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=0.99000001;
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-				class Item3
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={1692.819,5.0014391,2953.738};
-					};
-					side="Independent";
-					flags=4;
-					class Attributes
-					{
-						skill=0.60000002;
-						init="GrpAK_B1 = group this; [""r"",this] call f_fnc_assignGear;";
-						name="UnitAK_B1_R1";
-						description="Home Army Bravo 1 Rifleman";
-						isPlayable=1;
-					};
-					id=1730;
-					type="LIB_WP_Strzelec";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=0.95999998;
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-				class Item4
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={1684.854,5.0014391,2954.1501};
-					};
-					side="Independent";
-					flags=4;
-					class Attributes
-					{
-						skill=0.60000002;
-						init="GrpAK_B1 = group this; [""r"",this] call f_fnc_assignGear;";
-						name="UnitAK_B1_R2";
-						description="Home Army Bravo 1 Rifleman";
-						isPlayable=1;
-					};
-					id=1731;
-					type="LIB_WP_Strzelec";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=0.99000001;
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-			};
-			class Attributes
-			{
-			};
-			id=1726;
-		};
-		class Item159
-		{
-			dataType="Group";
-			side="Independent";
-			class Entities
-			{
-				items=5;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={1688.304,5.0014391,2952.1082};
-					};
-					side="Independent";
-					flags=6;
-					class Attributes
-					{
-						skill=0.60000002;
-						rank="CORPORAL";
-						init="GrpAK_B2 = group this; [""ftl"",this] call f_fnc_assignGear;";
-						name="UnitAK_B2_FTL";
-						description="Home Army Bravo 2 Fire Team Leader";
-						isPlayable=1;
-					};
-					id=1733;
-					type="LIB_WP_Starszy_strzelec";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=0.99000001;
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-				class Item1
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={1690.757,5.0014391,2950.05};
-					};
-					side="Independent";
-					flags=4;
-					class Attributes
-					{
-						skill=0.60000002;
-						init="GrpAK_B2 = group this; [""r"",this] call f_fnc_assignGear;";
-						name="UnitAK_B2_AR1";
-						description="Home Army Bravo 2 Rifleman";
-						isPlayable=1;
-					};
-					id=1734;
-					type="LIB_WP_Strzelec";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=1.01;
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-				class Item2
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={1686.479,5.0014391,2950.481};
-					};
-					side="Independent";
-					flags=4;
-					class Attributes
-					{
-						skill=0.60000002;
-						init="GrpAK_B2 = group this; [""r"",this] call f_fnc_assignGear;";
-						name="UnitAK_B2_AR2";
-						description="Home Army Bravo 2 Rifleman";
-						isPlayable=1;
-					};
-					id=1735;
-					type="LIB_WP_Strzelec";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=0.99000001;
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-				class Item3
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={1692.705,5.0014391,2948.4412};
-					};
-					side="Independent";
-					flags=4;
-					class Attributes
-					{
-						skill=0.60000002;
-						init="GrpAK_B2 = group this; [""r"",this] call f_fnc_assignGear;";
-						name="UnitAK_B2_R1";
-						description="Home Army Bravo 2 Rifleman";
-						isPlayable=1;
-					};
-					id=1736;
-					type="LIB_WP_Strzelec";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=0.95999998;
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-				class Item4
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={1684.74,5.0014391,2948.853};
-					};
-					side="Independent";
-					flags=4;
-					class Attributes
-					{
-						skill=0.60000002;
-						init="GrpAK_B2 = group this; [""r"",this] call f_fnc_assignGear;";
-						name="UnitAK_B2_R2";
-						description="Home Army Bravo 2 Rifleman";
-						isPlayable=1;
-					};
-					id=1737;
-					type="LIB_WP_Strzelec";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=0.99000001;
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-			};
-			class Attributes
-			{
-			};
-			id=1732;
-		};
-		class Item160
-		{
-			dataType="Group";
-			side="Independent";
-			class Entities
-			{
-				items=3;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={1688.387,5.0014391,2961.7};
-					};
-					side="Independent";
-					flags=6;
-					class Attributes
-					{
-						skill=0.60000002;
-						rank="SERGEANT";
-						init="GrpAK_BSL = group this; [""sl"",this] call f_fnc_assignGear;";
-						name="UnitAK_BSL_SL";
-						description="Home Army Bravo Squad Leader";
-						isPlayable=1;
-					};
-					id=1739;
-					type="LIB_WP_Sierzant";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=0.94999999;
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-				class Item1
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={1689.474,5.0014391,2961.123};
-					};
-					side="Independent";
-					flags=4;
-					class Attributes
-					{
-						skill=0.60000002;
-						init="GrpAK_BSL = group this; [""m"",this] call f_fnc_assignGear;";
-						name="UnitAK_BSL_M";
-						description="Home Army Bravo Medic";
-						isPlayable=1;
-					};
-					id=1740;
-					type="LIB_WP_Medic";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=1.04;
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-				class Item2
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={1687.334,5.0014391,2961.1711};
-					};
-					side="Independent";
-					flags=4;
-					class Attributes
-					{
-						skill=0.60000002;
-						init="GrpAK_BSL = group this; [""radio"",this] call f_fnc_assignGear;";
-						name="UnitAK_BSL_R";
-						description="Home Army Bravo Radio Operator";
-						isPlayable=1;
-					};
-					id=1741;
-					type="LIB_WP_Radioman";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="speaker";
-							expression="_this setspeaker _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="";
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=1.02;
-								};
-							};
-						};
-						nAttributes=2;
-					};
-				};
-			};
-			class Attributes
-			{
-			};
-			id=1738;
-		};
-		class Item161
-		{
-			dataType="Group";
-			side="Independent";
-			class Entities
-			{
-				items=5;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={1700.573,5.0014391,2957.333};
-					};
-					side="Independent";
-					flags=6;
-					class Attributes
-					{
-						skill=0.60000002;
-						rank="CORPORAL";
-						init="GrpAK_C1 = group this; [""ftl"",this] call f_fnc_assignGear;";
-						name="UnitAK_C1_FTL";
-						description="Home Army Charlie 1 Fire Team Leader";
-						isPlayable=1;
-					};
-					id=1759;
-					type="LIB_WP_Starszy_strzelec";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=0.99000001;
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-				class Item1
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={1703.026,5.0014391,2955.2751};
-					};
-					side="Independent";
-					flags=4;
-					class Attributes
-					{
-						skill=0.60000002;
-						init="GrpAK_C1 = group this; [""r"",this] call f_fnc_assignGear;";
-						name="UnitAK_C1_AR1";
-						description="Home Army Charlie 1 Rifleman";
-						isPlayable=1;
-					};
-					id=1760;
-					type="LIB_WP_Strzelec";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=1.01;
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-				class Item2
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={1698.748,5.0014391,2955.7061};
-					};
-					side="Independent";
-					flags=4;
-					class Attributes
-					{
-						skill=0.60000002;
-						init="GrpAK_C1 = group this; [""r"",this] call f_fnc_assignGear;";
-						name="UnitAK_C1_AR2";
-						description="Home Army Charlie 1 Rifleman";
-						isPlayable=1;
-					};
-					id=1761;
-					type="LIB_WP_Strzelec";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=0.99000001;
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-				class Item3
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={1704.974,5.0014391,2953.666};
-					};
-					side="Independent";
-					flags=4;
-					class Attributes
-					{
-						skill=0.60000002;
-						init="GrpAK_C1 = group this; [""r"",this] call f_fnc_assignGear;";
-						name="UnitAK_C1_R1";
-						description="Home Army Charlie 1 Rifleman";
-						isPlayable=1;
-					};
-					id=1762;
-					type="LIB_WP_Strzelec";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=0.95999998;
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-				class Item4
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={1697.009,5.0014391,2954.0781};
-					};
-					side="Independent";
-					flags=4;
-					class Attributes
-					{
-						skill=0.60000002;
-						init="GrpAK_C1 = group this; [""r"",this] call f_fnc_assignGear;";
-						name="UnitAK_C1_R2";
-						description="Home Army Charlie 1 Rifleman";
-						isPlayable=1;
-					};
-					id=1763;
-					type="LIB_WP_Strzelec";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=0.99000001;
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-			};
-			class Attributes
-			{
-			};
-			id=1758;
-		};
-		class Item162
-		{
-			dataType="Group";
-			side="Independent";
-			class Entities
-			{
-				items=5;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={1700.459,5.0014391,2952.0361};
-					};
-					side="Independent";
-					flags=6;
-					class Attributes
-					{
-						skill=0.60000002;
-						rank="CORPORAL";
-						init="GrpAK_C2 = group this; [""ftl"",this] call f_fnc_assignGear;";
-						name="UnitAK_C2_FTL";
-						description="Home Army Charlie 2 Fire Team Leader";
-						isPlayable=1;
-					};
-					id=1765;
-					type="LIB_WP_Starszy_strzelec";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=0.99000001;
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-				class Item1
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={1702.912,5.0014391,2949.978};
-					};
-					side="Independent";
-					flags=4;
-					class Attributes
-					{
-						skill=0.60000002;
-						init="GrpAK_C2 = group this; [""r"",this] call f_fnc_assignGear;";
-						name="UnitAK_C2_AR1";
-						description="Home Army Alpha 2 Rifleman";
-						isPlayable=1;
-					};
-					id=1766;
-					type="LIB_WP_Strzelec";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=1.01;
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-				class Item2
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={1698.634,5.0014391,2950.4089};
-					};
-					side="Independent";
-					flags=4;
-					class Attributes
-					{
-						skill=0.60000002;
-						init="GrpAK_C2 = group this; [""r"",this] call f_fnc_assignGear;";
-						name="UnitAK_C2_AR2";
-						description="Home Army Charlie 2 Rifleman";
-						isPlayable=1;
-					};
-					id=1767;
-					type="LIB_WP_Strzelec";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=0.99000001;
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-				class Item3
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={1704.86,5.0014391,2948.3691};
-					};
-					side="Independent";
-					flags=4;
-					class Attributes
-					{
-						skill=0.60000002;
-						init="GrpAK_C2 = group this; [""r"",this] call f_fnc_assignGear;";
-						name="UnitAK_C2_R1";
-						description="Home Army Charlie 2 Rifleman";
-						isPlayable=1;
-					};
-					id=1768;
-					type="LIB_WP_Strzelec";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=0.95999998;
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-				class Item4
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={1696.895,5.0014391,2948.781};
-					};
-					side="Independent";
-					flags=4;
-					class Attributes
-					{
-						skill=0.60000002;
-						init="GrpAK_C2 = group this; [""r"",this] call f_fnc_assignGear;";
-						name="UnitAK_C2_R2";
-						description="Home Army Charlie 2 Rifleman";
-						isPlayable=1;
-					};
-					id=1769;
-					type="LIB_WP_Strzelec";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=0.99000001;
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-			};
-			class Attributes
-			{
-			};
-			id=1764;
-		};
-		class Item163
-		{
-			dataType="Group";
-			side="Independent";
-			class Entities
-			{
-				items=3;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={1700.542,5.0014391,2961.6279};
-					};
-					side="Independent";
-					flags=6;
-					class Attributes
-					{
-						skill=0.60000002;
-						rank="SERGEANT";
-						init="GrpAK_CSL = group this; [""sl"",this] call f_fnc_assignGear;";
-						name="UnitAK_CSL_SL";
-						description="Home Army Charlie Squad Leader";
-						isPlayable=1;
-					};
-					id=1771;
-					type="LIB_WP_Sierzant";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=0.94999999;
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-				class Item1
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={1701.629,5.0014391,2961.05};
-					};
-					side="Independent";
-					flags=4;
-					class Attributes
-					{
-						skill=0.60000002;
-						init="GrpAK_CSL = group this; [""m"",this] call f_fnc_assignGear;";
-						name="UnitAK_CSL_M";
-						description="Home Army Charlie Medic";
-						isPlayable=1;
-					};
-					id=1772;
-					type="LIB_WP_Medic";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=1.04;
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-				class Item2
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={1699.489,5.0014391,2961.0991};
-					};
-					side="Independent";
-					flags=4;
-					class Attributes
-					{
-						skill=0.60000002;
-						init="GrpAK_CSL = group this; [""radio"",this] call f_fnc_assignGear;";
-						name="UnitAK_CSL_R";
-						description="Home Army Charlie Radio Operator";
-						isPlayable=1;
-					};
-					id=1773;
-					type="LIB_WP_Radioman";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="speaker";
-							expression="_this setspeaker _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="";
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=1.02;
-								};
-							};
-						};
-						nAttributes=2;
-					};
-				};
-			};
-			class Attributes
-			{
-			};
-			id=1770;
-		};
-		class Item164
 		{
 			dataType="Object";
 			class PositionInfo
@@ -16053,7 +12491,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item165
+		class Item140
 		{
 			dataType="Object";
 			class PositionInfo
@@ -16069,6 +12507,7 @@ class Mission
 			};
 			id=1810;
 			type="LIB_T34_85";
+			atlOffset=-0.27259111;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -16093,7 +12532,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item166
+		class Item141
 		{
 			dataType="Group";
 			side="East";
@@ -16276,8 +12715,9 @@ class Mission
 				};
 			};
 			id=1811;
+			atlOffset=-0.27259111;
 		};
-		class Item167
+		class Item142
 		{
 			dataType="Object";
 			class PositionInfo
@@ -16293,6 +12733,7 @@ class Mission
 			};
 			id=1816;
 			type="LIB_M4A3_75";
+			atlOffset=-0.0068492889;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -16317,7 +12758,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item168
+		class Item143
 		{
 			dataType="Group";
 			side="Independent";
@@ -16501,8 +12942,9 @@ class Mission
 				};
 			};
 			id=1817;
+			atlOffset=-0.0068492889;
 		};
-		class Item169
+		class Item144
 		{
 			dataType="Object";
 			class PositionInfo
@@ -16520,7 +12962,7 @@ class Mission
 			id=1823;
 			type="LIB_US_Scout_M3_FFV";
 		};
-		class Item170
+		class Item145
 		{
 			dataType="Object";
 			class PositionInfo
@@ -16538,7 +12980,7 @@ class Mission
 			id=1824;
 			type="LIB_US_M3_Halftrack";
 		};
-		class Item171
+		class Item146
 		{
 			dataType="Object";
 			class PositionInfo
@@ -16556,7 +12998,7 @@ class Mission
 			id=1825;
 			type="LIB_US_M3_Halftrack";
 		};
-		class Item172
+		class Item147
 		{
 			dataType="Object";
 			class PositionInfo
@@ -16575,7 +13017,7 @@ class Mission
 			type="LIB_US_M3_Halftrack";
 			atlOffset=0.026000023;
 		};
-		class Item173
+		class Item148
 		{
 			dataType="Object";
 			class PositionInfo
@@ -16593,7 +13035,7 @@ class Mission
 			id=1827;
 			type="LIB_US_GMC_Tent";
 		};
-		class Item174
+		class Item149
 		{
 			dataType="Object";
 			class PositionInfo
@@ -16610,8 +13052,9 @@ class Mission
 			};
 			id=1828;
 			type="LIB_US_Willys_MB";
+			atlOffset=0.075000286;
 		};
-		class Item175
+		class Item150
 		{
 			dataType="Object";
 			class PositionInfo
@@ -16628,8 +13071,9 @@ class Mission
 			};
 			id=1829;
 			type="LIB_US_Willys_MB";
+			atlOffset=0.075000286;
 		};
-		class Item176
+		class Item151
 		{
 			dataType="Object";
 			class PositionInfo
@@ -16647,7 +13091,7 @@ class Mission
 			id=1830;
 			type="LIB_US_GMC_Tent";
 		};
-		class Item177
+		class Item152
 		{
 			dataType="Object";
 			class PositionInfo
@@ -16665,7 +13109,7 @@ class Mission
 			id=1831;
 			type="LIB_US_GMC_Tent";
 		};
-		class Item178
+		class Item153
 		{
 			dataType="Object";
 			class PositionInfo
@@ -16682,8 +13126,9 @@ class Mission
 			};
 			id=1832;
 			type="LIB_US_Willys_MB";
+			atlOffset=0.075000286;
 		};
-		class Item179
+		class Item154
 		{
 			dataType="Object";
 			class PositionInfo
@@ -16700,8 +13145,9 @@ class Mission
 			};
 			id=1833;
 			type="LIB_US_Willys_MB";
+			atlOffset=0.075000286;
 		};
-		class Item180
+		class Item155
 		{
 			dataType="Group";
 			side="East";
@@ -16822,7 +13268,7 @@ class Mission
 			};
 			id=1886;
 		};
-		class Item181
+		class Item156
 		{
 			dataType="Group";
 			side="East";
@@ -17012,7 +13458,7 @@ class Mission
 			};
 			id=1890;
 		};
-		class Item182
+		class Item157
 		{
 			dataType="Group";
 			side="East";
@@ -17202,7 +13648,7 @@ class Mission
 			};
 			id=1896;
 		};
-		class Item183
+		class Item158
 		{
 			dataType="Group";
 			side="West";
@@ -17339,7 +13785,7 @@ class Mission
 			};
 			id=1907;
 		};
-		class Item184
+		class Item159
 		{
 			dataType="Group";
 			side="West";
@@ -17601,7 +14047,7 @@ class Mission
 			};
 			id=1911;
 		};
-		class Item185
+		class Item160
 		{
 			dataType="Group";
 			side="West";
@@ -17863,7 +14309,7 @@ class Mission
 			};
 			id=1917;
 		};
-		class Item186
+		class Item161
 		{
 			dataType="Group";
 			side="West";
@@ -18000,6 +14446,3580 @@ class Mission
 			{
 			};
 			id=1946;
+		};
+		class Item162
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={1644.0853,5,2962.9277};
+			};
+			id=1576;
+			type="SupportProvider_Artillery";
+		};
+		class Item163
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1643.79,4.8963561,2959.1641};
+					};
+					side="Independent";
+					flags=6;
+					class Attributes
+					{
+					};
+					id=1686;
+					type="LIB_WP_Strzelec";
+					atlOffset=-0.10508299;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.95999998;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			class CrewLinks
+			{
+				class LinkIDProvider
+				{
+					nextID=1;
+				};
+				class Links
+				{
+					items=1;
+					class Item0
+					{
+						linkID=0;
+						item0=1686;
+						item1=1579;
+						class CustomData
+						{
+							role=2;
+							turretPath[]={0};
+						};
+					};
+				};
+			};
+			id=1577;
+		};
+		class Item164
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1644.0687,5.7216258,2959.1328};
+			};
+			side="Independent";
+			flags=6;
+			class Attributes
+			{
+				skill=0.60000002;
+			};
+			id=1579;
+			type="I_Mortar_01_F";
+		};
+		class Item165
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=4;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1657.371,5.0014391,2967.7432};
+					};
+					side="Independent";
+					flags=6;
+					class Attributes
+					{
+						skill=0.60000002;
+						rank="LIEUTENANT";
+						init="GrpAK_CO = group this; [""co"",this] call f_fnc_assignGear;";
+						name="UnitAK_CO";
+						description="Home Army Commander";
+						isPlayable=1;
+					};
+					id=1688;
+					type="LIB_WP_Porucznic";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.05;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1656.118,5.0014391,2966.6951};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="GrpAK_CO = group this; [""radio"",this] call f_fnc_assignGear;";
+						name="UnitAK_CO_R";
+						description="Home Army Radio Operator";
+						isPlayable=1;
+					};
+					id=1689;
+					type="LIB_WP_Radioman";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1659.1429,5.0014391,2966.365};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="GrpAK_CO = group this; [""jtac"",this] call f_fnc_assignGear;";
+						name="UnitAK_CO_JTAC";
+						description="Home Army Forward Observer";
+						isPlayable=1;
+					};
+					id=1690;
+					type="LIB_WP_Radioman";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1661.09,5.0014391,2964.9021};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="GrpAK_CO = group this; [""m"",this] call f_fnc_assignGear;";
+						name="UnitAK_CO_M";
+						description="Home Army Medic";
+						isPlayable=1;
+					};
+					id=1691;
+					type="LIB_WP_Medic";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.05;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=1585;
+		};
+		class Item166
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={1646.1801,5,2965.252};
+			};
+			id=1575;
+			type="SupportRequester";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="SupportRequester_BIS_SUPP_limit_UAV";
+					expression="_this setVariable ['BIS_SUPP_limit_UAV',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="-1";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="SupportRequester_BIS_SUPP_custom_HQ";
+					expression="_this setVariable ['BIS_SUPP_custom_HQ',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="SupportRequester_BIS_SUPP_limit_Transport";
+					expression="_this setVariable ['BIS_SUPP_limit_Transport',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="-1";
+						};
+					};
+				};
+				class Attribute3
+				{
+					property="SupportRequester_BIS_SUPP_limit_Drop";
+					expression="_this setVariable ['BIS_SUPP_limit_Drop',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="-1";
+						};
+					};
+				};
+				class Attribute4
+				{
+					property="SupportRequester_BIS_SUPP_limit_CAS_Heli";
+					expression="_this setVariable ['BIS_SUPP_limit_CAS_Heli',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="-1";
+						};
+					};
+				};
+				class Attribute5
+				{
+					property="SupportRequester_BIS_SUPP_limit_Artillery";
+					expression="_this setVariable ['BIS_SUPP_limit_Artillery',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="-1";
+						};
+					};
+				};
+				class Attribute6
+				{
+					property="SupportRequester_BIS_SUPP_limit_CAS_Bombing";
+					expression="_this setVariable ['BIS_SUPP_limit_CAS_Bombing',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="-1";
+						};
+					};
+				};
+				nAttributes=7;
+			};
+		};
+		class Item167
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={1644.0863,5,2946.9824};
+			};
+			id=1581;
+			type="SupportProvider_Artillery";
+		};
+		class Item168
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1643.8291,4.8963561,2943.2441};
+					};
+					side="Independent";
+					flags=6;
+					class Attributes
+					{
+					};
+					id=1687;
+					type="LIB_WP_Strzelec";
+					atlOffset=-0.10508299;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			class CrewLinks
+			{
+				class LinkIDProvider
+				{
+					nextID=1;
+				};
+				class Links
+				{
+					items=1;
+					class Item0
+					{
+						linkID=0;
+						item0=1687;
+						item1=1584;
+						class CustomData
+						{
+							role=2;
+							turretPath[]={0};
+						};
+					};
+				};
+			};
+			id=1582;
+		};
+		class Item169
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1644.1078,5.7216258,2943.2129};
+			};
+			side="Independent";
+			flags=6;
+			class Attributes
+			{
+				skill=0.60000002;
+			};
+			id=1584;
+			type="I_Mortar_01_F";
+		};
+		class Item170
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=4;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1657.235,5.0014391,2952.144};
+					};
+					side="Independent";
+					flags=6;
+					class Attributes
+					{
+						skill=0.60000002;
+						rank="SERGEANT";
+						init="GrpAK_DC = group this; [""dc"",this] call f_fnc_assignGear;";
+						name="UnitAK_DC";
+						description="US Army Deputy Commander";
+						isPlayable=1;
+					};
+					id=1692;
+					type="LIB_WP_Porucznic";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.95999998;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1655.11,5.0014391,2950.981};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="GrpAK_DC = group this; [""radio"",this] call f_fnc_assignGear;";
+						name="UnitAK_DC_R";
+						description="Home Army Radio Operator";
+						isPlayable=1;
+					};
+					id=1693;
+					type="LIB_WP_Radioman";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1659.316,5.0014391,2951.198};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="GrpAK_DC = group this; [""jtac"",this] call f_fnc_assignGear;";
+						name="UnitAK_DC_JTAC";
+						description="Home Army Forward Observer";
+						isPlayable=1;
+					};
+					id=1694;
+					type="LIB_WP_Radioman";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1660.351,5.0014391,2948.7551};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="GrpAK_DC = group this; [""m"",this] call f_fnc_assignGear;";
+						name="UnitAK_DC_M";
+						description="Home Army Medic";
+						isPlayable=1;
+					};
+					id=1695;
+					type="LIB_WP_Medic";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.05;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=1590;
+		};
+		class Item171
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={1646.181,5,2949.3066};
+			};
+			id=1580;
+			type="SupportRequester";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="SupportRequester_BIS_SUPP_limit_UAV";
+					expression="_this setVariable ['BIS_SUPP_limit_UAV',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="-1";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="SupportRequester_BIS_SUPP_custom_HQ";
+					expression="_this setVariable ['BIS_SUPP_custom_HQ',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="SupportRequester_BIS_SUPP_limit_Transport";
+					expression="_this setVariable ['BIS_SUPP_limit_Transport',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="-1";
+						};
+					};
+				};
+				class Attribute3
+				{
+					property="SupportRequester_BIS_SUPP_limit_Drop";
+					expression="_this setVariable ['BIS_SUPP_limit_Drop',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="-1";
+						};
+					};
+				};
+				class Attribute4
+				{
+					property="SupportRequester_BIS_SUPP_limit_CAS_Heli";
+					expression="_this setVariable ['BIS_SUPP_limit_CAS_Heli',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="-1";
+						};
+					};
+				};
+				class Attribute5
+				{
+					property="SupportRequester_BIS_SUPP_limit_Artillery";
+					expression="_this setVariable ['BIS_SUPP_limit_Artillery',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="-1";
+						};
+					};
+				};
+				class Attribute6
+				{
+					property="SupportRequester_BIS_SUPP_limit_CAS_Bombing";
+					expression="_this setVariable ['BIS_SUPP_limit_CAS_Bombing',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="-1";
+						};
+					};
+				};
+				nAttributes=7;
+			};
+		};
+		class Item172
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=3;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1673.6144,5.0014391,2961.6501};
+					};
+					side="Independent";
+					flags=6;
+					class Attributes
+					{
+						skill=0.60000002;
+						rank="SERGEANT";
+						init="GrpAK_ASL = group this; [""sl"",this] call f_fnc_assignGear;";
+						name="UnitAK_ASL_SL";
+						description="Home Army Alpha Squad Leader";
+						isPlayable=1;
+					};
+					id=1696;
+					type="LIB_WP_Sierzant";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.94999999;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1674.7014,5.0014391,2961.0732};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="GrpAK_ASL = group this; [""m"",this] call f_fnc_assignGear;";
+						name="UnitAK_ASL_M";
+						description="Home Army Alpha Medic";
+						isPlayable=1;
+					};
+					id=1697;
+					type="LIB_WP_Medic";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.04;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1672.5614,5.0014391,2961.1211};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="GrpAK_ASL = group this; [""radio"",this] call f_fnc_assignGear;";
+						name="UnitAK_ASL_R";
+						description="Home Army Alpha Radio Operator";
+						isPlayable=1;
+					};
+					id=1698;
+					type="LIB_WP_Radioman";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.02;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=1598;
+		};
+		class Item173
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=5;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1673.6454,5.0014391,2957.3552};
+					};
+					side="Independent";
+					flags=6;
+					class Attributes
+					{
+						skill=0.60000002;
+						rank="CORPORAL";
+						init="GrpAK_A1 = group this; [""ftl"",this] call f_fnc_assignGear;";
+						name="UnitAK_A1_FTL";
+						description="Home Army Alpha 1 Fire Team Leader";
+						isPlayable=1;
+					};
+					id=1699;
+					type="LIB_WP_Starszy_strzelec";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.99000001;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1676.0984,5.0014391,2955.2971};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="GrpAK_A1 = group this; [""r"",this] call f_fnc_assignGear;";
+						name="UnitAK_A1_AR1";
+						description="Home Army Alpha 1 Rifleman";
+						isPlayable=1;
+					};
+					id=1700;
+					type="LIB_WP_Strzelec";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1671.8204,5.0014391,2955.7283};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="GrpAK_A1 = group this; [""r"",this] call f_fnc_assignGear;";
+						name="UnitAK_A1_AR2";
+						description="Home Army Alpha 1 Rifleman";
+						isPlayable=1;
+					};
+					id=1701;
+					type="LIB_WP_Strzelec";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.99000001;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1678.0464,5.0014391,2953.6882};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="GrpAK_A1 = group this; [""r"",this] call f_fnc_assignGear;";
+						name="UnitAK_A1_R1";
+						description="Home Army Alpha 1 Rifleman";
+						isPlayable=1;
+					};
+					id=1702;
+					type="LIB_WP_Strzelec";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.95999998;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item4
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1670.0814,5.0014391,2954.1001};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="GrpAK_A1 = group this; [""r"",this] call f_fnc_assignGear;";
+						name="UnitAK_A1_R2";
+						description="Home Army Alpha 1 Rifleman";
+						isPlayable=1;
+					};
+					id=1703;
+					type="LIB_WP_Strzelec";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.99000001;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=1602;
+		};
+		class Item174
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=5;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1673.5314,5.0014391,2952.0581};
+					};
+					side="Independent";
+					flags=6;
+					class Attributes
+					{
+						skill=0.60000002;
+						rank="CORPORAL";
+						init="GrpAK_A2 = group this; [""ftl"",this] call f_fnc_assignGear;";
+						name="UnitAK_A2_FTL";
+						description="Home Army Alpha 2 Fire Team Leader";
+						isPlayable=1;
+					};
+					id=1705;
+					type="LIB_WP_Starszy_strzelec";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.99000001;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1675.9844,5.0014391,2950.0002};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="GrpAK_A2 = group this; [""r"",this] call f_fnc_assignGear;";
+						name="UnitAK_A2_AR1";
+						description="Home Army Alpha 2 Rifleman";
+						isPlayable=1;
+					};
+					id=1706;
+					type="LIB_WP_Strzelec";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1671.7064,5.0014391,2950.4312};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="GrpAK_A2 = group this; [""r"",this] call f_fnc_assignGear;";
+						name="UnitAK_A2_AR2";
+						description="Home Army Alpha 2 Rifleman";
+						isPlayable=1;
+					};
+					id=1707;
+					type="LIB_WP_Strzelec";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.99000001;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1677.9324,5.0014391,2948.3911};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="GrpAK_A2 = group this; [""r"",this] call f_fnc_assignGear;";
+						name="UnitAK_A2_R1";
+						description="Home Army Alpha 2 Rifleman";
+						isPlayable=1;
+					};
+					id=1708;
+					type="LIB_WP_Strzelec";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.95999998;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item4
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1669.9674,5.0014391,2948.8032};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="GrpAK_A2 = group this; [""r"",this] call f_fnc_assignGear;";
+						name="UnitAK_A2_R2";
+						description="Home Army Alpha 2 Rifleman";
+						isPlayable=1;
+					};
+					id=1709;
+					type="LIB_WP_Strzelec";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.99000001;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=1704;
+		};
+		class Item175
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=3;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1688.387,5.0014391,2961.7};
+					};
+					side="Independent";
+					flags=6;
+					class Attributes
+					{
+						skill=0.60000002;
+						rank="SERGEANT";
+						init="GrpAK_BSL = group this; [""sl"",this] call f_fnc_assignGear;";
+						name="UnitAK_BSL_SL";
+						description="Home Army Bravo Squad Leader";
+						isPlayable=1;
+					};
+					id=1739;
+					type="LIB_WP_Sierzant";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.94999999;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1689.474,5.0014391,2961.123};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="GrpAK_BSL = group this; [""m"",this] call f_fnc_assignGear;";
+						name="UnitAK_BSL_M";
+						description="Home Army Bravo Medic";
+						isPlayable=1;
+					};
+					id=1740;
+					type="LIB_WP_Medic";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.04;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1687.334,5.0014391,2961.1711};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="GrpAK_BSL = group this; [""radio"",this] call f_fnc_assignGear;";
+						name="UnitAK_BSL_R";
+						description="Home Army Bravo Radio Operator";
+						isPlayable=1;
+					};
+					id=1741;
+					type="LIB_WP_Radioman";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.02;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=1738;
+		};
+		class Item176
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=5;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1688.418,5.0014391,2957.405};
+					};
+					side="Independent";
+					flags=6;
+					class Attributes
+					{
+						skill=0.60000002;
+						rank="CORPORAL";
+						init="GrpAK_B1 = group this; [""ftl"",this] call f_fnc_assignGear;";
+						name="UnitAK_B1_FTL";
+						description="Home Army Bravo 1 Fire Team Leader";
+						isPlayable=1;
+					};
+					id=1727;
+					type="LIB_WP_Starszy_strzelec";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.99000001;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1690.871,5.0014391,2955.3472};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="GrpAK_B1 = group this; [""r"",this] call f_fnc_assignGear;";
+						name="UnitAK_B1_AR1";
+						description="Home Army Bravo 1 Rifleman";
+						isPlayable=1;
+					};
+					id=1728;
+					type="LIB_WP_Strzelec";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1686.593,5.0014391,2955.7781};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="GrpAK_B1 = group this; [""r"",this] call f_fnc_assignGear;";
+						name="UnitAK_B1_AR2";
+						description="Home Army Bravo 1 Rifleman";
+						isPlayable=1;
+					};
+					id=1729;
+					type="LIB_WP_Strzelec";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.99000001;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1692.819,5.0014391,2953.738};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="GrpAK_B1 = group this; [""r"",this] call f_fnc_assignGear;";
+						name="UnitAK_B1_R1";
+						description="Home Army Bravo 1 Rifleman";
+						isPlayable=1;
+					};
+					id=1730;
+					type="LIB_WP_Strzelec";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.95999998;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item4
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1684.854,5.0014391,2954.1501};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="GrpAK_B1 = group this; [""r"",this] call f_fnc_assignGear;";
+						name="UnitAK_B1_R2";
+						description="Home Army Bravo 1 Rifleman";
+						isPlayable=1;
+					};
+					id=1731;
+					type="LIB_WP_Strzelec";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.99000001;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=1726;
+		};
+		class Item177
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=5;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1688.304,5.0014391,2952.1082};
+					};
+					side="Independent";
+					flags=6;
+					class Attributes
+					{
+						skill=0.60000002;
+						rank="CORPORAL";
+						init="GrpAK_B2 = group this; [""ftl"",this] call f_fnc_assignGear;";
+						name="UnitAK_B2_FTL";
+						description="Home Army Bravo 2 Fire Team Leader";
+						isPlayable=1;
+					};
+					id=1733;
+					type="LIB_WP_Starszy_strzelec";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.99000001;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1690.757,5.0014391,2950.05};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="GrpAK_B2 = group this; [""r"",this] call f_fnc_assignGear;";
+						name="UnitAK_B2_AR1";
+						description="Home Army Bravo 2 Rifleman";
+						isPlayable=1;
+					};
+					id=1734;
+					type="LIB_WP_Strzelec";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1686.479,5.0014391,2950.481};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="GrpAK_B2 = group this; [""r"",this] call f_fnc_assignGear;";
+						name="UnitAK_B2_AR2";
+						description="Home Army Bravo 2 Rifleman";
+						isPlayable=1;
+					};
+					id=1735;
+					type="LIB_WP_Strzelec";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.99000001;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1692.705,5.0014391,2948.4412};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="GrpAK_B2 = group this; [""r"",this] call f_fnc_assignGear;";
+						name="UnitAK_B2_R1";
+						description="Home Army Bravo 2 Rifleman";
+						isPlayable=1;
+					};
+					id=1736;
+					type="LIB_WP_Strzelec";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.95999998;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item4
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1684.74,5.0014391,2948.853};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="GrpAK_B2 = group this; [""r"",this] call f_fnc_assignGear;";
+						name="UnitAK_B2_R2";
+						description="Home Army Bravo 2 Rifleman";
+						isPlayable=1;
+					};
+					id=1737;
+					type="LIB_WP_Strzelec";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.99000001;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=1732;
+		};
+		class Item178
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=3;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1700.542,5.0014391,2961.6279};
+					};
+					side="Independent";
+					flags=6;
+					class Attributes
+					{
+						skill=0.60000002;
+						rank="SERGEANT";
+						init="GrpAK_CSL = group this; [""sl"",this] call f_fnc_assignGear;";
+						name="UnitAK_CSL_SL";
+						description="Home Army Charlie Squad Leader";
+						isPlayable=1;
+					};
+					id=1771;
+					type="LIB_WP_Sierzant";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.94999999;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1701.629,5.0014391,2961.05};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="GrpAK_CSL = group this; [""m"",this] call f_fnc_assignGear;";
+						name="UnitAK_CSL_M";
+						description="Home Army Charlie Medic";
+						isPlayable=1;
+					};
+					id=1772;
+					type="LIB_WP_Medic";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.04;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1699.489,5.0014391,2961.0991};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="GrpAK_CSL = group this; [""radio"",this] call f_fnc_assignGear;";
+						name="UnitAK_CSL_R";
+						description="Home Army Charlie Radio Operator";
+						isPlayable=1;
+					};
+					id=1773;
+					type="LIB_WP_Radioman";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.02;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=1770;
+		};
+		class Item179
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=5;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1700.573,5.0014391,2957.333};
+					};
+					side="Independent";
+					flags=6;
+					class Attributes
+					{
+						skill=0.60000002;
+						rank="CORPORAL";
+						init="GrpAK_C1 = group this; [""ftl"",this] call f_fnc_assignGear;";
+						name="UnitAK_C1_FTL";
+						description="Home Army Charlie 1 Fire Team Leader";
+						isPlayable=1;
+					};
+					id=1759;
+					type="LIB_WP_Starszy_strzelec";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.99000001;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1703.026,5.0014391,2955.2751};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="GrpAK_C1 = group this; [""r"",this] call f_fnc_assignGear;";
+						name="UnitAK_C1_AR1";
+						description="Home Army Charlie 1 Rifleman";
+						isPlayable=1;
+					};
+					id=1760;
+					type="LIB_WP_Strzelec";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1698.748,5.0014391,2955.7061};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="GrpAK_C1 = group this; [""r"",this] call f_fnc_assignGear;";
+						name="UnitAK_C1_AR2";
+						description="Home Army Charlie 1 Rifleman";
+						isPlayable=1;
+					};
+					id=1761;
+					type="LIB_WP_Strzelec";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.99000001;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1704.974,5.0014391,2953.666};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="GrpAK_C1 = group this; [""r"",this] call f_fnc_assignGear;";
+						name="UnitAK_C1_R1";
+						description="Home Army Charlie 1 Rifleman";
+						isPlayable=1;
+					};
+					id=1762;
+					type="LIB_WP_Strzelec";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.95999998;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item4
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1697.009,5.0014391,2954.0781};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="GrpAK_C1 = group this; [""r"",this] call f_fnc_assignGear;";
+						name="UnitAK_C1_R2";
+						description="Home Army Charlie 1 Rifleman";
+						isPlayable=1;
+					};
+					id=1763;
+					type="LIB_WP_Strzelec";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.99000001;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=1758;
+		};
+		class Item180
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=5;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1700.459,5.0014391,2952.0361};
+					};
+					side="Independent";
+					flags=6;
+					class Attributes
+					{
+						skill=0.60000002;
+						rank="CORPORAL";
+						init="GrpAK_C2 = group this; [""ftl"",this] call f_fnc_assignGear;";
+						name="UnitAK_C2_FTL";
+						description="Home Army Charlie 2 Fire Team Leader";
+						isPlayable=1;
+					};
+					id=1765;
+					type="LIB_WP_Starszy_strzelec";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.99000001;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1702.912,5.0014391,2949.978};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="GrpAK_C2 = group this; [""r"",this] call f_fnc_assignGear;";
+						name="UnitAK_C2_AR1";
+						description="Home Army Alpha 2 Rifleman";
+						isPlayable=1;
+					};
+					id=1766;
+					type="LIB_WP_Strzelec";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1698.634,5.0014391,2950.4089};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="GrpAK_C2 = group this; [""r"",this] call f_fnc_assignGear;";
+						name="UnitAK_C2_AR2";
+						description="Home Army Charlie 2 Rifleman";
+						isPlayable=1;
+					};
+					id=1767;
+					type="LIB_WP_Strzelec";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.99000001;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1704.86,5.0014391,2948.3691};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="GrpAK_C2 = group this; [""r"",this] call f_fnc_assignGear;";
+						name="UnitAK_C2_R1";
+						description="Home Army Charlie 2 Rifleman";
+						isPlayable=1;
+					};
+					id=1768;
+					type="LIB_WP_Strzelec";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.95999998;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item4
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1696.895,5.0014391,2948.781};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="GrpAK_C2 = group this; [""r"",this] call f_fnc_assignGear;";
+						name="UnitAK_C2_R2";
+						description="Home Army Charlie 2 Rifleman";
+						isPlayable=1;
+					};
+					id=1769;
+					type="LIB_WP_Strzelec";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.99000001;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=1764;
+		};
+		class Item181
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=2;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1711.0677,5.0014391,2959.9709};
+					};
+					side="Independent";
+					flags=6;
+					class Attributes
+					{
+						rank="CORPORAL";
+						init="GrpAK_MMG1 = group this; [""mmgag"",this] call f_fnc_assignGear;";
+						name="UnitAK_MMG1_AG";
+						description="Home Army Medium MG Team 1 Spotter (Leader)";
+						isPlayable=1;
+					};
+					id=1774;
+					type="LIB_WP_Strzelec";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.95999998;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1713.0437,5.0014391,2959.792};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						init="GrpAK_MMG1 = group this; [""mmgg"",this] call f_fnc_assignGear;";
+						name="UnitAK_MMG1_G";
+						description="Home Army Medium MG Team 1 Gunner";
+						isPlayable=1;
+					};
+					id=1775;
+					type="LIB_WP_Mgunner";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.98000002;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=1668;
+		};
+		class Item182
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=2;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1711.0408,5.0014391,2957.634};
+					};
+					side="Independent";
+					flags=6;
+					class Attributes
+					{
+						rank="CORPORAL";
+						init="GrpAK_MMG2 = group this; [""mmgag"",this] call f_fnc_assignGear;";
+						name="UnitAK_MMG2_AG";
+						description="Home Army Medium MG Team 2 Spotter (Leader)";
+						isPlayable=1;
+					};
+					id=1776;
+					type="LIB_WP_Strzelec";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.97000003;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1713.0167,5.0014391,2957.4551};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						init="GrpAK_MMG2 = group this; [""mmgg"",this] call f_fnc_assignGear;";
+						name="UnitAK_MMG2_G";
+						description="Home Army Medium MG Team 2 Gunner";
+						isPlayable=1;
+					};
+					id=1777;
+					type="LIB_WP_Mgunner";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=1671;
+		};
+		class Item183
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=2;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1711.009,5.0014391,2953.8149};
+					};
+					side="Independent";
+					flags=6;
+					class Attributes
+					{
+						rank="CORPORAL";
+						init="GrpAK_MAT1 = group this; [""matag"",this] call f_fnc_assignGear;";
+						name="UnitAK_MAT1_AG";
+						description="Home Army AT Team 1 Leader";
+						isPlayable=1;
+					};
+					id=1778;
+					type="LIB_WP_Strzelec";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.95999998;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1712.986,5.0014391,2953.637};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						init="GrpAK_MAT1 = group this; [""matg"",this] call f_fnc_assignGear;";
+						name="UnitAK_MAT1_G";
+						description="Home Army AT Team 1 Grenadier";
+						isPlayable=1;
+					};
+					id=1779;
+					type="LIB_WP_AT_grenadier";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=1674;
+		};
+		class Item184
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=2;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1710.965,5.0014391,2950.7319};
+					};
+					side="Independent";
+					flags=6;
+					class Attributes
+					{
+						rank="CORPORAL";
+						init="GrpAK_MAT2 = group this; [""matag"",this] call f_fnc_assignGear;";
+						name="UnitAK_MAT2_AG";
+						description="Home Army AT Team 2 Leader";
+						isPlayable=1;
+					};
+					id=1781;
+					type="LIB_WP_Strzelec";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.99000001;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1712.942,5.0014391,2950.554};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						init="GrpAK_MAT2 = group this; [""matg"",this] call f_fnc_assignGear;";
+						name="UnitAK_MAT2_G";
+						description="Home Army AT Team 2 Grenadier";
+						isPlayable=1;
+					};
+					id=1782;
+					type="LIB_WP_AT_grenadier";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.04;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=1677;
+		};
+		class Item185
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=2;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1711.4674,5.0014391,2948.8623};
+					};
+					side="Independent";
+					flags=6;
+					class Attributes
+					{
+						skill=0.60000002;
+						rank="CORPORAL";
+						init="GrpAK_ST1 = group this; [""sp"",this] call f_fnc_assignGear; ";
+						name="UnitAK_ST1_SP";
+						description="Home Army Sniper Team 1 Spotter (Leader)";
+						isPlayable=1;
+					};
+					id=1783;
+					type="LIB_WP_Sniper";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1712.5934,5.0014391,2947.8884};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="GrpAK_ST1 = group this; [""sn"",this] call f_fnc_assignGear; ";
+						name="UnitAK_ST1_SN";
+						description="Home Army Sniper Team 1 Sniper";
+						isPlayable=1;
+					};
+					id=1784;
+					type="LIB_WP_Sniper";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.03;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=1680;
+		};
+		class Item186
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=4;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1711.287,5.0014391,2946.6487};
+					};
+					side="Independent";
+					flags=6;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="GrpAK_ENG1 = group this; [""eng"",this] call f_fnc_assignGear; ";
+						name="UnitAK_ENG1_FTL";
+						description="Home Army Engineer Team 1 Leader (Demo)";
+						isPlayable=1;
+					};
+					id=1785;
+					type="LIB_WP_Starszy_saper";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1712.739,5.0014391,2945.3726};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="GrpAK_ENG1 = group this; [""eng"",this] call f_fnc_assignGear; ";
+						name="UnitAK_ENG1_A1";
+						description="Home Army Engineer Team 1 Assistant (Demo)";
+						isPlayable=1;
+					};
+					id=1786;
+					type="LIB_WP_Saper";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.95999998;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1714.2531,5.0014391,2943.9561};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="GrpAK_ENG1 = group this; [""engm"",this] call f_fnc_assignGear; ";
+						name="UnitAK_ENG1_A2";
+						description="Home Army Engineer Team 1 Assistant (Mines)";
+						isPlayable=1;
+					};
+					id=1951;
+					type="LIB_WP_Saper";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.95999998;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1715.757,5.0014391,2942.165};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="GrpAK_ENG1 = group this; [""engm"",this] call f_fnc_assignGear; ";
+						name="UnitAK_ENG1_A3";
+						description="Home Army Engineer Team 1 Assistant (Mines)";
+						isPlayable=1;
+					};
+					id=1953;
+					type="LIB_WP_Saper";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.95999998;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=1683;
 		};
 	};
 	class Connections
