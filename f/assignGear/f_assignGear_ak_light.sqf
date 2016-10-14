@@ -347,10 +347,8 @@ switch (_typeofUnit) do
 		_unit addmagazines [_riflemag, 3];
 		_unit addmagazines [_smokegrenade, 2];
 		_unit addItem _sapper_tools;
-		_unit addmagazines [_satchel_wire, 1];
-		_unit addmagazines [_satchel, 1];
-		_unit addmagazines [_satchel_detonator, 1];
-		_unit addmagazines [_sapper_flag, 1];
+		_unit addmagazines [_satchel, 2];
+		_unit addmagazines [_democharge, 1];
 	};
 	// Engineer (Mines) Loadout:
 	case "engm":
@@ -360,10 +358,10 @@ switch (_typeofUnit) do
 		_unit addmagazines [_riflemag, 1];
 		_unit addweapon _rifle;
 		_unit addItem _firstaid;
-		_unit addmagazines [_smokegrenade, 2];
-		_unit addmagazines [_riflemag, 4];
+		_unit addmagazines [_riflemag, 3];
+		_unit addmagazines [_smokegrenade, 1];
 		_unit addItem _sapper_tools;
-		_unit addmagazines [_APmine, 2];
+		_unit addmagazines [_APmine, 1];
 		_unit addmagazines [_ATmine, 1];
 	};
 	// SPG Gunner Loadout:
