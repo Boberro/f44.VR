@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={2441.4355,176.97215,962.85986};
-		dir[]={-0.21350294,-0.46653661,0.85835397};
-		up[]={-0.11261433,0.88449734,0.45274517};
-		aside[]={0.97043449,-4.292815e-008,0.24138188};
+		pos[]={3067.9128,345.36682,1836.4017};
+		dir[]={0.85136592,-0.49795902,0.16560008};
+		up[]={0.48885,0.86715478,0.095085353};
+		aside[]={0.19094688,7.2992407e-008,-0.9817065};
 	};
 };
 binarizationWanted=0;
@@ -35,11 +35,11 @@ addons[]=
 	"WW2_Assets_c_Vehicles_Wrecks_c",
 	"WW2_Assets_c_Characters_Americans_c_US_Army",
 	"WW2_Assets_c_Vehicles_Wheeled_c_Scout_M3",
+	"WW2_Assets_c_Vehicles_StaticWeapons_c_Towing",
 	"WW2_Assets_c_Vehicles_ModelConfig",
 	"WW2_Assets_c_Vehicles_Wheeled_c_US6",
 	"WW2_Assets_c_Vehicles_Extended_HUD_c",
 	"WW2_Assets_c_Vehicles_WheeledAPC_c_M3_Halftrack",
-	"WW2_Core_c_Core_c_Eventhandlers",
 	"WW2_Assets_c_Vehicles_Tanks_c_M4A3_75",
 	"A3_Modules_F",
 	"A3_Modules_F_Curator_Misc"
@@ -109,28 +109,28 @@ class AddonsMetaData
 		};
 		class Item10
 		{
+			className="WW2_Assets_c_Vehicles_StaticWeapons_c_Towing";
+			name="WW2_Assets_c_Vehicles_StaticWeapons_c_Towing";
+		};
+		class Item11
+		{
 			className="WW2_Assets_c_Vehicles_ModelConfig";
 			name="WW2_Assets_c_Vehicles_ModelConfig";
 		};
-		class Item11
+		class Item12
 		{
 			className="WW2_Assets_c_Vehicles_Wheeled_c_US6";
 			name="WW2_Assets_c_Vehicles_Wheeled_c_US6";
 		};
-		class Item12
+		class Item13
 		{
 			className="WW2_Assets_c_Vehicles_Extended_HUD_c";
 			name="WW2_Assets_c_Vehicles_Extended_HUD_c";
 		};
-		class Item13
+		class Item14
 		{
 			className="WW2_Assets_c_Vehicles_WheeledAPC_c_M3_Halftrack";
 			name="WW2_Assets_c_Vehicles_WheeledAPC_c_M3_Halftrack";
-		};
-		class Item14
-		{
-			className="WW2_Core_c_Core_c_Eventhandlers";
-			name="WW2_Core_c_Core_c_Eventhandlers";
 		};
 		class Item15
 		{
@@ -149,10 +149,10 @@ class AddonsMetaData
 randomSeed=1116085;
 class ScenarioData
 {
-	author="*** Insert mission author name here. ***";
+	author="bob";
 	overViewPicture="overviewLogo44.jpg";
 	onLoadMission="Made with the F3 Mission Development Framework";
-	loadScreen="loadLogo44.jpg";
+	loadScreen="loadLogo44s.jpg";
 };
 class CustomAttributes
 {
@@ -185,7 +185,7 @@ class Mission
 {
 	class Intel
 	{
-		briefingName="f44";
+		briefingName="ifa3_co_45_surprise_v1";
 		resistanceWest=0;
 		resistanceEast=1;
 		timeOfChanges=28800;
@@ -477,6 +477,7 @@ class Mission
 					};
 					id=1135;
 					type="LIB_GER_ober_lieutenant";
+					atlOffset=-7.6293945e-006;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -567,7 +568,6 @@ class Mission
 					};
 					id=1138;
 					type="LIB_GER_radioman";
-					atlOffset=7.6293945e-006;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -597,6 +597,7 @@ class Mission
 			{
 			};
 			id=1134;
+			atlOffset=-7.6293945e-006;
 		};
 		class Item5
 		{
@@ -5121,7 +5122,7 @@ class Mission
 				class Item5
 				{
 					dataType="Waypoint";
-					position[]={2422.8235,141.19289,949.08899};
+					position[]={2422.8237,141.18604,949.08899};
 					expCond="qrf_move";
 					class Effects
 					{
@@ -5129,7 +5130,7 @@ class Mission
 					showWP="NEVER";
 					id=2118;
 					type="Move";
-					atlOffset=0.5;
+					atlOffset=0.49313354;
 					class AttachedTo
 					{
 						id=2109;
@@ -5219,6 +5220,7 @@ class Mission
 				};
 			};
 			id=2108;
+			atlOffset=-0.0068664551;
 		};
 		class Item83
 		{
@@ -5235,6 +5237,7 @@ class Mission
 			};
 			id=2109;
 			type="LIB_M4A3_75";
+			atlOffset=-0.0068664551;
 		};
 		class Item84
 		{
@@ -5688,7 +5691,7 @@ class Mission
 				class Item5
 				{
 					dataType="Waypoint";
-					position[]={974.13464,86.870934,2620.2683};
+					position[]={974.13483,86.86409,2620.2681};
 					expCond="qrf_move";
 					class Effects
 					{
@@ -5696,7 +5699,7 @@ class Mission
 					showWP="NEVER";
 					id=2153;
 					type="Move";
-					atlOffset=0.49989319;
+					atlOffset=0.49304199;
 					class AttachedTo
 					{
 						id=2154;
@@ -5787,7 +5790,7 @@ class Mission
 				};
 			};
 			id=2147;
-			atlOffset=-0.00010681152;
+			atlOffset=-0.0069580078;
 		};
 		class Item86
 		{
@@ -5804,7 +5807,7 @@ class Mission
 			};
 			id=2154;
 			type="LIB_M4A3_75";
-			atlOffset=-0.00010681152;
+			atlOffset=-0.0069580078;
 		};
 		class Item87
 		{
@@ -5821,6 +5824,7 @@ class Mission
 			};
 			id=2155;
 			type="EmptyDetector";
+			atlOffset=-7.6293945e-006;
 		};
 		class Item88
 		{
@@ -5858,6 +5862,7 @@ class Mission
 			init="qrf_move = false;";
 			id=2164;
 			type="Logic";
+			atlOffset=7.6293945e-006;
 		};
 		class Item91
 		{
@@ -6309,6 +6314,7 @@ class Mission
 			flags=1;
 			id=2250;
 			type="ModuleCoverMap_F";
+			atlOffset=7.6293945e-006;
 		};
 	};
 };
