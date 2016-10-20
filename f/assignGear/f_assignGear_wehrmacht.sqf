@@ -152,9 +152,9 @@ _bag = "B_LIB_GER_A_frame";			// The standard bag for most classes
 _bagLarge = "B_LIB_GER_Backpack";				// Larger bag for some special purpose classes
 
 // Special Backpacks
-_bagradio = "B_LIB_GER_Radio";				// used by Radio Operator and JTAC
+_bagradio = "B_LIB_GER_Radio_ACRE2";				// used by Radio Operator and JTAC
 _bagmedical = "B_LIB_GER_MedicBackpack_Empty";	// used by Medic
-_bagengineer = "B_Kitbag_rgr";					// used by Engineer (Because it's broken in IFA3)
+// _bagengineer = "B_Kitbag_rgr";					// used by Engineer (Because it's broken in IFA3)
 _bagmat = "B_LIB_GER_Panzer_Empty";				// used by Medium AT
 _baghmgg = "LIB_MG42_Bag";					// used by Heavy MG gunner
 _baghmgag = "LIB_MG42_Tripod_Disasm";		// used by Heavy MG assistant gunner
@@ -192,13 +192,13 @@ _SNrifleMag = "LIB_5Rnd_792x57_SMK";
 
 // Engineer items
 _sapper_tools = "LIB_W";
-_sapper_flag = "LIB_MARKER_MINE_mag";
 _ATmine = "LIB_TMI_42_MINE_mag";
 _APmine = "LIB_SMI_35_MINE_mag";
 _satchel = "LIB_Ladung_Small_MINE_mag";
-_satchel_wire = "LIB_PM_Provod_50";
-_satchel_detonator = "LIB_US_BM10_PM_mag";
-_democharge = "LIB_TROTIL_MINE_mag";
+_democharge = "LIB_Ladung_Big_MINE_mag";
+// _sapper_flag = "LIB_MARKER_MINE_mag";  // currently broken
+// _satchel_wire = "LIB_PM_Provod_50";  // currently broken
+// _satchel_detonator = "LIB_US_BM10_PM_mag";  // currently broken
 
 // ====================================================================================
 
@@ -242,7 +242,7 @@ _coRig = ["V_LIB_GER_FieldOfficer"];
 _coGlasses = [];
 
 // Medic (for those who have unique medic)
-_medicUniform = _baseHelmet;
+_medicUniform = _baseUniform;
 _medicHelmet = ["U_LIB_GER_Medic"];
 _medicRig = _baseRig;
 _medicGlasses = _baseGlasses;
