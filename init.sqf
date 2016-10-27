@@ -220,3 +220,7 @@ f_var_civAI = independent; 		// Optional: The civilian AI will use this side's s
 
 // INDEPENDENT > AAF
 // [INDEPENDENT,100,1] execVM "f\casualtiesCap\f_CasualtiesCapCheck.sqf";
+
+
+// Disable some IFA3 features:
+LIB_GLOBAL_ENABLE_RADIO_IN_VEHICLE = false;
