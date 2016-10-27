@@ -8,7 +8,7 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=453;
+		nextID=679;
 	};
 	class MarkerIDProvider
 	{
@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={2089.9092,125.04253,6321.2236};
-		dir[]={0.19255885,-0.47746745,0.85735685};
-		up[]={0.10463712,0.87862813,0.46589035};
-		aside[]={0.97574329,5.9639569e-007,-0.21914813};
+		pos[]={3067.0144,183.37453,8923.9727};
+		dir[]={-0.8553561,-0.35827094,-0.37450618};
+		up[]={-0.32826778,0.93356425,-0.14372648};
+		aside[]={-0.40113401,-1.1443626e-007,0.91616154};
 	};
 };
 binarizationWanted=0;
@@ -28,49 +28,52 @@ addons[]=
 	"A3_Ui_F",
 	"WW2_Core_c_Gui_c",
 	"A3_Ui_F_Curator",
-	"WW2_Assets_c_Vehicles_Tanks_c_SU85",
-	"WW2_Assets_c_Vehicles_Extended_HUD_c",
-	"WW2_Assets_c_Vehicles_ModelConfig",
-	"WW2_Core_c_EditorPreviews_c",
 	"WW2_Terrains_c_Structures_Trenches_c",
 	"WW2_CA_Core_c",
 	"WW2_Assets_c_Weapons_Mines_c",
 	"WW2_Assets_c_Vehicles_Wheeled_c_OpelBlitz",
 	"WW2_Core_c_Core_c_Explosion",
+	"WW2_Core_c_EditorPreviews_c",
 	"WW2_Terrains_c_Structures_Buildings_c",
 	"WW2_Assets_c_Vehicles_Wheeled_c_Kfz1",
 	"WW2_Assets_c_Vehicles_TurretsConfig_c",
-	"WW2_Assets_c_Vehicles_Wheeled_c_Willys_MB",
-	"WW2_Assets_c_Vehicles_WheeledAPC_c_M3_Halftrack",
-	"WW2_Assets_c_Vehicles_StaticWeapons_c",
-	"WW2_Assets_c_Vehicles_Wheeled_c_Scout_M3",
-	"WW2_Assets_c_Vehicles_StaticWeapons_c_Zis3",
-	"WW2_Assets_c_Vehicles_Wheeled_c_US6",
-	"WW2_Assets_c_Vehicles_StaticWeapons_c_Towing",
-	"WW2_Assets_c_Vehicles_Wheeled_c_Zis5v",
-	"WW2_Core_c_Core_c",
-	"WW2_Assets_c_Characters_Soviets_c_SOV_RKKA",
+	"WW2_Assets_c_Vehicles_Extended_HUD_c",
 	"WW2_Assets_c_Characters_Germans_c_GER_Wehrmacht",
 	"WW2_Core_c_Core_c_Eventhandlers",
+	"WW2_Assets_c_Vehicles_StaticWeapons_c",
 	"WW2_Assets_c_Vehicles_StaticWeapons_c_Pak40",
+	"WW2_Assets_c_Weapons_Misc_c_Weapons",
+	"A3_Weapons_F",
+	"WW2_Assets_c_Characters_Germans_c_GER_Wehrmacht_Gear",
+	"A3_Weapons_F_Items",
 	"WW2_Assets_c_Vehicles_Tanks_c_PzKpfwIV_H",
 	"WW2_Assets_c_Vehicles_WheeledAPC_c_SdKfz251",
 	"WW2_Assets_c_Vehicles_Tanks_c_PzKpfwV",
-	"WW2_Assets_c_Vehicles_Planes_c_Pe2",
 	"WW2_Assets_c_Vehicles_StaticWeapons_c_Flak_38",
 	"ww2_core_c_ifa3_backwardscompatibility_c",
 	"WW2_Core_c_System_Artillery_c",
 	"A3_Modules_F_Supports",
 	"A3_Modules_F",
 	"A3_Modules_F_Curator_Effects",
-	"A3_Modules_F_Hc",
-	"WW2_Assets_c_Characters_Germans_c_GER_Sturmtroopers"
+	"WW2_Assets_c_Characters_Germans_c_GER_Sturmtroopers",
+	"WW2_Assets_c_Characters_Soviets_c_SOV_RKKA",
+	"WW2_Assets_c_Vehicles_Wheeled_c_Willys_MB",
+	"WW2_Assets_c_Vehicles_Wheeled_c_Zis5v",
+	"WW2_Assets_c_Vehicles_StaticWeapons_c_Zis3",
+	"WW2_Assets_c_Vehicles_Tanks_c_SU85",
+	"WW2_Assets_c_Vehicles_ModelConfig",
+	"A3_Structures_F_Kart_Mil_Flags",
+	"WW2_Assets_c_Weapons_Ammoboxes_c",
+	"WW2_Terrains_c_Misc_CoreData_c",
+	"A3_Structures_F_System",
+	"A3_Characters_F",
+	"A3_Structures_F_Mil_BagFence"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=38;
+		items=41;
 		class Item0
 		{
 			className="A3_Ui_F";
@@ -92,182 +95,207 @@ class AddonsMetaData
 		};
 		class Item3
 		{
-			className="WW2_Assets_c_Vehicles_Tanks_c_SU85";
-			name="WW2_Assets_c_Vehicles_Tanks_c_SU85";
-		};
-		class Item4
-		{
-			className="WW2_Assets_c_Vehicles_Extended_HUD_c";
-			name="WW2_Assets_c_Vehicles_Extended_HUD_c";
-		};
-		class Item5
-		{
-			className="WW2_Assets_c_Vehicles_ModelConfig";
-			name="WW2_Assets_c_Vehicles_ModelConfig";
-		};
-		class Item6
-		{
-			className="WW2_Core_c_EditorPreviews_c";
-			name="WW2_Core_c_EditorPreviews_c";
-		};
-		class Item7
-		{
 			className="WW2_Terrains_c_Structures_Trenches_c";
 			name="WW2_Terrains_c_Structures_Trenches_c";
 		};
-		class Item8
+		class Item4
 		{
 			className="WW2_CA_Core_c";
 			name="WW2_CA_Core_c";
 		};
-		class Item9
+		class Item5
 		{
 			className="WW2_Assets_c_Weapons_Mines_c";
 			name="WW2_Assets_c_Weapons_Mines_c";
 		};
-		class Item10
+		class Item6
 		{
 			className="WW2_Assets_c_Vehicles_Wheeled_c_OpelBlitz";
 			name="WW2_Assets_c_Vehicles_Wheeled_c_OpelBlitz";
 		};
-		class Item11
+		class Item7
 		{
 			className="WW2_Core_c_Core_c_Explosion";
 			name="WW2_Core_c_Core_c_Explosion";
 		};
-		class Item12
+		class Item8
+		{
+			className="WW2_Core_c_EditorPreviews_c";
+			name="WW2_Core_c_EditorPreviews_c";
+		};
+		class Item9
 		{
 			className="WW2_Terrains_c_Structures_Buildings_c";
 			name="WW2_Terrains_c_Structures_Buildings_c";
 		};
-		class Item13
+		class Item10
 		{
 			className="WW2_Assets_c_Vehicles_Wheeled_c_Kfz1";
 			name="WW2_Assets_c_Vehicles_Wheeled_c_Kfz1";
 		};
-		class Item14
+		class Item11
 		{
 			className="WW2_Assets_c_Vehicles_TurretsConfig_c";
 			name="WW2_Assets_c_Vehicles_TurretsConfig_c";
 		};
-		class Item15
+		class Item12
 		{
-			className="WW2_Assets_c_Vehicles_Wheeled_c_Willys_MB";
-			name="WW2_Assets_c_Vehicles_Wheeled_c_Willys_MB";
+			className="WW2_Assets_c_Vehicles_Extended_HUD_c";
+			name="WW2_Assets_c_Vehicles_Extended_HUD_c";
 		};
-		class Item16
-		{
-			className="WW2_Assets_c_Vehicles_WheeledAPC_c_M3_Halftrack";
-			name="WW2_Assets_c_Vehicles_WheeledAPC_c_M3_Halftrack";
-		};
-		class Item17
-		{
-			className="WW2_Assets_c_Vehicles_StaticWeapons_c";
-			name="WW2_Assets_c_Vehicles_StaticWeapons_c";
-		};
-		class Item18
-		{
-			className="WW2_Assets_c_Vehicles_Wheeled_c_Scout_M3";
-			name="WW2_Assets_c_Vehicles_Wheeled_c_Scout_M3";
-		};
-		class Item19
-		{
-			className="WW2_Assets_c_Vehicles_StaticWeapons_c_Zis3";
-			name="WW2_Assets_c_Vehicles_StaticWeapons_c_Zis3";
-		};
-		class Item20
-		{
-			className="WW2_Assets_c_Vehicles_Wheeled_c_US6";
-			name="WW2_Assets_c_Vehicles_Wheeled_c_US6";
-		};
-		class Item21
-		{
-			className="WW2_Assets_c_Vehicles_StaticWeapons_c_Towing";
-			name="WW2_Assets_c_Vehicles_StaticWeapons_c_Towing";
-		};
-		class Item22
-		{
-			className="WW2_Assets_c_Vehicles_Wheeled_c_Zis5v";
-			name="WW2_Assets_c_Vehicles_Wheeled_c_Zis5v";
-		};
-		class Item23
-		{
-			className="WW2_Core_c_Core_c";
-			name="WW2_Core_c_Core_c";
-		};
-		class Item24
-		{
-			className="WW2_Assets_c_Characters_Soviets_c_SOV_RKKA";
-			name="WW2_Assets_c_Characters_Soviets_c_SOV_RKKA";
-		};
-		class Item25
+		class Item13
 		{
 			className="WW2_Assets_c_Characters_Germans_c_GER_Wehrmacht";
 			name="WW2_Assets_c_Characters_Germans_c_GER_Wehrmacht";
 		};
-		class Item26
+		class Item14
 		{
 			className="WW2_Core_c_Core_c_Eventhandlers";
 			name="WW2_Core_c_Core_c_Eventhandlers";
 		};
-		class Item27
+		class Item15
+		{
+			className="WW2_Assets_c_Vehicles_StaticWeapons_c";
+			name="WW2_Assets_c_Vehicles_StaticWeapons_c";
+		};
+		class Item16
 		{
 			className="WW2_Assets_c_Vehicles_StaticWeapons_c_Pak40";
 			name="WW2_Assets_c_Vehicles_StaticWeapons_c_Pak40";
 		};
-		class Item28
+		class Item17
+		{
+			className="WW2_Assets_c_Weapons_Misc_c_Weapons";
+			name="WW2_Assets_c_Weapons_Misc_c_Weapons";
+		};
+		class Item18
+		{
+			className="A3_Weapons_F";
+			name="Arma 3 Alpha - Weapons and Accessories";
+			author="Bohemia Interactive";
+			url="http://www.arma3.com";
+		};
+		class Item19
+		{
+			className="WW2_Assets_c_Characters_Germans_c_GER_Wehrmacht_Gear";
+			name="WW2_Assets_c_Characters_Germans_c_GER_Wehrmacht_Gear";
+		};
+		class Item20
 		{
 			className="WW2_Assets_c_Vehicles_Tanks_c_PzKpfwIV_H";
 			name="WW2_Assets_c_Vehicles_Tanks_c_PzKpfwIV_H";
 		};
-		class Item29
+		class Item21
 		{
 			className="WW2_Assets_c_Vehicles_WheeledAPC_c_SdKfz251";
 			name="WW2_Assets_c_Vehicles_WheeledAPC_c_SdKfz251";
 		};
-		class Item30
+		class Item22
 		{
 			className="WW2_Assets_c_Vehicles_Tanks_c_PzKpfwV";
 			name="WW2_Assets_c_Vehicles_Tanks_c_PzKpfwV";
 		};
-		class Item31
-		{
-			className="WW2_Assets_c_Vehicles_Planes_c_Pe2";
-			name="WW2_Assets_c_Vehicles_Planes_c_Pe2";
-		};
-		class Item32
+		class Item23
 		{
 			className="WW2_Assets_c_Vehicles_StaticWeapons_c_Flak_38";
 			name="WW2_Assets_c_Vehicles_StaticWeapons_c_Flak_38";
 		};
-		class Item33
+		class Item24
 		{
 			className="WW2_Core_c_IFA3_BackwardsCompatibility_c";
 			name="ww2_core_c_ifa3_backwardscompatibility_c";
 		};
-		class Item34
+		class Item25
 		{
 			className="WW2_Core_c_System_Artillery_c";
 			name="WW2_Core_c_System_Artillery_c";
 		};
-		class Item35
+		class Item26
 		{
 			className="A3_Modules_F";
 			name="Arma 3 Alpha - Scripted Modules";
 			author="Bohemia Interactive";
 			url="http://www.arma3.com";
 		};
-		class Item36
+		class Item27
 		{
 			className="A3_Modules_F_Curator";
 			name="Arma 3 Zeus Update - Scripted Modules";
 			author="Bohemia Interactive";
 			url="http://www.arma3.com";
 		};
-		class Item37
+		class Item28
 		{
 			className="WW2_Assets_c_Characters_Germans_c_GER_Sturmtroopers";
 			name="WW2_Assets_c_Characters_Germans_c_GER_Sturmtroopers";
+		};
+		class Item29
+		{
+			className="WW2_Assets_c_Characters_Soviets_c_SOV_RKKA";
+			name="WW2_Assets_c_Characters_Soviets_c_SOV_RKKA";
+		};
+		class Item30
+		{
+			className="WW2_Assets_c_Vehicles_Wheeled_c_Willys_MB";
+			name="WW2_Assets_c_Vehicles_Wheeled_c_Willys_MB";
+		};
+		class Item31
+		{
+			className="WW2_Assets_c_Vehicles_Wheeled_c_Zis5v";
+			name="WW2_Assets_c_Vehicles_Wheeled_c_Zis5v";
+		};
+		class Item32
+		{
+			className="WW2_Assets_c_Vehicles_StaticWeapons_c_Zis3";
+			name="WW2_Assets_c_Vehicles_StaticWeapons_c_Zis3";
+		};
+		class Item33
+		{
+			className="WW2_Assets_c_Vehicles_Tanks_c_SU85";
+			name="WW2_Assets_c_Vehicles_Tanks_c_SU85";
+		};
+		class Item34
+		{
+			className="WW2_Assets_c_Vehicles_ModelConfig";
+			name="WW2_Assets_c_Vehicles_ModelConfig";
+		};
+		class Item35
+		{
+			className="A3_Structures_F_Kart";
+			name="Arma 3 Karts - Buildings and Structures";
+			author="Bohemia Interactive";
+			url="http://www.arma3.com";
+		};
+		class Item36
+		{
+			className="WW2_Assets_c_Weapons_Ammoboxes_c";
+			name="WW2_Assets_c_Weapons_Ammoboxes_c";
+		};
+		class Item37
+		{
+			className="WW2_Terrains_c_Misc_CoreData_c";
+			name="WW2_Terrains_c_Misc_CoreData_c";
+		};
+		class Item38
+		{
+			className="A3_Structures_F";
+			name="Arma 3 - Buildings and Structures";
+			author="Bohemia Interactive";
+			url="http://www.arma3.com";
+		};
+		class Item39
+		{
+			className="A3_Characters_F";
+			name="Arma 3 Alpha - Characters and Clothing";
+			author="Bohemia Interactive";
+			url="http://www.arma3.com";
+		};
+		class Item40
+		{
+			className="A3_Structures_F_Mil";
+			name="Arma 3 - Military Buildings and Structures";
+			author="Bohemia Interactive";
+			url="http://www.arma3.com";
 		};
 	};
 };
@@ -303,36 +331,8 @@ class Mission
 	};
 	class Entities
 	{
-		items=203;
+		items=176;
 		class Item0
-		{
-			dataType="Marker";
-			position[]={2106.6816,72.071136,6363.7729};
-			name="f_insert";
-			text="insert";
-			type="mil_start";
-			angle=359.8407;
-			id=10;
-		};
-		class Item1
-		{
-			dataType="Marker";
-			position[]={2112.0339,69.949997,6464.5713};
-			name="f_extract";
-			text="extract";
-			type="mil_end";
-			id=11;
-		};
-		class Item2
-		{
-			dataType="Marker";
-			position[]={2115.8513,69.949997,6417.0625};
-			name="start";
-			type="hd_start";
-			colorName="ColorRed";
-			id=12;
-		};
-		class Item3
 		{
 			dataType="Marker";
 			position[]={2017.9847,71.977867,7187.8281};
@@ -344,7 +344,7 @@ class Mission
 			angle=24.999996;
 			id=13;
 		};
-		class Item4
+		class Item1
 		{
 			dataType="Marker";
 			position[]={2421.7615,64.163033,8162.5918};
@@ -353,10 +353,10 @@ class Mission
 			colorName="ColorRed";
 			a=2;
 			b=2;
-			angle=4.9999986;
+			angle=4.9999981;
 			id=14;
 		};
-		class Item5
+		class Item2
 		{
 			dataType="Marker";
 			position[]={2175.0789,74.193108,7507.2158};
@@ -370,7 +370,7 @@ class Mission
 			b=180;
 			id=15;
 		};
-		class Item6
+		class Item3
 		{
 			dataType="Marker";
 			position[]={2220.3042,56.468082,8797.1104};
@@ -384,7 +384,7 @@ class Mission
 			b=250;
 			id=16;
 		};
-		class Item7
+		class Item4
 		{
 			dataType="Marker";
 			position[]={2247.521,63.55484,8920.4414};
@@ -393,7 +393,7 @@ class Mission
 			colorName="ColorBlue";
 			id=17;
 		};
-		class Item8
+		class Item5
 		{
 			dataType="Marker";
 			position[]={1664.7491,29.13131,8468.9404};
@@ -403,7 +403,7 @@ class Mission
 			colorName="ColorBlue";
 			id=18;
 		};
-		class Item9
+		class Item6
 		{
 			dataType="Marker";
 			position[]={3040.9443,44.688568,8138.5801};
@@ -418,7 +418,7 @@ class Mission
 			drawBorder=1;
 			id=19;
 		};
-		class Item10
+		class Item7
 		{
 			dataType="Marker";
 			position[]={2050.751,68.790985,6382.9912};
@@ -428,27 +428,7 @@ class Mission
 			angle=1.0819;
 			id=20;
 		};
-		class Item11
-		{
-			dataType="Marker";
-			position[]={2046.0778,69.546074,6403.5156};
-			name="HALO";
-			text="PARADROP";
-			type="new_desant";
-			angle=1.0818962;
-			id=21;
-		};
-		class Item12
-		{
-			dataType="Marker";
-			position[]={1954.8802,64.709091,6364.4277};
-			name="Mortars";
-			text="Mortars";
-			type="x_mortar";
-			angle=1.0106767;
-			id=22;
-		};
-		class Item13
+		class Item8
 		{
 			dataType="Marker";
 			position[]={401.87338,14.386312,8158.0332};
@@ -458,29 +438,7 @@ class Mission
 			colorName="ColorRed";
 			id=23;
 		};
-		class Item14
-		{
-			dataType="Marker";
-			position[]={2078.658,69.949997,6396.8213};
-			name="Virtual Arsenal";
-			text="Virtual Arsenal";
-			type="mil_dot";
-			colorName="ColorBlue";
-			angle=1.0819;
-			id=24;
-		};
-		class Item15
-		{
-			dataType="Marker";
-			position[]={2001.9067,66.414124,6367.6309};
-			name="Vehicles";
-			text="Vehicles";
-			type="n_support";
-			colorName="ColorBlue";
-			angle=1.0819;
-			id=25;
-		};
-		class Item16
+		class Item9
 		{
 			dataType="Marker";
 			position[]={2523.8945,33.83741,8405.5752};
@@ -490,7 +448,7 @@ class Mission
 			colorName="ColorBlue";
 			id=26;
 		};
-		class Item17
+		class Item10
 		{
 			dataType="Marker";
 			position[]={1123.4374,14.846994,8673.8057};
@@ -500,7 +458,7 @@ class Mission
 			colorName="ColorBlue";
 			id=27;
 		};
-		class Item18
+		class Item11
 		{
 			dataType="Marker";
 			position[]={2993.866,64.600128,8048.8115};
@@ -510,7 +468,7 @@ class Mission
 			colorName="ColorBlue";
 			id=28;
 		};
-		class Item19
+		class Item12
 		{
 			dataType="Trigger";
 			position[]={4931.0415,68.587364,6548.3398};
@@ -527,7 +485,7 @@ class Mission
 			id=29;
 			type="EmptyDetector";
 		};
-		class Item20
+		class Item13
 		{
 			dataType="Trigger";
 			position[]={179.13817,61.835209,6294.0645};
@@ -546,7 +504,7 @@ class Mission
 			id=30;
 			type="EmptyDetector";
 		};
-		class Item21
+		class Item14
 		{
 			dataType="Trigger";
 			position[]={169.90483,55.914738,6394.8633};
@@ -565,7 +523,7 @@ class Mission
 			id=31;
 			type="EmptyDetector";
 		};
-		class Item22
+		class Item15
 		{
 			dataType="Trigger";
 			position[]={2215.343,56.431122,8794.2168};
@@ -582,7 +540,7 @@ class Mission
 			id=32;
 			type="EmptyDetector";
 		};
-		class Item23
+		class Item16
 		{
 			dataType="Trigger";
 			position[]={2200.9829,23.5243,8569.6758};
@@ -599,7 +557,7 @@ class Mission
 			id=33;
 			type="EmptyDetector";
 		};
-		class Item24
+		class Item17
 		{
 			dataType="Trigger";
 			position[]={188.745,44.159718,6066.6279};
@@ -616,7 +574,7 @@ class Mission
 			id=34;
 			type="EmptyDetector";
 		};
-		class Item25
+		class Item18
 		{
 			dataType="Trigger";
 			position[]={2130.5408,74.417908,7431.0352};
@@ -631,7 +589,7 @@ class Mission
 			id=35;
 			type="EmptyDetector";
 		};
-		class Item26
+		class Item19
 		{
 			dataType="Trigger";
 			position[]={2176.4858,74.185722,7509.2256};
@@ -650,7 +608,7 @@ class Mission
 			id=36;
 			type="EmptyDetector";
 		};
-		class Item27
+		class Item20
 		{
 			dataType="Trigger";
 			position[]={182.57509,53.80619,6174.0488};
@@ -668,32 +626,13 @@ class Mission
 			id=37;
 			type="EmptyDetector";
 		};
-		class Item28
+		class Item21
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={2115.0039,72.066887,6405.5723};
-				angles[]={0,0.13962634,0};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-				skill=1;
-				lock="UNLOCKED";
-				name="su85";
-			};
-			id=38;
-			type="LIB_SU85";
-		};
-		class Item29
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={2478.4167,54.179001,8698.1328};
-				angles[]={6.2531958,3.1415927,6.2494502};
+				position[]={2478.417,54.178383,8698.1328};
+				angles[]={6.2532005,3.1415927,6.2494478};
 			};
 			side="Empty";
 			flags=4;
@@ -701,12 +640,13 @@ class Mission
 			{
 				skill=0.60000002;
 				init="this setVectorUp [0,0,1]; this allowDamage false;";
+				createAsSimpleObject=1;
 			};
 			id=39;
 			type="Trench_Gun1";
-			atlOffset=0.00060653687;
+			atlOffset=-3.8146973e-006;
 		};
-		class Item30
+		class Item22
 		{
 			dataType="Object";
 			class PositionInfo
@@ -725,7 +665,7 @@ class Mission
 			type="Trench_Mortar";
 			atlOffset=0.00035858154;
 		};
-		class Item31
+		class Item23
 		{
 			dataType="Object";
 			class PositionInfo
@@ -744,12 +684,12 @@ class Mission
 			type="Trench_Mortar";
 			atlOffset=0.00086212158;
 		};
-		class Item32
+		class Item24
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={2148.6826,75.170921,7487.6328};
+				position[]={2148.9614,74.988091,7488.0293};
 				angles[]={6.2769418,0.43633232,0.0037505617};
 			};
 			side="Empty";
@@ -761,9 +701,9 @@ class Mission
 			};
 			id=42;
 			type="Land_fortified_nest_small";
-			atlOffset=2.2888184e-005;
+			atlOffset=-0.18637085;
 		};
-		class Item33
+		class Item25
 		{
 			dataType="Object";
 			class PositionInfo
@@ -782,7 +722,7 @@ class Mission
 			type="Trench_Mortar";
 			atlOffset=0.0023040771;
 		};
-		class Item34
+		class Item26
 		{
 			dataType="Object";
 			class PositionInfo
@@ -800,7 +740,7 @@ class Mission
 			type="LIB_MINE_TM44_Field_30x30";
 			atlOffset=-1.9073486e-005;
 		};
-		class Item35
+		class Item27
 		{
 			dataType="Object";
 			class PositionInfo
@@ -819,7 +759,7 @@ class Mission
 			id=45;
 			type="LIB_opelblitz_fuel";
 		};
-		class Item36
+		class Item28
 		{
 			dataType="Object";
 			class PositionInfo
@@ -838,7 +778,7 @@ class Mission
 			id=46;
 			type="LIB_opelblitz_fuel";
 		};
-		class Item37
+		class Item29
 		{
 			dataType="Object";
 			class PositionInfo
@@ -857,7 +797,7 @@ class Mission
 			id=47;
 			type="LIB_opelblitz_fuel";
 		};
-		class Item38
+		class Item30
 		{
 			dataType="Object";
 			class PositionInfo
@@ -877,7 +817,7 @@ class Mission
 			type="LIB_opelblitz_fuel";
 			atlOffset=-3.8146973e-006;
 		};
-		class Item39
+		class Item31
 		{
 			dataType="Object";
 			class PositionInfo
@@ -897,7 +837,7 @@ class Mission
 			id=49;
 			type="LIB_opelblitz_ammo";
 		};
-		class Item40
+		class Item32
 		{
 			dataType="Object";
 			class PositionInfo
@@ -918,7 +858,7 @@ class Mission
 			type="LIB_opelblitz_ammo";
 			atlOffset=0.00073623657;
 		};
-		class Item41
+		class Item33
 		{
 			dataType="Object";
 			class PositionInfo
@@ -936,7 +876,7 @@ class Mission
 			type="Land_LIB_wire_2";
 			atlOffset=0.007598877;
 		};
-		class Item42
+		class Item34
 		{
 			dataType="Object";
 			class PositionInfo
@@ -954,7 +894,7 @@ class Mission
 			type="Hedgehog";
 			atlOffset=0.017158508;
 		};
-		class Item43
+		class Item35
 		{
 			dataType="Object";
 			class PositionInfo
@@ -972,7 +912,7 @@ class Mission
 			type="Land_LIB_wire_2";
 			atlOffset=0.022438049;
 		};
-		class Item44
+		class Item36
 		{
 			dataType="Object";
 			class PositionInfo
@@ -990,7 +930,7 @@ class Mission
 			type="Hedgehog";
 			atlOffset=0.010128021;
 		};
-		class Item45
+		class Item37
 		{
 			dataType="Object";
 			class PositionInfo
@@ -1008,7 +948,7 @@ class Mission
 			type="Hedgehog";
 			atlOffset=0.017162323;
 		};
-		class Item46
+		class Item38
 		{
 			dataType="Object";
 			class PositionInfo
@@ -1026,7 +966,7 @@ class Mission
 			type="Hedgehog";
 			atlOffset=0.017982483;
 		};
-		class Item47
+		class Item39
 		{
 			dataType="Object";
 			class PositionInfo
@@ -1044,7 +984,7 @@ class Mission
 			type="Hedgehog";
 			atlOffset=0.029567719;
 		};
-		class Item48
+		class Item40
 		{
 			dataType="Object";
 			class PositionInfo
@@ -1062,7 +1002,7 @@ class Mission
 			type="Hedgehog";
 			atlOffset=0.017986298;
 		};
-		class Item49
+		class Item41
 		{
 			dataType="Object";
 			class PositionInfo
@@ -1080,13 +1020,13 @@ class Mission
 			type="Hedgehog";
 			atlOffset=0.029567719;
 		};
-		class Item50
+		class Item42
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={2237.3914,74.422691,7439.7148};
-				angles[]={6.248199,3.4906585,0.013745897};
+				position[]={2291.0708,74.612747,7485.5845};
+				angles[]={6.2769418,3.4906585,0.016246082};
 			};
 			side="Empty";
 			flags=4;
@@ -1097,15 +1037,14 @@ class Mission
 			};
 			id=60;
 			type="Trench_Mg2";
-			atlOffset=0.00058746338;
 		};
-		class Item51
+		class Item43
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={2076.4302,72.343781,7529.6865};
-				angles[]={0.038730852,3.6651914,0.056191571};
+				position[]={2072.2505,72.453262,7522.6553};
+				angles[]={0.052452512,3.6651914,0.058682479};
 			};
 			side="Empty";
 			flags=4;
@@ -1116,9 +1055,8 @@ class Mission
 			};
 			id=61;
 			type="Trench_Mg2";
-			atlOffset=0.001991272;
 		};
-		class Item52
+		class Item44
 		{
 			dataType="Object";
 			class PositionInfo
@@ -1137,7 +1075,7 @@ class Mission
 			id=62;
 			type="LIB_Kfz1";
 		};
-		class Item53
+		class Item45
 		{
 			dataType="Object";
 			class PositionInfo
@@ -1156,13 +1094,13 @@ class Mission
 			id=63;
 			type="LIB_Kfz1";
 		};
-		class Item54
+		class Item46
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={2206.4495,75.145615,7648.9214};
-				angles[]={0.01749678,0.4537856,0.011251737};
+				position[]={2222.3276,75.888359,7658.2856};
+				angles[]={0.022495884,5.2026358,0.066153899};
 			};
 			side="Empty";
 			flags=4;
@@ -1175,7 +1113,7 @@ class Mission
 			id=64;
 			type="LIB_opelblitz_open_y_camo";
 		};
-		class Item55
+		class Item47
 		{
 			dataType="Object";
 			class PositionInfo
@@ -1193,7 +1131,7 @@ class Mission
 			type="Land_LIB_wire_2";
 			atlOffset=0.014471054;
 		};
-		class Item56
+		class Item48
 		{
 			dataType="Object";
 			class PositionInfo
@@ -1211,7 +1149,7 @@ class Mission
 			type="Land_LIB_wire_2";
 			atlOffset=0.01710701;
 		};
-		class Item57
+		class Item49
 		{
 			dataType="Object";
 			class PositionInfo
@@ -1229,7 +1167,7 @@ class Mission
 			type="Land_LIB_wire_2";
 			atlOffset=7.6293945e-006;
 		};
-		class Item58
+		class Item50
 		{
 			dataType="Object";
 			class PositionInfo
@@ -1246,7 +1184,7 @@ class Mission
 			id=68;
 			type="Land_LIB_wire_2";
 		};
-		class Item59
+		class Item51
 		{
 			dataType="Object";
 			class PositionInfo
@@ -1263,7 +1201,7 @@ class Mission
 			id=69;
 			type="Land_LIB_wire_2";
 		};
-		class Item60
+		class Item52
 		{
 			dataType="Object";
 			class PositionInfo
@@ -1280,7 +1218,7 @@ class Mission
 			id=70;
 			type="Land_LIB_wire_2";
 		};
-		class Item61
+		class Item53
 		{
 			dataType="Object";
 			class PositionInfo
@@ -1297,7 +1235,7 @@ class Mission
 			id=71;
 			type="Land_LIB_wire_2";
 		};
-		class Item62
+		class Item54
 		{
 			dataType="Object";
 			class PositionInfo
@@ -1314,7 +1252,7 @@ class Mission
 			id=72;
 			type="Land_LIB_wire_2";
 		};
-		class Item63
+		class Item55
 		{
 			dataType="Object";
 			class PositionInfo
@@ -1331,7 +1269,7 @@ class Mission
 			id=73;
 			type="Land_LIB_wire_2";
 		};
-		class Item64
+		class Item56
 		{
 			dataType="Object";
 			class PositionInfo
@@ -1350,7 +1288,7 @@ class Mission
 			type="Trench_Mortar";
 			atlOffset=0.0017242432;
 		};
-		class Item65
+		class Item57
 		{
 			dataType="Object";
 			class PositionInfo
@@ -1370,7 +1308,7 @@ class Mission
 			id=75;
 			type="LIB_opelblitz_ammo";
 		};
-		class Item66
+		class Item58
 		{
 			dataType="Object";
 			class PositionInfo
@@ -1390,7 +1328,7 @@ class Mission
 			type="LIB_opelblitz_ambulance";
 			atlOffset=-3.8146973e-006;
 		};
-		class Item67
+		class Item59
 		{
 			dataType="Object";
 			class PositionInfo
@@ -1409,7 +1347,7 @@ class Mission
 			id=77;
 			type="LIB_opelblitz_parm";
 		};
-		class Item68
+		class Item60
 		{
 			dataType="Object";
 			class PositionInfo
@@ -1429,7 +1367,7 @@ class Mission
 			id=78;
 			type="LIB_opelblitz_tent_y_camo";
 		};
-		class Item69
+		class Item61
 		{
 			dataType="Object";
 			class PositionInfo
@@ -1449,902 +1387,7 @@ class Mission
 			id=79;
 			type="LIB_opelblitz_open_y_camo";
 		};
-		class Item70
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={1995.3829,67.335381,6389.9912};
-				angles[]={6.2756844,0.10303726,0.051205322};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-				skill=0.46666664;
-				name="vehicle6";
-			};
-			id=80;
-			type="LIB_Willys_MB";
-		};
-		class Item71
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={2023.0681,68.023178,6385.9468};
-				angles[]={0.010000871,0.16537361,0.062418513};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-				skill=0.46666664;
-				name="vehicle4";
-			};
-			id=81;
-			type="LIB_SOV_M3_Halftrack";
-		};
-		class Item72
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={1963.9677,65.016975,6359.3218};
-				angles[]={6.2581916,4.0764346,0.022495884};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-				skill=0.46666664;
-				lock="UNLOCKED";
-			};
-			id=82;
-			type="LIB_BM37";
-		};
-		class Item73
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={1957.5098,64.813766,6359.4077};
-				angles[]={0.0049914722,4.0764346,0.053697411};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-				skill=0.46666664;
-				lock="UNLOCKED";
-			};
-			id=83;
-			type="LIB_BM37";
-		};
-		class Item74
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={2016.7878,67.838058,6386.8594};
-				angles[]={0.011251737,0.065247387,0.061173465};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-				skill=0.46666664;
-				name="vehicle3";
-			};
-			id=84;
-			type="LIB_Scout_M3";
-		};
-		class Item75
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={1981.4158,65.391907,6345.4131};
-				angles[]={6.2606897,4.1334286,0.074859224};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-				skill=0.46666664;
-				lock="UNLOCKED";
-			};
-			id=85;
-			type="LIB_Zis3";
-		};
-		class Item76
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={1985.416,66.725731,6369.438};
-				angles[]={0.015002378,0.068277359,0.031239824};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-				skill=0.46666664;
-				lock="UNLOCKED";
-				name="vehicle7";
-			};
-			id=86;
-			type="LIB_US6_Tent";
-		};
-		class Item77
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={1965.6747,65.894684,6391.0737};
-				angles[]={0.021244843,0.040683746,0.016246082};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-				skill=0.46666664;
-				lock="UNLOCKED";
-				name="vehicle10";
-			};
-			id=87;
-			type="LIB_US6_Open";
-		};
-		class Item78
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={1957.1864,66.627129,6391.4844};
-				angles[]={0.01624975,0.011676788,0.037482351};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-				skill=0.46666664;
-				lock="UNLOCKED";
-				name="vehicle9";
-			};
-			id=88;
-			type="LIB_zis5v";
-		};
-		class Item79
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={2046.714,70.358414,6361.1196};
-				angles[]={0.0074931863,0.19885409,0.044968102};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-				skill=0.46666664;
-				name="vehicle2";
-			};
-			id=89;
-			type="LIB_zis5v_med";
-		};
-		class Item80
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={2038.9862,69.111916,6361.7412};
-				angles[]={0.0075011365,0.17415263,6.2806959};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-				skill=0.46666664;
-				name="vehicle1";
-			};
-			id=90;
-			type="LIB_US6_Ammo";
-		};
-		class Item81
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={1987.467,67.737183,6390.9219};
-				angles[]={0.013750233,0.12206309,0.032487731};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-				skill=0.46666664;
-				name="vehicle5";
-			};
-			id=91;
-			type="LIB_zis5v_fuel";
-		};
-		class Item82
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={1991.2118,67.810364,6369.8613};
-				angles[]={0.0074931863,0.18448114,0.03872931};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-				skill=0.46666664;
-				name="vehicle8";
-			};
-			id=92;
-			type="LIB_zis6_parm";
-		};
-		class Item83
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={2042.7526,70.23423,6360.23};
-				angles[]={0.0074931863,3.5843613,0.044968102};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-				skill=1;
-			};
-			id=93;
-			type="Land_CamoNetB_EAST";
-			atlOffset=0.0021514893;
-		};
-		class Item84
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={1960.2247,67.035782,6362.3066};
-				angles[]={6.274437,0.41395259,0.022495884};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-				skill=1;
-			};
-			id=95;
-			type="Land_CamoNetB_EAST";
-			atlOffset=0.00060272217;
-		};
-		class Item85
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={2020.1191,69.063515,6386.0205};
-				angles[]={0.011251737,3.5843613,0.061173465};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-				skill=1;
-			};
-			id=96;
-			type="Land_CamoNetB_EAST";
-			atlOffset=0.0040054321;
-		};
-		class Item86
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={1990.7369,67.934509,6389.5029};
-				angles[]={0.013750233,3.5843613,0.032487731};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-				skill=1;
-			};
-			id=97;
-			type="Land_CamoNetB_EAST";
-			atlOffset=0.0012817383;
-		};
-		class Item87
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={1988.3639,67.804321,6369.5483};
-				angles[]={0.015002378,3.5843613,0.031239824};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-				skill=1;
-			};
-			id=98;
-			type="Land_CamoNetB_EAST";
-			atlOffset=0.0012283325;
-		};
-		class Item88
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={1961.2607,66.805267,6391.3359};
-				angles[]={0.021244843,3.5843613,0.016246082};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-				skill=1;
-			};
-			id=99;
-			type="Land_CamoNetB_EAST";
-			atlOffset=0.00073242188;
-		};
-		class Item89
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={2069.8782,69.949951,6395.0815};
-				angles[]={0,0.18429106,0.00119604};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-				skill=0.60000002;
-				init="null = [this] execVM ""virtual_arsenal_init.sqf""";
-			};
-			id=100;
-			type="LIB_Mine_Ammo_Box_Su";
-		};
-		class Item90
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={2047.5145,73.279289,6396.1284};
-				angles[]={6.2344747,0.018882718,0.066152997};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-				skill=0.60000002;
-				init="this addAction[""Insert by HALO"",""cat_halo.sqf""];";
-			};
-			id=101;
-			type="FlagCarrierSU";
-			atlOffset=0.013427734;
-		};
-		class Item91
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={2075.0283,69.949997,6400.9648};
-				angles[]={0,5.1510305,0};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-				skill=0.46666664;
-			};
-			id=102;
-			type="ClutterCutter_EP1";
-		};
-		class Item92
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={2064.7305,69.8601,6390.3105};
-				angles[]={6.2444549,5.1510305,0.034986377};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-				skill=0.46666664;
-			};
-			id=103;
-			type="ClutterCutter_EP1";
-		};
-		class Item93
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={1969.9574,65.068665,6355.9893};
-				angles[]={6.2581892,5.5145621,0.024996169};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-				skill=0.46666664;
-			};
-			id=104;
-			type="ClutterCutter_EP1";
-		};
-		class Item94
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={2062.728,69.941109,6402.1553};
-				angles[]={6.2819405,5.6591978,0.0012448779};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-				skill=0.46666664;
-			};
-			id=105;
-			type="ClutterCutter_EP1";
-		};
-		class Item95
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={2077.1055,70.007477,6390.2969};
-				angles[]={0.033737205,5.6591978,0};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-				skill=0.46666664;
-			};
-			id=106;
-			type="ClutterCutter_EP1";
-		};
-		class Item96
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={1960.7806,64.998772,6371.4653};
-				angles[]={0.0099949092,6.0227294,0.029989703};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-				skill=0.46666664;
-			};
-			id=107;
-			type="ClutterCutter_EP1";
-		};
-		class Item97
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={2035.9296,67.818008,6373.4541};
-				angles[]={0.032487731,5.6591978,6.2794352};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-				skill=0.46666664;
-			};
-			id=108;
-			type="ClutterCutter_EP1";
-		};
-		class Item98
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={1960.5804,64.698105,6393.1323};
-				angles[]={0.010000871,2.1209483,0.01624975};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-				skill=0.46666664;
-			};
-			id=109;
-			type="ClutterCutter_EP1";
-		};
-		class Item99
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={1947.9526,64.20269,6393.3096};
-				angles[]={0,2.1209483,0.048710719};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-				skill=0.46666664;
-			};
-			id=110;
-			type="ClutterCutter_EP1";
-		};
-		class Item100
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={2055.1289,69.04615,6356.7178};
-				angles[]={0.031239824,2.1209483,0.07610333};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-				skill=0.46666664;
-			};
-			id=111;
-			type="ClutterCutter_EP1";
-		};
-		class Item101
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={2045.9625,68.405792,6357.563};
-				angles[]={0.039979152,2.1209483,0.044970755};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-				skill=0.46666664;
-			};
-			id=112;
-			type="ClutterCutter_EP1";
-		};
-		class Item102
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={2029.835,67.685448,6359.6807};
-				angles[]={0.0012448779,2.1209483,0.029989703};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-				skill=0.46666664;
-			};
-			id=113;
-			type="ClutterCutter_EP1";
-		};
-		class Item103
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={2008.1226,66.475677,6389.582};
-				angles[]={6.2794352,5.2473888,0.038730852};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-				skill=0.46666664;
-			};
-			id=114;
-			type="ClutterCutter_EP1";
-		};
-		class Item104
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={2021.3468,67.016861,6390.7314};
-				angles[]={0.010000871,5.2473888,0.062418513};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-				skill=0.46666664;
-			};
-			id=115;
-			type="ClutterCutter_EP1";
-		};
-		class Item105
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={2033.7682,67.715828,6387.1548};
-				angles[]={6.2794352,5.2473888,0.047463283};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-				skill=0.46666664;
-			};
-			id=116;
-			type="ClutterCutter_EP1";
-		};
-		class Item106
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={1976.8931,65.220116,6391.1978};
-				angles[]={0.0012448779,5.2935729,0.054944519};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-				skill=0.46666664;
-			};
-			id=117;
-			type="ClutterCutter_EP1";
-		};
-		class Item107
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={1988.8229,65.834785,6385.8018};
-				angles[]={0.0012448779,5.2935729,0.044969428};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-				skill=0.46666664;
-			};
-			id=118;
-			type="ClutterCutter_EP1";
-		};
-		class Item108
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={1977.0046,65.420135,6366.2075};
-				angles[]={0.0062435218,5.2935729,0.038730852};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-				skill=0.46666664;
-			};
-			id=119;
-			type="ClutterCutter_EP1";
-		};
-		class Item109
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={1992.7733,66.013382,6363.3848};
-				angles[]={0.026243316,5.2935729,0.028741226};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-				skill=0.46666664;
-			};
-			id=120;
-			type="ClutterCutter_EP1";
-		};
-		class Item110
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={2002.8911,66.451797,6367.8979};
-				angles[]={6.2619376,5.3635693,0.032489564};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-				skill=0.46666664;
-			};
-			id=121;
-			type="ClutterCutter_EP1";
-		};
-		class Item111
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={1979.8092,67.398193,6348.2769};
-				angles[]={6.2606897,0.41395259,0.074859224};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-				skill=1;
-			};
-			id=122;
-			type="Land_CamoNetB_EAST";
-			atlOffset=0.0083770752;
-		};
-		class Item112
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={1954.2131,64.77076,6350.8774};
-				angles[]={0.026243316,0.38241446,0.041227277};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-				skill=1;
-			};
-			id=123;
-			type="ClutterCutter_EP1";
-		};
-		class Item113
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={1961.9032,65.157135,6342.5239};
-				angles[]={0.021247648,0.38241446,6.2494464};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-				skill=1;
-			};
-			id=124;
-			type="ClutterCutter_EP1";
-		};
-		class Item114
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={1975.1427,65.194633,6334.7861};
-				angles[]={0.019996032,0.38241446,0.011246439};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-				skill=1;
-			};
-			id=125;
-			type="ClutterCutter_EP1";
-		};
-		class Item115
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={1984.7404,65.744926,6359.042};
-				angles[]={6.2581892,0.38241446,0.052451372};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-				skill=1;
-			};
-			id=126;
-			type="ClutterCutter_EP1";
-		};
-		class Item116
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={2075.0891,72.866547,6356.4775};
-				angles[]={6.274437,6.2778668,0.062418513};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-				skill=1;
-				lock="UNLOCKED";
-			};
-			id=127;
-			type="LIB_US6_BM13";
-		};
-		class Item117
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={2074.8464,72.586617,6357.5962};
-				angles[]={6.2819405,3.5843613,0.054944519};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-				skill=1;
-			};
-			id=128;
-			type="Land_CamoNetB_EAST";
-			atlOffset=0.0031280518;
-		};
-		class Item118
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={2062.8369,69.646904,6361.1836};
-				angles[]={0.02999169,5.2473888,0.092238374};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-				skill=0.46666664;
-			};
-			id=129;
-			type="ClutterCutter_EP1";
-		};
-		class Item119
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={2076.0613,70.522133,6362.333};
-				angles[]={0.026245587,5.2473888,0.054945603};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-				skill=0.46666664;
-			};
-			id=130;
-			type="ClutterCutter_EP1";
-		};
-		class Item120
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={2088.4827,72.120003,6358.7563};
-				angles[]={0,5.2473888,0};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-				skill=0.46666664;
-			};
-			id=131;
-			type="ClutterCutter_EP1";
-		};
-		class Item121
+		class Item62
 		{
 			dataType="Object";
 			class PositionInfo
@@ -2361,7 +1404,7 @@ class Mission
 			id=132;
 			type="LIB_MINE_TM44_Field_30x30";
 		};
-		class Item122
+		class Item63
 		{
 			dataType="Object";
 			class PositionInfo
@@ -2379,7 +1422,7 @@ class Mission
 			type="Land_LIB_wire_2";
 			atlOffset=4.5776367e-005;
 		};
-		class Item123
+		class Item64
 		{
 			dataType="Object";
 			class PositionInfo
@@ -2397,7 +1440,7 @@ class Mission
 			type="Land_LIB_wire_2";
 			atlOffset=3.8146973e-005;
 		};
-		class Item124
+		class Item65
 		{
 			dataType="Object";
 			class PositionInfo
@@ -2414,7 +1457,7 @@ class Mission
 			id=135;
 			type="LIB_MINE_TM44_Field_30x30";
 		};
-		class Item125
+		class Item66
 		{
 			dataType="Object";
 			class PositionInfo
@@ -2432,320 +1475,7 @@ class Mission
 			type="LIB_MINE_TM44_Field_30x30";
 			atlOffset=0.00015830994;
 		};
-		class Item126
-		{
-			dataType="Group";
-			side="East";
-			class Entities
-			{
-				items=10;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={2100.6538,70.521561,6385.9492};
-						angles[]={0.092237726,1.5311215,0.0012448779};
-					};
-					side="East";
-					flags=6;
-					class Attributes
-					{
-						skill=1;
-						rank="SERGEANT";
-						init="riflesquad = group this; riflesquad setgroupid [""Avtomatchik"",""Black""];  this addweapon ""LIB_Binocular_SU""; this setSpeaker ""NoVoice"";";
-						name="avtomatchik1";
-						isPlayer=1;
-						isPlayable=1;
-					};
-					id=138;
-					type="LIB_SOV_sergeant";
-				};
-				class Item1
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={2105.6538,70.678093,6384.2988};
-						angles[]={0.093476444,1.5707964,0};
-					};
-					side="East";
-					flags=4;
-					class Attributes
-					{
-						skill=1;
-						rank="CORPORAL";
-						init="riflesquad = group this; riflesquad setgroupid [""Avtomatchik"",""Black""]; removeallweapons this; this addmagazine ""lib_5Rnd_762x54""; this addmagazine ""lib_5Rnd_762x54""; this addmagazine ""lib_5Rnd_762x54""; this addmagazine ""lib_5Rnd_762x54""; this addmagazine ""lib_5Rnd_762x54""; this addmagazine ""lib_5Rnd_762x54""; this addmagazine ""lib_5Rnd_762x54""; this addmagazine ""lib_5Rnd_762x54""; this addmagazine ""lib_5Rnd_762x54""; this addmagazine ""lib_5Rnd_762x54""; this addweapon ""LIB_M9130PU""; this addmagazine ""lib_f1""; this addmagazine ""lib_f1""; this setSpeaker ""NoVoice"";";
-						name="avtomatchik2";
-						isPlayable=1;
-					};
-					id=139;
-					type="LIB_SOV_LC_rifleman";
-				};
-				class Item2
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={2095.6538,70.665863,6384.2988};
-						angles[]={0.0661548,1.5707964,0.026243316};
-					};
-					side="East";
-					flags=4;
-					class Attributes
-					{
-						skill=1;
-						rank="CORPORAL";
-						init="riflesquad = group this; riflesquad setgroupid [""Avtomatchik"",""Black""]; removeallweapons this; this addmagazine ""lib_47Rnd_762x54""; this addmagazine ""lib_47Rnd_762x54""; this addmagazine ""lib_47Rnd_762x54""; this addmagazine ""lib_47Rnd_762x54""; this addmagazine ""lib_47Rnd_762x54""; this addmagazine ""lib_rg42""; this addmagazine ""lib_rg42""; this addweapon ""LIB_DP28""; this setSpeaker ""NoVoice"";";
-						name="avtomatchik3";
-						isPlayable=1;
-					};
-					id=140;
-					type="LIB_SOV_mgunner";
-				};
-				class Item3
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={2110.6538,70.953575,6381.5596};
-						angles[]={0.10090687,1.5707964,0};
-					};
-					side="East";
-					flags=4;
-					class Attributes
-					{
-						skill=1;
-						rank="CORPORAL";
-						init="riflesquad = group this; riflesquad setgroupid [""Avtomatchik"",""Black""]; removeallweapons this; this addmagazine ""lib_47Rnd_762x54""; this addmagazine ""lib_47Rnd_762x54""; this addmagazine ""lib_47Rnd_762x54""; this addmagazine ""lib_47Rnd_762x54""; this addmagazine ""lib_47Rnd_762x54""; this addmagazine ""lib_rg42""; this addmagazine ""lib_rg42""; this addweapon ""LIB_DP28""; this setSpeaker ""NoVoice"";";
-						name="avtomatchik4";
-						isPlayable=1;
-					};
-					id=141;
-					type="LIB_SOV_mgunner";
-				};
-				class Item4
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={2090.6538,70.793907,6381.5596};
-						angles[]={0.09719272,1.5707964,0.026243316};
-					};
-					side="East";
-					flags=4;
-					class Attributes
-					{
-						skill=1;
-						init="riflesquad = group this; riflesquad setgroupid [""Avtomatchik"",""Black""]; removeallweapons this; this addmagazine ""lib_71Rnd_762x25""; this addmagazine ""lib_71Rnd_762x25""; this addmagazine ""lib_71Rnd_762x25""; this addmagazine ""lib_71Rnd_762x25""; this addweapon ""LIB_PPSh41_d""; this addmagazine ""lib_rpg6""; this addmagazine ""lib_rpg6""; this addmagazine ""SmokeShell""; this addmagazine ""SmokeShell""; this setSpeaker ""NoVoice"";";
-						name="avtomatchik5";
-						isPlayable=1;
-					};
-					id=142;
-					type="LIB_SOV_AT_grenadier";
-				};
-				class Item5
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={2115.6538,71.450539,6377.0122};
-						angles[]={0.10090687,1.5707964,0.0099949092};
-					};
-					side="East";
-					flags=4;
-					class Attributes
-					{
-						skill=1;
-						init="riflesquad = group this; riflesquad setgroupid [""Avtomatchik"",""Black""]; removeallweapons this; this addmagazine ""lib_71Rnd_762x25""; this addmagazine ""lib_71Rnd_762x25""; this addmagazine ""lib_71Rnd_762x25""; this addmagazine ""lib_71Rnd_762x25""; this addweapon ""LIB_PPSh41_d""; this addmagazine ""lib_rpg6""; this addmagazine ""lib_rpg6""; this addmagazine ""SmokeShell""; this addmagazine ""SmokeShell""; this setSpeaker ""NoVoice"";";
-						name="avtomatchik6";
-						isPlayable=1;
-					};
-					id=143;
-					type="LIB_SOV_AT_grenadier";
-				};
-				class Item6
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={2085.6538,70.981346,6377.0122};
-						angles[]={0.053698521,1.5707964,0.06739822};
-					};
-					side="East";
-					flags=4;
-					class Attributes
-					{
-						skill=1;
-						init="riflesquad = group this; riflesquad setgroupid [""Avtomatchik"",""Black""]; this setObjectTexture [((getArray (configFile/""cfgVehicles""/(typeOf this)/""hiddenSelections"")) find ""eqip_mosin_mags_left""),""""]; this setObjectTexture [((getArray (configFile/""cfgVehicles""/(typeOf this)/""hiddenSelections"")) find ""eqip_mosin_mags_right""),""""]; this setObjectTexture [((getArray (configFile/""cfgVehicles""/(typeOf this)/""hiddenSelections"")) find ""eqip_svt_mags""),""lib\LIB_sov_characters\data\sov_eqipment_3_co.paa""]; removeallweapons this; this addmagazine ""lib_10Rnd_762x54""; this addmagazine ""lib_10Rnd_762x54""; this addmagazine ""lib_10Rnd_762x54""; this addmagazine ""lib_10Rnd_762x54""; this addmagazine ""lib_10Rnd_762x54""; this addmagazine ""lib_10Rnd_762x54""; this addmagazine ""lib_10Rnd_762x54""; this addmagazine ""lib_10Rnd_762x54""; this addmagazine ""lib_f1""; this addmagazine ""lib_f1""; this addmagazine ""lib_rg42""; this addmagazine ""lib_rg42""; this addweapon ""LIB_SVT_40""; this setSpeaker ""NoVoice"";";
-						name="avtomatchik7";
-						isPlayable=1;
-					};
-					id=144;
-					type="LIB_SOV_rifleman";
-				};
-				class Item7
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={2120.6538,71.827766,6372.062};
-						angles[]={0.052452512,1.5707964,0.041227277};
-					};
-					side="East";
-					flags=4;
-					class Attributes
-					{
-						skill=1;
-						init="riflesquad = group this; riflesquad setgroupid [""Avtomatchik"",""Black""]; removeallweapons this; this addmagazine ""lib_71Rnd_762x25""; this addmagazine ""lib_71Rnd_762x25""; this addmagazine ""lib_71Rnd_762x25""; this addmagazine ""lib_71Rnd_762x25""; this addweapon ""LIB_PPSh41_d""; this addmagazine ""lib_rg42""; this addmagazine ""lib_rg42""; this addmagazine ""lib_rg42""; this addmagazine ""lib_rg42""; this setSpeaker ""NoVoice"";";
-						name="avtomatchik8";
-						isPlayable=1;
-					};
-					id=145;
-					type="LIB_SOV_smgunner";
-				};
-				class Item8
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={2080.6538,70.741676,6372.062};
-						angles[]={6.2756844,1.5707964,0.18172313};
-					};
-					side="East";
-					flags=4;
-					class Attributes
-					{
-						skill=1;
-						init="riflesquad = group this; riflesquad setgroupid [""Avtomatchik"",""Black""]; removeallweapons this; this addmagazine ""lib_71Rnd_762x25""; this addmagazine ""lib_71Rnd_762x25""; this addmagazine ""lib_71Rnd_762x25""; this addmagazine ""lib_71Rnd_762x25""; this addweapon ""LIB_PPSh41_d""; this addmagazine ""lib_rg42""; this addmagazine ""lib_rg42""; this addmagazine ""lib_rg42""; this addmagazine ""lib_rg42""; this setSpeaker ""NoVoice"";";
-						name="avtomatchik9";
-						isPlayable=1;
-					};
-					id=146;
-					type="LIB_SOV_smgunner";
-				};
-				class Item9
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={2125.6538,72.21183,6367.1118};
-						angles[]={6.248199,1.5707964,0.041225832};
-					};
-					side="East";
-					flags=4;
-					class Attributes
-					{
-						skill=1;
-						init="riflesquad = group this; riflesquad setgroupid [""Avtomatchik"",""Black""]; removeallweapons this; this addmagazine ""lib_5Rnd_762x54""; this addmagazine ""lib_5Rnd_762x54""; this addmagazine ""lib_5Rnd_762x54""; this addmagazine ""lib_5Rnd_762x54""; this addmagazine ""lib_5Rnd_762x54""; this addmagazine ""lib_5Rnd_762x54""; this addmagazine ""lib_5Rnd_762x54""; this addmagazine ""lib_5Rnd_762x54""; this addmagazine ""lib_5Rnd_762x54""; this addmagazine ""lib_5Rnd_762x54""; this addweapon ""LIB_M9130""; this addmagazine ""SmokeShell""; this addmagazine ""SmokeShell""; this setSpeaker ""NoVoice"";";
-						name="avtomatchik10";
-						isPlayable=1;
-					};
-					id=147;
-					type="LIB_SOV_medic";
-				};
-			};
-			class Attributes
-			{
-			};
-			id=137;
-		};
-		class Item127
-		{
-			dataType="Group";
-			side="East";
-			class Entities
-			{
-				items=4;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={2111.5635,69.951439,6408.8154};
-						angles[]={0,1.5707964,0};
-					};
-					side="East";
-					flags=6;
-					class Attributes
-					{
-						skill=1;
-						rank="LIEUTENANT";
-						init="tanksquad = group this; tanksquad setgroupid [""Tankist"",""Black""];removeallweapons this; this addmagazine ""lib_35Rnd_762x25""; this addmagazine ""lib_35Rnd_762x25""; this addmagazine ""lib_35Rnd_762x25""; this addmagazine ""lib_35Rnd_762x25""; this addmagazine ""lib_35Rnd_762x25""; this addmagazine ""lib_35Rnd_762x25""; this addweapon ""LIB_PPSh41_m""; this addmagazine ""lib_f1""; this addmagazine ""lib_f1""; this addmagazine ""lib_f1""; this addmagazine ""SmokeShell""; this addmagazine ""SmokeShell""; this addmagazine ""SmokeShell""; this addweapon ""LIB_Binocular_SU""; this addmagazine ""lib_8Rnd_762x25""; this addmagazine ""lib_8Rnd_762x25""; this addmagazine ""lib_8Rnd_762x25""; this addmagazine ""lib_8Rnd_762x25""; this addmagazine ""lib_8Rnd_762x25""; this addweapon ""LIB_TT33""; this setSpeaker ""NoVoice"";";
-						name="tankist1";
-						isPlayable=1;
-					};
-					id=149;
-					type="LIB_SOV_tank_overall_lieutenant";
-				};
-				class Item1
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={2116.5635,69.951439,6407.165};
-						angles[]={0,1.5707964,0};
-					};
-					side="East";
-					flags=4;
-					class Attributes
-					{
-						skill=1;
-						rank="SERGEANT";
-						init="tanksquad = group this; tanksquad setgroupid [""Tankist"",""Black""];removeallweapons this; this addmagazine ""lib_35Rnd_762x25""; this addmagazine ""lib_35Rnd_762x25""; this addmagazine ""lib_35Rnd_762x25""; this addmagazine ""lib_35Rnd_762x25""; this addmagazine ""lib_35Rnd_762x25""; this addmagazine ""lib_35Rnd_762x25""; this addweapon ""LIB_PPSh41_m""; this addmagazine ""lib_rpg6""; this addmagazine ""lib_rpg6""; this addmagazine ""lib_f1""; this addmagazine ""lib_f1""; this addmagazine ""SmokeShell""; this addmagazine ""SmokeShell""; this setSpeaker ""NoVoice"";";
-						name="tankist2";
-						isPlayable=1;
-					};
-					id=150;
-					type="LIB_SOV_tank_overall_sergeant";
-				};
-				class Item2
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={2106.5635,69.951439,6407.165};
-						angles[]={0,1.5707964,0};
-					};
-					side="East";
-					flags=4;
-					class Attributes
-					{
-						skill=1;
-						init="tanksquad = group this; tanksquad setgroupid [""Tankist"",""Black""]; removeallweapons this; this addmagazine ""lib_35Rnd_762x25""; this addmagazine ""lib_35Rnd_762x25""; this addmagazine ""lib_35Rnd_762x25""; this addmagazine ""lib_35Rnd_762x25""; this addmagazine ""lib_35Rnd_762x25""; this addmagazine ""lib_35Rnd_762x25""; this addweapon ""LIB_PPSh41_m""; this addmagazine ""lib_rpg6""; this addmagazine ""lib_rpg6""; this addmagazine ""lib_rg42""; this addmagazine ""lib_rg42""; this addmagazine ""lib_rg42""; this addmagazine ""lib_rg42""; this setSpeaker ""NoVoice"";";
-						name="tankist3";
-						isPlayable=1;
-					};
-					id=151;
-					type="LIB_SOV_tank_overall_crew";
-				};
-				class Item3
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={2121.5635,69.963165,6404.4258};
-						angles[]={0,1.5707964,0.0075011365};
-					};
-					side="East";
-					flags=4;
-					class Attributes
-					{
-						skill=1;
-						init="tanksquad = group this; tanksquad setgroupid [""Tankist"",""Black""]; removeallweapons this; this addmagazine ""lib_35Rnd_762x25""; this addmagazine ""lib_35Rnd_762x25""; this addmagazine ""lib_35Rnd_762x25""; this addmagazine ""lib_35Rnd_762x25""; this addmagazine ""lib_35Rnd_762x25""; this addmagazine ""lib_35Rnd_762x25""; this addweapon ""LIB_PPSh41_m""; this addmagazine ""lib_rpg6""; this addmagazine ""lib_rpg6""; this addmagazine ""lib_rg42""; this addmagazine ""lib_rg42""; this addmagazine ""lib_rg42""; this addmagazine ""lib_rg42""; this setSpeaker ""NoVoice"";";
-						name="tankist4";
-						isPlayable=1;
-					};
-					id=152;
-					type="LIB_SOV_tank_overall_crew";
-				};
-			};
-			class Attributes
-			{
-			};
-			id=148;
-		};
-		class Item128
+		class Item67
 		{
 			dataType="Group";
 			side="West";
@@ -2835,7 +1565,7 @@ class Mission
 			id=153;
 			atlOffset=-0.0050849915;
 		};
-		class Item129
+		class Item68
 		{
 			dataType="Object";
 			class PositionInfo
@@ -2854,7 +1584,7 @@ class Mission
 			type="LIB_MG42_Lafette";
 			atlOffset=-0.0050849915;
 		};
-		class Item130
+		class Item69
 		{
 			dataType="Group";
 			side="West";
@@ -2866,8 +1596,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={2475.7864,53.610394,8697.7334};
-						angles[]={6.2319803,3.2288592,6.2706842};
+						position[]={2475.3149,53.802315,8697.7061};
+						angles[]={6.2531142,3.2288592,6.2797503};
 					};
 					side="West";
 					flags=6;
@@ -2879,13 +1609,14 @@ class Mission
 					};
 					id=159;
 					type="LIB_GER_gun_lieutenant";
+					atlOffset=0.00061035156;
 				};
 				class Item1
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={2480.7864,53.480297,8696.083};
+						position[]={2483.949,53.543507,8697.1357};
 						angles[]={6.2531958,3.1415927,0.0099949092};
 					};
 					side="West";
@@ -2904,8 +1635,9 @@ class Mission
 			{
 			};
 			id=158;
+			atlOffset=0.00061035156;
 		};
-		class Item131
+		class Item70
 		{
 			dataType="Group";
 			side="West";
@@ -2917,8 +1649,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={2479.6287,53.56538,8697.2793};
-						angles[]={6.2531958,0,6.2494502};
+						position[]={2479.6501,54.29327,8697.416};
+						angles[]={6.266078,3.1415927,6.2465901};
 					};
 					side="West";
 					flags=6;
@@ -2927,15 +1659,15 @@ class Mission
 					};
 					id=163;
 					type="LIB_GER_gun_crew";
-					atlOffset=0.044525146;
+					atlOffset=0.00061035156;
 				};
 				class Item1
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={2479.6287,53.520855,8697.2793};
-						angles[]={6.2531958,3.1415927,6.2494502};
+						position[]={2484.7893,53.545143,8696.9102};
+						angles[]={6.2531958,3.1415927,0.0099949092};
 					};
 					side="West";
 					flags=4;
@@ -2953,8 +1685,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={2479.6287,53.520855,8697.2793};
-						angles[]={6.2531958,3.1415927,6.2494502};
+						position[]={2476.0215,53.799919,8697.7441};
+						angles[]={6.2520757,3.1415927,6.276186};
 					};
 					side="West";
 					flags=4;
@@ -2966,6 +1698,7 @@ class Mission
 					};
 					id=165;
 					type="LIB_GER_gun_crew";
+					atlOffset=0.00060653687;
 				};
 			};
 			class Attributes
@@ -2994,14 +1727,15 @@ class Mission
 				};
 			};
 			id=161;
+			atlOffset=0.00061035156;
 		};
-		class Item132
+		class Item71
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={2479.6287,53.563942,8697.2295};
-				angles[]={6.2531958,3.1415927,6.2494502};
+				position[]={2479.614,54.348648,8697.7354};
+				angles[]={6.266078,3.1415927,6.2465901};
 			};
 			side="West";
 			flags=6;
@@ -3013,8 +1747,9 @@ class Mission
 			};
 			id=162;
 			type="LIB_Pak40";
+			atlOffset=0.00061035156;
 		};
-		class Item133
+		class Item72
 		{
 			dataType="Group";
 			side="West";
@@ -3026,8 +1761,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={2478.0764,53.574661,8697.5947};
-						angles[]={6.2319803,3.1415927,6.2706842};
+						position[]={2478.104,54.393803,8697.792};
+						angles[]={6.2674537,3.1415927,6.1909671};
 					};
 					side="West";
 					flags=6;
@@ -3038,14 +1773,16 @@ class Mission
 					};
 					id=167;
 					type="LIB_GER_AT_soldier";
+					atlOffset=0.00059127808;
 				};
 			};
 			class Attributes
 			{
 			};
 			id=166;
+			atlOffset=0.00059127808;
 		};
-		class Item134
+		class Item73
 		{
 			dataType="Group";
 			side="West";
@@ -3115,7 +1852,7 @@ class Mission
 			};
 			id=168;
 		};
-		class Item135
+		class Item74
 		{
 			dataType="Object";
 			class PositionInfo
@@ -3133,52 +1870,20 @@ class Mission
 			id=169;
 			type="LIB_MG42_Lafette";
 		};
-		class Item136
+		class Item75
 		{
 			dataType="Group";
 			side="West";
 			class Entities
 			{
-				items=1;
+				items=2;
 				class Item0
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={2147.8103,74.20047,7487.207};
-						angles[]={6.2769418,3.577925,0.0037505617};
-					};
-					side="West";
-					flags=6;
-					class Attributes
-					{
-						skill=0.60000002;
-						rank="SERGEANT";
-						init="removeallweapons this; this addmagazine ""LIB_32Rnd_9x19""; this addmagazine ""LIB_32Rnd_9x19""; this addmagazine ""LIB_32Rnd_9x19""; this addmagazine ""LIB_32Rnd_9x19""; this addmagazine ""LIB_32Rnd_9x19""; this addmagazine ""LIB_32Rnd_9x19""; this addmagazine ""LIB_32Rnd_9x19""; this addmagazine ""lib_m39""; this addmagazine ""lib_m39""; this addmagazine ""lib_m39""; this addmagazine ""lib_nb39""; this addmagazine ""lib_nb39""; this addmagazine ""lib_8Rnd_9x19""; this addmagazine ""lib_8Rnd_9x19""; this addmagazine ""lib_8Rnd_9x19""; this addmagazine ""lib_8Rnd_9x19""; this addmagazine ""lib_8Rnd_9x19""; this addweapon ""LIB_MP40""; this addweapon ""LIB_M1908""; this addweapon ""Binocular""; this setpos [getpos this select 0, getpos this select 1,((getpos this select 2) +0.75)]; this setunitpos ""Middle""; this setbehaviour ""Combat"";";
-					};
-					id=173;
-					type="LIB_GER_unterofficer";
-				};
-			};
-			class Attributes
-			{
-			};
-			id=172;
-		};
-		class Item137
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=3;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={2148.5278,74.203743,7487.0425};
-						angles[]={6.2769418,0,0.0037505617};
+						position[]={2148.437,74.197723,7486.3926};
+						angles[]={6.2769418,3.4906585,0.0037505617};
 					};
 					side="West";
 					flags=6;
@@ -3187,15 +1892,14 @@ class Mission
 					};
 					id=176;
 					type="LIB_GER_soldier_K98";
-					atlOffset=0.0016174316;
 				};
 				class Item1
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={2148.5278,74.202126,7487.0425};
-						angles[]={6.2769418,3.4906585,0.0037505617};
+						position[]={2148.137,74.206909,7487.9316};
+						angles[]={6.2756805,3.4906585,0.0037524579};
 					};
 					side="West";
 					flags=4;
@@ -3204,28 +1908,34 @@ class Mission
 						skill=0.2;
 						init="removeallweapons this; this addmagazine ""lib_5Rnd_792x57""; this addmagazine ""lib_5Rnd_792x57""; this addmagazine ""lib_5Rnd_792x57""; this addmagazine ""lib_5Rnd_792x57""; this addmagazine ""lib_5Rnd_792x57""; this addmagazine ""lib_5Rnd_792x57""; this addmagazine ""lib_5Rnd_792x57""; this addmagazine ""lib_5Rnd_792x57""; this addmagazine ""lib_5Rnd_792x57""; this addmagazine ""lib_5Rnd_792x57""; this addmagazine ""lib_shg24""; this addmagazine ""lib_shg24""; this addweapon ""LIB_K98"";";
 						presence=0.75000024;
+						stance="Middle";
 					};
 					id=177;
 					type="LIB_GER_rifleman";
-				};
-				class Item2
-				{
-					dataType="Object";
-					class PositionInfo
+					atlOffset=0.0006942749;
+					class CustomAttributes
 					{
-						position[]={2148.5278,74.202126,7487.0425};
-						angles[]={6.2769418,3.4906585,0.0037505617};
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.02;
+								};
+							};
+						};
+						nAttributes=1;
 					};
-					side="West";
-					flags=4;
-					class Attributes
-					{
-						skill=0.2;
-						init="removeallweapons this; this addmagazine ""lib_10Rnd_792x57""; this addmagazine ""lib_10Rnd_792x57""; this addmagazine ""lib_10Rnd_792x57""; this addmagazine ""lib_10Rnd_792x57""; this addmagazine ""lib_10Rnd_792x57""; this addmagazine ""lib_10Rnd_792x57""; this addmagazine ""lib_pwm""; this addmagazine ""lib_pwm""; this addmagazine ""lib_pwm""; this addmagazine ""lib_pwm""; this addmagazine ""lib_pwm""; this addmagazine ""lib_pwm""; this addweapon ""LIB_G43"";";
-						presence=0.75000024;
-					};
-					id=178;
-					type="LIB_GER_AT_grenadier";
 				};
 			};
 			class Attributes
@@ -3255,12 +1965,12 @@ class Mission
 			};
 			id=174;
 		};
-		class Item138
+		class Item76
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={2148.5278,74.202301,7486.9927};
+				position[]={2148.5969,74.202591,7486.9976};
 				angles[]={6.2769418,3.4906585,0.0037505617};
 			};
 			side="West";
@@ -3272,240 +1982,7 @@ class Mission
 			id=175;
 			type="LIB_MG42_Lafette";
 		};
-		class Item139
-		{
-			dataType="Group";
-			side="East";
-			class Entities
-			{
-				items=13;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={1757.1832,70.555984,6833.1123};
-						angles[]={6.2619405,0,6.225749};
-					};
-					side="East";
-					flags=6;
-					class Attributes
-					{
-						skill=0.60000002;
-						rank="SERGEANT";
-						init="infantrysquad = group this; infantrysquad setgroupid [""Strelok"",""Black""]; removeallweapons this; this addmagazine ""lib_71Rnd_762x25""; this addmagazine ""lib_71Rnd_762x25""; this addmagazine ""lib_71Rnd_762x25""; this addmagazine ""lib_71Rnd_762x25""; this addweapon ""LIB_PPSh41_d""; this addmagazine ""lib_f1""; this addmagazine ""lib_f1""; this addmagazine ""SmokeShell""; this addmagazine ""SmokeShell""; this addweapon ""LIB_Binocular_SU"";";
-					};
-					id=180;
-					type="LIB_SOV_sergeant";
-				};
-				class Item1
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={1762.1832,70.254097,6831.4619};
-						angles[]={6.2506957,0,6.2382145};
-					};
-					side="East";
-					flags=4;
-					class Attributes
-					{
-						skill=0.60000002;
-						rank="CORPORAL";
-						init="infantrysquad = group this; infantrysquad setgroupid [""Strelok"",""Black""]; this setObjectTexture [((getArray (configFile/""cfgVehicles""/(typeOf this)/""hiddenSelections"")) find ""eqip_mosin_mags_left""),""""]; this setObjectTexture [((getArray (configFile/""cfgVehicles""/(typeOf this)/""hiddenSelections"")) find ""eqip_mosin_mags_right""),""""]; this setObjectTexture [((getArray (configFile/""cfgVehicles""/(typeOf this)/""hiddenSelections"")) find ""eqip_svt_mags""),""lib\LIB_sov_characters\data\sov_eqipment_3_co.paa""]; removeallweapons this; this addmagazine ""lib_10Rnd_762x54""; this addmagazine ""lib_10Rnd_762x54""; this addmagazine ""lib_10Rnd_762x54""; this addmagazine ""lib_10Rnd_762x54""; this addmagazine ""lib_10Rnd_762x54""; this addmagazine ""lib_10Rnd_762x54""; this addmagazine ""lib_10Rnd_762x54""; this addmagazine ""lib_10Rnd_762x54""; this addmagazine ""lib_f1""; this addmagazine ""lib_f1""; this addmagazine ""SmokeShell""; this addmagazine ""SmokeShell""; this addweapon ""LIB_SVT_40"";";
-					};
-					id=181;
-					type="LIB_SOV_LC_rifleman";
-				};
-				class Item2
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={1752.1832,70.814484,6831.4619};
-						angles[]={6.2769322,0,6.2108116};
-					};
-					side="East";
-					flags=4;
-					class Attributes
-					{
-						skill=0.60000002;
-						rank="CORPORAL";
-						init="infantrysquad = group this; infantrysquad setgroupid [""Strelok"",""Black""]; removeallweapons this; this addmagazine ""lib_47Rnd_762x54""; this addmagazine ""lib_47Rnd_762x54""; this addmagazine ""lib_47Rnd_762x54""; this addmagazine ""lib_47Rnd_762x54""; this addmagazine ""lib_47Rnd_762x54""; this addmagazine ""lib_rg42""; this addmagazine ""lib_rg42""; this addweapon ""LIB_DP28"";";
-					};
-					id=182;
-					type="LIB_SOV_mgunner";
-				};
-				class Item3
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={1767.1832,69.940071,6828.7227};
-						angles[]={6.2506957,0,6.2382145};
-					};
-					side="East";
-					flags=4;
-					class Attributes
-					{
-						skill=0.60000002;
-						rank="CORPORAL";
-						init="infantrysquad = group this; infantrysquad setgroupid [""Strelok"",""Black""]; removeallweapons this; this addmagazine ""lib_47Rnd_762x54""; this addmagazine ""lib_47Rnd_762x54""; this addmagazine ""lib_47Rnd_762x54""; this addmagazine ""lib_47Rnd_762x54""; this addmagazine ""lib_47Rnd_762x54""; this addmagazine ""lib_rg42""; this addmagazine ""lib_rg42""; this addweapon ""LIB_DP28"";";
-					};
-					id=183;
-					type="LIB_SOV_mgunner";
-				};
-				class Item4
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={1747.1832,71.0159,6828.7227};
-						angles[]={6.2806959,0,6.2369685};
-					};
-					side="East";
-					flags=4;
-					class Attributes
-					{
-						skill=0.60000002;
-						init="infantrysquad = group this; infantrysquad setgroupid [""Strelok"",""Black""]; removeallweapons this; this addmagazine ""lib_71Rnd_762x25""; this addmagazine ""lib_71Rnd_762x25""; this addmagazine ""lib_71Rnd_762x25""; this addmagazine ""lib_71Rnd_762x25""; this addweapon ""LIB_PPSh41_d""; this addmagazine ""lib_rpg6""; this addmagazine ""lib_rpg6""; this addmagazine ""SmokeShell""; this addmagazine ""SmokeShell"";";
-					};
-					id=184;
-					type="LIB_SOV_AT_grenadier";
-				};
-				class Item5
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={1772.1832,69.630028,6824.1753};
-						angles[]={6.2506957,0,6.2531939};
-					};
-					side="East";
-					flags=4;
-					class Attributes
-					{
-						skill=0.60000002;
-						init="infantrysquad = group this; infantrysquad setgroupid [""Strelok"",""Black""]; removeallweapons this; this addmagazine ""lib_5Rnd_762x54""; this addmagazine ""lib_5Rnd_762x54""; this addmagazine ""lib_5Rnd_762x54""; this addmagazine ""lib_5Rnd_762x54""; this addmagazine ""lib_5Rnd_762x54""; this addmagazine ""lib_5Rnd_762x54""; this addmagazine ""lib_5Rnd_762x54""; this addmagazine ""lib_5Rnd_762x54""; this addmagazine ""lib_5Rnd_762x54""; this addmagazine ""lib_5Rnd_762x54""; this addweapon ""LIB_M9130""; this addmagazine ""lib_rg42""; this addmagazine ""lib_rg42"";";
-					};
-					id=185;
-					type="LIB_SOV_rifleman";
-				};
-				class Item6
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={1742.1832,71.148552,6824.1753};
-						angles[]={6.2519455,0,0.0037505617};
-					};
-					side="East";
-					flags=4;
-					class Attributes
-					{
-						skill=0.60000002;
-						init="infantrysquad = group this; infantrysquad setgroupid [""Strelok"",""Black""]; removeallweapons this; this addmagazine ""lib_5Rnd_762x54""; this addmagazine ""lib_5Rnd_762x54""; this addmagazine ""lib_5Rnd_762x54""; this addmagazine ""lib_5Rnd_762x54""; this addmagazine ""lib_5Rnd_762x54""; this addmagazine ""lib_5Rnd_762x54""; this addmagazine ""lib_5Rnd_762x54""; this addmagazine ""lib_5Rnd_762x54""; this addmagazine ""lib_5Rnd_762x54""; this addmagazine ""lib_5Rnd_762x54""; this addweapon ""LIB_M9130""; this addmagazine ""lib_rg42""; this addmagazine ""lib_rg42"";";
-					};
-					id=186;
-					type="LIB_SOV_rifleman";
-				};
-				class Item7
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={1777.1832,69.463425,6819.2251};
-						angles[]={6.2756844,0,6.2731905};
-					};
-					side="East";
-					flags=4;
-					class Attributes
-					{
-						skill=0.60000002;
-						init="infantrysquad = group this; infantrysquad setgroupid [""Strelok"",""Black""]; removeallweapons this; this addmagazine ""lib_5Rnd_762x54""; this addmagazine ""lib_5Rnd_762x54""; this addmagazine ""lib_5Rnd_762x54""; this addmagazine ""lib_5Rnd_762x54""; this addmagazine ""lib_5Rnd_762x54""; this addmagazine ""lib_5Rnd_762x54""; this addmagazine ""lib_5Rnd_762x54""; this addmagazine ""lib_5Rnd_762x54""; this addmagazine ""lib_5Rnd_762x54""; this addmagazine ""lib_5Rnd_762x54""; this addweapon ""LIB_M9130""; this addmagazine ""lib_rg42""; this addmagazine ""lib_rg42"";";
-					};
-					id=187;
-					type="LIB_SOV_rifleman";
-				};
-				class Item8
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={1737.1832,71.13533,6819.2251};
-						angles[]={0.0062435218,0,6.2694397};
-					};
-					side="East";
-					flags=4;
-					class Attributes
-					{
-						skill=0.60000002;
-						init="infantrysquad = group this; infantrysquad setgroupid [""Strelok"",""Black""]; removeallweapons this; this addmagazine ""lib_5Rnd_762x54""; this addmagazine ""lib_5Rnd_762x54""; this addmagazine ""lib_5Rnd_762x54""; this addmagazine ""lib_5Rnd_762x54""; this addmagazine ""lib_5Rnd_762x54""; this addmagazine ""lib_5Rnd_762x54""; this addmagazine ""lib_5Rnd_762x54""; this addmagazine ""lib_5Rnd_762x54""; this addmagazine ""lib_5Rnd_762x54""; this addmagazine ""lib_5Rnd_762x54""; this addweapon ""LIB_M9130""; this addmagazine ""lib_rg42""; this addmagazine ""lib_rg42"";";
-					};
-					id=188;
-					type="LIB_SOV_rifleman";
-				};
-				class Item9
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={1782.1832,69.38295,6814.2749};
-						angles[]={6.2794352,0,6.2731905};
-					};
-					side="East";
-					flags=4;
-					class Attributes
-					{
-						skill=0.60000002;
-						init="infantrysquad = group this; infantrysquad setgroupid [""Strelok"",""Black""]; removeallweapons this; this addmagazine ""lib_5Rnd_762x54""; this addmagazine ""lib_5Rnd_762x54""; this addmagazine ""lib_5Rnd_762x54""; this addmagazine ""lib_5Rnd_762x54""; this addmagazine ""lib_5Rnd_762x54""; this addmagazine ""lib_5Rnd_762x54""; this addmagazine ""lib_5Rnd_762x54""; this addmagazine ""lib_5Rnd_762x54""; this addmagazine ""lib_5Rnd_762x54""; this addmagazine ""lib_5Rnd_762x54""; this addweapon ""LIB_M9130""; this addmagazine ""lib_rg42""; this addmagazine ""lib_rg42"";";
-					};
-					id=189;
-					type="LIB_SOV_rifleman";
-				};
-				class Item10
-				{
-					dataType="Waypoint";
-					position[]={1761.2651,70.534912,6840.8672};
-					expCond="(opfor_present == 1);";
-					class Effects
-					{
-					};
-					showWP="NEVER";
-					id=190;
-					type="Move";
-				};
-				class Item11
-				{
-					dataType="Waypoint";
-					position[]={2168.8684,74.260033,7495.9922};
-					placement=100;
-					type="SeekAndDestroy";
-					class Effects
-					{
-					};
-					showWP="NEVER";
-					id=191;
-				};
-				class Item12
-				{
-					dataType="Waypoint";
-					position[]={2222.0325,74.097374,7598.9502};
-					placement=50;
-					type="Guard";
-					class Effects
-					{
-					};
-					showWP="NEVER";
-					id=192;
-				};
-			};
-			class Attributes
-			{
-			};
-			id=179;
-		};
-		class Item140
+		class Item77
 		{
 			dataType="Group";
 			side="West";
@@ -3566,7 +2043,7 @@ class Mission
 			};
 			id=193;
 		};
-		class Item141
+		class Item78
 		{
 			dataType="Group";
 			side="West";
@@ -3626,158 +2103,7 @@ class Mission
 			};
 			id=197;
 		};
-		class Item142
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=8;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={2200.6934,73.981125,7558.8037};
-						angles[]={0.011246439,3.1415927,6.2769418};
-					};
-					side="West";
-					flags=6;
-					class Attributes
-					{
-						skill=0.60000002;
-						rank="CORPORAL";
-						init="nul=[this,""tuczepy"",""RANDOM"",""SAFE"",""COLUMN"",""NORMAL""] execVM ""scripts\UPSMON.sqf""; removeallweapons this; this addmagazine ""LIB_32Rnd_9x19""; this addmagazine ""LIB_32Rnd_9x19""; this addmagazine ""LIB_32Rnd_9x19""; this addmagazine ""LIB_32Rnd_9x19""; this addmagazine ""LIB_32Rnd_9x19""; this addmagazine ""LIB_32Rnd_9x19""; this addmagazine ""LIB_32Rnd_9x19""; this addmagazine ""lib_shg24""; this addmagazine ""lib_shg24""; this addmagazine ""lib_shg24""; this addmagazine ""lib_shg24""; this addmagazine ""lib_nb39""; this addmagazine ""LIB_1Rnd_flare_white""; this addmagazine ""LIB_1Rnd_flare_white""; this addmagazine ""LIB_1Rnd_flare_white""; this addmagazine ""LIB_1Rnd_flare_white""; this addmagazine ""LIB_1Rnd_flare_red""; this addmagazine ""LIB_1Rnd_flare_red""; this addmagazine ""LIB_1Rnd_flare_green""; this addmagazine ""LIB_1Rnd_flare_green""; this addweapon ""LIB_MP40""; this addweapon ""LIB_FLARE_PISTOL""; this addweapon ""Binocular"";";
-						presence=0.75000024;
-					};
-					id=202;
-					type="LIB_GER_smgunner";
-				};
-				class Item1
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={2205.6934,73.978935,7557.1533};
-						angles[]={0.0075011365,3.1415927,6.2806959};
-					};
-					side="West";
-					flags=4;
-					class Attributes
-					{
-						skill=0.60000002;
-						init="removeallweapons this; this addmagazine ""LIB_32Rnd_9x19""; this addmagazine ""LIB_32Rnd_9x19""; this addmagazine ""LIB_32Rnd_9x19""; this addmagazine ""LIB_32Rnd_9x19""; this addweapon ""LIB_MP40""; this addmagazine ""LIB_pwm""; this addmagazine ""LIB_m39""; this addmagazine ""LIB_1Rnd_RPzB""; this addmagazine ""LIB_1Rnd_RPzB""; this addweapon ""LIB_RPzB"";";
-						presence=0.75000024;
-					};
-					id=203;
-					type="LIB_GER_AT_soldier";
-				};
-				class Item2
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={2195.6934,74.025558,7557.1533};
-						angles[]={0.011246439,3.1415927,6.278194};
-					};
-					side="West";
-					flags=4;
-					class Attributes
-					{
-						skill=0.60000002;
-						init="removeallweapons this; this addmagazine ""lib_10Rnd_792x57""; this addmagazine ""lib_10Rnd_792x57""; this addmagazine ""lib_10Rnd_792x57""; this addmagazine ""lib_10Rnd_792x57""; this addmagazine ""lib_10Rnd_792x57""; this addmagazine ""lib_10Rnd_792x57""; this addmagazine ""lib_pwm""; this addmagazine ""lib_pwm""; this addmagazine ""lib_pwm""; this addmagazine ""lib_pwm""; this addmagazine ""lib_pwm""; this addmagazine ""lib_pwm""; this addweapon ""LIB_G43"";";
-						presence=0.50000048;
-					};
-					id=204;
-					type="LIB_GER_AT_grenadier";
-				};
-				class Item3
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={2210.6934,73.980247,7554.4141};
-						angles[]={0.0075011365,3.1415927,6.278194};
-					};
-					side="West";
-					flags=4;
-					class Attributes
-					{
-						skill=0.2;
-						init="removeallweapons this; this addmagazine ""lib_5Rnd_792x57""; this addmagazine ""lib_5Rnd_792x57""; this addmagazine ""lib_5Rnd_792x57""; this addmagazine ""lib_5Rnd_792x57""; this addmagazine ""lib_5Rnd_792x57""; this addmagazine ""lib_5Rnd_792x57""; this addmagazine ""lib_5Rnd_792x57""; this addmagazine ""lib_5Rnd_792x57""; this addmagazine ""lib_5Rnd_792x57""; this addmagazine ""lib_5Rnd_792x57""; this addmagazine ""lib_shg24""; this addmagazine ""lib_shg24""; this addweapon ""LIB_K98"";";
-						presence=0.50000048;
-					};
-					id=205;
-					type="LIB_GER_rifleman";
-				};
-				class Item4
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={2190.6934,74.097099,7554.4141};
-						angles[]={0.013745897,3.1415927,6.2769418};
-					};
-					side="West";
-					flags=4;
-					class Attributes
-					{
-						skill=0.60000002;
-						init="removeallweapons this; this addmagazine ""lib_5Rnd_792x57""; this addmagazine ""lib_5Rnd_792x57""; this addmagazine ""lib_5Rnd_792x57""; this addmagazine ""lib_5Rnd_792x57""; this addmagazine ""lib_5Rnd_792x57""; this addmagazine ""lib_5Rnd_792x57""; this addmagazine ""lib_5Rnd_792x57""; this addmagazine ""lib_5Rnd_792x57""; this addmagazine ""lib_5Rnd_792x57""; this addmagazine ""lib_5Rnd_792x57""; this addmagazine ""lib_shg24""; this addmagazine ""lib_shg24""; this addweapon ""LIB_K98"";";
-					};
-					id=206;
-					type="LIB_GER_rifleman";
-				};
-				class Item5
-				{
-					dataType="Waypoint";
-					position[]={2177.77,74.183586,7514.8701};
-					placement=10;
-					type="SeekAndDestroy";
-					speed="LIMITED";
-					combat="SAFE";
-					class Effects
-					{
-					};
-					timeoutMid=15;
-					timeoutMax=30;
-					showWP="NEVER";
-					id=207;
-				};
-				class Item6
-				{
-					dataType="Waypoint";
-					position[]={2239.4819,74.246246,7633.0098};
-					placement=10;
-					type="SeekAndDestroy";
-					speed="LIMITED";
-					combat="SAFE";
-					class Effects
-					{
-					};
-					timeoutMid=15;
-					timeoutMax=30;
-					showWP="NEVER";
-					id=208;
-				};
-				class Item7
-				{
-					dataType="Waypoint";
-					position[]={2177.8103,74.183601,7514.8779};
-					type="Cycle";
-					class Effects
-					{
-					};
-					showWP="NEVER";
-					id=209;
-				};
-			};
-			class Attributes
-			{
-			};
-			id=201;
-		};
-		class Item143
+		class Item79
 		{
 			dataType="Group";
 			side="West";
@@ -3809,7 +2135,7 @@ class Mission
 			};
 			id=210;
 		};
-		class Item144
+		class Item80
 		{
 			dataType="Group";
 			side="West";
@@ -3869,7 +2195,7 @@ class Mission
 			};
 			id=212;
 		};
-		class Item145
+		class Item81
 		{
 			dataType="Group";
 			side="West";
@@ -3968,67 +2294,7 @@ class Mission
 			};
 			id=216;
 		};
-		class Item146
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=3;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={2229.731,74.126312,7511.2705};
-						angles[]={0.0062435218,0,0};
-					};
-					side="West";
-					flags=6;
-					class Attributes
-					{
-						skill=0.2;
-						init="removeallweapons this; this addmagazine ""lib_5Rnd_792x57""; this addmagazine ""lib_5Rnd_792x57""; this addmagazine ""lib_5Rnd_792x57""; this addmagazine ""lib_5Rnd_792x57""; this addmagazine ""lib_5Rnd_792x57""; this addmagazine ""lib_5Rnd_792x57""; this addmagazine ""lib_5Rnd_792x57""; this addmagazine ""lib_5Rnd_792x57""; this addmagazine ""lib_5Rnd_792x57""; this addmagazine ""lib_5Rnd_792x57""; this addmagazine ""lib_shg24""; this addmagazine ""lib_shg24""; this addweapon ""LIB_K98"";";
-						presence=0.50000048;
-					};
-					id=223;
-					type="LIB_GER_rifleman";
-				};
-				class Item1
-				{
-					dataType="Waypoint";
-					position[]={2229.5779,74.083092,7514.1094};
-					placement=10;
-					type="SeekAndDestroy";
-					speed="LIMITED";
-					combat="SAFE";
-					class Effects
-					{
-					};
-					timeoutMin=60;
-					timeoutMid=120;
-					timeoutMax=180;
-					showWP="NEVER";
-					id=224;
-				};
-				class Item2
-				{
-					dataType="Waypoint";
-					position[]={2229.5779,74.083092,7514.1094};
-					type="Cycle";
-					class Effects
-					{
-					};
-					showWP="NEVER";
-					id=225;
-				};
-			};
-			class Attributes
-			{
-			};
-			id=222;
-		};
-		class Item147
+		class Item82
 		{
 			dataType="Group";
 			side="West";
@@ -4060,7 +2326,7 @@ class Mission
 			};
 			id=226;
 		};
-		class Item148
+		class Item83
 		{
 			dataType="Group";
 			side="West";
@@ -4072,19 +2338,117 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={2131.4343,73.479362,7550.5439};
-						angles[]={0.017500184,0,0.023746293};
+						position[]={2131.4341,73.479362,7550.5439};
+						angles[]={0.017505653,0,0.02375393};
 					};
 					side="West";
 					flags=6;
 					class Attributes
 					{
 						skill=0.2;
-						init="removeallweapons this; this addmagazine ""lib_5Rnd_792x57""; this addmagazine ""lib_5Rnd_792x57""; this addmagazine ""lib_5Rnd_792x57""; this addmagazine ""lib_5Rnd_792x57""; this addmagazine ""lib_5Rnd_792x57""; this addmagazine ""lib_5Rnd_792x57""; this addmagazine ""lib_5Rnd_792x57""; this addmagazine ""lib_5Rnd_792x57""; this addmagazine ""lib_5Rnd_792x57""; this addmagazine ""lib_5Rnd_792x57""; this addmagazine ""lib_shg24""; this addmagazine ""lib_shg24""; this addweapon ""LIB_K98"";";
 						presence=0.50000048;
+						class Inventory
+						{
+							class primaryWeapon
+							{
+								name="LIB_K98";
+								class primaryMuzzleMag
+								{
+									name="LIB_5Rnd_792x57";
+									ammoLeft=5;
+								};
+							};
+							class secondaryWeapon
+							{
+								name="LIB_PzFaust_30m";
+								class primaryMuzzleMag
+								{
+									name="LIB_1Rnd_PzFaust_30m";
+									ammoLeft=1;
+								};
+							};
+							class uniform
+							{
+								typeName="U_LIB_GER_Schutze";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="LIB_5Rnd_792x57";
+										count=4;
+										ammoLeft=5;
+									};
+								};
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=1;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="V_LIB_GER_VestKar98";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=2;
+									class Item0
+									{
+										name="LIB_5Rnd_792x57";
+										count=5;
+										ammoLeft=5;
+									};
+									class Item1
+									{
+										name="LIB_shg24";
+										count=2;
+										ammoLeft=1;
+									};
+								};
+							};
+							class backpack
+							{
+								typeName="B_LIB_GER_A_frame";
+								isBackpack=1;
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							headgear="H_LIB_GER_Helmet";
+						};
 					};
 					id=229;
 					type="LIB_GER_rifleman";
+					atlOffset=7.6293945e-006;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.98000002;
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item1
 				{
@@ -4121,8 +2485,9 @@ class Mission
 			{
 			};
 			id=228;
+			atlOffset=7.6293945e-006;
 		};
-		class Item149
+		class Item84
 		{
 			dataType="Group";
 			side="West";
@@ -4252,7 +2617,7 @@ class Mission
 			};
 			id=232;
 		};
-		class Item150
+		class Item85
 		{
 			dataType="Group";
 			side="West";
@@ -4454,7 +2819,7 @@ class Mission
 			};
 			id=240;
 		};
-		class Item151
+		class Item86
 		{
 			dataType="Group";
 			side="West";
@@ -4583,7 +2948,7 @@ class Mission
 			};
 			id=251;
 		};
-		class Item152
+		class Item87
 		{
 			dataType="Group";
 			side="West";
@@ -4616,7 +2981,7 @@ class Mission
 			};
 			id=259;
 		};
-		class Item153
+		class Item88
 		{
 			dataType="Group";
 			side="West";
@@ -4730,7 +3095,7 @@ class Mission
 			};
 			id=261;
 		};
-		class Item154
+		class Item89
 		{
 			dataType="Group";
 			side="West";
@@ -4823,7 +3188,7 @@ class Mission
 			};
 			id=268;
 		};
-		class Item155
+		class Item90
 		{
 			dataType="Group";
 			side="West";
@@ -4922,7 +3287,7 @@ class Mission
 			};
 			id=274;
 		};
-		class Item156
+		class Item91
 		{
 			dataType="Group";
 			side="West";
@@ -4982,7 +3347,7 @@ class Mission
 			};
 			id=280;
 		};
-		class Item157
+		class Item92
 		{
 			dataType="Group";
 			side="West";
@@ -5128,7 +3493,7 @@ class Mission
 			};
 			id=284;
 		};
-		class Item158
+		class Item93
 		{
 			dataType="Group";
 			side="West";
@@ -5330,7 +3695,7 @@ class Mission
 			};
 			id=292;
 		};
-		class Item159
+		class Item94
 		{
 			dataType="Group";
 			side="West";
@@ -5400,7 +3765,7 @@ class Mission
 			};
 			id=303;
 		};
-		class Item160
+		class Item95
 		{
 			dataType="Object";
 			class PositionInfo
@@ -5418,7 +3783,7 @@ class Mission
 			id=304;
 			type="LIB_MG42_Lafette";
 		};
-		class Item161
+		class Item96
 		{
 			dataType="Group";
 			side="West";
@@ -5450,7 +3815,7 @@ class Mission
 			};
 			id=307;
 		};
-		class Item162
+		class Item97
 		{
 			dataType="Group";
 			side="West";
@@ -5637,7 +4002,7 @@ class Mission
 			id=309;
 			atlOffset=-3.0517578e-005;
 		};
-		class Item163
+		class Item98
 		{
 			dataType="Object";
 			class PositionInfo
@@ -5657,7 +4022,7 @@ class Mission
 			type="LIB_PzKpfwIV_H";
 			atlOffset=-3.0517578e-005;
 		};
-		class Item164
+		class Item99
 		{
 			dataType="Group";
 			side="West";
@@ -5854,7 +4219,7 @@ class Mission
 			id=318;
 			atlOffset=-0.002494812;
 		};
-		class Item165
+		class Item100
 		{
 			dataType="Object";
 			class PositionInfo
@@ -5874,302 +4239,7 @@ class Mission
 			type="LIB_SdKfz251";
 			atlOffset=-0.002494812;
 		};
-		class Item166
-		{
-			dataType="Group";
-			side="East";
-			class Entities
-			{
-				items=4;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={1775.1306,69.97509,6840.6885};
-						angles[]={6.2519455,0,6.244453};
-					};
-					side="East";
-					flags=6;
-					class Attributes
-					{
-						skill=1;
-						init="medicsquad = group this; medicsquad setgroupid [""Sanitar"",""Black""]; removeallweapons this; this addmagazine ""lib_5Rnd_762x54""; this addmagazine ""lib_5Rnd_762x54""; this addmagazine ""lib_5Rnd_762x54""; this addmagazine ""lib_5Rnd_762x54""; this addmagazine ""lib_5Rnd_762x54""; this addmagazine ""lib_5Rnd_762x54""; this addmagazine ""lib_5Rnd_762x54""; this addmagazine ""lib_5Rnd_762x54""; this addmagazine ""lib_5Rnd_762x54""; this addmagazine ""lib_5Rnd_762x54""; this addweapon ""LIB_M9130""; this addmagazine ""SmokeShell""; this addmagazine ""SmokeShell""; this addbackpack ""RusBag_Mos"";";
-					};
-					id=328;
-					type="LIB_SOV_medic";
-				};
-				class Item1
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={1780.1306,69.860222,6839.0381};
-						angles[]={6.248199,0,6.2769418};
-					};
-					side="East";
-					flags=4;
-					class Attributes
-					{
-						skill=1;
-						init="medicsquad = group this; medicsquad setgroupid [""Sanitar"",""Black""]; removeallweapons this; this addmagazine ""lib_5Rnd_762x54""; this addmagazine ""lib_5Rnd_762x54""; this addmagazine ""lib_5Rnd_762x54""; this addmagazine ""lib_5Rnd_762x54""; this addmagazine ""lib_5Rnd_762x54""; this addmagazine ""lib_5Rnd_762x54""; this addmagazine ""lib_5Rnd_762x54""; this addmagazine ""lib_5Rnd_762x54""; this addmagazine ""lib_5Rnd_762x54""; this addmagazine ""lib_5Rnd_762x54""; this addweapon ""LIB_M9130""; this addmagazine ""SmokeShell""; this addmagazine ""SmokeShell""; this addbackpack ""RusBag_Mos"";";
-						presence=0.50000048;
-					};
-					id=329;
-					type="LIB_SOV_medic";
-				};
-				class Item2
-				{
-					dataType="Waypoint";
-					position[]={1775.1418,70.06031,6842.0693};
-					expCond="(opfor_present == 1);";
-					class Effects
-					{
-					};
-					showWP="NEVER";
-					id=330;
-					type="Move";
-				};
-				class Item3
-				{
-					dataType="Waypoint";
-					position[]={1775.1158,70.314796,6845.9092};
-					type="Support";
-					class Effects
-					{
-					};
-					showWP="NEVER";
-					id=331;
-				};
-			};
-			class Attributes
-			{
-			};
-			id=327;
-		};
-		class Item167
-		{
-			dataType="Group";
-			side="East";
-			class Entities
-			{
-				items=12;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={1475.9069,63.94492,8025.1484};
-						angles[]={0.026243316,0,0.028741226};
-					};
-					side="East";
-					flags=6;
-					class Attributes
-					{
-						skill=1;
-						rank="SERGEANT";
-						init="scoutsquad = group this; scoutsquad setgroupid [""Razvedchik"",""Black""]; removeallweapons this; this addmagazine ""lib_10Rnd_762x54""; this addmagazine ""lib_10Rnd_762x54""; this addmagazine ""lib_10Rnd_762x54""; this addmagazine ""lib_10Rnd_762x54""; this addmagazine ""lib_10Rnd_762x54""; this addmagazine ""lib_10Rnd_762x54""; this addmagazine ""lib_10Rnd_762x54""; this addmagazine ""lib_10Rnd_762x54""; this addmagazine ""lib_f1""; this addmagazine ""lib_f1""; this addmagazine ""SmokeShell""; this addmagazine ""SmokeShell""; this addweapon ""LIB_SVT_40""; this addweapon ""LIB_Binocular_SU"";";
-					};
-					id=333;
-					type="LIB_SOV_scout_p_officer";
-				};
-				class Item1
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={1480.9069,64.143524,8023.498};
-						angles[]={0.022495884,0,0.043721698};
-					};
-					side="East";
-					flags=4;
-					class Attributes
-					{
-						skill=1;
-						rank="SERGEANT";
-						init="scoutsquad = group this; scoutsquad setgroupid [""Razvedchik"",""Black""]; removeallweapons this; this addmagazine ""lib_71Rnd_762x25""; this addmagazine ""lib_71Rnd_762x25""; this addmagazine ""lib_71Rnd_762x25""; this addmagazine ""lib_71Rnd_762x25""; this addweapon ""LIB_PPSh41_d""; this addmagazine ""lib_f1""; this addmagazine ""lib_f1""; this addmagazine ""SmokeShell""; this addmagazine ""SmokeShell""; this addweapon ""LIB_Binocular_SU"";";
-					};
-					id=334;
-					type="LIB_SOV_scout_sergeant";
-				};
-				class Item2
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={1470.9069,63.845131,8023.498};
-						angles[]={0.017500184,0,0.023746293};
-					};
-					side="East";
-					flags=4;
-					class Attributes
-					{
-						skill=1;
-						rank="SERGEANT";
-						init="scoutsquad = group this; scoutsquad setgroupid [""Razvedchik"",""Black""]; removeallweapons this; this addmagazine ""lib_5Rnd_762x54""; this addmagazine ""lib_5Rnd_762x54""; this addmagazine ""lib_5Rnd_762x54""; this addmagazine ""lib_5Rnd_762x54""; this addmagazine ""lib_5Rnd_762x54""; this addmagazine ""lib_5Rnd_762x54""; this addmagazine ""lib_5Rnd_762x54""; this addmagazine ""lib_5Rnd_762x54""; this addmagazine ""lib_5Rnd_762x54""; this addmagazine ""lib_5Rnd_762x54""; this addweapon ""LIB_M9130PU""; this addmagazine ""lib_f1""; this addmagazine ""lib_f1""; this addweapon ""LIB_Binocular_SU"";";
-					};
-					id=335;
-					type="LIB_SOV_scout_sniper";
-				};
-				class Item3
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={1485.9069,64.42392,8020.7588};
-						angles[]={0.022495884,0,0.043721698};
-					};
-					side="East";
-					flags=4;
-					class Attributes
-					{
-						skill=1;
-						rank="CORPORAL";
-						init="scoutsquad = group this; scoutsquad setgroupid [""Razvedchik"",""Black""]; removeallweapons this; this addmagazine ""lib_47Rnd_762x54""; this addmagazine ""lib_47Rnd_762x54""; this addmagazine ""lib_47Rnd_762x54""; this addmagazine ""lib_47Rnd_762x54""; this addmagazine ""lib_47Rnd_762x54""; this addmagazine ""lib_rg42""; this addmagazine ""lib_rg42""; this addweapon ""LIB_DP28"";";
-					};
-					id=336;
-					type="LIB_SOV_scout_mgunner";
-				};
-				class Item4
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={1465.9069,63.803734,8020.7588};
-						angles[]={0.038730852,0,0.0025135824};
-					};
-					side="East";
-					flags=4;
-					class Attributes
-					{
-						skill=1;
-						rank="CORPORAL";
-						init="scoutsquad = group this; scoutsquad setgroupid [""Razvedchik"",""Black""]; removeallweapons this; this addmagazine ""lib_71Rnd_762x25""; this addmagazine ""lib_71Rnd_762x25""; this addmagazine ""lib_71Rnd_762x25""; this addmagazine ""lib_71Rnd_762x25""; this addweapon ""LIB_PPSh41_d""; this addmagazine ""lib_rg42""; this addmagazine ""lib_rg42""; this addmagazine ""lib_rg42""; this addmagazine ""lib_rg42""; this addbackpack ""RusBag_ppsh"";";
-					};
-					id=337;
-					type="LIB_SOV_scout_smgunner";
-				};
-				class Item5
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={1490.9069,64.777679,8016.2114};
-						angles[]={0.022495884,0,0.054943435};
-					};
-					side="East";
-					flags=4;
-					class Attributes
-					{
-						skill=1;
-						init="scoutsquad = group this; scoutsquad setgroupid [""Razvedchik"",""Black""]; removeallweapons this; this addmagazine ""lib_35Rnd_762x25""; this addmagazine ""lib_35Rnd_762x25""; this addmagazine ""lib_35Rnd_762x25""; this addmagazine ""lib_35Rnd_762x25""; this addmagazine ""lib_35Rnd_762x25""; this addmagazine ""lib_35Rnd_762x25""; this addweapon ""LIB_PPSh41_m""; this addmagazine ""LIB_1Rnd_RPzB""; this addmagazine ""LIB_1Rnd_RPzB""; this addweapon ""LIB_RPzB"";";
-					};
-					id=338;
-					type="LIB_SOV_AT_soldier";
-				};
-				class Item6
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={1460.9069,63.868965,8016.2114};
-						angles[]={0.049958061,0,0.033737205};
-					};
-					side="East";
-					flags=4;
-					class Attributes
-					{
-						skill=1;
-						init="scoutsquad = group this; scoutsquad setgroupid [""Razvedchik"",""Black""]; removeallweapons this; this addmagazine ""lib_35Rnd_762x25""; this addmagazine ""lib_35Rnd_762x25""; this addmagazine ""lib_35Rnd_762x25""; this addmagazine ""lib_35Rnd_762x25""; this addmagazine ""lib_35Rnd_762x25""; this addmagazine ""lib_35Rnd_762x25""; this addweapon ""LIB_PPSh41_m""; this addmagazine ""LIB_1Rnd_RPzB""; this addmagazine ""LIB_1Rnd_RPzB""; this addweapon ""LIB_RPzB"";";
-					};
-					id=339;
-					type="LIB_SOV_AT_soldier";
-				};
-				class Item7
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={1495.9069,65.289764,8011.2612};
-						angles[]={0.048710719,0,0.054943435};
-					};
-					side="East";
-					flags=4;
-					class Attributes
-					{
-						skill=1;
-						init="scoutsquad = group this; scoutsquad setgroupid [""Razvedchik"",""Black""]; removeallweapons this; this addmagazine ""lib_10Rnd_762x54""; this addmagazine ""lib_10Rnd_762x54""; this addmagazine ""lib_10Rnd_762x54""; this addmagazine ""lib_10Rnd_762x54""; this addmagazine ""lib_10Rnd_762x54""; this addmagazine ""lib_10Rnd_762x54""; this addmagazine ""lib_10Rnd_762x54""; this addmagazine ""lib_10Rnd_762x54""; this addmagazine ""lib_f1""; this addmagazine ""lib_f1""; this addmagazine ""SmokeShell""; this addmagazine ""SmokeShell""; this addweapon ""LIB_SVT_40"";";
-					};
-					id=340;
-					type="LIB_SOV_scout_rifleman";
-				};
-				class Item8
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={1455.9069,63.911812,8011.2612};
-						angles[]={0.042475242,0,0.033737205};
-					};
-					side="East";
-					flags=4;
-					class Attributes
-					{
-						skill=1;
-						init="scoutsquad = group this; scoutsquad setgroupid [""Razvedchik"",""Black""]; removeallweapons this; this addmagazine ""lib_10Rnd_762x54""; this addmagazine ""lib_10Rnd_762x54""; this addmagazine ""lib_10Rnd_762x54""; this addmagazine ""lib_10Rnd_762x54""; this addmagazine ""lib_10Rnd_762x54""; this addmagazine ""lib_10Rnd_762x54""; this addmagazine ""lib_10Rnd_762x54""; this addmagazine ""lib_10Rnd_762x54""; this addmagazine ""lib_f1""; this addmagazine ""lib_f1""; this addmagazine ""SmokeShell""; this addmagazine ""SmokeShell""; this addweapon ""LIB_SVT_40"";";
-					};
-					id=341;
-					type="LIB_SOV_scout_rifleman";
-				};
-				class Item9
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={1500.9069,65.739769,8006.311};
-						angles[]={0.059928458,0,0.037482351};
-					};
-					side="East";
-					flags=4;
-					class Attributes
-					{
-						skill=0.60000002;
-						init="scoutsquad = group this; scoutsquad setgroupid [""Razvedchik"",""Black""]; this setObjectTexture [((getArray (configFile/""cfgVehicles""/(typeOf this)/""hiddenSelections"")) find ""eqip_mosin_mags_left""),""""]; this setObjectTexture [((getArray (configFile/""cfgVehicles""/(typeOf this)/""hiddenSelections"")) find ""eqip_mosin_mags_right""),""""]; this setObjectTexture [((getArray (configFile/""cfgVehicles""/(typeOf this)/""hiddenSelections"")) find ""eqip_ppsh_disk_mag_right""),""lib\LIB_sov_characters\data\sov_eqipment_0_co.paa""]; removeallweapons this; this addmagazine ""lib_71Rnd_762x25""; this addmagazine ""lib_71Rnd_762x25""; this addmagazine ""lib_71Rnd_762x25""; this addmagazine ""lib_71Rnd_762x25""; this addweapon ""LIB_PPSh41_d""; this addmagazine ""lib_rg42""; this addmagazine ""lib_rg42""; this addmagazine ""lib_rg42""; this addmagazine ""lib_rg42""; this addbackpack ""RusBag_ppsh"";";
-					};
-					id=342;
-					type="LIB_SOV_scout_rifleman";
-				};
-				class Item10
-				{
-					dataType="Waypoint";
-					position[]={1480.3926,63.995155,8032.2451};
-					expCond="(opfor_detected == 1);";
-					class Effects
-					{
-					};
-					showWP="NEVER";
-					id=343;
-					type="Move";
-				};
-				class Item11
-				{
-					dataType="Waypoint";
-					position[]={1608.6575,69.115875,8298.0137};
-					placement=150;
-					type="Guard";
-					class Effects
-					{
-					};
-					showWP="NEVER";
-					id=344;
-				};
-			};
-			class Attributes
-			{
-			};
-			id=332;
-		};
-		class Item168
+		class Item101
 		{
 			dataType="Group";
 			side="West";
@@ -6221,7 +4291,7 @@ class Mission
 			id=345;
 			atlOffset=0.018947601;
 		};
-		class Item169
+		class Item102
 		{
 			dataType="Object";
 			class PositionInfo
@@ -6241,7 +4311,7 @@ class Mission
 			type="LIB_MG42_Lafette_trench";
 			atlOffset=0.018947601;
 		};
-		class Item170
+		class Item103
 		{
 			dataType="Group";
 			side="West";
@@ -6273,20 +4343,20 @@ class Mission
 			};
 			id=348;
 		};
-		class Item171
+		class Item104
 		{
 			dataType="Group";
 			side="West";
 			class Entities
 			{
-				items=1;
+				items=3;
 				class Item0
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={2199.209,74.23056,7488.8467};
-						angles[]={6.2656889,3.2288592,0.018746713};
+						position[]={2189.8606,74.706299,7493.4087};
+						angles[]={0,4.0679216,0};
 					};
 					side="West";
 					flags=6;
@@ -6295,8 +4365,108 @@ class Mission
 						skill=0.60000002;
 						init="this setpos [getpos this select 0, getpos this select 1,((getpos this select 2) +0.75)]; this setunitpos ""Middle""; this setbehaviour ""Combat""; removeallweapons this; this addmagazine ""lib_10Rnd_792x57""; this addmagazine ""lib_10Rnd_792x57""; this addmagazine ""lib_10Rnd_792x57""; this addmagazine ""lib_10Rnd_792x57""; this addmagazine ""lib_10Rnd_792x57""; this addmagazine ""lib_10Rnd_792x57""; this addmagazine ""lib_10Rnd_792x57""; this addmagazine ""lib_shg24""; this addmagazine ""lib_shg24""; this addmagazine ""lib_shg24""; this addmagazine ""lib_shg24""; this addmagazine ""lib_nb39""; this addweapon ""LIB_G43"";";
 						presence=0.75000024;
+						stance="Middle";
 					};
 					id=351;
+					type="LIB_GER_ober_rifleman";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2190.512,74.705864,7496.4399};
+						angles[]={0,5.1557202,0};
+					};
+					side="West";
+					flags=1;
+					class Attributes
+					{
+						stance="Middle";
+					};
+					id=648;
+					type="LIB_GER_unterofficer";
+					atlOffset=0.48500061;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2192.8313,74.705269,7501.5317};
+						angles[]={0,4.7440538,0};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+					};
+					id=649;
 					type="LIB_GER_ober_rifleman";
 				};
 			};
@@ -6305,7 +4475,7 @@ class Mission
 			};
 			id=350;
 		};
-		class Item172
+		class Item105
 		{
 			dataType="Group";
 			side="West";
@@ -6382,7 +4552,7 @@ class Mission
 			};
 			id=352;
 		};
-		class Item173
+		class Item106
 		{
 			dataType="Group";
 			side="West";
@@ -6394,8 +4564,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={2237.6729,73.563774,7439.3164};
-						angles[]={6.248199,3.4906585,0.013745897};
+						position[]={2290.4954,74.190559,7482.876};
+						angles[]={0.074990608,3.4906585,6.2419524};
 					};
 					side="West";
 					flags=6;
@@ -6404,14 +4574,15 @@ class Mission
 					};
 					id=359;
 					type="LIB_GER_soldier_K98";
+					atlOffset=0.00080108643;
 				};
 				class Item1
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={2237.8401,73.592598,7440.0879};
-						angles[]={6.2606897,3.4906585,0.013745897};
+						position[]={2292.2415,73.975433,7486.2334};
+						angles[]={6.1341243,3.4906585,6.2449241};
 					};
 					side="West";
 					flags=4;
@@ -6420,17 +4591,42 @@ class Mission
 						skill=0.2;
 						init="removeallweapons this; this addmagazine ""lib_5Rnd_792x57""; this addmagazine ""lib_5Rnd_792x57""; this addmagazine ""lib_5Rnd_792x57""; this addmagazine ""lib_5Rnd_792x57""; this addmagazine ""lib_5Rnd_792x57""; this addmagazine ""lib_5Rnd_792x57""; this addmagazine ""lib_5Rnd_792x57""; this addmagazine ""lib_5Rnd_792x57""; this addmagazine ""lib_5Rnd_792x57""; this addmagazine ""lib_5Rnd_792x57""; this addmagazine ""lib_shg24""; this addmagazine ""lib_shg24""; this addweapon ""LIB_K98"";";
 						presence=0.75000024;
+						stance="Middle";
 					};
 					id=360;
 					type="LIB_GER_rifleman";
+					atlOffset=0.0031051636;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.02;
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item2
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={2237.8401,73.592598,7440.0879};
-						angles[]={6.2606897,3.4906585,0.013745897};
+						position[]={2290.4915,73.918716,7485.5503};
+						angles[]={6.2677755,3.4906585,0.027481601};
 					};
 					side="West";
 					flags=4;
@@ -6438,9 +4634,34 @@ class Mission
 					{
 						skill=0.60000002;
 						init="removeallweapons this; this addmagazine ""lib_5Rnd_792x57""; this addmagazine ""lib_5Rnd_792x57""; this addmagazine ""lib_5Rnd_792x57""; this addmagazine ""lib_5Rnd_792x57""; this addmagazine ""lib_5Rnd_792x57""; this addmagazine ""lib_5Rnd_792x57""; this addmagazine ""lib_5Rnd_792x57""; this addmagazine ""lib_5Rnd_792x57""; this addmagazine ""lib_5Rnd_792x57""; this addmagazine ""lib_5Rnd_792x57""; this addmagazine ""lib_shg24""; this addmagazine ""lib_shg24""; this addweapon ""LIB_K98"";";
+						stance="Middle";
 					};
 					id=361;
 					type="LIB_GER_rifleman";
+					atlOffset=0.16241455;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.94999999;
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 			};
 			class Attributes
@@ -6469,15 +4690,15 @@ class Mission
 				};
 			};
 			id=357;
-			atlOffset=0.0093612671;
+			atlOffset=0.00080108643;
 		};
-		class Item174
+		class Item107
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={2237.8401,73.018082,7440.0381};
-				angles[]={6.248199,3.4906585,0.013745897};
+				position[]={2290.6628,73.635269,7483.5908};
+				angles[]={0.074990608,3.4906585,6.2419524};
 			};
 			side="West";
 			flags=6;
@@ -6488,9 +4709,9 @@ class Mission
 			};
 			id=358;
 			type="LIB_MG42_Lafette_low";
-			atlOffset=0.0093612671;
+			atlOffset=0.00080108643;
 		};
-		class Item175
+		class Item108
 		{
 			dataType="Group";
 			side="West";
@@ -6502,24 +4723,25 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={2076.5757,71.537476,7528.8589};
-						angles[]={0.038730852,3.6651914,0.056191571};
+						position[]={2071.5515,72.1007,7520.1553};
+						angles[]={0.12846497,3.6651914,6.2641172};
 					};
 					side="West";
-					flags=6;
+					flags=2;
 					class Attributes
 					{
 					};
 					id=364;
 					type="LIB_GER_soldier_K98";
+					atlOffset=0.40539551;
 				};
 				class Item1
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={2076.769,71.520103,7529.5879};
-						angles[]={0.038730852,3.6651914,0.056191571};
+						position[]={2071.7505,71.744072,7523.0884};
+						angles[]={6.1800241,3.6651914,0.081961133};
 					};
 					side="West";
 					flags=4;
@@ -6528,17 +4750,61 @@ class Mission
 						skill=0.60000002;
 						init="removeallweapons this; this addmagazine ""lib_10Rnd_792x57""; this addmagazine ""lib_10Rnd_792x57""; this addmagazine ""lib_10Rnd_792x57""; this addmagazine ""lib_10Rnd_792x57""; this addmagazine ""lib_10Rnd_792x57""; this addmagazine ""lib_10Rnd_792x57""; this addmagazine ""lib_10Rnd_792x57""; this addmagazine ""lib_shg24""; this addmagazine ""lib_shg24""; this addmagazine ""lib_shg24""; this addmagazine ""lib_shg24""; this addmagazine ""lib_nb39""; this addweapon ""LIB_G43"";";
 						presence=0.75000024;
+						stance="Middle";
 					};
 					id=365;
 					type="LIB_GER_ober_rifleman";
+					atlOffset=0.18775177;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=2;
+					};
 				};
 				class Item2
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={2076.769,71.520103,7529.5879};
-						angles[]={0.038730852,3.6651914,0.056191571};
+						position[]={2073.4053,71.803009,7524.0117};
+						angles[]={0.059914526,3.6651914,0.012891084};
 					};
 					side="West";
 					flags=4;
@@ -6546,9 +4812,34 @@ class Mission
 					{
 						skill=0.60000002;
 						init="removeallweapons this; this addmagazine ""lib_5Rnd_792x57""; this addmagazine ""lib_5Rnd_792x57""; this addmagazine ""lib_5Rnd_792x57""; this addmagazine ""lib_5Rnd_792x57""; this addmagazine ""lib_5Rnd_792x57""; this addmagazine ""lib_5Rnd_792x57""; this addmagazine ""lib_5Rnd_792x57""; this addmagazine ""lib_5Rnd_792x57""; this addmagazine ""lib_5Rnd_792x57""; this addmagazine ""lib_5Rnd_792x57""; this addmagazine ""lib_shg24""; this addmagazine ""lib_shg24""; this addweapon ""LIB_K98"";";
+						stance="Middle";
 					};
 					id=366;
 					type="LIB_GER_rifleman";
+					atlOffset=0.19700623;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.04;
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 			};
 			class Attributes
@@ -6577,17 +4868,18 @@ class Mission
 				};
 			};
 			id=362;
+			atlOffset=0.40539551;
 		};
-		class Item176
+		class Item109
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={2076.769,70.94416,7529.5381};
-				angles[]={0.038730852,3.6651914,0.056191571};
+				position[]={2071.7449,71.507385,7520.8345};
+				angles[]={0.12846497,3.6651914,6.2641172};
 			};
 			side="West";
-			flags=6;
+			flags=2;
 			class Attributes
 			{
 				skill=0.60000002;
@@ -6595,56 +4887,9 @@ class Mission
 			};
 			id=363;
 			type="LIB_MG42_Lafette_low";
+			atlOffset=0.40539551;
 		};
-		class Item177
-		{
-			dataType="Group";
-			side="East";
-			class Entities
-			{
-				items=2;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={3587.7412,21.561462,2357.5278};
-						angles[]={0.0049914722,0.48869219,0.010000871};
-					};
-					side="East";
-					flags=6;
-					class Attributes
-					{
-						skill=1;
-						init="this allowDamage false; this setCaptive true;";
-						name="aDude";
-					};
-					id=368;
-					type="LIB_SOV_pilot";
-				};
-				class Item1
-				{
-					dataType="Waypoint";
-					position[]={3590.1882,21.569702,2361.7441};
-					expCond="(VictoryCondition1 == 1);";
-					expActiv="pe2 setfuel 1; pe2 allowDamage true; deleteVehicle aDude;";
-					class Effects
-					{
-					};
-					timeoutMin=360;
-					timeoutMid=480;
-					timeoutMax=600;
-					showWP="NEVER";
-					id=369;
-					type="Move";
-				};
-			};
-			class Attributes
-			{
-			};
-			id=367;
-		};
-		class Item178
+		class Item110
 		{
 			dataType="Group";
 			side="West";
@@ -6802,7 +5047,7 @@ class Mission
 			id=370;
 			atlOffset=-6.4849854e-005;
 		};
-		class Item179
+		class Item111
 		{
 			dataType="Object";
 			class PositionInfo
@@ -6822,7 +5067,7 @@ class Mission
 			type="LIB_PzKpfwV";
 			atlOffset=-6.4849854e-005;
 		};
-		class Item180
+		class Item112
 		{
 			dataType="Group";
 			side="West";
@@ -6882,7 +5127,7 @@ class Mission
 			};
 			id=377;
 		};
-		class Item181
+		class Item113
 		{
 			dataType="Group";
 			side="West";
@@ -6962,7 +5207,7 @@ class Mission
 			};
 			id=381;
 		};
-		class Item182
+		class Item114
 		{
 			dataType="Group";
 			side="West";
@@ -7022,7 +5267,7 @@ class Mission
 			};
 			id=386;
 		};
-		class Item183
+		class Item115
 		{
 			dataType="Group";
 			side="West";
@@ -7103,216 +5348,7 @@ class Mission
 			};
 			id=390;
 		};
-		class Item184
-		{
-			dataType="Group";
-			side="Independent";
-			class Entities
-			{
-				items=9;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={3539.8005,21.799242,2376.4731};
-						angles[]={6.2806959,0,6.274437};
-					};
-					side="Independent";
-					flags=6;
-					class Attributes
-					{
-						skill=0.60000002;
-						rank="CAPTAIN";
-						presence=0;
-					};
-					id=396;
-					type="LIB_GER_pilot";
-				};
-				class Item1
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={3642.3005,21.641409,2324.6731};
-						angles[]={0.0012448779,0.48869219,0.0024897563};
-					};
-					side="Independent";
-					flags=4;
-					class Attributes
-					{
-						name="pe2D";
-					};
-					id=398;
-					type="LIB_SOV_pilot";
-				};
-				class Item2
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={3642.3005,21.641409,2324.6731};
-						angles[]={0.0012448779,0.48869219,0.0024897563};
-					};
-					side="Independent";
-					flags=4;
-					class Attributes
-					{
-						name="pe2G";
-					};
-					id=399;
-					type="LIB_SOV_pilot";
-				};
-				class Item3
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={3642.3005,21.641409,2324.6731};
-						angles[]={0.0012448779,0.48869219,0.0024897563};
-					};
-					side="Independent";
-					flags=4;
-					class Attributes
-					{
-					};
-					id=400;
-					type="LIB_SOV_pilot";
-				};
-				class Item4
-				{
-					dataType="Waypoint";
-					position[]={3551.7766,21.810562,2395.833};
-					class Effects
-					{
-					};
-					timeoutMin=30;
-					timeoutMid=60;
-					timeoutMax=90;
-					showWP="NEVER";
-					id=401;
-					type="Move";
-				};
-				class Item5
-				{
-					dataType="Waypoint";
-					position[]={3603.0911,61.898266,8689.3281};
-					placement=500;
-					type="SeekAndDestroy";
-					class Effects
-					{
-					};
-					showWP="NEVER";
-					id=402;
-				};
-				class Item6
-				{
-					dataType="Waypoint";
-					position[]={1400.6593,22.398357,8687.0547};
-					placement=500;
-					type="SeekAndDestroy";
-					class Effects
-					{
-					};
-					showWP="NEVER";
-					id=403;
-				};
-				class Item7
-				{
-					dataType="Waypoint";
-					position[]={3558.0718,21.82449,2406.626};
-					type="GetOut";
-					class Effects
-					{
-					};
-					showWP="NEVER";
-					id=404;
-				};
-				class Item8
-				{
-					dataType="Waypoint";
-					position[]={3549.7178,21.806818,2392.5107};
-					type="Hold";
-					class Effects
-					{
-					};
-					timeoutMin=12000;
-					timeoutMid=12000;
-					timeoutMax=12000;
-					showWP="NEVER";
-					id=405;
-				};
-			};
-			class Attributes
-			{
-			};
-			class CrewLinks
-			{
-				class LinkIDProvider
-				{
-					nextID=3;
-				};
-				class Links
-				{
-					items=3;
-					class Item0
-					{
-						linkID=0;
-						item0=398;
-						item1=397;
-						class CustomData
-						{
-							role=1;
-						};
-					};
-					class Item1
-					{
-						linkID=1;
-						item0=399;
-						item1=397;
-						class CustomData
-						{
-							role=2;
-							turretPath[]={0};
-						};
-					};
-					class Item2
-					{
-						linkID=2;
-						item0=400;
-						item1=397;
-						class CustomData
-						{
-							role=2;
-							turretPath[]={1};
-						};
-					};
-				};
-			};
-			id=395;
-		};
-		class Item185
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={3642.291,21.041727,2324.7954};
-				angles[]={0.0012448779,0.48869219,0.0024897563};
-			};
-			side="Independent";
-			flags=4;
-			class Attributes
-			{
-				skill=1;
-				rank="CORPORAL";
-				fuel=0;
-				init="pe2 allowDamage false;";
-				name="pe2";
-			};
-			id=397;
-			type="LIB_Pe2";
-		};
-		class Item186
+		class Item116
 		{
 			dataType="Group";
 			side="West";
@@ -7357,7 +5393,7 @@ class Mission
 			};
 			id=406;
 		};
-		class Item187
+		class Item117
 		{
 			dataType="Group";
 			side="West";
@@ -7417,7 +5453,7 @@ class Mission
 			};
 			id=409;
 		};
-		class Item188
+		class Item118
 		{
 			dataType="Group";
 			side="West";
@@ -7487,7 +5523,7 @@ class Mission
 			};
 			id=413;
 		};
-		class Item189
+		class Item119
 		{
 			dataType="Object";
 			class PositionInfo
@@ -7504,242 +5540,7 @@ class Mission
 			id=414;
 			type="LIB_FlaK_38";
 		};
-		class Item190
-		{
-			dataType="Group";
-			side="East";
-			class Entities
-			{
-				items=13;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={1715.5574,71.98098,6851.4521};
-						angles[]={6.2656889,0,0};
-					};
-					side="East";
-					flags=6;
-					class Attributes
-					{
-						skill=0.60000002;
-						rank="SERGEANT";
-						init="infantrysquad2 = group this; infantrysquad2 setgroupid [""Soldat"",""Black""]; removeallweapons this; this addmagazine ""lib_71Rnd_762x25""; this addmagazine ""lib_71Rnd_762x25""; this addmagazine ""lib_71Rnd_762x25""; this addmagazine ""lib_71Rnd_762x25""; this addweapon ""LIB_PPSh41_d""; this addmagazine ""lib_f1""; this addmagazine ""lib_f1""; this addmagazine ""SmokeShell""; this addmagazine ""SmokeShell""; this addweapon ""LIB_Binocular_SU"";";
-					};
-					id=418;
-					type="LIB_SOV_sergeant";
-				};
-				class Item1
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={1720.5574,71.954094,6849.8018};
-						angles[]={6.2581892,0,6.2631893};
-					};
-					side="East";
-					flags=4;
-					class Attributes
-					{
-						skill=0.60000002;
-						rank="CORPORAL";
-						init="infantrysquad2 = group this; infantrysquad2 setgroupid [""Soldat"",""Black""]; this setObjectTexture [((getArray (configFile/""cfgVehicles""/(typeOf this)/""hiddenSelections"")) find ""eqip_mosin_mags_left""),""""]; this setObjectTexture [((getArray (configFile/""cfgVehicles""/(typeOf this)/""hiddenSelections"")) find ""eqip_mosin_mags_right""),""""]; this setObjectTexture [((getArray (configFile/""cfgVehicles""/(typeOf this)/""hiddenSelections"")) find ""eqip_svt_mags""),""lib\LIB_sov_characters\data\sov_eqipment_3_co.paa""]; removeallweapons this; this addmagazine ""lib_10Rnd_762x54""; this addmagazine ""lib_10Rnd_762x54""; this addmagazine ""lib_10Rnd_762x54""; this addmagazine ""lib_10Rnd_762x54""; this addmagazine ""lib_10Rnd_762x54""; this addmagazine ""lib_10Rnd_762x54""; this addmagazine ""lib_10Rnd_762x54""; this addmagazine ""lib_10Rnd_762x54""; this addmagazine ""lib_f1""; this addmagazine ""lib_f1""; this addmagazine ""SmokeShell""; this addmagazine ""SmokeShell""; this addweapon ""LIB_SVT_40"";";
-					};
-					id=419;
-					type="LIB_SOV_LC_rifleman";
-				};
-				class Item2
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={1710.5574,71.975548,6849.8018};
-						angles[]={6.2656889,0,6.2669392};
-					};
-					side="East";
-					flags=4;
-					class Attributes
-					{
-						skill=0.60000002;
-						rank="CORPORAL";
-						init="infantrysquad2 = group this; infantrysquad2 setgroupid [""Soldat"",""Black""]; removeallweapons this; this addmagazine ""lib_47Rnd_762x54""; this addmagazine ""lib_47Rnd_762x54""; this addmagazine ""lib_47Rnd_762x54""; this addmagazine ""lib_47Rnd_762x54""; this addmagazine ""lib_47Rnd_762x54""; this addmagazine ""lib_rg42""; this addmagazine ""lib_rg42""; this addweapon ""LIB_DP28"";";
-					};
-					id=420;
-					type="LIB_SOV_mgunner";
-				};
-				class Item3
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={1725.5574,71.793015,6847.0625};
-						angles[]={6.2656851,0,6.2631865};
-					};
-					side="East";
-					flags=4;
-					class Attributes
-					{
-						skill=0.60000002;
-						rank="CORPORAL";
-						init="infantrysquad2 = group this; infantrysquad2 setgroupid [""Soldat"",""Black""]; removeallweapons this; this addmagazine ""lib_47Rnd_762x54""; this addmagazine ""lib_47Rnd_762x54""; this addmagazine ""lib_47Rnd_762x54""; this addmagazine ""lib_47Rnd_762x54""; this addmagazine ""lib_47Rnd_762x54""; this addmagazine ""lib_rg42""; this addmagazine ""lib_rg42""; this addweapon ""LIB_DP28"";";
-					};
-					id=421;
-					type="LIB_SOV_mgunner";
-				};
-				class Item4
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={1705.5574,71.922157,6847.0625};
-						angles[]={6.2594419,0,6.2794352};
-					};
-					side="East";
-					flags=4;
-					class Attributes
-					{
-						skill=0.60000002;
-						init="infantrysquad2 = group this; infantrysquad2 setgroupid [""Soldat"",""Black""]; removeallweapons this; this addmagazine ""lib_71Rnd_762x25""; this addmagazine ""lib_71Rnd_762x25""; this addmagazine ""lib_71Rnd_762x25""; this addmagazine ""lib_71Rnd_762x25""; this addweapon ""LIB_PPSh41_d""; this addmagazine ""lib_rpg6""; this addmagazine ""lib_rpg6""; this addmagazine ""SmokeShell""; this addmagazine ""SmokeShell"";";
-					};
-					id=422;
-					type="LIB_SOV_AT_grenadier";
-				};
-				class Item5
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={1730.5574,71.645409,6842.5151};
-						angles[]={6.2656889,0,6.2756844};
-					};
-					side="East";
-					flags=4;
-					class Attributes
-					{
-						skill=0.60000002;
-						init="infantrysquad2 = group this; infantrysquad2 setgroupid [""Soldat"",""Black""]; removeallweapons this; this addmagazine ""lib_5Rnd_762x54""; this addmagazine ""lib_5Rnd_762x54""; this addmagazine ""lib_5Rnd_762x54""; this addmagazine ""lib_5Rnd_762x54""; this addmagazine ""lib_5Rnd_762x54""; this addmagazine ""lib_5Rnd_762x54""; this addmagazine ""lib_5Rnd_762x54""; this addmagazine ""lib_5Rnd_762x54""; this addmagazine ""lib_5Rnd_762x54""; this addmagazine ""lib_5Rnd_762x54""; this addweapon ""LIB_M9130""; this addmagazine ""lib_rg42""; this addmagazine ""lib_rg42"";";
-					};
-					id=423;
-					type="LIB_SOV_rifleman";
-				};
-				class Item6
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={1700.5574,71.893295,6842.5151};
-						angles[]={6.2307339,0,0.031239824};
-					};
-					side="East";
-					flags=4;
-					class Attributes
-					{
-						skill=0.60000002;
-						init="infantrysquad2 = group this; infantrysquad2 setgroupid [""Soldat"",""Black""]; removeallweapons this; this addmagazine ""lib_5Rnd_762x54""; this addmagazine ""lib_5Rnd_762x54""; this addmagazine ""lib_5Rnd_762x54""; this addmagazine ""lib_5Rnd_762x54""; this addmagazine ""lib_5Rnd_762x54""; this addmagazine ""lib_5Rnd_762x54""; this addmagazine ""lib_5Rnd_762x54""; this addmagazine ""lib_5Rnd_762x54""; this addmagazine ""lib_5Rnd_762x54""; this addmagazine ""lib_5Rnd_762x54""; this addweapon ""LIB_M9130""; this addmagazine ""lib_rg42""; this addmagazine ""lib_rg42"";";
-					};
-					id=424;
-					type="LIB_SOV_rifleman";
-				};
-				class Item7
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={1735.5574,71.505745,6837.5649};
-						angles[]={6.2594419,0,6.2756844};
-					};
-					side="East";
-					flags=4;
-					class Attributes
-					{
-						skill=0.60000002;
-						init="infantrysquad2 = group this; infantrysquad2 setgroupid [""Soldat"",""Black""]; removeallweapons this; this addmagazine ""lib_5Rnd_762x54""; this addmagazine ""lib_5Rnd_762x54""; this addmagazine ""lib_5Rnd_762x54""; this addmagazine ""lib_5Rnd_762x54""; this addmagazine ""lib_5Rnd_762x54""; this addmagazine ""lib_5Rnd_762x54""; this addmagazine ""lib_5Rnd_762x54""; this addmagazine ""lib_5Rnd_762x54""; this addmagazine ""lib_5Rnd_762x54""; this addmagazine ""lib_5Rnd_762x54""; this addweapon ""LIB_M9130""; this addmagazine ""lib_rg42""; this addmagazine ""lib_rg42"";";
-					};
-					id=425;
-					type="LIB_SOV_rifleman";
-				};
-				class Item8
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={1695.5574,71.63987,6837.5649};
-						angles[]={0.008748306,0,0.0075011365};
-					};
-					side="East";
-					flags=4;
-					class Attributes
-					{
-						skill=0.60000002;
-						init="infantrysquad2 = group this; infantrysquad2 setgroupid [""Soldat"",""Black""]; removeallweapons this; this addmagazine ""lib_5Rnd_762x54""; this addmagazine ""lib_5Rnd_762x54""; this addmagazine ""lib_5Rnd_762x54""; this addmagazine ""lib_5Rnd_762x54""; this addmagazine ""lib_5Rnd_762x54""; this addmagazine ""lib_5Rnd_762x54""; this addmagazine ""lib_5Rnd_762x54""; this addmagazine ""lib_5Rnd_762x54""; this addmagazine ""lib_5Rnd_762x54""; this addmagazine ""lib_5Rnd_762x54""; this addweapon ""LIB_M9130""; this addmagazine ""lib_rg42""; this addmagazine ""lib_rg42"";";
-					};
-					id=426;
-					type="LIB_SOV_rifleman";
-				};
-				class Item9
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={1740.5574,71.270927,6832.6147};
-						angles[]={6.2594419,0,6.2581916};
-					};
-					side="East";
-					flags=4;
-					class Attributes
-					{
-						skill=0.60000002;
-						init="infantrysquad2 = group this; infantrysquad2 setgroupid [""Soldat"",""Black""]; removeallweapons this; this addmagazine ""lib_5Rnd_762x54""; this addmagazine ""lib_5Rnd_762x54""; this addmagazine ""lib_5Rnd_762x54""; this addmagazine ""lib_5Rnd_762x54""; this addmagazine ""lib_5Rnd_762x54""; this addmagazine ""lib_5Rnd_762x54""; this addmagazine ""lib_5Rnd_762x54""; this addmagazine ""lib_5Rnd_762x54""; this addmagazine ""lib_5Rnd_762x54""; this addmagazine ""lib_5Rnd_762x54""; this addweapon ""LIB_M9130""; this addmagazine ""lib_rg42""; this addmagazine ""lib_rg42"";";
-					};
-					id=427;
-					type="LIB_SOV_rifleman";
-				};
-				class Item10
-				{
-					dataType="Waypoint";
-					position[]={1721.7207,72.110954,6859.8271};
-					expCond="(opfor_present == 1);";
-					class Effects
-					{
-					};
-					timeoutMid=60;
-					timeoutMax=120;
-					showWP="NEVER";
-					id=428;
-					type="Move";
-				};
-				class Item11
-				{
-					dataType="Waypoint";
-					position[]={2164.9629,74.266739,7490.1074};
-					placement=100;
-					type="SeekAndDestroy";
-					class Effects
-					{
-					};
-					showWP="NEVER";
-					id=429;
-				};
-				class Item12
-				{
-					dataType="Waypoint";
-					position[]={2188.5527,74.358795,7536.1924};
-					placement=50;
-					type="Guard";
-					class Effects
-					{
-					};
-					showWP="NEVER";
-					id=430;
-				};
-			};
-			class Attributes
-			{
-			};
-			id=417;
-		};
-		class Item191
+		class Item120
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -7749,7 +5550,7 @@ class Mission
 			id=431;
 			type="FunctionsManager";
 		};
-		class Item192
+		class Item121
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -7759,7 +5560,7 @@ class Mission
 			id=432;
 			type="LIB_ArtyFunc";
 		};
-		class Item193
+		class Item122
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -7849,7 +5650,7 @@ class Mission
 				nAttributes=4;
 			};
 		};
-		class Item194
+		class Item123
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -7996,7 +5797,7 @@ class Mission
 				nAttributes=7;
 			};
 		};
-		class Item195
+		class Item124
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -8007,7 +5808,7 @@ class Mission
 			id=435;
 			type="Logic";
 		};
-		class Item196
+		class Item125
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -8059,7 +5860,7 @@ class Mission
 				nAttributes=2;
 			};
 		};
-		class Item197
+		class Item126
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -8111,7 +5912,7 @@ class Mission
 				nAttributes=2;
 			};
 		};
-		class Item198
+		class Item127
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -8163,40 +5964,20 @@ class Mission
 				nAttributes=2;
 			};
 		};
-		class Item199
-		{
-			dataType="Logic";
-			class PositionInfo
-			{
-				position[]={2202.395,73.672897,6441.6602};
-			};
-			id=439;
-			type="HighCommand";
-		};
-		class Item200
-		{
-			dataType="Logic";
-			class PositionInfo
-			{
-				position[]={2152.9441,72.051476,6472.7666};
-			};
-			id=440;
-			type="HighCommandSubordinate";
-		};
-		class Item201
+		class Item128
 		{
 			dataType="Group";
 			side="West";
 			class Entities
 			{
-				items=10;
+				items=11;
 				class Item0
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={2310.1934,74.351593,7572.5029};
-						angles[]={0.0075011365,0,6.2756844};
+						position[]={2299.6111,73.838875,7490.6826};
+						angles[]={0,3.687047,6.2769418};
 					};
 					side="West";
 					flags=6;
@@ -8213,8 +5994,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={2315.1934,74.246643,7570.8525};
-						angles[]={0.0075011365,0,6.2506976};
+						position[]={2296.1929,73.860237,7494.6875};
+						angles[]={0,3.687047,6.2769418};
 					};
 					side="West";
 					flags=4;
@@ -8231,8 +6012,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={2305.1934,74.421494,7570.8525};
-						angles[]={0.012496647,0,6.270689};
+						position[]={2304.7417,73.825897,7489.4995};
+						angles[]={6.2719393,3.687047,6.2806959};
 					};
 					side="West";
 					flags=4;
@@ -8249,8 +6030,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={2320.1934,74.103539,7568.1133};
-						angles[]={6.2744303,0,6.2394624};
+						position[]={2293.3396,73.821327,7499.6235};
+						angles[]={0.0075011365,3.687047,0.0049914722};
 					};
 					side="West";
 					flags=4;
@@ -8261,14 +6042,15 @@ class Mission
 					};
 					id=445;
 					type="SG_sturmtrooper_ober_rifleman";
+					atlOffset=-7.6293945e-006;
 				};
 				class Item4
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={2300.1934,74.352562,7568.1133};
-						angles[]={6.2819405,0,0.031239824};
+						position[]={2310.4375,73.808823,7489.2471};
+						angles[]={6.2719393,3.687047,6.2806959};
 					};
 					side="West";
 					flags=4;
@@ -8285,8 +6067,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={2325.1934,74.052376,7563.5659};
-						angles[]={0.03748076,0,6.2394638};
+						position[]={2291.4243,73.742599,7506.105};
+						angles[]={0.01749678,3.687047,0.0049914722};
 					};
 					side="West";
 					flags=4;
@@ -8302,8 +6084,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={2295.1934,74.270226,7563.5659};
-						angles[]={0.018746713,0,0.043721698};
+						position[]={2317.071,73.856941,7490.5405};
+						angles[]={6.2594419,3.687047,0.0012448779};
 					};
 					side="West";
 					flags=4;
@@ -8319,8 +6101,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={2330.1934,73.992897,7558.6157};
-						angles[]={0,0,6.2519455};
+						position[]={2289.718,73.663406,7512.9307};
+						angles[]={6.2794352,3.687047,0.022495884};
 					};
 					side="West";
 					flags=4;
@@ -8336,8 +6118,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={2290.1934,74.118843,7558.6157};
-						angles[]={0.021244843,0,0.048710719};
+						position[]={2323.9136,73.785103,7492.1787};
+						angles[]={0.0037505617,3.687047,0.0099949092};
 					};
 					side="West";
 					flags=4;
@@ -8347,14 +6129,15 @@ class Mission
 					};
 					id=450;
 					type="SG_sturmtrooper_rifleman";
+					atlOffset=7.6293945e-006;
 				};
 				class Item9
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={2335.1934,73.836647,7553.6655};
-						angles[]={0,0,6.2519455};
+						position[]={2288.0117,73.650612,7519.7568};
+						angles[]={6.2794352,3.687047,0.022495884};
 					};
 					side="West";
 					flags=4;
@@ -8365,40 +6148,2499 @@ class Mission
 					id=451;
 					type="SG_sturmtrooper_medic";
 				};
+				class Item10
+				{
+					dataType="Waypoint";
+					position[]={2299.6111,74.337433,7490.6328};
+					type="Hold";
+					combatMode="RED";
+					formation="LINE";
+					combat="COMBAT";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+					id=628;
+					atlOffset=0.5;
+					class AttachedTo
+					{
+						id=442;
+						offset[]={0,0.5,0};
+					};
+				};
 			};
 			class Attributes
 			{
 			};
 			id=441;
 		};
-		class Item202
+		class Item129
+		{
+			dataType="Group";
+			side="East";
+			class Entities
+			{
+				items=4;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2089.8728,69.951431,6412.2554};
+						angles[]={0,4.8934121,0};
+					};
+					side="East";
+					flags=6;
+					class Attributes
+					{
+						skill=0.60000002;
+						rank="LIEUTENANT";
+						lock="UNLOCKED";
+						init="GrpUSSR_CO = group this; [""co"",this] call f_fnc_assignGear;";
+						name="UnitUSSR_CO";
+						description="Red Army Commander";
+						isPlayable=1;
+					};
+					id=463;
+					type="LIB_SOV_first_lieutenant";
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2090.9536,69.951431,6413.2451};
+						angles[]={0,4.8934121,0};
+					};
+					side="East";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="GrpUSSR_CO = group this; [""m"",this] call f_fnc_assignGear;";
+						name="UnitUSSR_CO_M";
+						description="Red Army Medic";
+						isPlayable=1;
+					};
+					id=464;
+					type="LIB_SOV_medic";
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2092.1978,69.951431,6413.1812};
+						angles[]={0,4.8934121,0};
+					};
+					side="East";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						rank="CORPORAL";
+						init="GrpUSSR_CO = group this; [""jtac"",this] call f_fnc_assignGear;";
+						name="UnitUSSR_CO_JTAC";
+						description="Red Army Forward Observer";
+						isPlayable=1;
+					};
+					id=465;
+					type="LIB_SOV_operator";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="";
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2090.6321,69.951431,6411.0225};
+						angles[]={0,4.8934121,0};
+					};
+					side="East";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						rank="CORPORAL";
+						init="GrpUSSR_CO = group this; [""radio"",this] call f_fnc_assignGear;";
+						name="UnitUSSR_CO_R";
+						description="Red Army Radio Operator";
+						isPlayable=1;
+					};
+					id=466;
+					type="LIB_SOV_operator";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="";
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=462;
+		};
+		class Item130
+		{
+			dataType="Group";
+			side="East";
+			class Entities
+			{
+				items=3;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2118.541,71.662872,6374.4111};
+						angles[]={0.052452512,4.749311,0.010000871};
+					};
+					side="East";
+					flags=6;
+					class Attributes
+					{
+						skill=0.60000002;
+						rank="SERGEANT";
+						lock="UNLOCKED";
+						init="GrpUSSR_ASL = group this; [""sl"",this] call f_fnc_assignGear;";
+						name="UnitUSSR_ASL_SL";
+						description="Red Army Alpha Squad Leader";
+						isPlayable=1;
+					};
+					id=477;
+					type="LIB_SOV_sergeant";
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2119.5122,71.611893,6375.5674};
+						angles[]={0.052452512,4.749311,0.010000871};
+					};
+					side="East";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						lock="UNLOCKED";
+						init="GrpUSSR_ASL = group this; [""m"",this] call f_fnc_assignGear;";
+						name="UnitUSSR_ASL_M";
+						description="Red Army Alpha Medic";
+						isPlayable=1;
+					};
+					id=478;
+					type="LIB_SOV_medic";
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2119.6338,71.719223,6373.5459};
+						angles[]={0.052452512,4.749311,0.010000871};
+					};
+					side="East";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						lock="UNLOCKED";
+						init="GrpUSSR_ASL = group this; [""radio"",this] call f_fnc_assignGear;";
+						name="UnitUSSR_ASL_R";
+						description="Red Army Alpha Radio Operator";
+						isPlayable=1;
+					};
+					id=479;
+					type="LIB_SOV_operator";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="";
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=476;
+		};
+		class Item131
+		{
+			dataType="Group";
+			side="East";
+			class Entities
+			{
+				items=5;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2120.0637,71.670731,6374.5898};
+						angles[]={0.052452512,4.749311,0.041227277};
+					};
+					side="East";
+					flags=6;
+					class Attributes
+					{
+						skill=0.60000002;
+						rank="CORPORAL";
+						lock="UNLOCKED";
+						init="GrpUSSR_A1 = group this; [""ftl"",this] call f_fnc_assignGear;";
+						name="UnitUSSR_A1_FTL";
+						description="Red Army Alpha 1 Fire Team Leader";
+						isPlayable=1;
+					};
+					id=481;
+					type="LIB_SOV_LC_rifleman";
+					atlOffset=7.6293945e-006;
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2122.0515,71.668701,6376.4668};
+						angles[]={0.10337954,4.749311,0.058683492};
+					};
+					side="East";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						lock="UNLOCKED";
+						init="GrpUSSR_A1 = group this; [""ar"",this] call f_fnc_assignGear;";
+						name="UnitUSSR_A1_AR";
+						description="Red Army Alpha 1 Machinegunner";
+						isPlayable=1;
+					};
+					id=482;
+					type="LIB_SOV_mgunner";
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2121.6687,71.826584,6372.8818};
+						angles[]={0.052452512,4.749311,0.041227277};
+					};
+					side="East";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						lock="UNLOCKED";
+						init="GrpUSSR_A1 = group this; [""car"",this] call f_fnc_assignGear;";
+						name="UnitUSSR_A1_FC_R1";
+						description="Red Army Alpha 1 Rifleman (Private 1st class)";
+						isPlayable=1;
+					};
+					id=483;
+					type="LIB_SOV_rifleman";
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2124.1982,71.600082,6378.3438};
+						angles[]={0.10337954,4.749311,0.058683492};
+					};
+					side="East";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						lock="UNLOCKED";
+						init="GrpUSSR_A1 = group this; [""r"",this] call f_fnc_assignGear;";
+						name="UnitUSSR_A1_R2";
+						description="Red Army Alpha 1 Rifleman";
+						isPlayable=1;
+					};
+					id=484;
+					type="LIB_SOV_rifleman";
+				};
+				class Item4
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2123.2192,71.973083,6371.3096};
+						angles[]={0.052452512,4.749311,0.041227277};
+					};
+					side="East";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						lock="UNLOCKED";
+						init="GrpUSSR_A1 = group this; [""aar"",this] call f_fnc_assignGear;";
+						name="UnitUSSR_A1_R1";
+						description="Red Army Alpha 1 Rifleman";
+						isPlayable=1;
+					};
+					id=485;
+					type="LIB_SOV_rifleman";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=480;
+			atlOffset=7.6293945e-006;
+		};
+		class Item132
+		{
+			dataType="Group";
+			side="East";
+			class Entities
+			{
+				items=5;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2121.4873,71.728821,6374.6211};
+						angles[]={0.034986377,4.749311,0.058682479};
+					};
+					side="East";
+					flags=6;
+					class Attributes
+					{
+						skill=0.60000002;
+						rank="CORPORAL";
+						lock="UNLOCKED";
+						init="GrpUSSR_A2 = group this; [""ftl"",this] call f_fnc_assignGear;";
+						name="UnitUSSR_A2_FTL";
+						description="Red Army Alpha 2 Fire Team Leader";
+						isPlayable=1;
+					};
+					id=487;
+					type="LIB_SOV_LC_rifleman";
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2123.584,71.717712,6376.8833};
+						angles[]={0.10337954,4.749311,0.058683492};
+					};
+					side="East";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						lock="UNLOCKED";
+						init="GrpUSSR_A2 = group this; [""car"",this] call f_fnc_assignGear;";
+						name="UnitUSSR_A2_FC_R1";
+						description="Red Army Alpha 2 Rifleman (Private 1st class)";
+						isPlayable=1;
+					};
+					id=488;
+					type="LIB_SOV_rifleman";
+					atlOffset=0.0021896362;
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2123.189,71.917542,6372.5107};
+						angles[]={0.052452512,4.749311,0.041227277};
+					};
+					side="East";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						lock="UNLOCKED";
+						init="GrpUSSR_A2 = group this; [""car"",this] call f_fnc_assignGear;";
+						name="UnitUSSR_A2_FC_R2";
+						description="Red Army Alpha 2 Rifleman (Private 1st class)";
+						isPlayable=1;
+					};
+					id=489;
+					type="LIB_SOV_rifleman";
+					atlOffset=0.0087585449;
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2125.666,71.642685,6378.9912};
+						angles[]={0.082313478,4.749311,0.079830162};
+					};
+					side="East";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						lock="UNLOCKED";
+						init="GrpUSSR_A2 = group this; [""r"",this] call f_fnc_assignGear;";
+						name="UnitUSSR_A2_R2";
+						description="Red Army Alpha 2 Rifleman";
+						isPlayable=1;
+					};
+					id=490;
+					type="LIB_SOV_rifleman";
+					atlOffset=0.010635376;
+				};
+				class Item4
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2125.2168,72.121262,6370.2412};
+						angles[]={0.052452512,4.749311,0.041227277};
+					};
+					side="East";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						lock="UNLOCKED";
+						init="GrpUSSR_A2 = group this; [""aar"",this] call f_fnc_assignGear;";
+						name="UnitUSSR_A2_R1";
+						description="Red Army Alpha 2 Rifleman";
+						isPlayable=1;
+					};
+					id=491;
+					type="LIB_SOV_rifleman";
+					atlOffset=0.0096817017;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=486;
+		};
+		class Item133
+		{
+			dataType="Group";
+			side="East";
+			class Entities
+			{
+				items=3;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2112.6553,72.121445,6346.7251};
+						angles[]={0,4.8074827,0};
+					};
+					side="East";
+					flags=6;
+					class Attributes
+					{
+						skill=0.60000002;
+						rank="SERGEANT";
+						lock="UNLOCKED";
+						init="GrpUSSR_BSL = group this; [""sl"",this] call f_fnc_assignGear;";
+						name="UnitUSSR_BSL_SL";
+						description="Red Army Bravo Squad Leader";
+						isPlayable=1;
+					};
+					id=497;
+					type="LIB_SOV_sergeant";
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2114.7456,72.121445,6348.3896};
+						angles[]={0,4.8074827,0};
+					};
+					side="East";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						lock="UNLOCKED";
+						init="GrpUSSR_BSL = group this; [""m"",this] call f_fnc_assignGear;";
+						name="UnitUSSR_BSL_M";
+						description="Red Army Bravo Medic";
+						isPlayable=1;
+					};
+					id=498;
+					type="LIB_SOV_medic";
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2114.1111,72.122375,6344.752};
+						angles[]={0,4.8074827,0};
+					};
+					side="East";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						lock="UNLOCKED";
+						init="GrpUSSR_BSL = group this; [""radio"",this] call f_fnc_assignGear;";
+						name="UnitUSSR_BSL_R";
+						description="Red Army Bravo Radio Operator";
+						isPlayable=1;
+					};
+					id=499;
+					type="LIB_SOV_operator";
+					atlOffset=0.00093841553;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="";
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=496;
+		};
+		class Item134
+		{
+			dataType="Group";
+			side="East";
+			class Entities
+			{
+				items=5;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2114.2534,72.121445,6346.8438};
+						angles[]={0,4.8074827,0};
+					};
+					side="East";
+					flags=6;
+					class Attributes
+					{
+						skill=0.60000002;
+						rank="CORPORAL";
+						lock="UNLOCKED";
+						init="GrpUSSR_B1 = group this; [""ftl"",this] call f_fnc_assignGear;";
+						name="UnitUSSR_B1_FTL";
+						description="Red Army Bravo 1 Fire Team Leader";
+						isPlayable=1;
+					};
+					id=501;
+					type="LIB_SOV_LC_rifleman";
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2116.3174,72.121445,6347.7803};
+						angles[]={0,4.8074827,0};
+					};
+					side="East";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						lock="UNLOCKED";
+						init="GrpUSSR_B1 = group this; [""ar"",this] call f_fnc_assignGear;";
+						name="UnitUSSR_B1_AR";
+						description="Red Army Bravo 1 Machinegunner";
+						isPlayable=1;
+					};
+					id=502;
+					type="LIB_SOV_mgunner";
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2115.7446,72.123627,6345.1782};
+						angles[]={0,4.8074827,0};
+					};
+					side="East";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						lock="UNLOCKED";
+						init="GrpUSSR_B1 = group this; [""car"",this] call f_fnc_assignGear;";
+						name="UnitUSSR_B1_FC_R1";
+						description="Red Army Bravo 1 Rifleman (Private 1st class)";
+						isPlayable=1;
+					};
+					id=503;
+					type="LIB_SOV_rifleman";
+					atlOffset=0.0021896362;
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2117.8931,72.122284,6348.7598};
+						angles[]={0,4.8074827,0};
+					};
+					side="East";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						lock="UNLOCKED";
+						init="GrpUSSR_B1 = group this; [""r"",this] call f_fnc_assignGear;";
+						name="UnitUSSR_B1_R2";
+						description="Red Army Bravo 1 Rifleman";
+						isPlayable=1;
+					};
+					id=504;
+					type="LIB_SOV_rifleman";
+					atlOffset=0.0008392334;
+				};
+				class Item4
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2117.0918,72.126205,6343.3623};
+						angles[]={0.0037505617,4.8074827,0};
+					};
+					side="East";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						lock="UNLOCKED";
+						init="GrpUSSR_B1 = group this; [""aar"",this] call f_fnc_assignGear;";
+						name="UnitUSSR_B1_R1";
+						description="Red Army Bravo 1 Rifleman";
+						isPlayable=1;
+					};
+					id=505;
+					type="LIB_SOV_rifleman";
+					atlOffset=0.0021896362;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=500;
+		};
+		class Item135
+		{
+			dataType="Group";
+			side="East";
+			class Entities
+			{
+				items=5;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2115.8672,72.121445,6346.2593};
+						angles[]={0,4.8074827,0};
+					};
+					side="East";
+					flags=6;
+					class Attributes
+					{
+						skill=0.60000002;
+						rank="CORPORAL";
+						lock="UNLOCKED";
+						init="GrpUSSR_B2 = group this; [""ftl"",this] call f_fnc_assignGear;";
+						name="UnitUSSR_B2_FTL";
+						description="Red Army Bravo 2 Fire Team Leader";
+						isPlayable=1;
+					};
+					id=507;
+					type="LIB_SOV_LC_rifleman";
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2118.5542,72.12384,6347.4204};
+						angles[]={0,4.8074827,0};
+					};
+					side="East";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						lock="UNLOCKED";
+						init="GrpUSSR_B2 = group this; [""car"",this] call f_fnc_assignGear;";
+						name="UnitUSSR_B2_FC_R1";
+						description="Red Army Bravo 2 Rifleman (Private 1st class)";
+						isPlayable=1;
+					};
+					id=508;
+					type="LIB_SOV_rifleman";
+					atlOffset=0.0023956299;
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2118.0525,72.121445,6344.1577};
+						angles[]={0,4.8074827,0};
+					};
+					side="East";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						lock="UNLOCKED";
+						init="GrpUSSR_B2 = group this; [""car"",this] call f_fnc_assignGear;";
+						name="UnitUSSR_B2_FC_R2";
+						description="Red Army Bravo 2 Rifleman (Private 1st class)";
+						isPlayable=1;
+					};
+					id=509;
+					type="LIB_SOV_rifleman";
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2119.7014,72.128143,6342.2622};
+						angles[]={0.0037505617,4.8074827,0};
+					};
+					side="East";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						lock="UNLOCKED";
+						init="GrpUSSR_B2 = group this; [""aar"",this] call f_fnc_assignGear;";
+						name="UnitUSSR_B2_R1";
+						description="Red Army Bravo 2 Rifleman";
+						isPlayable=1;
+					};
+					id=510;
+					type="LIB_SOV_rifleman";
+				};
+				class Item4
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2120.6509,72.2052,6348.2988};
+						angles[]={0,4.8074827,0.12435465};
+					};
+					side="East";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						lock="UNLOCKED";
+						init="GrpUSSR_B2 = group this; [""r"",this] call f_fnc_assignGear;";
+						name="UnitUSSR_B2_R2";
+						description="Red Army Bravo 2 Rifleman";
+						isPlayable=1;
+					};
+					id=511;
+					type="LIB_SOV_rifleman";
+					atlOffset=0.0023956299;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=506;
+		};
+		class Item136
+		{
+			dataType="Group";
+			side="East";
+			class Entities
+			{
+				items=2;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2110.4104,72.1633,6337.1606};
+						angles[]={0.0037505617,4.8204665,0.0024897563};
+					};
+					side="East";
+					flags=6;
+					class Attributes
+					{
+						skill=0.60000002;
+						rank="CORPORAL";
+						init="GrpUSSR_HMG1 = group this; [""hmgag"",this] call f_fnc_assignGear;";
+						name="UnitUSSR_HMG1_AG";
+						description="Red Army Heavy MG Team 1 Spotter (Leader)";
+						isPlayable=1;
+					};
+					id=537;
+					type="LIB_SOV_LC_rifleman";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="";
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2110.7239,72.157532,6338.2759};
+						angles[]={0.0062435218,4.8204665,0};
+					};
+					side="East";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="GrpUSSR_HMG1 = group this; [""hmgg"",this] call f_fnc_assignGear;";
+						name="UnitUSSR_HMG1_G";
+						description="Red Army Heavy MG Team 1 Gunner";
+						isPlayable=1;
+					};
+					id=538;
+					type="LIB_SOV_rifleman";
+					atlOffset=7.6293945e-006;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="";
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=536;
+		};
+		class Item137
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={2070.7148,71.071053,6396.1538};
-				angles[]={0,0.66020989,0.00119604};
+				position[]={2072.7593,71.254318,6411.8228};
+				angles[]={0,1.6814911,0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
-				skill=1;
+				skill=0.60000002;
+				init="[""v_car"",this] call f_fnc_assignGear";
+				name="VehUSSR_CAR1";
 			};
-			id=94;
-			type="Land_CamoNetVar_NATO";
-			atlOffset=-1.5258789e-005;
+			id=539;
+			type="LIB_Willys_MB";
+		};
+		class Item138
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2072.9583,71.972038,6415.2114};
+				angles[]={0,1.7069753,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				skill=0.60000002;
+				init="[""v_tr"",this] call f_fnc_assignGear";
+				name="VehUSSR_TR1";
+			};
+			id=541;
+			type="LIB_zis5v";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ammoBox";
+					expression="[_this,_value] call bis_fnc_initAmmoBox;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="[[[[],[]],[[],[]],[[],[]],[[],[]]],true]";
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item139
+		{
+			dataType="Group";
+			side="East";
+			class Entities
+			{
+				items=2;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2112.2361,72.166504,6336.7456};
+						angles[]={0.0062435218,4.8204665,6.2806959};
+					};
+					side="East";
+					flags=6;
+					class Attributes
+					{
+						skill=0.60000002;
+						rank="CORPORAL";
+						init="GrpUSSR_MTR1 = group this; [""mtrag"",this] call f_fnc_assignGear; ";
+						name="UnitUSSR_MTR1_AG";
+						description="Red Army Mortar Team 1 Spotter (Leader)";
+						isPlayable=1;
+					};
+					id=560;
+					type="LIB_SOV_LC_rifleman";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="";
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2112.9631,72.155121,6338.2759};
+						angles[]={0.0062435218,4.8204665,6.2806959};
+					};
+					side="East";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="GrpUSSR_MTR1 = group this; [""mtrg"",this] call f_fnc_assignGear;";
+						name="UnitUSSR_MTR1_G";
+						description="Red Army Mortar Team 1 Gunner";
+						isPlayable=1;
+					};
+					id=561;
+					type="LIB_SOV_rifleman";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="";
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=559;
+		};
+		class Item140
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2048.5471,69.738495,6404.6987};
+				angles[]={6.2394638,0.1426203,0.044969428};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				name="VehUSSR_SPG1";
+			};
+			id=570;
+			type="LIB_Zis3";
+		};
+		class Item141
+		{
+			dataType="Group";
+			side="East";
+			class Entities
+			{
+				items=2;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2055.9292,69.683746,6394.7783};
+						angles[]={6.2482009,0.12157856,0.044969428};
+					};
+					side="East";
+					flags=6;
+					class Attributes
+					{
+						skill=0.60000002;
+						rank="CORPORAL";
+						init="GrpUSSR_SPG1 = group this; [""spgag"",this] call f_fnc_assignGear;";
+						name="UnitUSSR_SPG1_AG";
+						description="Red Army SPG 1 Spotter (Leader)";
+						isPlayable=1;
+					};
+					id=572;
+					type="LIB_SOV_gun_sergeant";
+					atlOffset=7.6293945e-006;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="";
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2057.04,69.715729,6394.4497};
+						angles[]={6.248199,0.12157856,0.038730852};
+					};
+					side="East";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="GrpUSSR_SPG1 = group this; [""spgg"",this] call f_fnc_assignGear;";
+						name="UnitUSSR_SPG1_G";
+						description="Red Army SPG 1 Gunner";
+						isPlayable=1;
+					};
+					id=573;
+					type="LIB_SOV_gun_crew";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="";
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=571;
+			atlOffset=7.6293945e-006;
+		};
+		class Item142
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2057.6116,71.939209,6403.7578};
+				angles[]={6.274437,3.2394691,0.008748306};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				init="[""v_car"",this] call f_fnc_assignGear";
+				name="VehUSSR_SPG1_TR";
+			};
+			id=574;
+			type="LIB_zis5v";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ammoBox";
+					expression="[_this,_value] call bis_fnc_initAmmoBox;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="[[[[],[]],[[],[]],[[],[]],[[],[]]],true]";
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item143
+		{
+			dataType="Group";
+			side="East";
+			class Entities
+			{
+				items=3;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2143.4214,73.747543,6355.4756};
+						angles[]={0.034986377,4.8339767,0.058682479};
+					};
+					side="East";
+					flags=7;
+					class Attributes
+					{
+						rank="SERGEANT";
+						init="[""vc"",this] call f_fnc_assignGear;";
+						name="UnitUSSR_TNK1_C";
+						description="Red Army Tank 1 Commander";
+						isPlayable=1;
+					};
+					id=576;
+					type="LIB_SOV_tank_lieutenant";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.99000001;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2143.4214,73.747543,6355.4756};
+						angles[]={0.034986377,4.8339767,0.058682479};
+					};
+					side="East";
+					flags=5;
+					class Attributes
+					{
+						rank="CORPORAL";
+						init="[""vg"",this] call f_fnc_assignGear;";
+						name="UnitUSSR_TNK1_G";
+						description="Red Army Tank 1 Gunner";
+						isPlayable=1;
+					};
+					id=577;
+					type="LIB_SOV_tank_crew";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2143.4214,73.747543,6355.4756};
+						angles[]={0.034986377,4.8339767,0.058682479};
+					};
+					side="East";
+					flags=5;
+					class Attributes
+					{
+						init="[""vd"",this] call f_fnc_assignGear;";
+						name="UnitUSSR_TNK1_D";
+						description="Red Army Tank 1 Driver";
+						isPlayable=1;
+					};
+					id=578;
+					type="LIB_SOV_tank_crew";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			class CrewLinks
+			{
+				class LinkIDProvider
+				{
+					nextID=3;
+				};
+				class Links
+				{
+					items=3;
+					class Item0
+					{
+						linkID=0;
+						item0=576;
+						item1=593;
+						class CustomData
+						{
+							role=2;
+							turretPath[]={0,0};
+						};
+					};
+					class Item1
+					{
+						linkID=1;
+						item0=577;
+						item1=593;
+						class CustomData
+						{
+							role=2;
+							turretPath[]={0};
+						};
+					};
+					class Item2
+					{
+						linkID=2;
+						item0=578;
+						item1=593;
+						class CustomData
+						{
+							role=1;
+						};
+					};
+				};
+			};
+			id=575;
+		};
+		class Item144
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2143.4478,75.862823,6355.4204};
+				angles[]={0.034986377,4.8339767,0.058682479};
+			};
+			side="East";
+			flags=6;
+			class Attributes
+			{
+				init="[""v_tank"",this] call f_fnc_assignGear; this disableTIEquipment true;";
+				name="VehUSSR_TNK1";
+			};
+			id=593;
+			type="LIB_SU85";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ammoBox";
+					expression="[_this,_value] call bis_fnc_initAmmoBox;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="[[[[],[]],[[],[]],[[],[]],[[],[]]],true]";
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item145
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2048.6824,71.419182,6404.3403};
+				angles[]={6.2394638,0.14021131,0.044969428};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=595;
+			type="Land_WW2_setka_tank";
+		};
+		class Item146
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2057.3596,71.589066,6404.3213};
+				angles[]={6.274437,0.094406337,0.008748306};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=596;
+			type="Land_WW2_CamoNet_Tank";
+		};
+		class Item147
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2073.8704,71.63858,6413.9668};
+				angles[]={0,4.85144,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=616;
+			type="Land_WW2_setka_tank";
+		};
+		class Item148
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2144.3562,76.031502,6355.4644};
+				angles[]={0.034984674,0.13050222,0.027492445};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=617;
+			type="Land_setka_car";
+		};
+		class Item149
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2094.103,73.926804,6432.3789};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+				init="this setFlagTexture ""flag.jpg"";";
+			};
+			id=618;
+			type="Flag_Blueking_F";
+		};
+		class Item150
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2088.2075,70.642197,6431.3926};
+				angles[]={0,3.2268693,0};
+			};
+			side="Empty";
+			class Attributes
+			{
+			};
+			id=619;
+			type="LIB_WeaponsBox_Big_SU";
+			atlOffset=0.69000244;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ammoBox";
+					expression="[_this,_value] call bis_fnc_initAmmoBox;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="[[[[""LIB_M9130"",""LIB_SVT_40"",""LIB_TT33"",""LIB_PPSh41_d"",""LIB_DP28"",""LIB_M1895"",""LIB_FLARE_PISTOL""],[4,1,4,4,2,1,2]],[[""LIB_5Rnd_762x54"",""LIB_10Rnd_762x54"",""LIB_71Rnd_762x25"",""LIB_35Rnd_762x25"",""LIB_47Rnd_762x54"",""LIB_63Rnd_762x54"",""LIB_8Rnd_762x25"",""LIB_7Rnd_762x38"",""LIB_rpg6"",""LIB_rg42"",""LIB_f1"",""LIB_1Rnd_flare_white"",""LIB_1Rnd_flare_red"",""LIB_1Rnd_flare_yellow""],[5,5,5,5,5,5,5,5,5,5,5,10,20,10]],[[],[]],[[],[]]],false]";
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item151
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2281.1665,73.536568,7471.1577};
+				angles[]={0.012496647,0,0.013745897};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=620;
+			type="ClutterCutter_EP1";
+		};
+		class Item152
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2285.2244,73.730545,7460.813};
+				angles[]={0.008748306,0,0.0062435218};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=621;
+			type="ClutterCutter_EP1";
+			atlOffset=7.6293945e-006;
+		};
+		class Item153
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2294.8406,73.614212,7466.7124};
+				angles[]={0.0037505617,0,6.2794352};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=622;
+			type="ClutterCutter_EP1";
+			atlOffset=3.0517578e-005;
+		};
+		class Item154
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2275.9836,73.584625,7470.7788};
+				angles[]={0.019996032,0,6.270689};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				createAsSimpleObject=1;
+			};
+			id=624;
+			type="land_WW2_Krater_sand";
+		};
+		class Item155
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2283.803,73.7164,7461.4141};
+				angles[]={0.008748306,0,0.0062435218};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				createAsSimpleObject=1;
+			};
+			id=625;
+			type="land_WW2_Krater";
+		};
+		class Item156
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2298.7703,73.592705,7462.958};
+				angles[]={6.2769418,0,6.2756844};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				createAsSimpleObject=1;
+			};
+			id=627;
+			type="land_WW2_Krater2";
+		};
+		class Item157
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2103.1316,74.561752,7394.5215};
+				angles[]={0,0,6.2819896};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=635;
+			type="LIB_MINE_TMI_42_obj";
+		};
+		class Item158
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2101.3286,74.563446,7394.5225};
+				angles[]={6.2794352,0,0.0024897563};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=636;
+			type="LIB_MINE_TMI_42_obj";
+		};
+		class Item159
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2099.6904,74.558983,7394.4482};
+				angles[]={6.2794352,0,0.0024897563};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=637;
+			type="LIB_MINE_TMI_42_obj";
+			atlOffset=-9.9182129e-005;
+		};
+		class Item160
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2097.7505,74.553192,7394.209};
+				angles[]={6.2794352,0,0.0024897563};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=638;
+			type="LIB_MINE_TMI_42_obj";
+			atlOffset=-0.0001373291;
+		};
+		class Item161
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2103.0076,74.465767,7391.3789};
+				angles[]={6.2806959,0,0.0024897563};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=640;
+			type="Land_ClutterCutter_medium_F";
+			atlOffset=-0.00019836426;
+		};
+		class Item162
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2105.2932,74.470016,7391.6294};
+				angles[]={6.2794352,0,0.0012448779};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=641;
+			type="Land_ClutterCutter_medium_F";
+			atlOffset=-0.00021362305;
+		};
+		class Item163
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2100.4207,74.460594,7391.8916};
+				angles[]={6.2806959,0,0.0024897563};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=642;
+			type="Land_ClutterCutter_medium_F";
+			atlOffset=-0.00018310547;
+		};
+		class Item164
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=2;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2122.614,74.976471,7474.0928};
+						angles[]={0,3.3137169,0};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+						stance="Middle";
+					};
+					id=644;
+					type="LIB_GER_rifleman";
+					atlOffset=0.0002822876;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.02;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2121.668,74.97625,7476.812};
+						angles[]={0,4.98665,0};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						stance="Middle";
+					};
+					id=645;
+					type="LIB_GER_rifleman";
+					atlOffset=6.1035156e-005;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.05;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=643;
+			atlOffset=0.0002822876;
+		};
+		class Item165
+		{
+			dataType="Group";
+			side="Civilian";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2116.4089,72.05307,6363.5439};
+						angles[]={0,5.004313,0};
+					};
+					side="Civilian";
+					flags=7;
+					class Attributes
+					{
+						isPlayer=1;
+					};
+					id=647;
+					type="C_Nikos_aged";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="face";
+							expression="_this setface _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.03;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=646;
+		};
+		class Item166
+		{
+			dataType="Group";
+			side="West";
+			class Attributes
+			{
+			};
+			id=654;
+			atlOffset=0.56346893;
+		};
+		class Item167
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2096.6748,74.251923,7482.0767};
+				angles[]={0.023743782,3.5973942,0.032487731};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				createAsSimpleObject=1;
+			};
+			id=659;
+			type="Land_BagFence_Long_F";
+		};
+		class Item168
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2099.3562,74.369659,7480.7886};
+				angles[]={0.023743782,3.5973942,0.032487731};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				createAsSimpleObject=1;
+			};
+			id=660;
+			type="Land_BagFence_Long_F";
+		};
+		class Item169
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2101.9634,74.484543,7479.519};
+				angles[]={0.023743782,3.5973942,0.032487731};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				createAsSimpleObject=1;
+			};
+			id=661;
+			type="Land_BagFence_Long_F";
+		};
+		class Item170
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=4;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2099.2664,73.932121,7481.5435};
+						angles[]={0,3.1652434,0};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+						stance="Middle";
+					};
+					id=663;
+					type="LIB_GER_smgunner";
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2098.1841,73.883682,7482.1021};
+						angles[]={0,3.1307619,0};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						stance="Middle";
+					};
+					id=664;
+					type="LIB_GER_rifleman";
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2100.3242,73.974976,7481.187};
+						angles[]={0,2.8516059,0};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						stance="Middle";
+					};
+					id=665;
+					type="LIB_GER_rifleman";
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2097.0605,73.83445,7482.6377};
+						angles[]={0,3.2222378,0};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						stance="Middle";
+					};
+					id=666;
+					type="LIB_GER_scout_mgunner";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=662;
+		};
+		class Item171
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2202.4185,74.491966,7453.1084};
+				angles[]={0,3.5305855,6.2656889};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				createAsSimpleObject=1;
+			};
+			id=668;
+			type="Land_BagFence_Short_F";
+		};
+		class Item172
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2205.2576,74.427612,7451.8091};
+				angles[]={0.013750233,3.5305855,6.2519455};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				createAsSimpleObject=1;
+			};
+			id=669;
+			type="Land_BagFence_Short_F";
+		};
+		class Item173
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2207.7898,74.363976,7450.6821};
+				angles[]={0.013750233,3.5305855,6.2519455};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				createAsSimpleObject=1;
+			};
+			id=670;
+			type="Land_BagFence_Short_F";
+		};
+		class Item174
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=3;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2205.3079,74.000374,7452.7915};
+						angles[]={0,3.5305061,0};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+					};
+					id=672;
+					type="LIB_GER_rifleman";
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2202.7795,74.065544,7453.7983};
+						angles[]={0,3.6347132,0};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+					};
+					id=673;
+					type="LIB_GER_mgunner";
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2208.0349,73.934906,7451.3799};
+						angles[]={0,3.5024462,0};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+					};
+					id=674;
+					type="LIB_GER_scout_rifleman";
+					atlOffset=-7.6293945e-006;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=671;
+		};
+		class Item175
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=3;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2224.3572,74.04023,7516.4409};
+						angles[]={0.01749678,0,0};
+					};
+					side="West";
+					flags=6;
+					class Attributes
+					{
+						skill=0.2;
+						presence=0.50000048;
+						class Inventory
+						{
+							class primaryWeapon
+							{
+								name="LIB_K98";
+								class primaryMuzzleMag
+								{
+									name="LIB_5Rnd_792x57";
+									ammoLeft=5;
+								};
+							};
+							class secondaryWeapon
+							{
+								name="LIB_PzFaust_30m";
+								class primaryMuzzleMag
+								{
+									name="LIB_1Rnd_PzFaust_30m";
+									ammoLeft=1;
+								};
+							};
+							class uniform
+							{
+								typeName="U_LIB_GER_Schutze";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="LIB_5Rnd_792x57";
+										count=4;
+										ammoLeft=5;
+									};
+								};
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=1;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="V_LIB_GER_VestKar98";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=2;
+									class Item0
+									{
+										name="LIB_5Rnd_792x57";
+										count=5;
+										ammoLeft=5;
+									};
+									class Item1
+									{
+										name="LIB_shg24";
+										count=2;
+										ammoLeft=1;
+									};
+								};
+							};
+							class backpack
+							{
+								typeName="B_LIB_GER_A_frame";
+								isBackpack=1;
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							headgear="H_LIB_GER_Helmet";
+						};
+					};
+					id=676;
+					type="LIB_GER_rifleman";
+					atlOffset=-0.0043716431;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.98000002;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item1
+				{
+					dataType="Waypoint";
+					position[]={2224.2544,74.015816,7518.603};
+					placement=10;
+					type="SeekAndDestroy";
+					speed="LIMITED";
+					combat="SAFE";
+					class Effects
+					{
+					};
+					timeoutMin=60;
+					timeoutMid=120;
+					timeoutMax=180;
+					showWP="NEVER";
+					id=677;
+					atlOffset=0.011367798;
+				};
+				class Item2
+				{
+					dataType="Waypoint";
+					position[]={2224.2544,74.015808,7518.6021};
+					type="Cycle";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+					id=678;
+					atlOffset=0.01133728;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=675;
+			atlOffset=-0.0043716431;
 		};
 	};
 	class Connections
 	{
 		class LinkIDProvider
 		{
-			nextID=8;
+			nextID=4;
 		};
 		class Links
 		{
-			items=8;
+			items=4;
 			class Item0
 			{
 				linkID=0;
@@ -8433,47 +8675,7 @@ class Mission
 			{
 				linkID=3;
 				item0=434;
-				item1=138;
-				class CustomData
-				{
-					type="Sync";
-				};
-			};
-			class Item4
-			{
-				linkID=4;
-				item0=439;
-				item1=138;
-				class CustomData
-				{
-					type="Sync";
-				};
-			};
-			class Item5
-			{
-				linkID=5;
-				item0=440;
-				item1=149;
-				class CustomData
-				{
-					type="Sync";
-				};
-			};
-			class Item6
-			{
-				linkID=6;
-				item0=434;
 				item1=433;
-				class CustomData
-				{
-					type="Sync";
-				};
-			};
-			class Item7
-			{
-				linkID=7;
-				item0=440;
-				item1=439;
 				class CustomData
 				{
 					type="Sync";
