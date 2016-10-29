@@ -224,3 +224,10 @@ f_var_civAI = independent; 		// Optional: The civilian AI will use this side's s
 
 // Disable some IFA3 features:
 LIB_GLOBAL_ENABLE_RADIO_IN_VEHICLE = false;
+
+
+// Mission specific
+DETECTED_TUCZEPY = false;
+OBJ_TUCZEPY_CLEAR = false;
+DETECTED_ZYZNA = false;
+OBJ_ZYZNA_CLEAR = false;

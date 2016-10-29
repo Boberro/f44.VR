@@ -57,7 +57,8 @@ _exe = player createDiaryRecord ["diary", ["Execution","
 
 _mis = player createDiaryRecord ["diary", ["Mission","
 <br/>
-*** Insert the mission here. ***
+Clear village of Tuczepy, then move towards Zyzna and eliminate enemies dug in there.<br/>
+According to our inteligence, main road to Zyzna is the only way in for vehicles, but watch out for traps as enemy knows we're coming.
 "]];
 
 // ====================================================================================
